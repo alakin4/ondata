@@ -114,6 +114,8 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - _posts/2017-03-10-welcome-to-jekyll.markdown
+  - _posts/__replace_rnb.md
 keep_files:
   - .git
   - .svn
