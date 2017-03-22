@@ -15,8 +15,8 @@ description              : > # this means to ignore newlines until "baseurl:"
   "Daten. Das Leben wird durch die Daten bestimmt und wir können bestimmen, welche Daten wir
     preisgeben und wie wir sie preisgeben. Wir können sogar bestimmen, wie diese Daten verarbeitet werden. Das will ich lernen
     und hier darüber berichten."
-url                      : "https://dev4223.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/ondata" # the subpath of your site, e.g. "/blog"
+url                      : "https://ondata.hokr.us" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "dev4223/ondata" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : false # true, false (default)
