@@ -149,7 +149,7 @@ pre.sourceCode {
 	padding: 0;
 }
 </style>
-<link rel="stylesheet" href="/ondata/assets/css/main.css">
+<link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
 
 <div class="container-fluid main-container">
 
@@ -166,7 +166,7 @@ $(document).ready(function () {
 </style>
 <script>
 $(document).ready(function () {
-  window.initializeSourceEmbed("rnb-r-starter.Rmd");
+  window.initializeSourceEmbed("{{site.baseurl}}/rnb-r-starter.Rmd");
 });
 </script>
 
