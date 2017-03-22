@@ -18,7 +18,7 @@
     display: flex;
     -webkit-box-pack: justify;
      justify-content: space-between;
-    padding: 1em 1em 1em;
+    /* padding: 1em 1em 1em; */
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -36,6 +36,9 @@
 }
 
 .site-title {
+  font-family: $titlefont;
+  font-weight: 900 !important;
+  font-size: $type-size-35;
   display: -webkit-box;
   display: flex;
   padding: 0.5rem 0;
@@ -46,8 +49,13 @@
   z-index: 20;
 }
 
+.greedy-nav a.site-title {
+  color: $title-color;
+}
+
 .masthead__menu {
   width: 100%;
+  line-height: 1.35;
 
   .site-nav {
     margin-left: 0;
