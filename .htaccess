@@ -1,0 +1,5 @@
+AuthUserFile /www/htdocs/v106172/_ondata/.htpasswd
+AuthGroupFile /dev/null
+AuthName 'bitte Zugangsdaten eingeben'
+AuthType Basic
+require valid-user
