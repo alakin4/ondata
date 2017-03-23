@@ -8,7 +8,7 @@
 # Site Settings
 locale                   : "de-DE"
 title                    : "ONDATA"
-title_separator          : "|"
+title_separator          : "×"
 name                     : "developer4223"
 email                    : "developer4223@gmail.com"
 description              : > # this means to ignore newlines until "baseurl:"
