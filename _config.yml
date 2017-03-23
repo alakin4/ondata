@@ -13,8 +13,7 @@ name                     : "developer4223"
 email                    : "developer4223@gmail.com"
 description              : > # this means to ignore newlines until "url:"
   "Daten. Das Leben wird durch die Daten bestimmt und wir können bestimmen, welche Daten wir
-    preisgeben und wie wir sie preisgeben. Wir können sogar bestimmen, wie diese Daten verarbeitet werden. Das will ich lernen
-    und hier darüber berichten."
+    preisgeben und wie wir sie preisgeben. Wir können sogar bestimmen, wie diese Daten verarbeitet werden. Das zum Lernen. Und hier darüber berichten."
 url                      : "https://ondata.hokr.us" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 enforce_ssl              : "ondata.hokr.us"
