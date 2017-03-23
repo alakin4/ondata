@@ -5,11 +5,11 @@ permalink: /uber/
 
 ## Strange Brain
 
-![image](/assets/images/avanimation.gif | absolute_url )
+![image]({{site.baseurl}}/assets/images/avanimation.gif)
 
 ## GPG-Key [developer4223@gmail.com](developer4223@gmail.com)
 
-Download: [developer4223gmailcom-asc.zip (4kB)](/assets/developer4223gmailcom-asc.zip | absolute_url )
+Download: [developer4223gmailcom-asc.zip (4kB)]({{site.baseurl}}/assets/developer4223gmailcom-asc.zip)
 
 {% highlight md %}
 -----BEGIN PGP PUBLIC KEY BLOCK-----
