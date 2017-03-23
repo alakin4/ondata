@@ -1,4 +1,5 @@
 ---
+permalink: /warum-einen-datenblog-schreiben/
 title:  "Warum? Einen Blog schreiben?"
 date:   2017-03-08 15:33:09 +0100
 excerpt: "Eine kurze Überlegung. Wenn ich schon etwas lerne, dann schreibe ich darüber."

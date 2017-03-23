@@ -1,5 +1,5 @@
 ---
-permalink: /rr-starter/
+permalink: /r-starter/
 title: "RR Starter"
 author_profile: true
 date: 21.03.2017 
