@@ -1,4 +1,5 @@
 ---
+permalink: /deployment-jekyll-with-github-pages-and-netlify/
 title:  "Auf der Suche nach einem guten Deployment Workflow"
 date:   2017-03-23 21:33:19 +0100
 excerpt: "Der Workflow soll nöglichst einfach und vor allem auch mobil möglich sein."

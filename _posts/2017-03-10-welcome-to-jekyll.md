@@ -1,4 +1,5 @@
 ---
+permalink: /welcome-to-jekyll/
 layout: single
 title:  "Welcome to Jekyll!"
 date:   2017-03-10 20:03:09 +0100
