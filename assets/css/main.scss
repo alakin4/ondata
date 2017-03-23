@@ -25,6 +25,9 @@
 /* Font Awesome - icon font set */
 @import "vendor/font-awesome/font-awesome";
 
+/* Fonts */
+@import "onfont";
+
 /* Magnific Popup - responsive lightbox */
 @import "vendor/magnific-popup/magnific-popup"; // Magnific Popup
 
@@ -74,3 +77,11 @@ $susy: (
 @import "archive";
 @import "sidebar";
 @import "print";
+
+
+
+/*
+   Code highlighting
+   ========================================================================== */
+
+@import url('zenburnc.css');
