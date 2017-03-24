@@ -3,6 +3,35 @@ url                      : "https://ondata.hokr.us" # the base hostname & protoc
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 enforce_ssl              : "ondata.hokr.us"
 
-# exclude preview robots.txt
+# exclude robots.txt for preview
 exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gemfile.lock
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
+  - _posts/2017-03-17-ein-erstes-r-notebook.md
+  - _posts/2017-03-10-welcome-to-jekyll.md
+  - _posts/__replace_rnb.md
   - robots.txt
