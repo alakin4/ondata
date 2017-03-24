@@ -1,6 +1,6 @@
 ---
 permalink: /r-starter/
-title: "RR Starter"
+title: "R Starter"
 author_profile: true
 date: 21.03.2017 
 last_modified_at: 2017-03-21T01:13:12+01:00  
