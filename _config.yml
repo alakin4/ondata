@@ -88,8 +88,6 @@ author:
 
 # Reading Files
 include:
-  - .htaccess
-  - .htpasswd
   - _pages
 exclude:
   - "*.sublime-project"
