@@ -16,12 +16,12 @@ Nein, eigentlich war ich auf der Suche nach einem schönen einfachen und minimal
 Ein paar Docus und Howtos später lief der erste Build von Minimal Mistakes auf Jekyll als Ruby Gem erfolgreich lokal auf meiner Linux Box. Schön. Einen vHost dazu und das sah doch schon sehr gut aus. 
 Ein bißchen Styling mit Lieblingsschriften angrundet, Bilder zurechtgeschnitten und ab als statische Seite auf den Server.
 
-Den Gedanke von statischen Seiten, ohne Datenbank und großes Backend dahinter und einem schlanken Workflow konnte ich sehr gut nachvollziehen.
+Ein guter Gedanke, der von statischen Seiten, ohne Datenbank und großes Backend dahinter und einem schlanken Workflow. Also als nächstes ausprobieren, ob alles so einfach geht, wie ich mir das vorstelle.
 
 ## Workflow #1
 
 Lokaler Build, mit lokalem vHost zur Kontrolle und dann Upload der statischen Dateien per FTP zu meinem Hoster.
-Die Vorteile sind hier schnell genannt. Komplette Kontrolle über den Build Prozess und die Build Tools. Und die Nachteile? Wenn ich ich einen neuen post online stellen möchte, benötige ich meine lokale Maschine und mehrere Schritte, bis der neue Post endlich online ist. Außerdem muß ich die Build Tools selber aktuell und funktionsfähig halten. So keine Möglichkeit zu haben, unterwegs etwas online zu stelen, störte mich dabei am meisten.
+Die Vorteile sind hier schnell klar. Komplette Kontrolle über den Build Prozess und die Build Tools. Und die Nachteile? Wenn ich ich einen neuen post online stellen möchte, benötige ich meine lokale Maschine und mehrere Schritte, bis der neue Post endlich online ist. Außerdem muß ich die Build Tools selber aktuell und funktionsfähig halten. So keine Möglichkeit zu haben, unterwegs etwas online zu stelen, störte mich dabei am meisten.
 
 ## Git
 
