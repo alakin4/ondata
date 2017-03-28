@@ -131,7 +131,9 @@ theme: minimal-mistakes-jekyll
 markdown: kramdown
 highlighter: rouge
 lsi: false
+truncatewords: 80
 excerpt_separator: "\n\n"
+#excerpt_separator: "<!-- more -->"
 incremental: false
 
 
