@@ -2,9 +2,9 @@
 permalink: /deployment-jekyll-with-github-pages-and-netlify/
 title:  "Auf der Suche nach einem guten Deployment Workflow"
 date:   2017-03-23 21:33:19 +0100
-excerpt: "Neben den großen und kleinen CMS gibt es da auch noch die 'flat file cms' - Generatoren für statische Seiten. Bei der Suche nach einem Wordpress Theme bin ich darauf gestoßen und bei Jekyll hängengeblieben. Nach Installation und Anpassungen eines Themes versuche ich, den Veröffentlichungsworkflow für mich zu optimieren und zu vereinfachen. Er soll wenige Schritte lang sein und vor allem auch mobil möglich sein."
+excerpt: "Neben den großen und kleinen CMS gibt es da auch noch die 'flat file cms'. Das sind Generatoren für statische HTML-Seiten. Bei der Suche nach einem Wordpress Theme bin ich darauf gestoßen und bei Jekyll hängengeblieben. Nach Installation und Anpassungen eines Themes versuche ich, den Veröffentlichungsworkflow für mich zu optimieren und zu vereinfachen. Er soll wenige Schritte lang und vor allem auch mobil begehbar sein."
 categories: jekyll github
-tags: blog github deployment cdn ssl
+tags: deployment cdn ssl
 ---
 
 ## Am Anfang
@@ -64,6 +64,16 @@ Ich finde das verständlich für einen kostenlosen Service. Da ich die Ausliefer
 Bei der Suche nach anderen Wegen, die HTTPS unterstützen, wird hier immer wieder die Auslieferung über ein CDN genannt und dabei auf Cloudflare verwiesen. Cloudflare bietet auch ein kostenloses Paket an. 
 
 ## Einsatz eines CDN: Cloudflare
+
+Der Account bei Cloudflare ist schnell angelegt. Dann muß man die Top Level Domain, die umgeleitet werden soll angeben und beim Hoster der TLD die Nameserver von Cloudflare eintragen. Die Nameserver-Einträge werden dann bei Cloudflare geprüft und bei Erfolg wird der Account bestätigt. 
+
+Damit sind auch schon die Hauptprobleme dieser Lösung genannt. Wenn man bei seinem Hoster die Nameserver-Einträge einer Domain nicht ändern darf, funktioniert diese Lösung nicht. Das war bei mir der Fall. Auf der Hauptdomain läuft mein [YOURLS](https://yourls.org/){:target="_blank"} und ich möchte nur eine Subdomain über das CDN ausliefern. 
+
+Die Möglichkeiten, die man mit Cloudflare hat, sehen sehr gut aus bis hin zu einem SSL Zertifikat bei Cloudflare für die Domain, aber mit den Vorraussetzungen ist das keine Möglichkeit für mich.
+
+Also weiter auf der Suche nach einer Möglichkeit, eine Subdomain über ein CDN incl. HTTPS auszuliefern. Erstaulicherweise habe ich die Lösung dann erst nach langem Suchen und quasi per Zufall gefunden. Sie wurde in einem Beitrag eher nebenher erwähnt.
+
+# Die Lösung: netlify
 
 
 
