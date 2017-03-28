@@ -9,7 +9,7 @@
 locale                   : "de-DE"
 title                    : "ONDATA"
 title_separator          : "×"
-name                     : "developer4223"
+name                     : "dev4223"
 email                    : "developer4223@gmail.com"
 description              : > # this means to ignore newlines until "url:"
   "Daten. Das Leben wird durch die Daten bestimmt und wir können bestimmen, welche Daten wir
@@ -56,7 +56,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "dev eloper 4223"
+  name             : "dev4223"
   avatar           : "/assets/images/avatar.jpg"
   bio              : "lerning all about data"
   location         : "Berlin"
