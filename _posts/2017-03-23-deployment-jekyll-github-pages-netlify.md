@@ -2,6 +2,7 @@
 permalink: /deployment-jekyll-with-github-pages-and-netlify/
 title:  "Auf der Suche nach einem guten Deployment Workflow"
 date:   2017-03-23 21:33:19 +0100
+comments: true
 excerpt: "Neben den großen und kleinen CMS gibt es da auch noch die 'flat file cms'. Das sind Generatoren für statische HTML-Seiten. Bei der Suche nach einem Wordpress Theme bin ich darauf gestoßen und bei Jekyll hängengeblieben. Nach Installation und Anpassungen eines Themes versuche ich, den Veröffentlichungsworkflow für mich zu optimieren und zu vereinfachen. Er soll wenige Schritte lang und vor allem auch mobil begehbar sein."
 categories: jekyll github
 tags: deployment cdn ssl

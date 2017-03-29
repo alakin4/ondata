@@ -21,8 +21,8 @@ repository               : "dev4223/ondata" # GitHub username/repo-name e.g. "mm
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
-# comments:
-# staticman:
+comments:
+  provider               : "staticman" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
@@ -202,7 +202,7 @@ defaults:
       author: developer4223
       author_profile: true
       read_time: true
-      comments: false
+      comments: true
       share: true
       related: false
       header:
