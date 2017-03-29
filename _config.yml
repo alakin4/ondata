@@ -23,6 +23,30 @@ breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : "staticman" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+staticman:
+  allowedFields: ["name", "email", "url", "message", "replying_to"]
+  allowedOrigins: ["ondata.hokr.us"]
+  branch: "develop"
+  commitMessage: "new comment"
+  filename: "comment-{@timestamp}"
+  format: "yaml"
+  generatedFields:
+    date:
+      type: "date"
+      options:
+        format: "iso8601"
+  moderation: true
+  name: "ondata.hokr.us"
+  notifications:
+    enabled: false
+  path: "_data/comments/{options.slug}"
+  requiredFields: ["name", "email", "message"]
+  transforms:
+    email: md5
+  #reCaptcha:
+  #  enabled: true
+  #  siteKey: "6LdRBykTAAAAAFB46MnIu6ixuxwu9W1ihFF8G60Q"
+  #  secret: "PznnZGu3P6eTHRPLORniSq+J61YEf+A9zmColXDM5icqF49gbunH51B8+h+i2IvewpuxtA9TFoK68TuhUp/X3YKmmqhXasegHYabY50fqF9nJh9npWNhvITdkQHeaOqnFXUIwxfiEeUt49Yoa2waRR7a5LdRAP3SVM8hz0KIBT4="
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
@@ -202,7 +226,7 @@ defaults:
       author: developer4223
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: false
       header:
