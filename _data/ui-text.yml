@@ -31,11 +31,12 @@ en: &DEFAULT_EN
   undefined_wpm              : "Undefined parameter words_per_minute at _config.yml"
   comment_form_info          : "Your email address will not be published. Required fields are marked"
   comment_form_info_email    : "Your email address will not be published."
+  comment_form_info_email2   : "used for <a href=\"http://gravatar.com\">Gravatar</a> image and reply notifications"
   comment_form_comment_label : "Comment"
   comment_form_md_info       : "Markdown is supported."
   comment_form_md_info_sup   : "is supported."
   comment_form_name_label    : "Name"
-  comment_form_email_label   : "Email address"
+  comment_form_email_label   : "Email"
   comment_form_website_label : "Website (optional)"
   comment_form_optional      : "optional"
   comment_btn_submit         : "Submit Comment"
@@ -84,6 +85,7 @@ es: &DEFAULT_ES
   undefined_wpm              : "Parametro words_per_minute (Palabras por minuto) no definido en _config.yml"
   comment_form_info          :
   comment_form_info_email    :
+  comment_form_info_email2   :
   comment_form_comment_label :
   comment_form_md_info       :
   comment_form_md_info_sup   :
@@ -134,6 +136,7 @@ fr: &DEFAULT_FR
   comments_title             : "Commentaires"
   comment_form_info          : "Votre adresse email ne sera pas visible. Les champs obligatoires sont marqués"
   comment_form_info_email    :
+  comment_form_info_email2   :
   comment_form_comment_label : "Commentaire"
   comment_form_md_info       : "Markdown est supporté."
   comment_form_md_info_sup   :
@@ -185,6 +188,7 @@ tr: &DEFAULT_TR
   undefined_wpm              : "_config.yml dosyasında tanımlanmamış words_per_minute parametresi"
   comment_form_info          : "Email adresiniz gösterilmeyecektir. Zorunlu alanlar işaretlenmiştir"
   comment_form_info_email    :
+  comment_form_info_email2   :
   comment_form_comment_label : "Yorumunuz"
   comment_form_md_info       : "Markdown desteklenmektedir."
   comment_form_md_info_sup   :
@@ -232,6 +236,7 @@ pt: &DEFAULT_PT
   undefined_wpm              : "Parâmetro words_per_minute não definido em _config.yml"
   comment_form_info          : "O seu endereço email não será publicado. Os campos obrigatórios estão assinalados"
   comment_form_info_email    :
+  comment_form_info_email2   :
   comment_form_comment_label : "Comentário"
   comment_form_md_info       : "Markdown é suportado."
   comment_form_md_info_sup   :
@@ -275,6 +280,7 @@ pt-BR:
   undefined_wpm              : "Parâmetro indefinido em word_per_minute no _config.yml"
   comment_form_info          :
   comment_form_info_email    :
+  comment_form_info_email2   :
   comment_form_comment_label :
   comment_form_md_info       :
   comment_form_md_info_sup   :
@@ -322,6 +328,7 @@ it: &DEFAULT_IT
   undefined_wpm              : "Parametro words_per_minute non definito in _config.yml"
   comment_form_info          : "Il tuo indirizzo email non sarà pubblicato. Sono segnati i campi obbligatori"
   comment_form_info_email    :
+  comment_form_info_email2   :
   comment_form_comment_label : "Commenta"
   comment_form_md_info       : "Il linguaggio Markdown è supportato"
   comment_form_md_info_sup   :
@@ -369,6 +376,7 @@ zh: &DEFAULT_ZH
   undefined_wpm              : "_config.yml配置中words_per_minute字段未定义"
   comment_form_info          : "您的电子邮箱地址并不会被展示。请填写标记为必须的字段。"
   comment_form_info_email    :
+  comment_form_info_email2   :
   comment_form_comment_label : "评论"
   comment_form_md_info       : "Markdown语法已支持。"
   comment_form_md_info_sup   :
@@ -418,6 +426,7 @@ zh-TW:
   undefined_wpm              : "_config.yml 中未定義 words_per_minute"
   comment_form_info          : "您的電子信箱不會被公開. 必填部份已標記"
   comment_form_info_email    :
+  comment_form_info_email2   :
   comment_form_comment_label : "留言內容"
   comment_form_md_info       : "支援Markdown語法。"
   comment_form_md_info_sup   :
@@ -450,7 +459,7 @@ de: &DEFAULT_DE
   tags_label                 : "Tags:"
   categories_label           : "Kategorien:"
   date_label                 : "Aktualisiert:"
-  comments_label             : "Hinterlassen sie einen Kommentar"
+  comments_label             : "Einen Kommentar hinterlassen"
   comments_title             : "Kommentare"
   more_label                 : "Mehr anzeigen"
   related_label              : "Ihnen gefällt vielleicht auch"
@@ -463,11 +472,12 @@ de: &DEFAULT_DE
   undefined_wpm              : "Undefinierter Parameter words_per_minute in _config.yml"
   comment_form_info          : "Ihre E-Mail Adresse wird nicht veröffentlicht. Benötigte Felder sind markiert"
   comment_form_info_email    : "Ihre E-Mail Adresse wird nicht veröffentlicht."
+  comment_form_info_email2   : "für das <a href=\"http://gravatar.com\">Gravatar</a>-Bild und Benachrichtigungen"
   comment_form_comment_label : "Kommentar"
   comment_form_md_info       : "Markdown wird unterstützt."
   comment_form_md_info_sup   : "wird unterstützt."
   comment_form_name_label    : "Name"
-  comment_form_email_label   : "E-Mail Addresse"
+  comment_form_email_label   : "E-Mail"
   comment_form_website_label : "Webseite (optional)"
   comment_form_optional      : "optional"
   comment_btn_submit         : "Kommentar absenden"
@@ -520,6 +530,7 @@ ne: &DEFAULT_NE
   undefined_wpm              : "अपरिभाषित प्यारामिटर शब्दहरू_प्रति_मिनेट at _config.yml"
   comment_form_info          : "तपाइँको इमेल ठेगाना प्रकाशित गरिने छैन।आवश्यक जानकारीहरुमा चिन्ह लगाइको छ"
   comment_form_info_email    : 
+  comment_form_info_email2   :
   comment_form_comment_label : "टिप्पणी"
   comment_form_md_info       : "मार्कडाउन  समर्थित छ।"
   comment_form_md_info_sup   :
@@ -567,6 +578,7 @@ ko: &DEFAULT_KO
   undefined_wpm              : "Undefined parameter words_per_minute at _config.yml"
   comment_form_info          : "이메일은 공개되지 않습니다. 작성 필요 필드:"
   comment_form_info_email    : 
+  comment_form_info_email2   :
   comment_form_comment_label : "댓글"
   comment_form_md_info       : "마크다운을 지원합니다."
   comment_form_md_info_sup   :
@@ -614,6 +626,7 @@ ru: &DEFAULT_RU
   undefined_wpm              : "Не определён параметр words_per_minute в _config.yml"
   comment_form_info          : "Ваш адрес электронной почты не будет опубликован. Обязательные поля помечены"
   comment_form_info_email    : 
+  comment_form_info_email2   :
   comment_form_comment_label : "Комментарий"
   comment_form_md_info       : "Поддерживается синтаксис Markdown."
   comment_form_md_info_sup   :
