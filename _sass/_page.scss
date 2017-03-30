@@ -356,8 +356,13 @@
   @include clearfix();
   margin: 1em 0;
 
+  h3 {
+    margin-top: 1.3em;
+  }
+
   &:not(:last-child) {
     border-bottom: 1px solid $border-color;
+    padding-bottom: 2rem;
   }
 }
 
