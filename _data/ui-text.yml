@@ -480,10 +480,10 @@ de: &DEFAULT_DE
   comment_form_email_label   : "E-Mail"
   comment_form_website_label : "Webseite (optional)"
   comment_form_optional      : "optional"
-  comment_btn_submit         : "Kommentar absenden"
+  comment_btn_submit         : "Kommentar senden"
   comment_btn_submitted      : "Versendet"
-  comment_success_msg        : "Danke für ihren Kommentar! Er wird auf der Seite angezeigt, nachdem er geprüft wurde."
-  comment_error_msg          : "Entschuldigung, es gab einen Fehler. Bitte füllen sie alle benötigten Felder aus und versuchen sie es erneut."
+  comment_success_msg        : "Vielen Dank! Der Kommentar wird geprüft und dann auf der Seite angezeigt."
+  comment_error_msg          : "Ups, es gab einen Fehler. Bitte alle benötigten Felder ausfüllen  und noch einmal versuchen."
   comment_cancel_reply       : "Doch nicht"
   loading_label              : "Lade..."
 de-DE:

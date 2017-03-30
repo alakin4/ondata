@@ -3,7 +3,7 @@
     (function ($) {
     var $comments = $('.js-comments');
 
-    $('#new_comment').submit(function () {
+    $('#comment-form').submit(function () {
       var form = this;
 
       $(form).addClass('disabled');
@@ -25,6 +25,7 @@
           $('#comment-form-submit').html('{{ site.data.ui-text[site.locale].comment_btn_submit  | default: "Submit Comment" }}');
           $('.page__comments-form .js-notice').removeClass('notice--success');
           $('.page__comments-form .js-notice').addClass('notice--danger');
+          $('.page__comments-form .label-required').addClass('is-required');
           showAlert('{{ site.data.ui-text[site.locale].comment_error_msg | default: "Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again." }}');
           $(form).removeClass('disabled');
         }

@@ -210,6 +210,13 @@ input[type="hidden"] {
   margin-left: 10px;
 }
 
+/*
+   Required warning
+   ========================================================================== */
+
+.is-required {
+  color: $warning-color;
+}
 
 /*
    Disabled state
