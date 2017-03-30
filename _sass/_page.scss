@@ -312,6 +312,10 @@
 
 .page__comments {
   @include full();
+
+  .small {
+    font-size: $type-size-65;
+  }
 }
 
 .page__comments-title {
@@ -325,7 +329,7 @@
 
 .page__comments-form {
   padding: 1em;
-  background: $lighter-gray;
+  background: $lightest-gray;
   -webkit-transition: $global-transition;
   transition: $global-transition;
 
@@ -373,6 +377,12 @@
     height: 80px;
     padding: 5px;
     border: 1px solid $border-color;
+  }
+}
+
+.comment__content {
+  p {
+    font-size: $type-size-6;
   }
 }
 

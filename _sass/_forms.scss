@@ -36,6 +36,10 @@ form {
   br {
     display: none;
   }
+
+  .btn {
+    line-height: 1.7;
+  }
 }
 
 label,
@@ -60,9 +64,16 @@ label {
   margin-bottom: 0.25em;
   color: $text-color;
   cursor: pointer;
+  font-size: $type-size-65;
+    font-family: $monospace;
 
   small {
-    font-size: $type-size-6;
+    font-size: $type-size-7;
+    font-weight: normal;
+  }
+
+  .label-required {
+    font-weight: bold;
   }
 
   input,
@@ -83,7 +94,7 @@ select {
   background-color: #fff;
   border: 1px solid mix(#fff, #000, 80%);
   border-radius: $border-radius;
-  box-shadow: $box-shadow;
+  box-shadow: none;
 
   &:hover {
     border-color: mix(#fff, $primary-color, 50%);

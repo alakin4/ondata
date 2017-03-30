@@ -55,6 +55,15 @@
     border-radius: 4px;
     opacity: 0.9;
   }
+
+  @media screen and (max-width: 420px) {
+    .logo-netlify {
+      padding-left: 0;
+    }
+    .logo-netlify img {
+      margin-top: 18px;
+    }
+  }
 }
 
 .page__footer-copyright {

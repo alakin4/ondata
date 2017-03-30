@@ -20,23 +20,26 @@
         <div class="js-comments">
           {% if site.data.comments[page.slug] %}
             <h4 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_title | default: "Comments" }}</h4>
-            {% assign comments = site.data.comments[page.slug] | sort %}
-
-            {% for comment in comments %}
-              {% assign email = comment.email %}
-              {% assign name = comment.name %}
-              {% assign url = comment.url %}
-              {% assign date = comment.date %}
-              {% assign message = comment.message %}
-              {% include comment.html index=forloop.index email=email name=name url=url date=date message=message %}
-            {% endfor %}
+            {% assign comments = site.data.comments[page.slug] | where_exp: 'item', 'item.replying_to == blank' %}
+              {% for comment in comments %}
+                {% assign index       = forloop.index %}
+                {% assign r           = comment.replying_to %}
+                {% assign replying_to = r | to_integer %}
+                {% assign avatar      = comment.avatar %}
+                {% assign email       = comment.email %}
+                {% assign name        = comment.name %}
+                {% assign url         = comment.url %}
+                {% assign date        = comment.date %}
+                {% assign message     = comment.message %}
+                {% include comment.html index=index replying_to=replying_to avatar=avatar email=email name=name url=url date=date message=message %}
+              {% endfor %}
           {% endif %}
         </div>
         <!-- End static comments -->
 
         <!-- Start new comment form -->
         <h4 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_label | default: "Leave a Comment" }}</h4>
-        <p class="small">{{ site.data.ui-text[site.locale].comment_form_info | default: "Your email address will not be published. Required fields are marked" }} <span class="required">*</span></p>
+        <p class="small">{{ site.data.ui-text[site.locale].comment_form_info_email | default: "Your email address will not be published." }}</p>
         <form id="new_comment" class="page__comments-form js-form form" method="post" action="https://api.staticman.net/v2/entry/{{ site.repository }}/{{ site.staticman.branch }}/comments">
           <div class="form__spinner">
             <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
@@ -44,20 +47,19 @@
           </div>
 
           <fieldset>
-            <label for="comment-form-message">{{ site.data.ui-text[site.locale].comment_form_comment_label | default: "Comment" }} <small class="required">*</small></label>
+            <label for="comment-form-message"><span class="label-required">{{ site.data.ui-text[site.locale].comment_form_comment_label | default: "Comment" }} <small>(<a href="https://daringfireball.net/projects/markdown/" target="_blank">Markdown</a> {{ site.data.ui-text[site.locale].comment_form_md_info_sup | default: "is supported." }})</small></label>
             <textarea type="text" rows="3" id="comment-form-message" name="fields[message]" tabindex="1"></textarea>
-            <div class="small help-block"><a href="https://daringfireball.net/projects/markdown/">{{ site.data.ui-text[site.locale].comment_form_md_info | default: "Markdown is supported." }}</a></div>
           </fieldset>
           <fieldset>
-            <label for="comment-form-name">{{ site.data.ui-text[site.locale].comment_form_name_label | default: "Name" }} <small class="required">*</small></label>
+            <label for="comment-form-name"><span class="label-required">{{ site.data.ui-text[site.locale].comment_form_name_label | default: "Name" }}</span></label>
             <input type="text" id="comment-form-name" name="fields[name]" tabindex="2" />
           </fieldset>
           <fieldset>
-            <label for="comment-form-email">{{ site.data.ui-text[site.locale].comment_form_email_label | default: "Email address" }} <small class="required">*</small></label>
+            <label for="comment-form-email"><span class="label-required">{{ site.data.ui-text[site.locale].comment_form_email_label | default: "Email address" }}</span></label>
             <input type="email" id="comment-form-email" name="fields[email]" tabindex="3" />
           </fieldset>
           <fieldset>
-            <label for="comment-form-url">{{ site.data.ui-text[site.locale].comment_form_website_label | default: "Website (optional)" }}</label>
+            <label for="comment-form-url">{{ site.data.ui-text[site.locale].website_label | default: "Website" }} <small>({{ site.data.ui-text[site.locale].comment_form_optional | default: "optional" }})</small></label>
             <input type="url" id="comment-form-url" name="fields[url]" tabindex="4"/>
           </fieldset>
           <fieldset class="hidden" style="display: none;">
@@ -71,7 +73,7 @@
           </p>
           <!-- End comment form alert messaging -->
           <fieldset>
-            <button type="submit" id="comment-form-submit" tabindex="5" class="btn btn--large">{{ site.data.ui-text[site.locale].comment_btn_submit | default: "Submit Comment" }}</button>
+            <button type="submit" id="comment-form-submit" tabindex="5" class="btn">{{ site.data.ui-text[site.locale].comment_btn_submit | default: "Submit Comment" }}</button>
           </fieldset>
         </form>
         <!-- End new comment form -->
