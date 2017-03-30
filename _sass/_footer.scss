@@ -46,22 +46,23 @@
   }
 
   .logo-netlify {
-    padding-left: 30px;
+    padding-left: 0;
     width: 9%;
     height: 9%;
+
+    @include breakpoint($x-small) {
+      padding-left: 30px;
+    }
   }
+
   .logo-netlify img {
+    margin-top: 18px;
     border: 1px solid #bdc1c4;
     border-radius: 4px;
     opacity: 0.9;
-  }
 
-  @media screen and (max-width: 420px) {
-    .logo-netlify {
-      padding-left: 0;
-    }
-    .logo-netlify img {
-      margin-top: 18px;
+    @include breakpoint($x-small) {
+      margin-top: 0;
     }
   }
 }

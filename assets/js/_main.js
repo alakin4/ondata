@@ -80,6 +80,7 @@ var addComment = {
       t           = this,
       comm        = t.I( commId ),
       respond     = t.I( respondId ),
+      respondhead = t.I( respondId + '-head' ),
       cancel      = t.I( 'cancel-comment-reply-link' ),
       parent      = t.I( 'comment-replying-to' ),
       post        = t.I( 'comment-post-slug' ),
@@ -96,6 +97,10 @@ var addComment = {
       div = document.createElement( 'div' );
       div.id = 'sm-temp-form-div';
       div.style.display = 'none';
+      respondhead_borderTop = respondhead.style.paddingTop;
+      respondhead_paddingTop = respondhead.style.paddingTop;
+      respondhead.style.borderTop = 'none';
+      respondhead.style.paddingTop = 0;
       respond.parentNode.insertBefore( div, respond );
     }
 
@@ -116,6 +121,8 @@ var addComment = {
       }
 
       t.I( 'comment-replying-to' ).value = null;
+      respondhead.style.borderTop = respondhead_borderTop;
+      respondhead.style.paddingTop = respondhead_paddingTop;
       temp.parentNode.insertBefore( respond, temp );
       temp.parentNode.removeChild( temp );
       this.style.display = 'none';
