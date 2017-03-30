@@ -1,9 +1,10 @@
 # PRODUCTION config
+title                    : "ONDATA"
 url                      : "https://ondata.hokr.us" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 enforce_ssl              : "ondata.hokr.us"
 
-# exclude robots.txt for preview
+# exclude robots.txt for production
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
