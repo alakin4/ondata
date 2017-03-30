@@ -83,7 +83,7 @@ var addComment = {
       cancel      = t.I( 'cancel-comment-reply-link' ),
       parent      = t.I( 'comment-replying-to' ),
       post        = t.I( 'comment-post-slug' ),
-      commentForm = document.getElementsByTagName( 'form' )[0];
+      commentForm = respond.getElementsByTagName( 'form' )[0];
 
     if ( ! comm || ! respond || ! cancel || ! parent || ! commentForm ) {
       return;

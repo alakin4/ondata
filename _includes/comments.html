@@ -2,24 +2,29 @@
   {% capture comments_label %}{{ site.data.ui-text[site.locale].comments_label | default: "Comments" }}{% endcapture %}
   {% case site.comments.provider %}
   {% when "discourse" %}
-    <h4 class="page__comments-title">{{ comments_label }}</h4>
+    <h2 class="page__comments-title">{{ comments_label }}</h2>
     <section id="discourse-comments"></section>
   {% when "disqus" %}
-    <h4 class="page__comments-title">{{ comments_label }}</h4>
+    <h2 class="page__comments-title">{{ comments_label }}</h2>
     <section id="disqus_thread"></section>
   {% when "facebook" %}
-    <h4 class="page__comments-title">{{ comments_label }}</h4>
+    <h2 class="page__comments-title">{{ comments_label }}</h2>
     <section class="fb-comments" data-href="{{ page.url | absolute_url }}" data-mobile="true" data-num-posts="{{ site.comments.facebook.num_posts | default: 5 }}" data-width="100%" data-colorscheme="{{ site.comments.facebook.colorscheme | default: 'light' }}"></section>
   {% when "google-plus" %}
-    <h4 class="page__comments-title">{{ comments_label }}</h4>
+    <h2 class="page__comments-title">{{ comments_label }}</h2>
     <section class="g-comments" data-href="{{ page.url | absolute_url }}" data-first_party_property="BLOGGER" data-view_type="FILTERED_POSTMOD">Loading Google+ Comments ...</section>
   {% when "staticman" %}
     <section id="static-comments">
       {% if site.repository and site.staticman.branch %}
         <!-- Start static comments -->
-        <div class="js-comments">
+        <div id="comments" class="js-comments">
           {% if site.data.comments[page.slug] %}
-            <h4 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_title | default: "Comments" }}</h4>
+            <h2 class="page__comments-title">
+              {% if site.data.comments[page.slug].size > 1 %}
+                {{ site.data.comments[page.slug] | size }}
+              {% endif %}
+              {{ site.data.ui-text[site.locale].comments_title | default: "Comments" }}
+            </h2>
             {% assign comments = site.data.comments[page.slug] | where_exp: 'item', 'item.replying_to == blank' %}
               {% for comment in comments %}
                 {% assign index       = forloop.index %}
@@ -38,16 +43,17 @@
         <!-- End static comments -->
 
         <!-- Start new comment form -->
-        <h4 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_label | default: "Leave a Comment" }}</h4>
+        <div id="respond">
+        <h2 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_label | default: "Leave a Comment" }} <small><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | absolute_url }}#respond" style="display:none;">{{ site.data.ui-text[site.locale].comment_cancel_reply | default: "Cancel reply" }}</a></small></h2>
         <p class="small">{{ site.data.ui-text[site.locale].comment_form_info_email | default: "Your email address will not be published." }}</p>
-        <form id="new_comment" class="page__comments-form js-form form" method="post" action="https://api.staticman.net/v2/entry/{{ site.repository }}/{{ site.staticman.branch }}/comments">
+        <form id="comment-form" class="page__comments-form js-form form" method="post" action="https://api.staticman.net/v2/entry/{{ site.repository }}/{{ site.staticman.branch }}/comments">
           <div class="form__spinner">
             <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
             <span class="sr-only">{{ site.data.ui-text[site.locale].loading_label | default: "Loading..." }}</span>
           </div>
 
           <fieldset>
-            <label for="comment-form-message"><span class="label-required">{{ site.data.ui-text[site.locale].comment_form_comment_label | default: "Comment" }} <small>(<a href="https://daringfireball.net/projects/markdown/" target="_blank">Markdown</a> {{ site.data.ui-text[site.locale].comment_form_md_info_sup | default: "is supported." }})</small></label>
+            <label for="comment-form-message"><span class="label-required">{{ site.data.ui-text[site.locale].comment_form_comment_label | default: "Comment" }}</span> <small>(<a href="https://daringfireball.net/projects/markdown/" target="_blank">Markdown</a> {{ site.data.ui-text[site.locale].comment_form_md_info_sup | default: "is supported." }})</small></label>
             <textarea type="text" rows="3" id="comment-form-message" name="fields[message]" tabindex="1"></textarea>
           </fieldset>
           <fieldset>
@@ -64,8 +70,14 @@
           </fieldset>
           <fieldset class="hidden" style="display: none;">
             <input type="hidden" name="options[slug]" value="{{ page.slug }}">
-            <label for="comment-form-location">Not used. Leave blank if you are a human.</label>
-            <input type="text" id="comment-form-location" name="fields[hidden]" autocomplete="off"/>
+            <input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
+            <input type="hidden" name="options[parent]" value="{{ page.url | absolute_url }}">
+            <input type="hidden" id="comment-replying-to" name="fields[replying_to]" value="">
+            <input type="hidden" id="comment-post-id" name="options[slug]" value="{{ page.slug }}">
+            <label for="comment-form-location">Not used. Leave blank if you are a human</label>
+            <input type="text" id="comment-form-location" name="fields[hidden]" autocomplete="off">
+            <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ site.reCaptcha.siteKey }}">
+            <input type="hidden" name="options[reCaptcha][secret]" value="{{ site.reCaptcha.secret }}">
           </fieldset>
           <!-- Start comment form alert messaging -->
           <p class="hidden js-notice">
@@ -76,6 +88,7 @@
             <button type="submit" id="comment-form-submit" tabindex="5" class="btn">{{ site.data.ui-text[site.locale].comment_btn_submit | default: "Submit Comment" }}</button>
           </fieldset>
         </form>
+        </div>
         <!-- End new comment form -->
       {% endif %}
     </section>

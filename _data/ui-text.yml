@@ -42,6 +42,7 @@ en: &DEFAULT_EN
   comment_btn_submitted      : "Submitted"
   comment_success_msg        : "Thanks for your comment! It will show on the site once it has been approved."
   comment_error_msg          : "Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again."
+  comment_cancel_reply       : "Cancel reply"
   loading_label              : "Loading..."
 en-US:
   <<: *DEFAULT_EN
@@ -94,6 +95,7 @@ es: &DEFAULT_ES
   comment_btn_submitted      :
   comment_success_msg        :
   comment_error_msg          :
+  comment_cancel_reply       :
   loading_label              :
 es-ES:
   <<: *DEFAULT_ES
@@ -143,6 +145,7 @@ fr: &DEFAULT_FR
   comment_btn_submitted      : "Envoyé"
   comment_success_msg        : "Merci pour votre commentaire, il sera visible sur le site une fois approuvé."
   comment_error_msg          : "Désolé, une erreur est survenue lors de la soumission. Vérifiez que les champs obligatoires ont été remplis et réessayez."
+  comment_cancel_reply       :
   loading_label              : "Chargement..."
 fr-FR:
   <<: *DEFAULT_FR
@@ -193,6 +196,7 @@ tr: &DEFAULT_TR
   comment_btn_submitted      : "Gönderildi"
   comment_success_msg        : "Yorumunuz için teşekkürler! Yorumunuz onaylandıktan sonra sitede gösterilecektir."
   comment_error_msg          : "Maalesef bir hata oluştu. Lütfen zorunlu olan tüm alanları doldurduğunuzdan emin olun ve sonrasında tekrar deneyin."
+  comment_cancel_reply       :
   loading_label              : "Yükleniyor..."
 tr-TR:
   <<: *DEFAULT_TR
@@ -239,6 +243,7 @@ pt: &DEFAULT_PT
   comment_btn_submitted      : "Submetido"
   comment_success_msg        : "Obrigado pelo seu comentário! Será visível no site logo que aprovado."
   comment_error_msg          : "Lamento, ocorreu um erro na sua submissão. Por favor verifique se todos os campos obrigatórios estão corretamente preenchidos e tente novamente."
+  comment_cancel_reply       :
   loading_label              : "A carregar..."
 # Brazilian Portuguese
 pt-BR:
@@ -281,6 +286,7 @@ pt-BR:
   comment_btn_submitted      :
   comment_success_msg        :
   comment_error_msg          :
+  comment_cancel_reply       :
   loading_label              :
 pt-PT:
   <<: *DEFAULT_PT
@@ -327,6 +333,7 @@ it: &DEFAULT_IT
   comment_btn_submitted      : "Inviato"
   comment_success_msg        : "Grazie per il tuo commento! Verrà visualizzato nel sito una volta che sarà approvato."
   comment_error_msg          : "C'è stato un errore con il tuo invio. Assicurati che tutti i campi richiesti siano stati completati e riprova."
+  comment_cancel_reply       :
   loading_label              : "Caricamento..."
 it-IT:
   <<: *DEFAULT_IT
@@ -373,6 +380,7 @@ zh: &DEFAULT_ZH
   comment_btn_submitted      : "已提交"
   comment_success_msg        : "感谢您的评论！被批准后它会立即在此站点展示。"
   comment_error_msg          : "很抱歉，您的提交存在错误。请确保所有必填字段都已填写正确，然后再试一次。"
+  comment_cancel_reply       :
   loading_label              : "正在加载..."
 zh-CN:
   <<: *DEFAULT_ZH
@@ -421,6 +429,7 @@ zh-TW:
   comment_btn_submitted      : "已送出"
   comment_success_msg        : "感謝您的留言！ 審核後將會顯示在站上。"
   comment_error_msg          : "抱歉，部份資料輸入有問題。請確認資料填寫正確後再試一次。"
+  comment_cancel_reply       :
   loading_label              : "載入中..."
 
 # German / Deutsch
@@ -465,6 +474,7 @@ de: &DEFAULT_DE
   comment_btn_submitted      : "Versendet"
   comment_success_msg        : "Danke für ihren Kommentar! Er wird auf der Seite angezeigt, nachdem er geprüft wurde."
   comment_error_msg          : "Entschuldigung, es gab einen Fehler. Bitte füllen sie alle benötigten Felder aus und versuchen sie es erneut."
+  comment_cancel_reply       : "Doch nicht"
   loading_label              : "Lade..."
 de-DE:
   <<: *DEFAULT_DE
@@ -521,6 +531,7 @@ ne: &DEFAULT_NE
   comment_btn_submitted      : "टिप्पणी भयो"
   comment_success_msg        : "तपाईंको टिप्पणीको लागि धन्यवाद! एक पटक यो अनुमोदन गरेपछी यो साइटमा देखाउनेछ।"
   comment_error_msg          : "माफ गर्नुहोस्, तपाईंको टिप्पणी त्रुटि थियो।सबै आवश्यक जानकारीहरु पूरा गरिएको छ भने निश्चित गर्नुहोस् र फेरि प्रयास गर्नुहोस्।"
+  comment_cancel_reply       :
   loading_label              : "लोड हुँदैछ ..."
 ne-NP:
   <<: *DEFAULT_NE
@@ -567,6 +578,7 @@ ko: &DEFAULT_KO
   comment_btn_submitted      : "등록됨"
   comment_success_msg        : "감사합니다! 댓글이 머지된 후 확인하실 수 있습니다."
   comment_error_msg          : "댓글 등록에 문제가 있습니다. 필요 필드를 작성했는지 확인하고 다시 시도하세요."
+  comment_cancel_reply       :
   loading_label              : "로딩중..."
 ko-KR:
   <<: *DEFAULT_KO
@@ -613,6 +625,7 @@ ru: &DEFAULT_RU
   comment_btn_submitted      : "Отправлено"
   comment_success_msg        : "Спасибо за Ваш комментарий! Он будет опубликован на сайте после проверки."
   comment_error_msg          : "К сожалению, произошла ошибка с отправкой комментария. Пожалуйста, убедитесь, что все обязательные поля заполнены и попытайтесь снова."
+  comment_cancel_reply       :
   loading_label              : "Отправка..."
 ru-RU:
   <<: *DEFAULT_RU
