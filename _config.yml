@@ -7,16 +7,16 @@
 
 # Site Settings
 locale                   : "de-DE"
-title                    : "ONDATA PREVIEW"
+title                    : "ONDATA"
 title_separator          : "×"
 name                     : "dev4223"
 email                    : "developer4223@gmail.com"
 description              : > # this means to ignore newlines until "url:"
   "Daten. Das Leben wird durch die Daten bestimmt und wir können bestimmen, welche Daten wir
     preisgeben und wie wir sie preisgeben. Wir können sogar bestimmen, wie diese Daten verarbeitet werden. Das zum Lernen. Und hier darüber berichten."
-#url                      : "https://ondata.hokr.us" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-#baseurl                  : "" # the subpath of your site, e.g. "/blog"
-#enforce_ssl              : "ondata.hokr.us"
+url                      : "https://ondata.hokr.us" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+enforce_ssl              : "ondata.hokr.us"
 repository               : "dev4223/ondata" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : false # true, false (default)
