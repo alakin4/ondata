@@ -11,6 +11,7 @@ exclude:
   - vendor
   - .asset-cache
   - .bundle
+  - .github
   - .jekyll-assets-cache
   - .sass-cache
   - assets/js/plugins
