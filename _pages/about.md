@@ -12,9 +12,11 @@ Schreiben über Daten und was ich dabei lerne.
 Umgesetzt habe ich die Seite mit [Jekyll](https://jekyllrb.com/docs/home){:target="_blank"} und dabei das Theme [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/){:target="_blank"} von [Michael Rose](https://mademistakes.com/){:target="_blank"} verwendet.
 Die Seiten liegen bei [Github](https://github.com/dev4223/ondata){:target="_blank"} und werden ausgeliefert über [netlify](https://www.netlify.com/){:target="_blank"}.
 
+Über das Deployment habe ich [hier]({{ site.baseurl }}{% post_url 2017-03-23-deployment-jekyll-github-pages-netlify %}) geschrieben.
+
 ## Strange Brain
 
-Hier kommt die Idee für das Avatar-Image her:
+Die Idee für das Avatar-Bild:
 
 ![image]({{site.baseurl}}/assets/images/avanimation.gif)
 
