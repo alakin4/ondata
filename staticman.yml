@@ -95,7 +95,7 @@ comments:
     email: md5
 
   # reCaptcha
-  #reCaptcha:
-  #  enabled: true
-  #  siteKey: "6LdRBykTAAAAAFB46MnIu6ixuxwu9W1ihFF8G60Q"
-  #  secret: "PznnZGu3P6eTHRPLORniSq+J61YEf+A9zmColXDM5icqF49gbunH51B8+h+i2IvewpuxtA9TFoK68TuhUp/X3YKmmqhXasegHYabY50fqF9nJh9npWNhvITdkQHeaOqnFXUIwxfiEeUt49Yoa2waRR7a5LdRAP3SVM8hz0KIBT4="
+  reCaptcha:
+    enabled: true
+    siteKey: "6LcbQRsUAAAAAN3HgvbZPJY92mwOB1Y1SBoNcV-g"
+    secret: "xE22L38e33lcEBF28poXGLIo2bD6GkgqL7m2X7K9LblaYe0Tw+tmUSN9IixtRni8a5HgT1uK+sJ9YY0OuwvpXC7LxGw6TEawOgQ6cXdAY3BkjZiaJ7CAoi/XXwcrc2vLDCAxW1cZGwlyqpawB6KhzZIsMSk+/Vg8JdUBbz4GPNU="
