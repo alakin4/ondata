@@ -45,6 +45,7 @@
 }
 
 .sidebar__right {
+  margin-top: 1.5em;
   margin-bottom: 1em;
 
   @include breakpoint($large) {

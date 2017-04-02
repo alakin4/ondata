@@ -1,21 +1,23 @@
 ---
-permalink: /deployment-jekyll-with-github-pages-and-netlify/
+permalink: /deployment-jekyll-with-github-and-netlify/
 title:  "Auf der Suche nach einem guten Deployment Workflow"
-date: 2017-04-01 02:41:20 +02:00 
+date: 2017-04-03 01:14:35 +02:00  
 comments: true
-excerpt: "Neben den großen und kleinen CMS gibt es da auch noch die 'flat file cms'. Das sind Generatoren für statische HTML-Seiten. Bei der Suche nach einem Wordpress Theme bin ich darauf gestoßen und bei Jekyll hängengeblieben. Nach Installation und Anpassungen eines Themes versuche ich, den Veröffentlichungsworkflow für mich zu optimieren und zu vereinfachen. Er soll wenige Schritte lang und vor allem auch mobil begehbar sein."
+excerpt: "Neben den großen und kleinen CMS gibt es da auch noch die 'flat file cms'. Generatoren für statische HTML-Seiten. Bei der Suche nach einem Wordpress Theme bin ich darauf gestoßen und bei Jekyll hängengeblieben. Nach Installation und Anpassungen eines Themes versuche ich, den Veröffentlichungsworkflow für mich zu optimieren und zu vereinfachen. Er soll wenige Schritte lang und vor allem auch mobil begehbar sein."
 categories: jekyll github
 tags: deployment cdn ssl
 ---
+
+{% include toc title="TOC" %}
 
 ## Am Anfang
 
 Darauf gebracht hat mich dieser Artikel [So geht Publishing heute: 13 kompakte CMS im Vergleich](http://t3n.de/news/13-kompakte-cms-im-vergleich-461933/){:target="_blank"}. Dazu die in den vergangenen Jahren gesammelten Erfahrungen mit Wordpress und die Suche nach einer einfachen Möglichkeit, eine Webseite zu veröffentlichen. In dem Artikel ist [Jekyll](https://jekyllrb.com/docs/home){:target="_blank"} nicht mal genannt, aber beim Lesen über und der Recherche nach [Kirby](https://getkirby.com/){:target="_blank"}, [Pico](http://picocms.org/){:target="_blank"}, [Grav](https://getgrav.org/){:target="_blank"} und Co. kommt man unweigerlich auch an Jekyll vorbei. 
 
-Nein, eigentlich ging ich auf die Suche nach einem schönen einfachen und minimalistischen Foto-Theme für Wordpress und kam dabei an [Minimal Mistakes](https://mmistakes._github.io_/minimal-mistakes/){:target="_blank"} vorbei, diesem schlichten Jekyll Theme, und es sah gut aus. Einfach, gut zu gestalten. Hätte ich gern für Wordpress, aber habe ich nicht gefunden. Also erstmal nix Foto-Theme. Daß wollte ich selber ausprobieren. Aber es lief auf Jekyll, unbekannterweise. Hörte sich jedoch nach einem von den 'Neuen' aus dem t3n-Artikel an und da kam Spannung auf.
+Nein, eigentlich ging ich auf die Suche nach einem schönen einfachen und minimalistischen Foto-Theme für Wordpress und kam dabei an [Minimal Mistakes](https://mmistakes._github.io_/minimal-mistakes/){:target="_blank"} vorbei, diesem schlichten Jekyll Theme, und es sah gut aus. Einfach, gut zu gestalten. Hätte ich gern für Wordpress, aber habe ich nicht gefunden. Also erstmal nix Foto-Theme. Daß wollte ich selber ausprobieren. Aber es lief auf Jekyll, unbekannterweise. Hörte sich jedoch nach einem von den 'Neuen' aus dem t3n-Artikel an. Ich war gespannt.
 
 Ein paar Dokus und Howtos später läuft der erste Build von Minimal Mistakes auf Jekyll als Ruby Gem erfolgreich lokal auf meiner Linux Box. Schön. Einen vHost dazu und das sah doch schon sehr gut aus. 
-Ein bißchen Styling, CSS und das ganze mit Lieblingsschriften abgrundet, Bilder zurechtgeschnitten und ab als statische Seite auf den Server.
+Ein bißchen Styling, CSS und das ganze mit Lieblingsschriften abgerundet, Bilder zurechtgeschnitten und ab als statische Seite auf den Server.
 
 Guter Gedanke, der von statischen Seiten, ohne Datenbank und großes Backend und einem schlanken Workflow. Also als nächstes ausprobieren, ob alles so einfach geht, wie vorgestellt.
 
@@ -35,11 +37,11 @@ Der erste Workflow ging so:
 
 ## Git
 
-Die Seite muß natürlich ins Git, weil: Minimal Mistakes liegt ja auch da und überhaupt. Da in meinem ersten Setup das Theme als Ruby Gem installiert ist, wird es auch über `bundle update` aktualisiert. Für die eigenen Themeanpassungen einfach das Datei-Paket bei Github als ZIP runterladen und entpacken oder `git clone` und dann den .git-Ordner löschen und alles 'überflüssige' (ist in der Installationsanleitung beschrieben, was das ist) dazu und dann per CSS schön anstreichen. Dann bei Github ein Repositorysitory erstellt und `push`.
+Die Seite muß natürlich ins Git, weil: Minimal Mistakes liegt ja auch da und überhaupt. Da in meinem ersten Setup das Theme als Ruby Gem installiert ist, wird es auch über `bundle update` aktualisiert. Für die eigenen Themeanpassungen einfach das Datei-Paket bei Github als ZIP runterladen und entpacken oder `git clone` und dann den .git-Ordner löschen und alles 'überflüssige' (ist in der Installationsanleitung beschrieben, was das ist) dazu und dann per CSS schön anstreichen. Dann bei Github ein Repository erstellt und `push`.
 
 ## Github Pages
 
-Gut, da ich schon bei Github bin, liegt da auch das Repositorysitory. Und dann stolpert man unweigerlich über die Github Pages. Man kann bei Github entweder einen Branchen des gesamten Repositorys oder eines Projekts per Github Pages ausliefern lassen, also als statische Webseite zur Verfügung stellen. Das ganze geht standardmäßig über eine Subdomain von _github.io_. Sogar über HTTPS (wenn über die Github-Subdomain ausgeliefert wird, darüber werde ich weiter unten stolpern). Großartig. Man kann sogar seine eigene Domain hinterlegen. Allerdings mit dem Nachteil, daß man dann kein HTTPS dafür aktivieren kann. Aber eins nach dem anderen.
+Gut, da ich schon bei Github bin, liegt da auch das Repository. Und dann stolpert man unweigerlich über die Github Pages. Man kann bei Github entweder einen Branchen des gesamten Repositorys oder eines Projekts per Github Pages ausliefern lassen, also als statische Webseite zur Verfügung stellen. Das ganze geht standardmäßig über eine Subdomain von _github.io_. Sogar über HTTPS (wenn über die Github-Subdomain ausgeliefert wird, darüber werde ich weiter unten stolpern). Großartig. Man kann sogar seine eigene Domain hinterlegen. Allerdings mit dem Nachteil, daß man dann kein HTTPS dafür aktivieren kann. Aber eins nach dem anderen.
 Ein weiterer Vorteil - und weshalb Github Pages überhaupt hier interessant sind - Github Pages unterstützen auch die Auslieferung von Jekyll Projekten.
 
 Jekyll auf Github Pages unterstützt eine Reihe von Themen, nicht alle. Das hier - Minimal Mistakes - wird erstmal nicht unterstützt. Aber Minimal Mistakes kann so konfiguriert werden, daß es auch unter Github Pages läuft. Das ist alles schon vorbereitet und im Quickstart Guide beschrieben. Dazu muß dann doch das ganze Theme gecloned werden. Die Anpassungen von vorher - Theme als Ruby Gem, das die Default Theme Dateien mit den lokalen überschreibt - sind nicht umsonst. Einfach die angepaßten Dateien in die entsprechenden Theme Ordner kopieren. Dann alles committen und pushen. Im Github-Repository in die Settings gehen und die Github Pages aktivieren und dabei angeben, welcher Branche ausgeliefert werden soll. Und voilà, fertig ist die Webseite, über Github Pages deployed und gebaut und per HTTPS ausgeliefert. Wen man sich nicht an der _github.io_-Subdomain stört ist man schon fertig. Wie folgt wäre damit der
@@ -72,7 +74,7 @@ Damit sind auch schon die Hauptprobleme dieser Lösung genannt. Wenn man bei sei
 
 Die Möglichkeiten, die man mit Cloudflare hat, sehen sehr gut aus bis hin zu einem SSL Zertifikat bei Cloudflare für die Domain, aber mit den Vorraussetzungen ist das keine Möglichkeit für mich.
 
-Also weiter auf der Suche nach einer Möglichkeit, eine Subdomain über ein CDN incl. HTTPS auszuliefern. Erstaulicherweise habe ich die Lösung dann erst nach langem Suchen und quasi per Zufall gefunden. Sie wurde in einem Beitrag eher nebenher erwähnt.
+Also weiter auf der Suche nach einer Möglichkeit, eine Subdomain über ein CDN incl. HTTPS auszuliefern. Erstaunlicherweise habe ich die Lösung dann erst nach langem Suchen und quasi per Zufall gefunden. Sie wurde in einem Beitrag eher nebenher erwähnt.
 
 ## Die Lösung: netlify
 
@@ -89,17 +91,28 @@ Nur ein kleines Problem dabei: in der __config.yml_ ist ja die `url` der Seite h
 
 ### [Deploy Kontexte](https://www.netlify.com/docs/continuous-deployment/){:target="_blank"}
 
-Es gibt 3 Deploy Kontexte: _production_, _deploy-preview_ und _branch-preview_. Jeden kann man einzeln konfigurieren. Dazu wir die Datei _netlify.toml_ ins Repository-Root gelegt. Um underschiedliche URLs für die Kontexte zu verwenden, sind die Jekyll-Konfigurationen aufgeteilt. Eine für _production_, eine für _previews_ und eine für _local_. Da man bei den _previews_ die URL vorher nicht kennt, habe ich die `url` hier ein einfach leergelassen. Dadurch werden die Links relativ gesetzt.
+Es gibt 3 Deploy Kontexte: _production_, _deploy-preview_ und _branch-preview_. Jeden kann man einzeln konfigurieren. Dazu wir die Datei _netlify.toml_ ins Repository-Root gelegt. Um underschiedliche URLs für die Kontexte zu verwenden, sind meine Jekyll-Konfigurationen aufgeteilt. Eine für _production_, eine für die _previews_ und eine für _local_. Da man bei den _previews_ die URL vorher nicht kennt, habe ich die `url` hier ein einfach leergelassen. Dadurch werden die Links relativ gesetzt.
 
-Ich glaube, dann habe ich jetzt alles zusammen für den
+Sieht so aus als hätte ich jetzt alles zusammen für den
 
 ## Workflow #3
 
++ lokale Änderungen, Dateien hinzufügen oder löschen
+    * `bundle exec jekyll b`, falls man die Änderungen nochmal lokal überprüfen möchte
++ `git add`, `git commit` und `git push`, um die lokalen Änderungen in den Entwicklungsbranch zu pushen
++ falls netlify-Branch-Previews zur Verfügung stehen, kann man nach kurzem warten die Seite unter der netlify-Branch-URL anschauen
++ sonst bei Github einen Pull Request in den Branch erstellen, der bei netlify unter der Live-URL deployed wird
++ kurz warten, dann kann man die Seite unter der netlify-Preview-URL bei  anschauen
++ wenn alles gut ist, den Pull Request mergen und nach kurzem warten ist die Seite live
 
 ## Und mobiles Deployment?
 
-Dafür benutze ich diese Apps auf meinem Android Smartphone: [MGit](https://play.google.com/store/apps/details?id=com.manichord.mgit){:target="_blank"} als Git Client, [FastHub](https://play.google.com/store/apps/details?id=com.fastaccess.github){:target="_blank"} für das Github -- hier können auch Pull Requests freigegeben werden -- und einen guten Text Editor, z.B. [Jota+](https://play.google.com/store/apps/details?id=jp.sblo.pandora.jota.plus){:target="_blank"} oder [DroidEdit](https://play.google.com/store/apps/details?id=com.aor.droidedit){:target="_blank"}.
+Dafür benutze ich diese Apps auf einem Android Smartphone: 
++ [MGit](https://play.google.com/store/apps/details?id=com.manichord.mgit){:target="_blank"} als Git Client
++ [FastHub](https://play.google.com/store/apps/details?id=com.fastaccess.github){:target="_blank"} für Github -- hier können auch Pull Requests freigegeben werden
++ einen guten Text Editor, z.B. [Jota+](https://play.google.com/store/apps/details?id=jp.sblo.pandora.jota.plus){:target="_blank"} oder [DroidEdit](https://play.google.com/store/apps/details?id=com.aor.droidedit){:target="_blank"}.
 
+## Ergebnis
 
-
+Ich hab mir einen statisches Seiten Deployment mit Github und CDN für eine Jekyll-Seite zusammenkonfiguriert. Der Workflow erlaubt ein mobiles Deployment inklusive Seitenvorschau. Alles was man braucht, um konfortabel eine kleine Blog-Seite zu pflegen. Die Einrichtung von zusätzlichen Funktionalitäten wie eine Kommentarfunktion über [Staticman](https://staticman.net/){:target="_blank"}, reCaptcha für die Kommentare, die einfachen Themeanpassungen haben mich schon soweit überzeugt. Ich bin gespannt, wie alles im benutzen funktionieren wird. 
 
