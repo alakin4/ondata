@@ -28,6 +28,11 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
+# reCAPTCHA keys
+reCaptcha:
+  siteKey: "6LcbQRsUAAAAAN3HgvbZPJY92mwOB1Y1SBoNcV-g"
+  secret: "HSPkIkXTX1Pw6eToklIx70LCZ0SHGR562r8+TG6X9chdflm0QqH/cFwyisyHcJzVbWebcSUY17xWA6wke+dbRFvwrPNTb83jGI/ePk2NONfV7bbCreRvbLdVmOL42n6PppqurNC9SapPezUtPtt7hJc2Z4FZESHz9pB4mUv6pAA="
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -52,7 +57,7 @@ github                   : dev4223
 
 # Analytics
 analytics:
-  provider               : custom # false (default), "google", "google-universal", "custom"
+  provider               : piwik # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
@@ -97,6 +102,7 @@ exclude:
   - vendor
   - .asset-cache
   - .bundle
+  - .github
   - .jekyll-assets-cache
   - .sass-cache
   - assets/js/plugins

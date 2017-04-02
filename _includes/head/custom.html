@@ -2,4 +2,15 @@
 
 <!-- insert favicons. use http://realfavicongenerator.net/ -->
 
+{% if site.analytics.provider and page.analytics != false %}
+{% case site.analytics.provider %}
+{% when "piwik" %}
+  {% include /analytics-providers/piwik.html %}
+{% endcase %}
+{% endif %}
+
+{% if site.reCaptcha.siteKey %}
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+{% endif %}
+
 <!-- end custom head snippets -->
