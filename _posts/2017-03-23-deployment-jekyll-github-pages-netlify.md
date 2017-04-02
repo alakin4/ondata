@@ -28,9 +28,9 @@ Der erste Workflow ging so:
 + lokale Änderungen, Dateien hinzufügen oder löschen
 + `bundle exec jekyll b`, um die statischen Seiten zu bauen
 + Kontrolle über lokalen vHost
-+ wenn alles gut ist, in der _config.yml die Variable `url` umstellen
++ wenn alles gut ist, in der __config.yml_ die Variable `url` umstellen
 + nochmal `bundle exec jekyll b`, um die statischen Dateien mit der richtigen URL für Online zu erzeugen
-+ `url` in der _config.yml wieder zurückstellen auf lokal (besser gleich, sondern vergißt man es)
++ `url` in der __config.yml_ wieder zurückstellen auf lokal (besser gleich, sondern vergißt man es)
 + Statische Seiten aus dem Ordner /_site per FTP in den Webroot auf den Server laden
 
 ## Git
@@ -48,9 +48,9 @@ Jekyll auf Github Pages unterstützt eine Reihe von Themen, nicht alle. Das hier
 
 + lokale Änderungen, Dateien hinzufügen oder löschen
 + `bundle exec jekyll b`, um die statischen Seiten zu bauen, um sie über den lokalen vHost kontrollieren zu können
-+ wenn alles gut ist, in der _config.yml die Variable `url` umstellen
++ wenn alles gut ist, in der __config.yml_ die Variable `url` umstellen
 + `git commit` und `git push`
-+ `url` in der _config.yml wieder zurückstellen auf lokal (besser gleich, sondern vergißt man es)
++ `url` in der __config.yml_ wieder zurückstellen auf lokal (besser gleich, sondern vergißt man es)
 + kurz warten und dann sind die Änderungen unter der _github.io_-Adresse online
 
 Das ganze kann man natürlich auch noch in Branches organisieren und nach der lokalen Kontrolle den Branch in den Branch mergen, den man den Github Pages zugewiesen hat.
