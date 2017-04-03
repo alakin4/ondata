@@ -17,7 +17,7 @@ comments:
   # When allowedOrigins is defined, only requests sent from one of the domains
   # listed will be accepted. The origin is sent as part as the `options` object
   # (e.g. <input name="options[origin]" value="http://yourdomain.com/post1")
-  allowedOrigins: ["ondata.hokr.us"]
+  allowedOrigins: ["localhost","ondata.local","ondata.hokr.us","develop--ondata.netlify.com","post-preview--ondata.netlify.com"]
 
   # (*) REQUIRED
   #
@@ -61,24 +61,24 @@ comments:
   #   type: "comment"
 
   # Name of the site. Used in notification emails.
-  name: "ondata.hokr.us"
+  name: "ONDATA (ondata.hokr.us)"
 
   # Notification settings. When enabled, users can choose to receive notifications
   # via email when someone adds a reply or a new comment. This requires an account
   # with Mailgun, which you can get for free at http://mailgun.com.
   notifications:
     # Enable notifications
-    enabled: false
+    enabled: true
 
     # (!) ENCRYPTED
     #
     # Mailgun API key
-    # apiKey: "z49fOBsWoIHdVjIOEVWF/zx6wfUgsNdCoJkjB+9bzrd97Tis1OpE87k9vFmHEb7I9FfDMSW9KV+TbB6SSfT8l+EP9WKVH5/u/SxaBRz212a3QZzQVGqQB7PrfmYcgtsgOO0Wb59ApWwRGRHSZilMKXHg+wV2pqCno13RrrejRQU="
+    apiKey: "k/+GKCF8WssCHQcg+T6M1sKf6zWS8vfu1XzB4XKkxM2DTafr9A77om6UGE06GijObeMg9I542cn+eapoJJi5ZEYwgUUG8BFZoqd98cvHuFgPtXTxpCR+rmkksuOFnrce2VRF17WiXmXeUUdPjK/K1oHEQw69Sz94pa9LCT/BOBk="
 
     # (!) ENCRYPTED
     #
     # Mailgun domain (encrypted)
-    # domain: "WNnxjkTBQjlZvGmm95NXKL7iCy2ConWTaL1wkUoO4LJcOuWX0iKz0aDmKZdsl0MTH1TAjGLAEbCMIEzDkcaJFkbxNDwouRADfa57/jGWx+PTRhGs4C3nLEHMGNjxnOzjnQR/2x79SpVVmvosMy+g6EgqxlvVxKkqbjUaaWF4zSE="
+    domain: "LTLO/Ybey1xzUbJH4zH5dDrlwSb1yexbc74bSVJZxj6vCGnHsjd0qR/WeIty95qUqrygnYgqDogdKs2Mzjkbd8t+rACbEj4yztDFOcLsz0j3zp7utCg60j3mRheT5RL0jjOD9xyYPEMAHesj5XQ9I9oINvOCAGaooilDZeIJIFY="
 
   # (*) REQUIRED
   #
