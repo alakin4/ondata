@@ -168,14 +168,14 @@ sass:
 permalink: /:categories/:title/
 
 # jekyll-paginate
-paginate: 20 # amount of posts to show
+#paginate: 20 # amount of posts to show
 paginate_path: "/legacy/page:num/"
 timezone: "Europe/Berlin" # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
 gems:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-archives
   - jekyll-auto-image
@@ -185,7 +185,7 @@ gems:
 
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -232,25 +232,60 @@ defaults:
         image: /assets/images/header/head_coffee.jpg
         caption: "&copy; [Kral • Photography](https://kral-photography.com)"
 
+
+# PAGINATE v2
+
+# Pagination: You are running jekyll-paginate backwards compatible pagination logic. Please ignore all earlier warnings displayed related to the old jekyll-paginate gem.
+# Pagination: Detected legacy jekyll-paginate logic running. Please update your configs to use the jekyll-paginate-v2 logic. This compatibility function will stop working after Jan 1st 2018 and your site build will throw an error.
+
+# Plugin: Pagination (jekyll-paginate-v2)
+pagination:
+  enabled      : true
+  debug        : false
+  per_page     : 20
+  permalink    : "/page/:num/"
+  title        : ":title - Page :num of :max"
+  limit        : 0
+  sort_field   : "date"
+  sort_reverse : true
+
+# Plugin: Auto Pages (jekyll-paginate-v2)
+autopages:
+  enabled      : true
+  categories:
+    enabled    : false
+    layouts:
+      - "archive-taxonomy.html"
+    title      : ":category" # :category is replaced by the category name
+    permalink  : "/category/:category"
+  collections:
+    enabled    : false
+  tags:
+    enabled    : true
+    layouts:
+      - "archive-taxonomy.html"
+    title      : ":tag" # :tag is replaced by the tag name
+    permalink  : "/tag/:tag"
+
 # Tags, Archives
-category_archive:
-  type: jekyll-archives
-  path: /categories/
-  label: Categories
-tag_archive:
-  type: jekyll-archives
-  path: /tags/
-  label: Tags
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layouts:
-    category: archive-taxonomy
-    tag: archive-taxonomy
-  permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
+#category_archive:
+#  type: jekyll-archives
+#  path: /categories/
+#  label: Categories
+#tag_archive:
+#  type: jekyll-archives
+#  path: /tags/
+#  label: Tags
+#jekyll-archives:
+#  enabled:
+#    - categories
+#    - tags
+#  layouts:
+#    category: archive-taxonomy
+#    tag: archive-taxonomy
+#  permalinks:
+#    category: /categories/:name/
+#    tag: /tags/:name/
 
 # Archives
 #  Type
