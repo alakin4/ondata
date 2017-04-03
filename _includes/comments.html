@@ -84,6 +84,9 @@
           </p>
           <!-- End comment form alert messaging -->
           <fieldset>
+            <label for="comment-form-reply">
+              <input class="comment-reply-checkbox" type="checkbox" id="comment-form-reply" name="options[subscribe]" value="email">Bei Antworten bitte benachtichtigen.
+            </label>
             <div class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}"></div>
             <button type="submit" id="comment-form-submit" tabindex="5" class="btn">{{ site.data.ui-text[site.locale].comment_btn_submit | default: "Submit Comment" }}</button>
           </fieldset>
