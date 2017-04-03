@@ -90,9 +90,9 @@ Weil: um eine kleine Sicherheit gegen einen Push in den Master einzubauen, habe 
 Und die Vorschau? Dafür gibt es ganz einfach die Deploy Preview bei netlify. Für jeden Pull Request in den Master bei Github erstellt netlify automatisch eine Deploy Preview unter einer _netlify.com_-Subdomain. Somit kann man alle Änderungen, bevor sie in den Master gemerged werden, noch einmal kontrollieren. Sehr gutes Feature.
 Nur ein kleines Problem dabei: in der __config.yml_ ist ja die `url` der Seite hinterlegt, mit der natürlich alle Links der Seite gebaut werden. Das heißt für die Vorschau, daß die erste Seite zwar funktioniert, aber die Links von der Seite wegführen und die Assets können auf den Unterseiten nicht eingebunden werden (die Same-Origin-Policy verhindert die Einbindung von Ressourcen, die von einer anderen Domain kommen). Nicht so schön für eine Vorschau. Nach kurzem Suchen finde ich schnell die Abhilfe dafür, nämlich
 
-### [Deploy Kontexte](https://www.netlify.com/docs/continuous-deployment/){:target="_blank"}
+### Deploy Kontexte
 
-Es gibt 3 Deploy Kontexte: _production_, _deploy-preview_ und _branch-preview_. Jeden kann man einzeln konfigurieren. Dazu wir die Datei _netlify.toml_ ins Repository-Root gelegt. Um underschiedliche URLs für die Kontexte zu verwenden, sind meine Jekyll-Konfigurationen aufgeteilt. Eine für _production_, eine für die _previews_ und eine für _local_. Da man bei den _previews_ die URL vorher nicht kennt, habe ich die `url` hier ein einfach leergelassen. Dadurch werden die Links relativ gesetzt.
+Es gibt 3 [Deploy Kontexte](https://www.netlify.com/docs/continuous-deployment/){:target="_blank"}: _production_, _deploy-preview_ und _branch-preview_. Jeden kann man einzeln konfigurieren. Dazu wir die Datei _netlify.toml_ ins Repository-Root gelegt. Um underschiedliche URLs für die Kontexte zu verwenden, sind meine Jekyll-Konfigurationen aufgeteilt. Eine für _production_, eine für die _previews_ und eine für _local_. Da man bei den _previews_ die URL vorher nicht kennt, habe ich die `url` hier ein einfach leergelassen. Dadurch werden die Links relativ gesetzt.
 
 Sieht so aus als hätte ich jetzt alles zusammen für den
 
