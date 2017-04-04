@@ -1,5 +1,5 @@
 # PREVIEW config
-title                    : "ONDATA LOCAL"
+title                    : "ONDATA"
 url                      : "http://ondata.local" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 enforce_ssl              : ""
