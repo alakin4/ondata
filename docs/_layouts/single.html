@@ -30,9 +30,6 @@ layout: default
           {% if page.read_time %}
             <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
-          {% if page.excerpt %}
-            <p class="page__excerpt">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
-          {% endif %}
         </header>
       {% endunless %}
 
