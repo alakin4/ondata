@@ -2,8 +2,8 @@
 permalink: /ein-erstes-r-notebook/
 title: "Ein erstes R Notebook"
 author_profile: true
-date: 17.03.2017  
-last_modified_at: 2017-03-17T14:04:37+01:00 
+date: 2017-03-17 09:44:31 +02:00
+last_modified_at: 2017-03-17 14:04:37 +01:00 
 tags: r howto notebook
 ---
 

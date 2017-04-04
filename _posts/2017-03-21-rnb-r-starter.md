@@ -2,7 +2,8 @@
 permalink: /r-starter/
 title: "R Starter"
 author_profile: true
-date: 2017-03-24 01:16:07 +02:00 
+date:  2017-03-21 11:46:57 +02:00
+last_modified_at: 2017-03-24 01:16:07 +02:00
 tags: r howto notebook
 ---
 
