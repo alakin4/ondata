@@ -125,7 +125,6 @@ exclude:
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
   - _posts/2017-03-17-ein-erstes-r-notebook.md
-  - _posts/2017-03-10-welcome-to-jekyll.md
   - _posts/__replace_rnb.md
 keep_files:
   - .git

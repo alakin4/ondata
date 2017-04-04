@@ -1,10 +1,10 @@
-# PREVIEW config
-title                    : "ONDATA PREVIEW"
-url                      : "" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+# PRODUCTION config
+title                    : "ONDATA"
+url                      : "https://0ndata.de" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-enforce_ssl              : ""
+enforce_ssl              : "0ndata.de"
 
-# same excludes like in _config.yml
+# exclude robots.txt for production
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -35,3 +35,4 @@ exclude:
   - /test # ignore Minimal Mistakes /test
   - _posts/2017-03-17-ein-erstes-r-notebook.md
   - _posts/__replace_rnb.md
+  - robots.txt

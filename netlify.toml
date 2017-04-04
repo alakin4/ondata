@@ -12,3 +12,8 @@
 # an active Deploy Preview will inherit these settings.
 [context.branch-deploy]
   command = "jekyll build --config _config.yml,_config_prev.yml"
+
+# Branch Deploy context: All deploys that are not in
+# an active Deploy Preview will inherit these settings.
+[context.0ndata]
+  command = "jekyll build --config _config.yml,_config_0ndata.yml"
