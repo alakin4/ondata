@@ -17,8 +17,8 @@
     display: -webkit-box;
     display: flex;
     -webkit-box-pack: justify;
-     justify-content: space-between;
-    /* padding: 1em 1em 1em; */
+    justify-content: space-between;
+    padding: 1em 1em 1em;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -55,7 +55,7 @@
 
 .masthead__menu {
   width: 100%;
-  line-height: 1.35;
+  line-height: 1;
 
   .site-nav {
     margin-left: 0;
