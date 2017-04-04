@@ -5,6 +5,7 @@
 .toc.accordion-toc {
   box-shadow: none;
   margin-top: 1.3em;
+  overflow: hidden;
   input[type="checkbox"] {
     display: none;
   }
@@ -16,16 +17,10 @@
     transition: 0.2s ease-out;
     cursor: pointer;
     margin-bottom: 0;
+    z-index: 99;
 
     &:hover {
       border-color: #333;
-    }
-
-    &:before, &:after {
-      -webkit-transform-origin: 50% 50%;
-          -ms-transform-origin: 50% 50%;
-              transform-origin: 50% 50%;
-      top: 0;
     }
   }
 
@@ -34,6 +29,12 @@
 
     i.fa {
       font-weight: 100;
+
+      &:before, &:after {
+        -webkit-transform-origin: 50% 50%;
+            -ms-transform-origin: 50% 50%;
+                transform-origin: 50% 50%;
+      }
     }
   }
 
@@ -49,12 +50,12 @@
   opacity: 0;
   overflow: hidden;
   z-index: 10;
-  transition: 0.3s ease-in-out;
-  transform: translate(0, 10%);
+  transition: 0.2s linear;
+  transform: translate(0, -40%);
 }
 
 .toc input:checked ~ .toc__menu {
-  transition: 0.5s ease-in-out;
+  transition: 0.4s linear;
   max-height: 100vh;
   opacity: 1;
   transform: translate(0, 0);
