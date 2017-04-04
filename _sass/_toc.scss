@@ -51,7 +51,7 @@
   overflow: hidden;
   z-index: 10;
   transition: 0.2s linear;
-  transform: translate(0, -40%);
+  transform: translate(0, 0);
 }
 
 .toc input:checked ~ .toc__menu {
