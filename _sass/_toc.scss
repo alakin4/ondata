@@ -1,0 +1,54 @@
+/* ==========================================================================
+   TABLE OF CONTENTS
+   ========================================================================== */
+
+.toc.accordion-toc {
+  box-shadow: none;
+  margin-top: 1.3em;
+  input[type="checkbox"] {
+    display: none;
+  }
+
+  label {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+    margin-bottom: 0;
+
+    &:hover {
+      border-color: #333;
+    }
+  }
+
+  .nav__title {
+    border-radius: $border-radius;
+
+    i.fa {
+      font-weight: 100;
+    }
+  }
+
+  input:checked + label i.fa {
+    transform: rotate(45deg);
+  }
+}
+
+.toc .toc__menu {
+  position: relative;
+  margin: 0;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  z-index: 10;
+  transition: 0.3s ease-in-out;
+  transform: translate(0, 10%);
+}
+
+.toc input:checked ~ .toc__menu {
+  transition: 0.5s ease-in-out;
+  max-height: 100vh;
+  opacity: 1;
+  transform: translate(0, 0);
+}
