@@ -9,9 +9,10 @@ tags: r howto notebook
 
 {% include rnb-header.html %}
 
+<!-- source download -->
 <script>
 $(document).ready(function () {
-  window.initializeSourceEmbed("{{site.baseurl}}/assets/download/rnb-r-starter.Rmd");
+  window.initializeSourceDownload("{{site.baseurl}}/assets/download/rnb-r-starter.Rmd","rnb-r-starter.Rmd");
 });
 </script>
 
