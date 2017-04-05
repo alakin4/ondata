@@ -9,6 +9,12 @@ tags: r howto notebook
 
 {% include rnb-header.html %}
 
+<script>
+$(document).ready(function () {
+  window.initializeSourceEmbed("{{site.baseurl}}/assets/download/rnb-r-starter.Rmd");
+});
+</script>
+
 <div class="fluid-row" id="header">
 
 <div class="btn-group pull-right">
