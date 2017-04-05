@@ -71,7 +71,7 @@ comments:
     enabled: true
 
     # FROM email address
-    fromAddress: "Thank you <no-reply@mail.0ndata.de>"
+    fromAddress: "Thank you <no-reply@0ndata.de>"
 
     # (!) ENCRYPTED
     #
