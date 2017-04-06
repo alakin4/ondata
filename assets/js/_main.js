@@ -74,7 +74,7 @@ $(document).ready(function(){
 
   $(window).scroll(function() {
     if ($(window).scrollTop() < 10) {
-      setTimeout(function(){scrollbtn.trigger("hover").removeClass('take-off')}, 1000);
+      setTimeout(function(){removeClass('take-off')}, 1000);
     }
     if ($(window).scrollTop() > 300) {
       scrollbtn.addClass('show');
