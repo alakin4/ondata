@@ -69,6 +69,26 @@ $(document).ready(function(){
     midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
 
+  // scroll top button
+  var scrollbtn = $('#scroll-top-button');
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() < 10) {
+      setTimeout(function(){scrollbtn.removeClass('take-off')}, 1000);
+    }
+    if ($(window).scrollTop() > 300) {
+      scrollbtn.addClass('show');
+    } else {
+      scrollbtn.removeClass('show');
+    }
+  });
+
+  scrollbtn.on('click', function(e) {
+    e.preventDefault();
+    scrollbtn.addClass('take-off');
+    $('html, body').animate({scrollTop:0}, '300');
+  });
+
 });
 
 // Staticman comment replies

@@ -33,6 +33,8 @@
     list-style: none;
     font-size: $type-size-7;
     line-height: 1.35;
+    margin-top: 0;
+    margin-bottom: 0;
 
     @include breakpoint($large) {
       @include span(10 of 12 last);
