@@ -362,6 +362,53 @@ body:hover .visually-hidden button {
   }
 }
 
+/*
+   Scroll top
+   ========================================================================== */
+
+#scroll-top-button {
+    visibility: hidden;
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    height: 2.5rem;
+    opacity: 0;
+    z-index: 999;
+    -webkit-transition: background-color .3s, opacity .5s, visibility .5s;
+    -moz-transition: background-color .3s, opacity .5s, visibility .5s;
+    -ms-transition: background-color .3s, opacity .5s, visibility .5s;
+    -o-transition: background-color .3s, opacity .5s, visibility .5s;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+}
+
+#scroll-top-button .fa {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 1.95rem;
+  transform: rotate(-45deg);
+  color: inherit !important;
+  -webkit-transition: transform ease-in .4s;
+  -moz-transition: transform ease-in .4s;
+  -ms-transition: transform ease-in .4s;
+  -o-transition: transform ease-in .4s;
+  transition: transform ease-in .4s;
+  position: relative;
+}
+
+#scroll-top-button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+#scroll-top-button.btn.take-off {
+  border: none !important;
+}
+
+#scroll-top-button.take-off .fa-rocket {
+  color: $gray !important;
+  transform: translateY(-1000px) rotate(-45deg);
+}
 
 /*
    Wells
