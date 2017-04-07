@@ -22,7 +22,7 @@
   border-radius: $border-radius;
   cursor: pointer;
 
-  &:hover {
+  @include touch-hover() {
     background-color: mix(white, #000, 20%);
   }
 
@@ -52,7 +52,7 @@
     border: 1px solid $light-gray !important; /* override*/
     background-color: #fff;
 
-    &:hover {
+    @include touch-hover() {
       color: #fff !important;
       border-color: $gray;
     }
@@ -70,7 +70,7 @@
   &--info {
     background-color: $info-color;
 
-    &:hover {
+    @include touch-hover() {
       background-color: mix(#000, $info-color, 20%);
     }
   }
@@ -80,7 +80,7 @@
   &--warning {
     background-color: $warning-color;
 
-    &:hover {
+    @include touch-hover() {
       background-color: mix(#000, $warning-color, 20%);
     }
   }
@@ -90,7 +90,7 @@
   &--success {
     background-color: $success-color;
 
-    &:hover {
+    @include touch-hover() {
       background-color: mix(#000, $success-color, 20%);
     }
   }
@@ -100,7 +100,7 @@
   &--danger {
     background-color: $danger-color;
 
-    &:hover {
+    @include touch-hover() {
       background-color: mix(#000, $danger-color, 20%);
     }
   }
@@ -127,7 +127,7 @@
     &--#{$socialnetwork} {
       background-color: $color;
 
-      &:hover {
+      @include touch-hover() {
         background-color: mix(#000, $color, 20%);
       }
     }

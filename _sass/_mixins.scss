@@ -51,3 +51,19 @@
     display: table;
   }
 }
+
+/*
+    Provide a hover effect for non-touch devices, turn it into an Active state for mobile, and maintain a fallback. 
+    @requires Modernizr as a JS dependency to get .no-touch classes
+    Adds styles via @content
+   ========================================================================== */
+
+@mixin touch-hover() {
+    .no-js &:hover, // the fallback
+    .no-js &:focus, 
+    .js.no-touchevents &:hover, // enhanced for no-touch
+    .js.no-touchevents &:focus,
+    .js.touchevents &:active { // relay same styles to active for touch devices
+        @content; 
+    }
+}
