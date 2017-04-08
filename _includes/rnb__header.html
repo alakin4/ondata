@@ -1,0 +1,31 @@
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+<style type="text/css">
+.code-folding-btn { margin-bottom: 4px; }
+</style>
+
+<!-- source download -->
+<script>
+window.initializeSourceDownload = function(filename,name) {
+  $("#rmd-download-source").click(function() {
+    var src = window.atob($("#rmd-source-code").html());
+
+    // byte-encode rmd source to retain utf-8 encoding
+    var uint8 = new Uint8Array(src.length);
+    for (var i = 0; i < uint8.length; i++) {
+      uint8[i] = src.charCodeAt(i);
+    }
+
+    var blob = new Blob([uint8], {type: "text/x-r-markdown"});
+    saveAs(blob, name);
+  });
+};
+</script>
