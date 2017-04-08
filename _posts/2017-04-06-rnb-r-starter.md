@@ -4,7 +4,7 @@ title: "R: Starter"
 author_profile: true
 layout: single-rnb
 rnotebook: rnb-r-starter.Rmd
-excerpt: "Es waren einmal Zahlen und die lebten in R. Ein kleiner Überblick über Typen, Zuweisung, Ausgabe, Operationen und Indizierung in R. Und ein Test für die Formatierung von RNotebooks in Jekyll."
+excerpt: "Es waren einmal Zahlen und die lebten in R. Ein kleiner Überblick über Typen, Zuweisung, Ausgabe, Operationen und Indizierung in R. Und ein Test für die Formatierung von R Notebooks, dich ich in RStudio angelegt habe, in Jekyll."
 date:  2017-04-06 01:12:46 +02:00 
 last_modified_at: 2017-04-08 01:12:56 +02:00 
 tags: r howto notebook
@@ -14,7 +14,7 @@ tags: r howto notebook
 
 <aside class="sidebar__right">
 <nav class="toc flyout-toc">
-<header><h4 class="nav__title"><i class="fa fa-plus"></i> TOC</h4></header>
+<header><h4 class="nav__title"><i class="fa fa-file-text"></i> TOC</h4></header>
 <ul class="toc__menu toc_flyout" id="markdown-toc">
 <li><a href="#r-lernen">R lernen</a></li>
 <li><a href="#variablen-zuweisung-und-ausgabe">Variablen: Zuweisung und Ausgabe</a></li>
@@ -39,7 +39,7 @@ tags: r howto notebook
 <!-- rnb-text-begin -->
 <div id="r-lernen" class="section level2">
 <h2>R lernen</h2>
-<p>Ich bin bei XDA auf einige Online Kurse über Machine Learning gestoßen. Und da ich darüber schon immer mehr wissen wollte und neuer Kopf-Input gerade anstand, habe ich angefangen den Kurs zu schauen. Ich erinnerte mich außerdem, während des US Wahlkampfs diesen spannenden Artikel <a href="http://varianceexplained.org/r/trump-tweets/" target="_blank">Text analysis of Trump’s tweets confirms he writes only the (angrier) Android half</a> gelesen zu haben. Das wollte ich auch können. Also war es an der Zeit, das ganz alte Statistik-Wissen zu reanimieren und einzusteigen. Der Artikel ist nur eine Sammlung der ersten Tutorials über die Grundlagen von R – Variablen, Ein- und Ausgabe, Operationen. Eigenlich für mich als Wiederholung geschrieben. Vielleicht kriegt ja noch jemand lust, R auszuprobieren. Alles wir heute mit Torten und Balken begründet und wir <em>glauben</em>, sobald wir eine begründete Grafik sehen. Ich denke, man sollte sie auch selbst herstellen können.</p>
+<p>Ich bin bei XDA auf einige Online Kurse über Machine Learning gestoßen. Und da ich darüber schon immer mehr wissen wollte und neuer Kopf-Input gerade anstand, habe ich angefangen den Kurs zu schauen. Ich erinnerte mich außerdem, während des US Wahlkampfs diesen spannenden Artikel <a href="http://varianceexplained.org/r/trump-tweets/" target="_blank">Text analysis of Trump’s tweets confirms he writes only the (angrier) Android half</a> von <i>David Robinson von Stack Overflow</i> gelesen zu haben. Das wollte ich auch können. Also war es an der Zeit, das ganz alte Statistik-Wissen zu reanimieren und einzusteigen. Der Artikel ist nur eine Sammlung der ersten Tutorials über die Grundlagen von R – Variablen, Ein- und Ausgabe, Operationen. Eigenlich für mich als Wiederholung geschrieben. Vielleicht kriegt ja noch jemand lust, R auszuprobieren. Alles wir heute mit Torten und Balken begründet und wir <em>glauben</em>, sobald wir eine begründete Grafik sehen. Ich denke, man sollte sie auch selbst herstellen können.</p>
 </div>
 <div id="variablen-zuweisung-und-ausgabe" class="section level2">
 <h2>Variablen: Zuweisung und Ausgabe</h2>
