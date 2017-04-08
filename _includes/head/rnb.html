@@ -1,4 +1,4 @@
-<div class="container-fluid main-container rnb-container">
+{% include head/rnb_scripts.html %}
 
 <!-- tabsets -->
 <script>
@@ -29,3 +29,12 @@ window.initializeSourceDownload = function(filename,name) {
   });
 };
 </script>
+
+{% if page.rnotebook %}
+<!-- source download -->
+<script>
+$(document).ready(function () {
+  window.initializeSourceDownload("{{site.baseurl}}/assets/download/rnb/{{ page.rnotebook }}","{{ page.rnotebook }}");
+});
+</script>
+{% endif %}
