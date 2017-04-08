@@ -60,3 +60,14 @@
   opacity: 1;
   transform: translate(0, 0);
 }
+
+.toc.flyout-toc {
+  box-shadow: none;
+  margin-top: 1.3em;
+  overflow: hidden;
+}
+
+.toc .toc__menu.toc_flyout {
+  max-height: inherit;
+  opacity: 1;
+}
