@@ -21,7 +21,7 @@ Nein, eigentlich ging ich auf die Suche nach einem schönen einfachen und minima
 Ein paar Dokus und Howtos später läuft der erste Build von Minimal Mistakes auf Jekyll als Ruby Gem erfolgreich lokal auf meiner Linux Box. Schön. Einen vHost dazu und das sah doch schon sehr gut aus. 
 Ein bißchen Styling, CSS und das ganze mit Lieblingsschriften abgerundet, Bilder zurechtgeschnitten und ab als statische Seite auf den Server.
 
-Guter Gedanke, der von statischen Seiten, ohne Datenbank und großes Backend und einem schlanken Workflow. Also als nächstes ausprobieren, ob alles so einfach geht, wie vorgestellt.
+Guter Gedanke, der von statischen Seiten, editiert in jedem Texteditor in Markdown, ohne Datenbank und großes Backend und mit einem schlanken Deployment Workflow. Also als nächstes ausprobieren, ob alles so einfach geht, wie vorgestellt.
 
 ## Workflow #1
 
