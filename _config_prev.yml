@@ -34,6 +34,7 @@ exclude:
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
   - _posts/__replace_rnb.md
+  - robots.txt
 
   # HTML Compression
 # - http://jch.penibelst.de/
