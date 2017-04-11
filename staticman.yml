@@ -17,7 +17,7 @@ comments:
   # When allowedOrigins is defined, only requests sent from one of the domains
   # listed will be accepted. The origin is sent as part as the `options` object
   # (e.g. <input name="options[origin]" value="http://yourdomain.com/post1")
-  allowedOrigins: ["localhost","ondata.local","0ndata.de","develop--0ndata.netlify.com","post-preview--0ndata.netlify.com","ondata.hokr.us"]
+  allowedOrigins: ["localhost","ondata.local","ondata.work","0ndata.de","develop--ondata.netlify.com","post-preview--ondata.netlify.com","ondata.hokr.us"]
 
   # (*) REQUIRED
   #
@@ -61,7 +61,7 @@ comments:
   #   type: "comment"
 
   # Name of the site. Used in notification emails.
-  name: "ONDATA (0ndata.de)"
+  name: "ONDATA (ondata.work)"
 
   # Notification settings. When enabled, users can choose to receive notifications
   # via email when someone adds a reply or a new comment. This requires an account
@@ -71,17 +71,17 @@ comments:
     enabled: true
 
     # FROM email address
-    fromAddress: "Thank you <no-reply@0ndata.de>"
+    fromAddress: "Thank you <no-reply@ondata.work>"
 
     # (!) ENCRYPTED
     #
     # Mailgun API key
-    apiKey: "qaoWTTbFcDf2FpvjCVBc5Csn7pwps9bQabrbMWfi+ozZXToImqlP4Uj4h2QnEhCsNqv1dGTaifJjXFAhIZCF8mKd7Ytr7BLixFBqQWfOLduhYlHasy8Ep/5lZESVYT4ud57HCKtNqXIMJ1ve94MCpo3ddFb/tTjLgNydS6MFsvE="
+    apiKey: "DnpXyoKtPwAV3Nw9SHfSnMZC2/C/TjsfMCFhPuxtVZ8U2Zmr3hg3y7bcSDFebCQe34VCROmyGEoBHN6Wxe0OcVBRBroOHPAdnjZeEfWzWheNMwU8Mh1Vv6VXC6LMIbGmJWZCMmtqTp+HzIvNPgRmAwkczhHji6FXRmU8h11kaqY="
 
     # (!) ENCRYPTED
     #
     # Mailgun domain (encrypted)
-    domain: "Lsxk8uEK0TdqUbVEgdrzqJneuYaf/R+Gxixwiy/IBCb10cjwbQpocQrlL8HjdrEZnjWmWoiqn6IgSoNMHgL/kpzyIlPeTouMMuN31kzTEMFBrhi+XY8wG+hb395BjYjOTdCLXMA+qFTlEtjEBQp3w1HMlbv4M4NfWwy9JwqojS8="
+    domain: "m5YFgo53LNny4kThT9bCmn6QyeFeFXrVJn8/Xyn1peXXqaMa0f4zNRcW/7WxpFo0jfYgJFTZElzY45SaYKsyXn9f3gS14Po11louqtkROEsYv2zezlEebv6adoqMic8JSNCAvYkBrysrePzf1+uS5Yvl2YnGz1y370SVV07bG0o="
 
   # (*) REQUIRED
   #
