@@ -17,7 +17,7 @@ comments:
   # When allowedOrigins is defined, only requests sent from one of the domains
   # listed will be accepted. The origin is sent as part as the `options` object
   # (e.g. <input name="options[origin]" value="http://yourdomain.com/post1")
-  allowedOrigins: ["localhost","ondata.local","0ndata.de","develop--0ndata.netlify.com","post-preview--0ndata.netlify.com","ondata.hokr.us"]
+  allowedOrigins: ["localhost","ondata.local","ondata.work","0ndata.de","develop--ondata.netlify.com","post-preview--ondata.netlify.com","ondata.hokr.us"]
 
   # (*) REQUIRED
   #
@@ -61,7 +61,7 @@ comments:
   #   type: "comment"
 
   # Name of the site. Used in notification emails.
-  name: "ONDATA (0ndata.de)"
+  name: "ONDATA (ondata.work)"
 
   # Notification settings. When enabled, users can choose to receive notifications
   # via email when someone adds a reply or a new comment. This requires an account
@@ -71,7 +71,7 @@ comments:
     enabled: true
 
     # FROM email address
-    fromAddress: "Thank you <no-reply@0ndata.de>"
+    fromAddress: "Thank you <no-reply@ondata.work>"
 
     # (!) ENCRYPTED
     #
