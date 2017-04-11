@@ -12,7 +12,7 @@ title_separator          : "×"
 name                     : "dev4223"
 email                    : "developer4223@gmail.com"
 description              : > # this means to ignore newlines until "url:"
-  "Daten. Überall sind Daten. Lernen, wo und wie sie leben. Und hier darüber schreiben."
+  Daten. Überall sind Daten. Lernen, wo und wie sie leben. Und hier darüber schreiben.
 url                      : "https://ondata.work" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 enforce_ssl              : "ondata.work"
