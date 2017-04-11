@@ -5,6 +5,8 @@ date: 2017-04-10 09:34:35 +02:00
 last_modified_at: 2017-04-16 16:12:57 +02:00
 comments: true
 comments_locked: false
+image:
+  twitter: /assets/images/header/head_spree1.jpg
 excerpt: "Neben den großen und kleinen CMS gibt es da auch noch die 'flat file cms'. Generatoren für statische HTML-Seiten. Bei der Suche nach einem Wordpress Theme bin ich darauf gestoßen und bei Jekyll hängengeblieben. Nach Installation und Anpassungen eines Themes versuche ich, den Veröffentlichungsworkflow für mich zu optimieren und zu vereinfachen. Er soll wenige Schritte lang und vor allem auch mobil begehbar sein."
 categories: jekyll github
 tags: deployment cdn ssl
