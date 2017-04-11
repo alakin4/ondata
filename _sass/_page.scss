@@ -115,15 +115,6 @@
   }
 }
 
-/* FOR SPLASH */
-body.layout--splash {
-  margin-bottom: 0 !important;
-}
-
-html, body {
-  height: 100% !important;
-}
-
 .page__hero {
   position: relative;
   margin-bottom: $hero-margin-bottom-wobc;
@@ -135,8 +126,7 @@ html, body {
 
   &--overlay {
     position: relative;
-    /* margin-bottom: 2em; */
-    height: 83% !important;
+    margin-bottom: 2em;
     padding: 3em 0;
     @include clearfix;
     background-size: cover;
