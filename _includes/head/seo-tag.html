@@ -167,10 +167,22 @@
     <meta name="twitter:card" content="summary" />
   {% endif %}
 
+  {% if seo_title %}
+    <meta name="twitter:title" content="{{ seo_title }}">
+  {% endif %}
+
   <meta name="twitter:site" content="@{{ site.twitter.username | replace:"@","" }}" />
 
   {% if seo_author_twitter %}
     <meta name="twitter:creator" content="@{{ seo_author_twitter }}" />
+  {% endif %}
+
+  {% if seo_page_image %}
+    <meta name="twitter:image" content="{{ seo_page_image }}" />
+  {% endif %}
+
+  {% if seo_description %}
+    <meta name="twitter:description" content="{{ seo_description }}" />
   {% endif %}
 {% endif %}
 
