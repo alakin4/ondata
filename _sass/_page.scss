@@ -67,6 +67,16 @@
     font-size: $type-size-6;
   }
 
+  /* because there are no font styles for SuperGrotesk and GoudyBookletter */
+  strong {
+    border-bottom: 2px dotted $text-color;
+    font-weight: normal;
+  }
+  em, i {
+    border-bottom: 2px dashed $text-color;
+    font-style: normal;
+  }
+
   /* paragraph indents */
   p {
     margin: 0 0 $indent-var;
@@ -255,6 +265,10 @@
 
   a {
     color: inherit;
+  }
+
+  i:nth-child(n + 2) {
+    margin-left: 1em;
   }
 }
 
