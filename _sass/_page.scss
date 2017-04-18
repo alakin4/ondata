@@ -67,6 +67,16 @@
     font-size: $type-size-6;
   }
 
+  /* because there are no font styles for SuperGrotesk and GoudyBookletter */
+  strong {
+    border-bottom: 2px dotted $text-color;
+    font-weight: normal;
+  }
+  em, i {
+    border-bottom: 2px dashed $text-color;
+    font-style: normal;
+  }
+
   /* paragraph indents */
   p {
     margin: 0 0 $indent-var;
@@ -115,15 +125,6 @@
   }
 }
 
-/* FOR SPLASH */
-body.layout--splash {
-  margin-bottom: 0 !important;
-}
-
-html, body {
-  height: 100% !important;
-}
-
 .page__hero {
   position: relative;
   margin-bottom: $hero-margin-bottom-wobc;
@@ -135,8 +136,7 @@ html, body {
 
   &--overlay {
     position: relative;
-    /* margin-bottom: 2em; */
-    height: 83% !important;
+    margin-bottom: 2em;
     padding: 3em 0;
     @include clearfix;
     background-size: cover;
@@ -265,6 +265,10 @@ html, body {
 
   a {
     color: inherit;
+  }
+
+  i:nth-child(n + 2) {
+    margin-left: 1em;
   }
 }
 

@@ -61,11 +61,6 @@ p {
   margin-bottom: 0.7em;
 }
 
-.page__content strong {
-  border-bottom: 2px dotted #000;
-  font-weight: normal;
-}
-
 u,
 ins {
   text-decoration: none;
@@ -119,6 +114,10 @@ blockquote {
 a {
   &:focus {
     @extend %tab-focus;
+  }
+
+  &.image-popup:focus {
+    outline: none;
   }
 
   &:hover,
@@ -244,7 +243,7 @@ figcaption {
   margin-bottom: 0.5em;
   color: mix(#fff, $text-color, 25%);
   font-family: $caption-font-family;
-  font-size: $type-size-6;
+  font-size: $type-size-65emb;
 
   a {
     color: inherit;

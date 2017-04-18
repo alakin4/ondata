@@ -12,8 +12,7 @@ title_separator          : "×"
 name                     : "dev4223"
 email                    : "developer4223@gmail.com"
 description              : > # this means to ignore newlines until "url:"
-  "Daten. Das Leben wird durch die Daten bestimmt und wir können bestimmen, welche Daten wir
-    preisgeben und wie wir sie preisgeben. Wir können sogar bestimmen, wie diese Daten verarbeitet werden. Das zum Lernen. Und hier darüber berichten."
+  Daten. Überall sind Daten. Lernen, wo und wie sie leben. Und hier darüber schreiben.
 url                      : "https://ondata.work" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 enforce_ssl              : "ondata.work"
@@ -24,7 +23,7 @@ words_per_minute         : 200
 comments:
   provider               : "staticman" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
 staticman:
-  branch                 : "develop"
+  branch                 : "master"
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
@@ -193,8 +192,13 @@ whitelist:
 # - http://jch.penibelst.de/
 compress_html:
   clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
   ignore:
-    envs: development
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: [html, head, body]
 
 
 # Defaults

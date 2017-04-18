@@ -10,3 +10,5 @@ tags: blog
 
 Eine kurze Überlegung. Wenn ich schon etwas lerne, dann schreibe ich darüber.
 Über das Warum und wie ich überhaupt dazu kam.
+
+Daten. Das Leben wird durch die Daten bestimmt und wir können bestimmen, welche Daten wir preisgeben und wie wir sie preisgeben. Wir können sogar bestimmen, wie diese Daten verarbeitet werden. Das zum Lernen. Und hier darüber berichten.

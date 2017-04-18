@@ -14,8 +14,7 @@ output:
 
 ## R lernen
 
-Ich bin bei [XDA Developers](https://depot.xda-developers.com/){:target="_blank"} auf einige Online Kurse über Machine Learning gestoßen. Und da ich darüber schon immer mehr wissen wollte und neuer Kopf-Input gerade anstand, habe ich angefangen den Kurs zu schauen. Ich erinnerte mich außerdem, während des US Wahlkampfs diesen spannenden Artikel [Text analysis of Trump's tweets confirms he writes only the (angrier) Android half](http://varianceexplained.org/r/trump-tweets/){:target="_blank"} von _David Robinson von Stack Overflow_ gelesen zu haben. Das wollte ich auch können. Also war es an der Zeit, das ganz alte Statistik-Wissen zu reanimieren und einzusteigen. Der Artikel ist nur eine Sammlung der ersten Tutorials über die Grundlagen von R -- Variablen, Ein- und Ausgabe, Operationen. Eigenlich eher für mich als Wiederholung geschrieben. Vielleicht kriegt ja noch jemand Lust, R auszuprobieren. 
-Alles wird heute mit Torten und Balken begründet und wir _glauben_, sobald wir eine begründete Grafik sehen. Ich denke, man sollte sie auch selbst herstellen können.
+Ich bin bei [XDA Developers](https://depot.xda-developers.com/){:target="_blank"} auf einige Online Kurse über Machine Learning gestoßen. Und da ich darüber schon immer mehr wissen wollte und neuer Kopf-Input gerade anstand, habe ich angefangen den Kurs zu schauen. Ich erinnerte mich außerdem, während des US Wahlkampfs diesen spannenden Artikel [Text analysis of Trump's tweets confirms he writes only the (angrier) Android half](http://varianceexplained.org/r/trump-tweets/){:target="_blank"} von _David Robinson von Stack Overflow_ gelesen zu haben. Das wollte ich auch können. Also war es an der Zeit, das ganz alte Statistik-Wissen zu reanimieren und einzusteigen. Der Artikel ist nur eine Sammlung der ersten Tutorials über die Grundlagen von R -- Variablen, Ein- und Ausgabe, Operationen. Eigenlich eher für mich als Wiederholung geschrieben. Und: Fast alles wird heute mit Torten und Balken begründet und wir _glauben_, sobald wir eine begründete Grafik sehen. Ich denke mal, da sollte man sie auch selbst herstellen können.
 
 ## Variablen: Zuweisung und Ausgabe
 
@@ -158,7 +157,7 @@ crossprod(aMatrix,2*1:2)
 
 ## Faktoren
 
-Ein Vektor kann in Faktoren, den Gruppen gleicher Werte, zerlegt werden. Das vergleichbar einem `GROUP BY` in SQL.
+Ein Vektor kann in Faktoren, den Gruppen gleicher Werte, zerlegt werden. Das ist vergleichbar einem `GROUP BY` in SQL.
 
 ```{r}
 stadt <- c("Berlin", "Dresden", "Hamburg", "Berlin", "Berlin", "Hamburg", "Dresden")

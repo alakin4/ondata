@@ -16,13 +16,15 @@ $indent-var                 : 1.3em !default;
 $serif                      : "GoudyBookletter1911Regular", Georgia, Times, serif !default;
 $sans-serif                 : "SuperGroteskA", "Lato", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace                  : "Hack", "Lucida Console", monospace !default;
-$caption                    : "Montserrat", "Lato", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$caption                    : "SuperGroteskA", "Lato", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 
 /* sans serif typefaces */
 $sans-serif-narrow          : $sans-serif !default;
+$supergrotesk               : "SuperGroteskA", sans-serif !default;
 $helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif !default;
 
 /* serif typefaces */
+$goudybook                  : "GoudyBookletter1911Regular", serif !default;
 $georgia                    : Georgia, serif !default;
 $times                      : Times, serif !default;
 $bodoni                     : "Bodoni MT", serif !default;
@@ -143,3 +145,6 @@ $main-margin-top-wbc        : 2em !default;
 $hero-margin-bottom-wbc     : 1.5em !default;
 $main-margin-top-wobc       : 3em !default;
 $hero-margin-bottom-wobc    : 2em !default;
+
+
+$image-text-width           : 250px !default;
