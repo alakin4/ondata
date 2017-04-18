@@ -11,6 +11,9 @@ module Jekyll
     def localize(input, format=nil)
       load_translations
       format = (format =~ /^:(\w+)/) ? $1.to_sym : format
+      if input.instance_of?(String)
+        input = Date.parse input
+      end
       I18n.l input, :format => format
     rescue
       "error"
