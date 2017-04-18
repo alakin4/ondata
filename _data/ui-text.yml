@@ -45,6 +45,18 @@ en: &DEFAULT_EN
   comment_error_msg          : "Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again."
   comment_cancel_reply       : "Cancel reply"
   loading_label              : "Loading..."
+  january                    : January
+  february                   : February
+  march                      : March
+  april                      : April
+  may                        : May
+  june                       : June
+  july                       : July
+  august                     : August
+  september                  : September
+  october                    : October
+  november                   : November
+  december                   : December
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -486,6 +498,18 @@ de: &DEFAULT_DE
   comment_error_msg          : "Ups, es gab einen Fehler. Bitte alle benötigten Felder ausfüllen  und noch einmal versuchen."
   comment_cancel_reply       : "Doch nicht"
   loading_label              : "Lade..."
+  january                    : Januar
+  february                   : Februar
+  march                      : März
+  april                      : April
+  may                        : Mai
+  june                       : Juni
+  july                       : Juli
+  august                     : August
+  september                  : September
+  october                    : Oktober
+  november                   : November
+  december                   : Dezember
 de-DE:
   <<: *DEFAULT_DE
 de-AT:

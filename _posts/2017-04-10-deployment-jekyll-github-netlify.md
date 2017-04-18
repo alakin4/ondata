@@ -41,14 +41,14 @@ Der erste Workflow ging so:
 
 ## Git
 
-Die Seite muß natürlich ins Git, weil: Minimal Mistakes liegt ja auch da und überhaupt. Da in meinem ersten Setup das Theme als Ruby Gem installiert ist, wird es auch über `bundle update` aktualisiert. Für die eigenen Themeanpassungen einfach das Datei-Paket bei Github als ZIP runterladen und entpacken oder `git clone` und dann den .git-Ordner löschen und alles 'überflüssige' (ist in der Installationsanleitung beschrieben, was das ist) dazu und dann per CSS schön anstreichen. Dann bei Github ein Repository erstellt und `push`.
+Die Seite muß natürlich ins Git, weil: Minimal Mistakes liegt ja auch da und überhaupt. Da in meinem ersten Setup das Theme als Ruby Gem installiert ist, wird es auch über `bundle update` aktualisiert. Für die eigenen Theme-Anpassungen einfach das Datei-Paket bei Github als ZIP runterladen und entpacken oder `git clone` und dann den .git-Ordner löschen und alles 'überflüssige' (ist in der Installationsanleitung beschrieben, was das ist) dazu und dann per CSS schön anstreichen. Dann bei Github ein Repository erstellt und `push`.
 
 ## Github Pages
 
 Gut, da ich schon bei Github bin, liegt da auch das Repository. Und dann stolpert man unweigerlich über die Github Pages. Man kann bei Github entweder einen Branchen des gesamten Repositorys oder eines Projekts per Github Pages ausliefern lassen, also als statische Webseite zur Verfügung stellen. Das ganze geht standardmäßig über eine Subdomain von _github.io_. Sogar über HTTPS (wenn über die Github-Subdomain ausgeliefert wird, darüber werde ich weiter unten stolpern). Großartig. Man kann sogar seine eigene Domain hinterlegen. Allerdings mit dem Nachteil, daß man dann kein HTTPS dafür aktivieren kann. Aber eins nach dem anderen.
 Ein weiterer Vorteil - und weshalb Github Pages überhaupt hier interessant sind - Github Pages unterstützen auch die Auslieferung von Jekyll Projekten.
 
-Jekyll auf Github Pages unterstützt eine Reihe von Themen, nicht alle. Das hier - Minimal Mistakes - wird erstmal nicht unterstützt. Aber Minimal Mistakes kann so konfiguriert werden, daß es auch unter Github Pages läuft. Das ist alles schon vorbereitet und im Quickstart Guide beschrieben. Dazu muß dann doch das ganze Theme gecloned werden. Die Anpassungen von vorher - Theme als Ruby Gem, das die Default Theme Dateien mit den lokalen überschreibt - sind nicht umsonst. Einfach die angepaßten Dateien in die entsprechenden Theme Ordner kopieren. Dann alles committen und pushen. Im Github-Repository in die Settings gehen und die Github Pages aktivieren und dabei angeben, welcher Branche ausgeliefert werden soll. Und voilà, fertig ist die Webseite, über Github Pages deployed und gebaut und per HTTPS ausgeliefert. Wen man sich nicht an der _github.io_-Subdomain stört ist man schon fertig. Wie folgt wäre damit der
+Jekyll auf Github Pages unterstützt eine Reihe von Themen, nicht alle. Das hier - Minimal Mistakes - wird erstmal nicht unterstützt. Aber Minimal Mistakes kann so konfiguriert werden, daß es auch unter Github Pages läuft. Das ist alles schon vorbereitet und im Quickstart Guide beschrieben. Dazu muß dann doch das ganze Theme gecloned werden. Die Anpassungen von vorher - Theme als Ruby Gem, das die Default Theme Dateien mit den lokalen überschreibt - sind nicht umsonst. Einfach die angepaßten Dateien in die entsprechenden Theme Ordner kopieren. Dann alles commiten und pushen. Im Github-Repository in die Settings gehen und die Github Pages aktivieren und dabei angeben, welcher Branche ausgeliefert werden soll. Und voilà, fertig ist die Webseite, über Github Pages deployed und gebaut und per HTTPS ausgeliefert. Wen man sich nicht an der _github.io_-Subdomain stört ist man schon fertig. Wie folgt wäre damit der
 
 ## Workflow #2
 
@@ -76,7 +76,7 @@ Der Account bei Cloudflare ist schnell angelegt. Dann muß man die Top Level Dom
 
 Damit sind auch schon die Hauptprobleme dieser Lösung genannt. Wenn man bei seinem Hoster die Nameserver-Einträge einer Domain nicht ändern darf, funktioniert diese Lösung nicht. Das war bei mir der Fall. Auf der Hauptdomain läuft mein [YOURLS](https://yourls.org/){:target="_blank"} und ich möchte nur eine Subdomain über das CDN ausliefern. 
 
-Die Möglichkeiten, die man mit Cloudflare hat, sehen sehr gut aus bis hin zu einem SSL Zertifikat bei Cloudflare für die Domain, aber mit den Vorraussetzungen ist das keine Möglichkeit für mich.
+Die Möglichkeiten, die man mit Cloudflare hat, sehen sehr gut aus bis hin zu einem SSL Zertifikat bei Cloudflare für die Domain, aber mit den Voraussetzungen die Domain betreffend ist das keine Möglichkeit für mich.
 
 Also weiter auf der Suche nach einer Möglichkeit, eine Subdomain über ein CDN incl. HTTPS auszuliefern. Erstaunlicherweise habe ich die Lösung dann erst nach langem Suchen und quasi per Zufall gefunden. Sie wurde in einem Beitrag eher nebenher erwähnt.
 
@@ -88,8 +88,8 @@ Meine Subdomain zeigt per CNAME-Eintrag auf das netlify-CDN. Dann noch per Klick
 
 ### Vorschau
 
-Lokal kann ich mir natürlich meine Seite immernoch bauen, aber da ich ja auch von unterwegs deployen will, brauche ich eine Möglichkeit der Vorschau eines Builds. Dazu kommt noch, daß ich den Master als _protected branch_ gesetzt habe.
-Weil: um eine kleine Sicherheit gegen einen Push in den Master einzubauen, habe ich den Master bei Githb geschützt, so daß er nur noch mit Pull Requests incl. vorherigem Review aktualisiert werden kann. Ich schreibe und pushe in anderen Branches und wenn eine neuer Release ansteht, erstelle ich auf Github einen Pull Request und merge dann. Wenn man Git Admin ist, darf man den Review auch überschreiben ;-) 
+Lokal kann ich mir natürlich meine Seite immernoch bauen, aber da ich ja auch von unterwegs deployen will, brauche ich die Möglichkeit der Vorschau eines Builds. Dazu kommt noch, daß ich den Master als _protected branch_ gesetzt habe.
+Weil: um eine kleine Sicherheit gegen einen Push in den Master einzubauen, habe ich den Master bei Github geschützt, so daß er nur noch mit Pull Requests incl. vorherigem Review aktualisiert werden kann. Ich schreibe und pushe in anderen Branches und wenn eine neuer Release ansteht, erstelle ich auf Github einen Pull Request und merge dann. Wenn man Git Admin ist, darf man für den eigenen Pull Request auch den Review schreiben ;-) 
 Und die Vorschau? Dafür gibt es ganz einfach die Deploy Preview bei netlify. Für jeden Pull Request in den Master bei Github erstellt netlify automatisch eine Deploy Preview unter einer _netlify.com_-Subdomain. Somit kann man alle Änderungen, bevor sie in den Master gemerged werden, noch einmal kontrollieren. Sehr gutes Feature.
 Nur ein kleines Problem dabei: in der __config.yml_ ist ja die `url` der Seite hinterlegt, mit der natürlich alle Links der Seite gebaut werden. Das heißt für die Vorschau, daß die erste Seite zwar funktioniert, aber die Links von der Seite wegführen und die Assets können auf den Unterseiten nicht eingebunden werden (die Same-Origin-Policy verhindert die Einbindung von Ressourcen, die von einer anderen Domain kommen). Nicht so schön für eine Vorschau. Nach kurzem Suchen finde ich schnell die Abhilfe dafür, nämlich
 
@@ -118,5 +118,5 @@ Dafür benutze ich diese Apps auf einem Android Smartphone:
 
 ## Ergebnis
 
-Ich hab mir einen statisches Seiten Deployment mit Github und CDN für eine Jekyll-Seite zusammenkonfiguriert. Der Workflow erlaubt ein mobiles Deployment inklusive Seitenvorschau. Alles was man braucht, um konfortabel eine kleine Blog-Seite zu pflegen. Die Einrichtung von zusätzlichen Funktionalitäten wie eine Kommentarfunktion über [Staticman](https://staticman.net/){:target="_blank"}, reCaptcha für die Kommentare, die einfachen Themeanpassungen haben mich schon soweit überzeugt. Ich bin gespannt, wie alles im benutzen funktionieren wird. 
+Ich hab mir einen statisches Seiten Deployment mit Github und CDN für eine Jekyll-Seite zusammenkonfiguriert. Der Workflow erlaubt ein mobiles Deployment inklusive Seitenvorschau. Alles was man braucht, um konfortabel eine kleine Blog-Seite zu pflegen. Die Einrichtung von zusätzlichen Funktionalitäten wie eine Kommentarfunktion über [Staticman](https://staticman.net/){:target="_blank"}, reCaptcha für die Kommentare, die einfachen Theme-Anpassungen haben mich schon soweit überzeugt. Ich bin gespannt, wie alles im benutzen funktionieren wird. 
 
