@@ -116,6 +116,10 @@ a {
     @extend %tab-focus;
   }
 
+  &.image-popup:focus {
+    outline: none;
+  }
+
   &:hover,
   &:active {
     outline: 0;
