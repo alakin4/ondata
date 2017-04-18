@@ -5,6 +5,11 @@ author_profile: true
 layout: single-rnb
 rnotebook: rnb-r-starter.Rmd
 excerpt: "Es waren einmal Zahlen und die lebten in R. Ein kleiner Überblick über Typen, Zuweisung, Ausgabe, Operationen und Indizierung in R. Und ein Test für die Formatierung von R Notebooks - angelegt in RStudio - zur Darstellung mit Jekyll."
+header:
+        image: /assets/images/header/head_spree2.jpg
+        caption: "&copy; [Kral • Photography](https://kral-photography.com)"
+image:
+        twitter: /assets/images/header/head_spree2_b.jpg
 date: 2017-04-08 01:12:46 +02:00
 last_modified_at: 2017-04-14 13:30:39 +02:00
 tags: r howto notebook
