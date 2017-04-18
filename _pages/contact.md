@@ -1,7 +1,6 @@
 ---
 permalink: /kontakt/
 title: "Kontakt"
-date: 2017-03-16 
 last_modified_at: 2017-03-16T21:42:07+01:00 
 excerpt: "Hier gibt es die Kontaktierungsmöglichkeiten und andere Verbindungen."
 ads: false
