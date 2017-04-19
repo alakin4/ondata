@@ -45,6 +45,7 @@ en: &DEFAULT_EN
   comment_error_msg          : "Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again."
   comment_cancel_reply       : "Cancel reply"
   loading_label              : "Loading..."
+  permalink_label            : "Permalink"
   january                    : January
   february                   : February
   march                      : March
@@ -111,6 +112,7 @@ es: &DEFAULT_ES
   comment_error_msg          :
   comment_cancel_reply       :
   loading_label              :
+  permalink_label            : 
 es-ES:
   <<: *DEFAULT_ES
 es-CO:
@@ -162,6 +164,7 @@ fr: &DEFAULT_FR
   comment_error_msg          : "Désolé, une erreur est survenue lors de la soumission. Vérifiez que les champs obligatoires ont été remplis et réessayez."
   comment_cancel_reply       :
   loading_label              : "Chargement..."
+  permalink_label            : 
 fr-FR:
   <<: *DEFAULT_FR
 fr-BE:
@@ -214,6 +217,7 @@ tr: &DEFAULT_TR
   comment_error_msg          : "Maalesef bir hata oluştu. Lütfen zorunlu olan tüm alanları doldurduğunuzdan emin olun ve sonrasında tekrar deneyin."
   comment_cancel_reply       :
   loading_label              : "Yükleniyor..."
+  permalink_label            : 
 tr-TR:
   <<: *DEFAULT_TR
 
@@ -262,6 +266,7 @@ pt: &DEFAULT_PT
   comment_error_msg          : "Lamento, ocorreu um erro na sua submissão. Por favor verifique se todos os campos obrigatórios estão corretamente preenchidos e tente novamente."
   comment_cancel_reply       :
   loading_label              : "A carregar..."
+  permalink_label            : 
 # Brazilian Portuguese
 pt-BR:
   page                       : "Página"
@@ -306,6 +311,7 @@ pt-BR:
   comment_error_msg          :
   comment_cancel_reply       :
   loading_label              :
+  permalink_label            : 
 pt-PT:
   <<: *DEFAULT_PT
 
@@ -354,6 +360,7 @@ it: &DEFAULT_IT
   comment_error_msg          : "C'è stato un errore con il tuo invio. Assicurati che tutti i campi richiesti siano stati completati e riprova."
   comment_cancel_reply       :
   loading_label              : "Caricamento..."
+  permalink_label            : 
 it-IT:
   <<: *DEFAULT_IT
 
@@ -402,6 +409,7 @@ zh: &DEFAULT_ZH
   comment_error_msg          : "很抱歉，您的提交存在错误。请确保所有必填字段都已填写正确，然后再试一次。"
   comment_cancel_reply       :
   loading_label              : "正在加载..."
+  permalink_label            : 
 zh-CN:
   <<: *DEFAULT_ZH
 zh-HK:
@@ -452,6 +460,7 @@ zh-TW:
   comment_error_msg          : "抱歉，部份資料輸入有問題。請確認資料填寫正確後再試一次。"
   comment_cancel_reply       :
   loading_label              : "載入中..."
+  permalink_label            : 
 
 # German / Deutsch
 # -----------------
@@ -498,6 +507,7 @@ de: &DEFAULT_DE
   comment_error_msg          : "Ups, es gab einen Fehler. Bitte alle benötigten Felder ausfüllen  und noch einmal versuchen."
   comment_cancel_reply       : "Doch nicht"
   loading_label              : "Lade..."
+  permalink_label            : "Permalink"
   january                    : Januar
   february                   : Februar
   march                      : März
@@ -568,6 +578,7 @@ ne: &DEFAULT_NE
   comment_error_msg          : "माफ गर्नुहोस्, तपाईंको टिप्पणी त्रुटि थियो।सबै आवश्यक जानकारीहरु पूरा गरिएको छ भने निश्चित गर्नुहोस् र फेरि प्रयास गर्नुहोस्।"
   comment_cancel_reply       :
   loading_label              : "लोड हुँदैछ ..."
+  permalink_label            : 
 ne-NP:
   <<: *DEFAULT_NE
 
@@ -616,6 +627,7 @@ ko: &DEFAULT_KO
   comment_error_msg          : "댓글 등록에 문제가 있습니다. 필요 필드를 작성했는지 확인하고 다시 시도하세요."
   comment_cancel_reply       :
   loading_label              : "로딩중..."
+  permalink_label            : 
 ko-KR:
   <<: *DEFAULT_KO
 
@@ -664,6 +676,7 @@ ru: &DEFAULT_RU
   comment_error_msg          : "К сожалению, произошла ошибка с отправкой комментария. Пожалуйста, убедитесь, что все обязательные поля заполнены и попытайтесь снова."
   comment_cancel_reply       :
   loading_label              : "Отправка..."
+  permalink_label            : 
 ru-RU:
   <<: *DEFAULT_RU
 
@@ -707,6 +720,7 @@ lt: &DEFAULT_LT
   comment_success_msg        : "Ačiū už komentarą! Jis bus parodytas kai bus patvirtintas."
   comment_error_msg          : "Atleiskite, įvyko netikėta klaida įrašant komentarą. Pasitikrinkite ar užpildėte visus būtinus laukus ir pamėginkite dar kartą."
   loading_label              : "Kraunama..."
+  permalink_label            : 
 lt-LT:
   <<: *DEFAULT_LT
 
