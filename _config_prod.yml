@@ -36,5 +36,5 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
-  - _posts/__replace_rnb.md
+  - _posts/__notes.md
   - robots.txt
