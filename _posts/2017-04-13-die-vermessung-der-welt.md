@@ -4,8 +4,8 @@ title:  "Die Daten von Früher: Die Vermessung der Welt"
 date: 2017-04-13 18:17:32 +02:00
 last_modified_at: 2017-04-18 13:01:14 +02:00 
 excerpt: "Die Ausstellung **[FOKUS: ERDE - Von der Vermessung unserer Welt](http://www.hbpg.de/Ausstellung_Fokus-Erde.html)** in Potsdam. Mindestens seit den astronomischen Berechnungen der Maya wird die Welt vermessen und Daten aufgezeichnet und analysiert. Und nicht erst Computer machen aufwendige und genaue Berechnungen möglich. Daten gibt es also schon sehr lange."
-categories: news
-tags: data nature world
+categories: news data
+tags: blog writing measurement nature world 
 header:
     image: /assets/images/posts/170413-fokus-erde-09_von_drygalski_antarktis_1902_pr_header.jpg
     title: "Erich von Drygalski mit Kleintheodolit die Mittagshöhe nehmend, Antarktis 17.09.1902 (&copy; Leibniz-Institut für Länderkunde, Leipzig)"
