@@ -2,8 +2,13 @@
 permalink: /warum-einen-datenblog-schreiben/
 title:  "Warum? Einen Blog schreiben?"
 date:   2017-04-09 15:33:09 +0100
-last_modified_at: 2017-04-12 23:43:55 +02:00 
+last_modified_at: 2017-04-20 01:12:58 +02:00 
 excerpt: "Eine kurze Überlegung. Unsere Daten, digitale Abbilder und viel zu lernen. Und hier darüber schreiben."
+header:
+        image: /assets/images/header/head_gruen2.jpg
+        caption: "&copy; [Kral • Photography](https://kral-photography.com)"
+image:
+        twitter: /assets/images/header/head_gruen2_b.jpg
 categories: news data
 tags: writing learning blog life
 ---
