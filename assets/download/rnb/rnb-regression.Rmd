@@ -1,0 +1,92 @@
+---
+title: "Regression in R"
+output:
+  html_notebook:
+    code_folding: none
+    df_print: kable
+    highlight: pygments
+    theme: flatly
+    toc: yes
+  html_document:
+    highlight: pygments
+    keep_md: yes
+---
+
+## Regression
+
+Statistische Auswertungen drehen sich ganz oft darum, aus den Werten der Vergangenheit ein Model zu erstellen, mit dem ich den Verlauf von bestimmten Variablen in der Zukunft voraus sagen kann. Eine Möglichkeit der Modellbildung ist die Lineare Regression. 
+
+Für eine gegebene Anzahl von Werten $Y=f(X)$ möchte man dabei die Funktion $f(X)$ herausfinden. $Y$ ist die -- von den unabhängigen Variablen in der Funktion $f(X)$ -- abhängige Variable. Die Funktion $f(X)$ besteht aus einer liniearen Gleichung unabhängiger Variablen. Bei der Linearen Regression wird eine Gerade durch die Punkte $[X,Y]$ gelegt. Für die Gerade gilt $Y=\beta X + \alpha$. Dabei ist $\alpha$ der Offset, bei dem die Gerade die Y-Achse schneidet ($X=0$). $\beta$ ist die Steigung der Gerade. Da wir nur die $[X,Y]$-Koordinaten der Punkte haben, muß man eine Möglichkeit der Bewertung der Güte der Geraden haben. Dazu gibt es mehrere Verfahren, eines davon ist, die Abstände der Punkte zur Geraden über alle Punkte zu minimieren, z.B. mit Hilfe der Methode der kleinsten Quadrate. Das alles noch theoretischer nachlesen kann man [hier bei Wikipedia](https://de.wikipedia.org/wiki/Lineare_Regression#Einfache_lineare_Regression){:target="_blank"}.  
+
+## Das Model - Capital Asset Pricing Model
+
+In dem Kurs wurde das alles am Beispiel des Capital Asset Pricing Models berechnet. Dabei soll die zukünftige Auschüttung einer Versicherung anhand der Wertentwicklung in der Vergangenheit vorhergesagt werden. Die Formel zur Bewertung einer Versicherung ist wie folgt:
+
+$$
+R_i = R_{riskfree} + \beta_i (R_{market} - R_{riskfree})
+$$
+
+Die Ausschüttung ergibt sich aus dem risikofreien Anteil $R_{riskfree}$ und dem risikobehafteten Anteil, der Ausschüttung des Marktes $R_{market}$ oberhalb dem risikofreien Anteil $R_{riskfree}$ multipliziert mit $\beta_i$, dem Risiko der Versicherung im Vergleich zum Markt. $\beta_i$ ist gesucht. Umgestellt nach $\beta_i$ zeigt die Gleichung:
+
+$$
+\beta_i = \frac{(R_i - R_{riskfree})}{(R_{market} - R_{riskfree})}
+$$
+
+Um Werte zu erhalten, kann man diese einfach von Yahoo Finance herunterladen. Als Aufgabe sollte das $\beta$ von Google berechnet werden. Dazu werden als erstes die historischen Werte des Google Index (GOOG) für die letzten 5 Jahre por Monat heruntergeladen. Man erhält dann eine CSV-Datei, die man in R einlesen kann. Als Market-Werte wird der NASDAQ Composite (^IXIC) verwendet. Für denselben Zeitraum hier die historischen Werte herunterladen. Dann noch als risikofreie Vergleichswerte die Werte von Schatzbriefen nehmen -- hier Treasury Yield 5 Years (^FVX).
+
+Diese Dateien werden eingelesen und in der Funktion +preProcess+ vorverarbeitet.
+
+```{r}
+# Bewertete Versicherung: Google
+googFile <- '/home/holgre/Data/Kurse/Learn By Example - Statistics and Data Science in R/12 Linear Regression in Excel/goog-100101-170101-table.csv'
+# Market-Werte: Nasdaq
+nasdaqFile <-'/home/holgre/Data/Kurse/Learn By Example - Statistics and Data Science in R/12 Linear Regression in Excel/ixic-100101-170101-table.csv'
+## Risikofreie Schatzbriefe: TBonds
+tbondsFile <-'/home/holgre/Data/Kurse/Learn By Example - Statistics and Data Science in R/12 Linear Regression in Excel/fvx-100101-170101-table.csv'
+
+preProcess <-function(googFile,nasdaqFile,tbondsFile){
+  # Es werden nur die Spalten Datum (Date) und Schlußwert (Adj.Close) verwendet
+  goog <- read.table(googFile,header =TRUE, sep =",")[,c("Date","Adj.Close")]
+  # Die Spalte Adj.Close mit einem eindeutigen Namen versehen
+  names(goog)[2]<-"goog.price"
+  # Date-Werte sind Strings -> umwandeln in Datumsformat 
+  goog[,c("Date")] <-as.Date(goog[,c("Date")])
+  nasdaq <- read.table(nasdaqFile,header =TRUE, sep =",")[,c("Date","Adj.Close")]
+  names(nasdaq)[2]<-"nasdaq.price"
+  nasdaq[,c("Date")] <-as.Date(nasdaq[,c("Date")])
+  # Tabellen mergen mit dem Datum als Index
+  goog <-merge(goog, nasdaq, by ="Date")
+  goog[,c("Date")] <-as.Date(goog[,c("Date")])
+  # Tabelle ordnen
+  goog <-goog[order(goog$Date, decreasing =TRUE),]
+  # Aus den Schlußwerten Returns berechnen indem zeilenweise der alte Wert vom neuen abgezogen wird 
+  goog[-nrow(goog),-1] <-goog[-nrow(goog),-1]/goog[-1,-1]-1
+  # Spalten neu benennen
+  names(goog)[2:3]<-c("goog.returns","nasdaq.returns")
+  # letzte Zeile verwerfen, da dafür der Subtrahent fehlt 
+  goog <-goog[-nrow(goog),]
+  # Mit den risikofreien Werten dasselbe durchführen
+  tbonds <- read.table(tbondsFile,header =TRUE, sep =",")[,c("Date","Adj.Close")]
+  names(tbonds)[2]<-"tbonds.returns"
+  tbonds[,c("Date")] <-as.Date(tbonds[,c("Date")])
+  goog <-merge(goog, tbonds, by="Date")
+  # Werte in Prozent umrechnen
+  goog$tbonds.returns <-goog$tbonds.returns/100
+  # von beiden Spalten google und nasdaq die tbonds-Werte abziehen.
+  goog[,c("goog.returns","nasdaq.returns")] <-goog[,c("goog.returns","nasdaq.returns")]-goog[,"tbonds.returns"]
+  # NA-Werte: Wenn Werte fehlen, werden sie durch den Mittelwert erwetzt
+  goog[,"goog.returns"][is.na(goog[,"goog.returns"])] <-mean(goog[,"goog.returns"])
+  return(goog)
+}
+# Dateien vorbereiten
+goog <-preProcess(googFile,nasdaqFile,tbondsFile)
+# lm - lineares Modell für Regression berechnen
+# NA-Werte: na.omit (default), na.exclude, na.fail
+googM <-lm(goog$goog.returns~goog$nasdaq.returns, na.action = na.omit)
+# Ergebnisse des linearen Modells ausgeben
+summary(googM)
+plot(goog$goog.returns~goog$nasdaq.returns,xlab="Nasdaq Returns",ylab="Google Returns")
+abline(googM)
+```
+
+
