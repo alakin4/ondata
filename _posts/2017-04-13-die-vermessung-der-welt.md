@@ -33,7 +33,7 @@ gallery:
 
 ## Geodäsie in Potsdam
 
-[![image-left](www.gfz-potsdam.de/uploads/pics/FokusErde.png){: .align-left style="width:150px;" alt="FOKUS: ERDE - Von der Vermessung unserer Welt" title="FOKUS: ERDE - Von der Vermessung unserer Welt"}](http://www.gfz-potsdam.de/uploads/pics/FokusErde.png){: title="FOKUS: ERDE - Von der Vermessung unserer Welt"}
+[![image-left](www.gfz-potsdam.de/uploads/pics/FokusErde.png){: .align-left style="width:150px;" alt="FOKUS: ERDE - Von der Vermessung unserer Welt" title="FOKUS: ERDE - Von der Vermessung unserer Welt"}](www.gfz-potsdam.de/uploads/pics/FokusErde.png){: title="FOKUS: ERDE - Von der Vermessung unserer Welt"}
 
 Die aktuelle **Ausstellung zur Geschichte** der Geodäsie in Potsdam. 1870 wird das Königlich-Preußische Geodätische Institut in Berlin gegründet und später auf den Telegrafenberg nach Potsdam zieht. Geodäsie ist die Wissenschaft von der Vermessung und Abbildung der Erde. Seit damals werden hier also Daten über die Welt gesammelt. Ausgestellt sind viele der wissenschaftlichen Präzissionsapparate, mit denen damals versucht wurde, so genau wie mögliche die Erde zu vermessen. Am beeindruckendsten zu sehen an den verschiedenen Pendelinstrumenten zur Messung der Fallbeschleunigung der Schwerkraft auf der Erde und den Basisinstrumenten zur genauen Vermessung großer Landflächen.
 
