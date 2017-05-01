@@ -96,4 +96,4 @@ googRLM <-rlm(goog$goog.returns~goog$nasdaq.returns)
 abline(googRLM, lty ='dashed',col='deepskyblue')
 ```
 
-Regressionsmethoden, die nach der Methode der kleinsten Quadrate verfahren, sind nicht robust gegenüber Ausreißern. Hier kann die robuste Regression angewendet werden, bei der der Einfluß von Ausreißern nicht so stark beachtet wird und so diese Schwäche der klassischen Verfahren umgehen. Dies kann z.B. über die Berechnung eines M-Schätzers unter Verwendung des IWLS-Algorithmus (iterated re-weighted least squares) wie in der Funktion rlm() geschehen.
+Regressionsanalysen, die die Methode der kleinsten Quadrate verwenden, sind nicht robust gegenüber Ausreißern. D.h. Ausreißer können das Ergebnis der Regression stark beeinflußen. Hier kann die Robuste Regression angewendet werden, bei der die Ausreißer das Ergebnis nicht so stark ins Gewicht fallen und so diese Schwäche der klassischen Verfahren umgange wird. Dies kann z.B. über die Berechnung eines M-Schätzers unter Verwendung des IWLS-Algorithmus (iterated re-weighted least squares) wie in der Funktion rlm() geschehen.
