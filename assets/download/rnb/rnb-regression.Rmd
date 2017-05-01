@@ -84,13 +84,16 @@ preProcess <-function(googFile,nasdaqFile,tbondsFile){
 }
 # Dateien vorbereiten
 goog <-preProcess(googFile,nasdaqFile,tbondsFile)
-# lm - lineares Modell für Regression berechnen
+# lm - lineares Modell für Regression berechnen 
 # NA-Werte: na.omit (default), na.exclude, na.fail
 googM <-lm(goog$goog.returns~goog$nasdaq.returns, na.action = na.omit)
 # Ergebnisse des linearen Modells ausgeben
 summary(googM)
 plot(goog$goog.returns~goog$nasdaq.returns,xlab="Nasdaq Returns",ylab="Google Returns")
 abline(googM)
+# Robuste Regression, um den Einfluß der Ausreißer zu verringern
+googRLM <-rlm(goog$goog.returns~goog$nasdaq.returns)
+abline(googRLM, lty ='dashed',col='deepskyblue')
 ```
 
-
+Regressionsmethoden, die nach der Methode der kleinsten Quadrate verfahren, sind nicht robust gegenüber Ausreißern. Hier kann die robuste Regression angewendet werden, bei der der Einfluß von Ausreißern nicht so stark beachtet wird und so diese Schwäche der klassischen Verfahren umgehen. Dies kann z.B. über die Berechnung eines M-Schätzers unter Verwendung des IWLS-Algorithmus (iterated re-weighted least squares) wie in der Funktion rlm() geschehen.
