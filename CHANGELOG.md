@@ -1,3 +1,24 @@
+## Unreleased
+
+### Bug Fixes
+
+- Toggle close button on `mouseleave`. [#975](https://github.com/mmistakes/minimal-mistakes/issues/975)
+
+### Maintenance
+
+- Add mention of Greek localized UI text strings to theme documentation. [#972](https://github.com/mmistakes/minimal-mistakes/pull/972)
+
+## [4.4.1](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.4.1)
+
+### Enhancements
+
+- Add Greek localized UI text strings. [#958](https://github.com/mmistakes/minimal-mistakes/pull/958)
+
+### Bug Fixes
+
+- Fix `video` helper to load Vimeo videos over https. [#945](https://github.com/mmistakes/minimal-mistakes/pull/945)
+- Fix close menu button that was removed when updating Greedy navigation script. [#969](https://github.com/mmistakes/minimal-mistakes/issues/969)
+
 ## [4.4.0](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.4.0)
 
 ### Enhancements
