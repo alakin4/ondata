@@ -97,3 +97,27 @@ abline(googRLM, lty ='dashed',col='deepskyblue')
 ```
 
 Regressionsanalysen, die die Methode der kleinsten Quadrate verwenden, sind nicht robust gegenüber Ausreißern. D.h. Ausreißer können das Ergebnis der Regression stark beeinflußen. Hier kann die Robuste Regression angewendet werden, bei der die Ausreißer das Ergebnis nicht so stark ins Gewicht fallen und so diese Schwäche der klassischen Verfahren umgange wird. Dies kann z.B. über die Berechnung eines M-Schätzers unter Verwendung des IWLS-Algorithmus (iterated re-weighted least squares) wie in der Funktion rlm() geschehen.
+
+## Bewertung der Daten
+
+Wie ich finde, ist das eines der wichtigsten Themen: die Bewertung der Daten, die man zur Berechnung der Regression verwendet. Man kann ziemlich viel mit Statistik und der Darstellung von Ergebnissen und Auswertungen anstellen. Man kann Sachverhalte genauso verdeutlichen wie verschleiern oder die Interpretation und Wahrnehmung der Ergebnisse in bestimmte Richtungen lenken. Daher hier ein kurzer Blick auf eine der Möglichkeiten, mit der man die Eignung der Daten für eine Regression bewerten kann.
+Mit `plot()` kann man 4 Diagnose-Plots der Residuen der Regressionsdaten ausgeben.
+
+```{r}
+plot(googM)
+```
+
+Damit die Daten sich für eine Regression eignen, müssen sie folgenden Annahmen genügen.
+
+### Annahme 1: Die Residuen sind normalverteilt
+
+Um diese Annahme zu überprüfen, kann man sich den Plot _Normal Q-Q_ anschauen, einen Quantil-Quantil-Plot. Quantilen sind Punkte, die den sortierten Datensatz in gleichfroße Gruppen einteilen. Eine Quartile teilt den Datensatz z.B. in vier gleichgroße Gruppen. Die Idee ist, das, wenn die Quantilen zweier Datensätze gleich sind, sie die gleiche Verteilung haben. Wenn sie die gleiche Verteilung haben, dann müßten die Punkte auf der Linie $Y=X$ liegen. Der Q-Q-Plot trägt die Quantilen der Residuen unserer Daten über den Quantilen der Normalverteilung auf. Wie man sieht, liegen die Werte bis auf ein paar Ausreißer ganz gut auf der Linie $Y=X$. Genaueres über einen Q-Q-Plot kann man [hier bei Wikipedia](https://de.wikipedia.org/wiki/Quantil-Quantil-Diagramm){:target="_blank"} nachlesen. 
+
+### Annahme 2: Die Varianz der Residuen ändert sich nicht entlang der Regressionslinie
+
+Zum Einschätzen dienen hier die Plots _Residuals vs Fitted_ und _Scale-Location_. Im letzteren Plot sind die Residuen standartisiert. Das bedeutet, daß ihre Verteilung der Standardnormalverteilung entspricht (Mittelwert = 0, Standardabweichung = 1). Um die Annahme zu überprüfen, schaut man sich die beiden Plots an und schätzt ein, ob der Bereich, in dem die Werte liegen, konstant bleibt und in seiner Größe nicht variiert. Die beiden Plots zeigen, daß die Bereiche ungefähr konstant bleiben und sich daher die verwendeten Werte gut für die Regression eignen.
+
+Mit Hilfe des letzten Plots _Residuals vs Leverage_ kann man abschätzen, ob einige Punkte -- wie z.B. Ausreißer -- größeren Einfluß auf das Regressionsergebnis haben als andere. Näheres zu Cook's Distance wieder [hier bei Wikipedia](https://en.wikipedia.org/wiki/Cook%27s_distance){:target="_blank"}. Liegen Datenpunkte jenseits der mit 0.5 gekennzeichneten gestrichelten Linie, dann müssen diese näher untersucht werden.  
+
+
+
