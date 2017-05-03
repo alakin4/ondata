@@ -33,16 +33,16 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
-  - _posts/__replace_rnb.md
+  - _posts/__notes.md
 
-  # HTML Compression
+# HTML Compression
 # - http://jch.penibelst.de/
 compress_html:
   clippings: all
-  comments:
-  endings: all
+  comments: ["<!-- ", " -->"]
+  endings: []
   ignore:
     envs: [local]
   blanklines: true
   profile: false
-  startings: [html, head, body]
+  startings: []

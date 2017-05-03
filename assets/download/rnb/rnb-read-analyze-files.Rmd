@@ -1,0 +1,121 @@
+---
+title: "R: Read files and analyze the data"
+output:
+  html_notebook:
+    code_folding: none
+    df_print: kable
+    highlight: pygments
+    theme: flatly
+    toc: yes
+  html_document:
+    highlight: pygments
+    keep_md: yes
+---
+
+## Daten einlesen
+
+Um einmal das Einlesen von Daten zu demonstrieren, wurden in dem R-Kurs die daten von movielens.org verwendet. Kurz dazu ein Auszug aus der README, dann sieht man, wozu die Daten verwendet wurden und werden.
+
+> MovieLens data sets were collected by the GroupLens Research Project at the University of Minnesota.
+> 
+> This data set consists of:
+>
+> * 100,000 ratings (1-5) from 943 users on 1682 movies. 
+> * Each user has rated at least 20 movies. 
+> * Simple demographic info for the users (age, gender, occupation, zip)
+> 
+> The data was collected through the MovieLens web site (movielens.umn.edu) during the seven-month period from September 19th, 1997 through April 22nd, 1998. This data has been cleaned up - users who had less than 20 ratings or did not have complete demographic information were removed from this data set. Detailed descriptions of the data file can be found at the end of this file.
+
+Hier wird nur die User-Datei _u.user_ verwendet. Daran kann man einfache statistische Berechnungen durchführen und ein bißchen in R spielen.
+
+Als erstes werden die Daten aus der Datei in einen dataframe eingelesen und, um sie zu untersuchen, verschiedene Kennwerte und Daten aufgerufen.
+
+```{r}
+# Dateihandle zuweisen
+u.user <- "/mnt/veracrypt1/Data/Kurse/Learn By Example - Statistics and Data Science in R/10 Lists and Data Frames/DataframesSourceCode/movielens data/u.user"
+# Header benennen
+header <- c("userId","age","gender","occupation","zipCode")
+# Daten in eine Tabelle einlesen
+userInfo <- read.table(u.user,header = FALSE, sep ="|", quote = "\"'",col.names = header)
+# Die Tabelle ist ein dataframe
+class(userInfo)
+head(userInfo,10)
+# Abrufen von Tabellenzellen
+userInfo[2:5,1:2]
+userInfo[2:5,c(1,3:4)]
+userInfo$age[1:10]
+class(userInfo$gender)
+length(levels(userInfo$occupation))
+levels(userInfo$occupation)
+```
+
+## Gruppierungen und Ranges
+
+Um zu bestimmen, in welchen Bereichen die Daten liegen, werden sie summiert oder gruppiert. Um sie später nach Altersgruppern zu clustern, werden Intervalle angelegt.
+
+```{r}
+table(userInfo$occupation)
+table(userInfo$gender)
+range(userInfo$age)
+# Tabelle nach Altersbereichen clustern
+bins <- seq(5,75,by=10)
+intervals <- cut(userInfo$age,bins,right=FALSE)
+```
+
+## Intervalle und Vorkommen
+
+Hier werden die in den Intervallen liegenden Daten untersucht.
+
+```{r}
+# Vorkommen in den Intervallen ist hier mal ausgeklammert
+#intervals
+table(intervals)
+class(intervals)
+# Legende für die Datenintervalle
+namesInt <- paste("I", c(1:7), sep="")
+legendInt <- data.frame(names(table(intervals)),namesInt)
+names(legendInt) <- c("interval","name")
+intervals <- cut(userInfo$age,bins,labels=namesInt,right=FALSE)
+# Vorkommen des Alters in den Intervallen
+ageFrame <- data.frame(intervals,userInfo$age)
+ageFrame
+names(ageFrame) <- c("I","Age")
+ageFrame
+# mal schauen, was der Table-Befehl hier macht
+# Schon eine spannende Ausgabe: Vorkommen des einzelnen Alters in den Intervallen
+table(ageFrame)
+# Vorkommen nach Geschlecht
+genderFrame <- data.frame(intervals,userInfo$gender)
+names(genderFrame) <- c("I","Gender")
+genderFrame
+table(genderFrame)
+```
+
+## Daten plotten
+
+In R gibt es ziemlich viele Möglichkeiten, Daten grafisch auszugeben, wie ich beim Ausprobieren gesehen habe. Hier kann man einmal die Verteilung in den Altersintervallen nach Geschlecht sehen. Dann einmal einen Box-Plot der Verteilung des Alters der Teilnehmer in den Altersintervallen, was wahrscheinlich weniger sinnvoll ist. Und einen Box-Plot der Verteilung des Alters für Frauen und Männer.  
+
+```{r}
+# Legende für
+legendInt
+plot(table(genderFrame), type ="h", main = "Gender Histogram", xlab = "Intervals", ylab = "Male/Female" )
+hist(userInfo$age,breaks = bins)
+bwplot(Age ~ I, data = ageFrame,xlab = "Age from...to", ylab = "Age",main = "Age of participants")
+gender2Frame <- data.frame(userInfo$age,userInfo$gender)
+names(gender2Frame) <- c("Age","Gender")
+boxplot(Age ~ Gender, data = gender2Frame,xlab = "Gender", ylab = "Age",main = "Gender of participants")
+```
+
+## Zusammenfassende Statistik ausgeben
+
+Hier werden zusammenfassende statistische Werte mit der aggregate-Funktion für Bereiche des dataframes ausgegeben. 
+
+```{r}
+aggregate(age ~ gender, userInfo, mean)
+aggregate(age ~ gender + occupation, userInfo, mean)
+occupationCounts <- aggregate(userId ~ occupation, userInfo, length)
+head(occupationCounts[order(occupationCounts$userId, decreasing = TRUE),],3)
+```
+
+
+

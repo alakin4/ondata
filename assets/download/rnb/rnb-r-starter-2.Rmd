@@ -1,0 +1,53 @@
+---
+title: "R: Starter 2"
+output:
+  html_notebook:
+    code_folding: none
+    df_print: kable
+    highlight: pygments
+    theme: flatly
+    toc: yes
+  html_document:
+    highlight: pygments
+    keep_md: yes
+---
+
+## Listen
+
+Listen sind so etwas wie eine Vektor, nur das eine Liste Daten verschiedener Datentypen aufnehmen kann. Die folgende Liste besteht aus Strings, Zahlen und Vektoren. Der Liste kann ein Namens-Vektor zugeordnet werden, dessen Daten als Schlüssel der einzelnen Datenfelder verwendet werden kann.
+
+```{r}
+familie <- list("Mama","Papa", c("Kid1","Kid2","Kid3"),3,c(4,5,7))
+names(familie) <- c("Mutter","Vater","Kinder","Wieviele Kinder","Alter der Kinder")
+familie[1]
+familie[[1]]
+familie$Mutter
+```
+
+## Dataframes
+
+Dataframes sind so ähnlich wie Matrizen und bestehen aus Vektoren mit Daten verschiedener Datentypen. Dataframes können über eine Variable zusammengeführt -- gemerged -- werden. Das entspricht in etwa einem JOIN in SQL.
+
+```{r}
+particleNames <- c("Alice","Bob","Cora","Dave","Emma","Frank")
+types <- c("Photon","Photon","Neutron","Proton","Elektron","Photon")
+spins <- c(120, 108, 98, 45, 115, 100)
+particleInfo <- data.frame(particleNames, types, spins)
+particleInfo
+head(particleInfo,3)
+nrow(particleInfo)
+ncol(particleInfo)
+names(particleInfo)
+rownames(particleInfo)
+colnames(particleInfo)
+dim(particleInfo)
+
+# Merge Dataframes
+df1 <- data.frame(custId = 1:3, custName = c("John","Janis","James"))
+df1
+df2 <- data.frame(custId = 1:3, custAge = c(36,36,26))
+df2
+df3 <- merge(df1, df2, by="custId")
+df3
+```
+

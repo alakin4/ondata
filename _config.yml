@@ -41,7 +41,7 @@ yandex_site_verification :
 # Social Sharing
 twitter:
   username               : HolgerKral
-og_image                 : "/assets/images/header/head_natur1.jpg"  # Open Graph/Twitter default site image
+og_image                 : "/assets/images/header/head_natur1_b.jpg"  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -66,7 +66,7 @@ author:
   avatar           : "/assets/images/avatar_s.jpg"
   bio              : "lerning all about data"
   location         : "Berlin"
-  email            :
+  email            : "developer4223@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -123,7 +123,7 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
-  - _posts/__replace_rnb.md
+  - _posts/__notes.md
 keep_files:
   - .git
   - .svn
@@ -193,13 +193,12 @@ whitelist:
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
-  endings: all
+  endings: []
   ignore:
     envs: [local]
   blanklines: false
   profile: false
-  startings: [html, head, body]
-
+  startings: []
 
 # Defaults
 defaults:

@@ -97,15 +97,32 @@ blockquote {
   padding-left: 1em;
   padding-right: 1em;
   font-style: italic;
-  border-left: 0.25em solid $primary-color;
+  border-left: 0.25em solid $light-gray;
 
   cite {
     font-style: italic;
 
-    &:before {
+    ul, ol {
+      margin-top: -1em;
+    }
+
+    ul li, ol li {
+      margin-bottom: 0;
+    }
+
+    p, ul li, ol li {
+      font-style: normal;
+      font-family: $citation;
+      font-weight: 100;
+      font-size: $type-size-65 !important;
+      color: $gray;
+    }
+
+
+    /*&:before {
       content: "\2014";
       padding-right: 5px;
-    }
+    }*/
   }
 }
 
