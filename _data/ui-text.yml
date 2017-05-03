@@ -22,6 +22,7 @@ en: &DEFAULT_EN
   comments_title             : "Comments"
   more_label                 : "Learn More"
   related_label              : "You May Also Enjoy"
+  related_posts              : "Related posts"
   follow_label               : "Follow:"
   feed_label                 : "Feed"
   powered_by                 : "Powered by"
@@ -89,6 +90,7 @@ es: &DEFAULT_ES
   comments_title             :
   more_label                 : "Ver más"
   related_label              : "Podrías ver también"
+  related_posts              :
   follow_label               : "Seguir:"
   feed_label                 : "Feed"
   powered_by                 : "Powered by"
@@ -140,6 +142,7 @@ fr: &DEFAULT_FR
   comments_title             :
   more_label                 : "Lire plus"
   related_label              : "Vous pourriez aimer aussi"
+  related_posts              :
   follow_label               : "Contact"
   feed_label                 : "Flux"
   powered_by                 : "Propulsé par"
@@ -194,6 +197,7 @@ tr: &DEFAULT_TR
   comments_title             : "Yorumlar"
   more_label                 : "Daha fazlasını öğrenin"
   related_label              : "Bunlar ilginizi çekebilir:"
+  related_posts              :
   follow_label               : "Takip et:"
   feed_label                 : "RSS"
   powered_by                 : "Emeği geçenler: "
@@ -243,6 +247,7 @@ pt: &DEFAULT_PT
   comments_title             : "Comentários"
   more_label                 : "Saber mais"
   related_label              : "Também pode gostar de"
+  related_posts              :
   follow_label               : "Siga:"
   feed_label                 : "Feed"
   powered_by                 : "Feito com"
@@ -288,6 +293,7 @@ pt-BR:
   comments_title             :
   more_label                 : "Aprenda Mais"
   related_label              : "Você Talvez Goste Também"
+  related_posts              :
   follow_label               : "Acompanhe em"
   feed_label                 : "Feed"
   powered_by                 : "Feito com"
@@ -337,6 +343,7 @@ it: &DEFAULT_IT
   comments_title             :
   more_label                 : "Scopri di più"
   related_label              : "Potrebbe Piacerti Anche"
+  related_posts              :
   follow_label               : "Segui:"
   feed_label                 : "Feed"
   powered_by                 : "Powered by"
@@ -386,6 +393,7 @@ zh: &DEFAULT_ZH
   comments_title             : "评论"
   more_label                 : "了解更多"
   related_label              : "猜您还喜欢"
+  related_posts              :
   follow_label               : "关注:"
   feed_label                 : "Feed"
   powered_by                 : "技术来自于"
@@ -437,6 +445,7 @@ zh-TW:
   comments_title             : "留言內容"
   more_label                 : "了解更多"
   related_label              : "猜您有與趣"
+  related_posts              :
   follow_label               : "追蹤:"
   feed_label                 : "RSS Feed"
   powered_by                 : "Powered by"
@@ -484,6 +493,7 @@ de: &DEFAULT_DE
   comments_title             : "Kommentare"
   more_label                 : "Mehr anzeigen"
   related_label              : "Ihnen gefällt vielleicht auch"
+  related_posts              : "Verwandte Artikel"
   follow_label               : "Folgen:"
   feed_label                 : "Feed"
   powered_by                 : "Powered by"
@@ -555,6 +565,7 @@ ne: &DEFAULT_NE
   comments_title             : "टिप्पणीहरू"
   more_label                 : "अझै सिक्नुहोस्"
   related_label              : "तपाईं रुचाउन सक्नुहुन्छ "
+  related_posts              :
   follow_label               : "पछ्याउनुहोस्:"
   feed_label                 : "फिड"
   powered_by                 : "Powered by"
@@ -604,6 +615,7 @@ ko: &DEFAULT_KO
   comments_title             : "댓글"
   more_label                 : "더 보기"
   related_label              : "참고"
+  related_posts              :
   follow_label               : "팔로우:"
   feed_label                 : "피드"
   powered_by                 : "Powered by"
@@ -653,6 +665,7 @@ ru: &DEFAULT_RU
   comments_title             : "Комментарии"
   more_label                 : "Читать далее"
   related_label              : "Вам также может понравиться"
+  related_posts              :
   follow_label               : "Связаться со мной:"
   feed_label                 : "RSS-лента"
   powered_by                 : "Сайт работает на"
@@ -702,6 +715,7 @@ lt: &DEFAULT_LT
   comments_title             : "Komentaras"
   more_label                 : "Skaityti daugiau"
   related_label              : "Taip pat turėtų patikti"
+  related_posts              :
   follow_label               : "Sekti:"
   feed_label                 : "Šaltinis"
   powered_by                 : "Sukurta su"
@@ -746,6 +760,7 @@ gr: &DEFAULT_GR
   comments_title             : "Σχόλια"
   more_label                 : "Μάθετε περισσότερα"
   related_label              : "Θα σας ενδιέφερε ακόμη"
+  related_posts              :
   follow_label               : "Ακολουθήστε:"
   feed_label                 : "Feed"
   powered_by                 : "Powered by"

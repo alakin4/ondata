@@ -14,7 +14,7 @@ date: 2017-04-25 18:41:22 +02:00
 last_modified_at: 2017-05-03 00:35:37 +02:00 
 tags: learning r variable structure
 categories: language data
-related: false
+related: true
 ---
 
 <div class="fluid-row" id="header">
