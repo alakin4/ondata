@@ -1,10 +1,13 @@
 # PRODUCTION config
 title                    : "ONDATA"
-url                      : "https://ondata.hokr.us" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://ondata.work" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-enforce_ssl              : "ondata.hokr.us"
+enforce_ssl              : "ondata.work"
 
 # exclude robots.txt for production
+include:
+  - _pages
+  - _redirects
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -33,7 +36,7 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
-  - _posts/2017-03-17-ein-erstes-r-notebook.md
-  - _posts/2017-03-10-welcome-to-jekyll.md
-  - _posts/__replace_rnb.md
+  - _posts/__notes.md
   - robots.txt
+
+google_site_verification : 1TwKH7c-QhYqXsr6rCuld0ck3tE6BQvFVn-SCaBzNzY

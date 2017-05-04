@@ -1,0 +1,179 @@
+---
+title: "R Starter"
+output:
+  html_notebook:
+    code_folding: none
+    df_print: kable
+    highlight: pygments
+    theme: flatly
+    toc: yes
+  html_document:
+    highlight: pygments
+    keep_md: yes
+---
+
+## R lernen
+
+Ich bin bei [XDA Developers](https://depot.xda-developers.com/){:target="_blank"} auf einige Online Kurse über Machine Learning gestoßen. Und da ich darüber schon immer mehr wissen wollte und neuer Kopf-Input gerade anstand, habe ich angefangen den Kurs zu schauen. Ich erinnerte mich außerdem, während des US Wahlkampfs diesen spannenden Artikel [Text analysis of Trump's tweets confirms he writes only the (angrier) Android half](http://varianceexplained.org/r/trump-tweets/){:target="_blank"} von _David Robinson von Stack Overflow_ gelesen zu haben. Das wollte ich auch können. Also war es an der Zeit, das ganz alte Statistik-Wissen zu reanimieren und einzusteigen. Der Artikel ist nur eine Sammlung der ersten Tutorials über die Grundlagen von R -- Variablen, Ein- und Ausgabe, Operationen. Eigentlich eher für mich als Wiederholung geschrieben. Und: Fast alles wird heute mit Torten und Balken begründet und wir _glauben_, sobald wir eine begründete Grafik sehen. Ich denke mal, da sollte man sie auch selbst herstellen können.
+
+## Variablen: Zuweisung und Ausgabe
+
+Die ersten Schritte im Umgang mit etwas Neuem sollten immer beginnen mit: Wie mache ich es an, wie mache ich es aus. Bei einer Programmiersprache wäre das dann: Wie gebe ich etwas ein, wie gebe ich etwas aus. Und zum Ausgeben braucht man ein Ding genannt Variable. Daher fange ich damit an. Wie werden Variablen initialisiert, wie weise ich ihnen einen Wert zu und wie gebe ich sie dann aus.
+Als erstes die Initialisierung von Variablen und die Wertezuweisung mit =, -> oder <-. Und natürlich deren Ausgabe.
+
+```{r}
+eineVariable = 32
+andereVariable <- 27
+18.7 -> dritteVariable
+eineVariable
+andereVariable
+dritteVariable
+eineVariable
+eineVariable + andereVariable
+print(dritteVariable)
+firstVar <- secondVar <- "komisch"
+cat(firstVar, ",", secondVar, " - sind beide gleich -", sep = " ")
+aMessage = paste(firstVar, "-","das ist dasselbe wie", secondVar, sep = " ")
+message(aMessage)
+```
+
+## Datentypen
+
+Integer und Long, Character und String, Datum und Bool. 
+
+```{r}
+ichBinInteger <- 4L
+is.integer(ichBinInteger)
+ichBinAuchInteger <- as.integer(3+5)
+class(ichBinAuchInteger)
+is.numeric(ichBinInteger)
+is.integer(ichBinAuchInteger)
+ichBinBuchstabe <- "any string"
+class(ichBinBuchstabe)
+nchar(ichBinBuchstabe)
+ichBinDatum <- as.Date("2016-02-17 00:29")
+ichBinDatum
+class(ichBinDatum)
+as.numeric(ichBinDatum)
+ichBinAuchDatum <- as.Date("2016-02-14 00:29")
+ichBinDatum-ichBinAuchDatum
+class(ichBinDatum-ichBinAuchDatum)
+as.numeric(ichBinDatum-ichBinAuchDatum)
+iAmTrue <- TRUE
+class(iAmTrue)
+iAmLogical <- 2 != 3
+iAmLogical
+iCompareCharacters <- "Red" > "Blue"
+iCompareCharacters
+```
+
+## Vektoren: Zuweisung¸ Arithmetik und Indizierung
+
+Alles in R ist in gewisser Weise eine Liste, eine Reihe von Daten. Ein Vektor kann Elemente unterschiedlicher Datentypen beinhalten. Und ganz wichtig: Die Indizierung der Elemente beginnt bei 1. 
+
+```{r}
+simpleSequence <- 1:12
+simpleSequence
+evenNumberSequence <- 2*1:6
+evenNumberSequence
+repeatSequence <- rep(evenNumberSequence, times = 2, length.out = 20, each = 3)
+repeatSequence
+generalSequence <- seq(from = -5, to = 10, by = 0.2)
+generalSequence
+vec1 <- c(247, 350, "Test", TRUE, 600)
+mode(vec1)
+typeof(vec1)
+vec2 <- numeric(5)
+vec2
+vec3 <- c(vec2, vec1)
+vec3
+vec10 <- c(1, 5, 10, 20, 50, 100, 500)
+vec20 <- c(0, 30)
+for(i in vec10) {
+  vec20 <- c(vec20 , i*30)
+}
+vec20
+vec30 <- c(5, 5, 5, 6, 2, 2, 2)
+vec40 <- vec30 * vec10
+vec40
+vec50 <- vec40 + c(100,0)
+vec50
+seq1 <- 1:4
+seq1 == 2
+stringSeq <- c("A", "B", "C", "D", "E", "F", "G", "H")
+funkySeq <- paste(stringSeq, seq1, sep="")
+funkySeq
+meineSeq <- 3*1:5
+meineSeq[rep(c(1,3), times = 5)]
+meineSeq[c(-3, -4)]
+names(meineSeq) <- c("A","B","C","D","E")
+meineSeq[c("A","C")]
+```
+
+## Arrays
+
+Ein Array ist eine Vektor, dessen Werte in den Dimensionen des Arrays angeordnet sind. Das kann man sich so vorstellen, das z.B. bei einem 2-dimensionalen Array dieses mit den Werten des Vektors beginnend bei dem Element _links oben_ zuerst die Zeilen (row) nach unten gefüllt werden und dann in die nächste Spalte (col) nach oben gesprungen wird und diese zeilenweise aufgefüllt wird. 
+
+```{r}
+arr1 <- array(c(1:12), dim = c(3,2,2))
+arr1
+arr2 <- array(c(1,0) , dim = c(2,3))
+arr2
+arr1[2,2,1]
+arr1[2:3,,1]
+indexArray <- array (c(1:2), dim=c(2,3))
+indexArray
+arr1[indexArray]
+index2Array <- array (c(2,3,2,1,1,2), dim=c(2,3))
+index2Array
+arr1[index2Array]
+a <- array(1:6, dim = c(2,3))
+b <- array(7:12, dim = c(2,3))
+a * b
+# outer product
+A <- array(1:18, dim = c(3,2,3))
+B <- array(19:36, dim = c(2,3,3))
+A
+B
+AB <- A %o% B
+dim(AB)
+```
+
+## Matrizen
+
+Matrizen sind 2-dimensionale Arrays mit besonderen Möglichkeiten. Lineare Gleichungen lassen sich z.B. mit Matrizenarithmetik lösen.
+
+```{r}
+aMatrix <- matrix(c(2*1:3, 3*1:3), nrow = 2, ncol = 3)
+aMatrix
+# Transponieren
+anotherMatrix <- t(aMatrix)
+# Matrizenmultiplikation
+aMatrix %*% anotherMatrix 
+# Kreuzprodukt von A, B == t(A) %*% B
+crossprod(aMatrix,2*1:2)
+```
+
+
+## Faktoren
+
+Ein Vektor kann in Faktoren, den Gruppen gleicher Werte, zerlegt werden. Das ist vergleichbar einem `GROUP BY` in SQL.
+
+```{r}
+stadt <- c("Berlin", "Dresden", "Hamburg", "Berlin", "Berlin", "Hamburg", "Dresden")
+kategorie <- c("Bekleidung", "Schuhe", "Kosmetik", "Kosmetik", "Schuhe", "Bekleidung", "Bekleidung")
+betrag <- c(5000, 4500, 3500, 2500, 1000, 2000, 5500)
+stadtAsFaktor <- factor(stadt)
+print(stadtAsFaktor)
+as.numeric(stadtAsFaktor)
+levels(stadtAsFaktor)
+levels(stadtAsFaktor) <- c("BER", "DRE", "HAM")
+stadtCodeFaktor <- factor(stadtAsFaktor, labels=c("B", "D", "H"))
+print(stadtCodeFaktor)
+table(stadt)
+tapply(betrag, kategorie, sum)
+```
+
+
+
+

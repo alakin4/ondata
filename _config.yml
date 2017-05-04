@@ -12,11 +12,10 @@ title_separator          : "×"
 name                     : "dev4223"
 email                    : "developer4223@gmail.com"
 description              : > # this means to ignore newlines until "url:"
-  "Daten. Das Leben wird durch die Daten bestimmt und wir können bestimmen, welche Daten wir
-    preisgeben und wie wir sie preisgeben. Wir können sogar bestimmen, wie diese Daten verarbeitet werden. Das zum Lernen. Und hier darüber berichten."
-url                      : "https://ondata.hokr.us" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+  Daten. Überall sind Daten. Lernen, wo und wie sie leben. Und hier darüber schreiben.
+url                      : "https://ondata.work" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-enforce_ssl              : "ondata.hokr.us"
+enforce_ssl              : "ondata.work"
 repository               : "dev4223/ondata" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : false # true, false (default)
@@ -24,7 +23,7 @@ words_per_minute         : 200
 comments:
   provider               : "staticman" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
 staticman:
-  branch                 : "develop"
+  branch                 : "master"
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
@@ -42,7 +41,7 @@ yandex_site_verification :
 # Social Sharing
 twitter:
   username               : HolgerKral
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/images/header/head_natur1_b.jpg"  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -64,10 +63,10 @@ analytics:
 # Site Author
 author:
   name             : "dev4223"
-  avatar           : "/assets/images/avatar.jpg"
+  avatar           : "/assets/images/avatar_s.jpg"
   bio              : "lerning all about data"
   location         : "Berlin"
-  email            :
+  email            : "developer4223@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -124,9 +123,7 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
-  - _posts/2017-03-17-ein-erstes-r-notebook.md
-  - _posts/2017-03-10-welcome-to-jekyll.md
-  - _posts/__replace_rnb.md
+  - _posts/__notes.md
 keep_files:
   - .git
   - .svn
@@ -195,9 +192,13 @@ whitelist:
 # - http://jch.penibelst.de/
 compress_html:
   clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: []
   ignore:
-    envs: development
-
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
 
 # Defaults
 defaults:
@@ -213,6 +214,7 @@ defaults:
       comments: false
       share: true
       related: false
+      rnotebook: false
       header:
         image: /assets/images/header/head_spree1.jpg
         caption: "&copy; [Kral • Photography](https://kral-photography.com)"

@@ -17,13 +17,13 @@ comments:
   # When allowedOrigins is defined, only requests sent from one of the domains
   # listed will be accepted. The origin is sent as part as the `options` object
   # (e.g. <input name="options[origin]" value="http://yourdomain.com/post1")
-  allowedOrigins: ["localhost","ondata.local","ondata.hokr.us","develop--ondata.netlify.com","post-preview--ondata.netlify.com"]
+  allowedOrigins: ["localhost","ondata.local","ondata.work","0ndata.de","develop.ondata.work","post-preview.ondata.work","ondata.hokr.us"]
 
   # (*) REQUIRED
   #
   # Name of the branch being used. Must match the one sent in the URL of the
   # request.
-  branch: "develop"
+  branch: "master"
 
   commitMessage: "new comment"
 
@@ -61,7 +61,7 @@ comments:
   #   type: "comment"
 
   # Name of the site. Used in notification emails.
-  name: "ONDATA (ondata.hokr.us)"
+  name: "ONDATA (ondata.work)"
 
   # Notification settings. When enabled, users can choose to receive notifications
   # via email when someone adds a reply or a new comment. This requires an account
@@ -70,15 +70,18 @@ comments:
     # Enable notifications
     enabled: true
 
+    # FROM email address
+    fromAddress: "Thank you <no-reply@ondata.work>"
+
     # (!) ENCRYPTED
     #
     # Mailgun API key
-    apiKey: "k/+GKCF8WssCHQcg+T6M1sKf6zWS8vfu1XzB4XKkxM2DTafr9A77om6UGE06GijObeMg9I542cn+eapoJJi5ZEYwgUUG8BFZoqd98cvHuFgPtXTxpCR+rmkksuOFnrce2VRF17WiXmXeUUdPjK/K1oHEQw69Sz94pa9LCT/BOBk="
+    apiKey: "DnpXyoKtPwAV3Nw9SHfSnMZC2/C/TjsfMCFhPuxtVZ8U2Zmr3hg3y7bcSDFebCQe34VCROmyGEoBHN6Wxe0OcVBRBroOHPAdnjZeEfWzWheNMwU8Mh1Vv6VXC6LMIbGmJWZCMmtqTp+HzIvNPgRmAwkczhHji6FXRmU8h11kaqY="
 
     # (!) ENCRYPTED
     #
     # Mailgun domain (encrypted)
-    domain: "LTLO/Ybey1xzUbJH4zH5dDrlwSb1yexbc74bSVJZxj6vCGnHsjd0qR/WeIty95qUqrygnYgqDogdKs2Mzjkbd8t+rACbEj4yztDFOcLsz0j3zp7utCg60j3mRheT5RL0jjOD9xyYPEMAHesj5XQ9I9oINvOCAGaooilDZeIJIFY="
+    domain: "m5YFgo53LNny4kThT9bCmn6QyeFeFXrVJn8/Xyn1peXXqaMa0f4zNRcW/7WxpFo0jfYgJFTZElzY45SaYKsyXn9f3gS14Po11louqtkROEsYv2zezlEebv6adoqMic8JSNCAvYkBrysrePzf1+uS5Yvl2YnGz1y370SVV07bG0o="
 
   # (*) REQUIRED
   #

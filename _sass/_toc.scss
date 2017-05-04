@@ -1,0 +1,73 @@
+/* ==========================================================================
+   TABLE OF CONTENTS
+   ========================================================================== */
+
+.toc.accordion-toc {
+  box-shadow: none;
+  margin-top: 1.3em;
+  overflow: hidden;
+  input[type="checkbox"] {
+    display: none;
+  }
+
+  label {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+    margin-bottom: 0;
+    z-index: 99;
+
+    &:hover {
+      border-color: #333;
+    }
+  }
+
+  .nav__title {
+    border-radius: $border-radius;
+
+    i.fa {
+      font-weight: 100;
+
+      &:before, &:after {
+        -webkit-transform-origin: 50% 50%;
+            -ms-transform-origin: 50% 50%;
+                transform-origin: 50% 50%;
+      }
+    }
+  }
+
+  input:checked + label i.fa {
+    transform: rotate(45deg);
+  }
+}
+
+.toc .toc__menu {
+  position: relative;
+  margin: 0;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  z-index: 10;
+  transition: 0.2s linear;
+  transform: translate(0, 0);
+}
+
+.toc input:checked ~ .toc__menu {
+  transition: 0.3s linear;
+  max-height: 100vh;
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.toc.flyout-toc {
+  box-shadow: none;
+  margin-top: 1.3em;
+  overflow: hidden;
+}
+
+.toc .toc__menu.toc_flyout {
+  max-height: inherit;
+  opacity: 1;
+}
