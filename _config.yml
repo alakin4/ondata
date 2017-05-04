@@ -255,7 +255,7 @@ pagination:
 autopages:
   enabled      : true
   categories:
-    enabled    : false
+    enabled    : true
     layouts:
       - "archive-taxonomy.html"
     title      : ":category" # :category is replaced by the category name
@@ -265,7 +265,7 @@ autopages:
   tags:
     enabled    : true
     layouts:
-      - "archive-taxonomy.html"
+      - "autopage_tags.html"
     title      : ":tag" # :tag is replaced by the tag name
     permalink  : "/tag/:tag"
 
