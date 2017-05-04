@@ -2,7 +2,7 @@
 permalink: /tags/
 title: "Tag Index"
 last_modified_at: 2017-05-04 19:39:46 +02:00 
-excerpt: "Post-Tags sortiert nach Häufigkeit."
+excerpt: "Post-Tags alphabetisch sortiert."
 ads: false
 share: false
 sitemap: false

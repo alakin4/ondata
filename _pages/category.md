@@ -2,7 +2,7 @@
 permalink: /categories/
 title: "Kategorie Index"
 last_modified_at: 2017-05-04 19:39:46 +02:00 
-excerpt: "Post-Kategorien."
+excerpt: "Post-Kategorien alphabetisch sortiert."
 ads: false
 share: false
 sitemap: false
