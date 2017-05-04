@@ -237,11 +237,11 @@ defaults:
 # Tags, Archives
 category_archive:
   type: jekyll-archives
-  path: /categories/
+  path: /category/
   label: Categories
 tag_archive:
   type: jekyll-archives
-  path: /tags/
+  path: /tag/
   label: Tags
 jekyll-archives:
   enabled:
@@ -251,8 +251,8 @@ jekyll-archives:
     category: archive-taxonomy
     tag: archive-taxonomy
   permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
+    category: /category/:name/
+    tag: /tag/:name/
 
 # Archives
 #  Type
