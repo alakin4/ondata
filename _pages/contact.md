@@ -1,13 +1,13 @@
 ---
 permalink: /kontakt/
 title: "Kontakt"
-last_modified_at: 2017-03-16T21:42:07+01:00 
+last_modified_at: 2017-05-06 00:47:00 +02:00 
 excerpt: "Hier gibt es die Kontaktierungsmöglichkeiten und andere Verbindungen."
 ads: false
 share: false
 author: true
 ---
-
+<br />
 Kurze Nachrichten gern [via Twitter](https://twitter.com/HolgerKral){:target="_blank"} senden. Oder auch [per Email](mailto:developer4223@gmail.com){:target="_blank"}. Manchmal bin ich auch auf anderen Kanälen zu erreichen.
 
 Ich fotografiere und die Bilder gibt es dann meist kurze Zeit später [hier](https://kral-photography.com){:target="_blank"} und die mobilen Bilder machmal [hier](https://hym-on-tour.holgerkral.de){:target="_blank"} zu sehen.

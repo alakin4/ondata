@@ -1,10 +1,20 @@
 ---
-permalink: /tag/
+permalink: /tags/
 title: "Tag Index"
 last_modified_at: 2017-05-04 19:39:46 +02:00 
-excerpt: "Post-Archiv sortiert nach Tag-Häufigkeit."
+excerpt: "Post-Tags alphabetisch sortiert."
+ads: false
 share: false
+sitemap: false
+author: false
+author_profile: false 
+header:
+    image: /assets/images/header/head_datanature_06.jpg
+    caption: "&copy; [Kral • Photography](https://kral-photography.com)"
+image:
+    twitter: /assets/images/header/head_datanature_06_b.jpg
 ---
+
 <ul class="tag__list">
   {% assign sorted_tags = site.tags | sort_tags_by_name %}
   {% for tag in sorted_tags %}

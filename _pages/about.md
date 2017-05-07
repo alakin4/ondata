@@ -1,6 +1,11 @@
 ---
 title: Über
 permalink: /uber/
+excerpt: "Kurze Antworten auf Fragen, ein merkwürdiges Bild und ein Schlüssel."
+last_modified_at: 2017-05-06 00:47:00 +02:00 
+ads: false
+share: false
+author: true
 header:
     image: /assets/images/header/head_natur1.jpg
     caption: "&copy; [Kral • Photography](https://kral-photography.com)"
