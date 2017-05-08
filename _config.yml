@@ -164,11 +164,7 @@ sass:
 #permalink: /:title/
 permalink: /:categories/:title/
 
-# jekyll-paginate
-#paginate: 20 # amount of posts to show
-paginate_path: "/legacy/page:num/"
 timezone: "Europe/Berlin" # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
 
 # Plugins
 gems:
@@ -234,22 +230,22 @@ defaults:
         image: /assets/images/header/head_coffee.jpg
         caption: "&copy; [Kral • Photography](https://kral-photography.com)"
 
-
 # PAGINATE v2
-
-# Pagination: You are running jekyll-paginate backwards compatible pagination logic. Please ignore all earlier warnings displayed related to the old jekyll-paginate gem.
-# Pagination: Detected legacy jekyll-paginate logic running. Please update your configs to use the jekyll-paginate-v2 logic. This compatibility function will stop working after Jan 1st 2018 and your site build will throw an error.
-
 # Plugin: Pagination (jekyll-paginate-v2)
 pagination:
   enabled      : true
   debug        : false
   per_page     : 20
-  permalink    : "/page/:num/"
-  title        : ":title - Page :num of :max"
+  collection   : 'posts'
+  permalink    : "/:num/"
+  title        : '„:title“ <span class="archive__taxonomy_header_small">Seite :num von :max</span>'
   limit        : 0
-  sort_field   : "date"
+  sort_field   : "last_modified_at"
   sort_reverse : true
+  category     : 'posts'
+  trail: 
+    before: 1000 # The number of links before the current page
+    after: 1000  # The number of links after the current page
 
 # Plugin: Auto Pages (jekyll-paginate-v2)
 autopages:
@@ -257,8 +253,8 @@ autopages:
   categories:
     enabled    : true
     layouts:
-      - "archive-taxonomy.html"
-    title      : ":category" # :category is replaced by the category name
+      - "autopage_categories.html"
+    title      : '„:category“' # :category is replaced by the category name
     permalink  : "/category/:category"
   collections:
     enabled    : false
@@ -266,18 +262,27 @@ autopages:
     enabled    : true
     layouts:
       - "autopage_tags.html"
-    title      : ":tag" # :tag is replaced by the tag name
+    title      : '„:tag“' # :tag is replaced by the tag name
     permalink  : "/tag/:tag"
 
-# Tags, Archives
-#category_archive:
-#  type: jekyll-archives
-#  path: /category/
-#  label: Categories
-#tag_archive:
-#  type: jekyll-archives
-#  path: /tag/
-#  label: Tags
+# Archives: Tags, Categories
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: jekyll-archives
+  path: /category/
+  label: Categories
+tag_archive:
+  type: jekyll-archives
+  path: /tag/
+  label: Tags
 #jekyll-archives:
 #  enabled:
 #    - categories
@@ -288,32 +293,3 @@ autopages:
 #  permalinks:
 #    category: /category/:name/
 #    tag: /tag/:name/
-
-# Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
-#category_archive:
-#  type: liquid
-#  path: /categories/
-#tag_archive:
-#  type: liquid
-#  path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
-
