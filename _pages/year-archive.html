@@ -4,20 +4,24 @@ permalink: /year-archive/
 title: "Posts nach Jahren"
 author_profile: true
 sitemap: false
+pagination:
+    enabled: true
 ---
 
 {% capture written_year %}'None'{% endcapture %}
-{% for post in site.posts %}
+{% for post in paginator.posts %}
   {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
   {% if year != written_year %}
-    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
+    <h3 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h3>
     {% capture written_year %}{{ year }}{% endcapture %}
   {% endif %}
   {% include archive-single.html %}
 {% endfor %}
-<br /><br />
+{% include paginator.html %}
+<br />
+<hr class="cf" />
+<br />
 <h1 id="tags" class="page__title">Post-Tags sortiert nach Häufigkeit</h1>
-<hr />
 <ul class="tag__list">
   {% assign sorted_tags = site.tags | sort_tags_by_name %}
   {% for tag in sorted_tags %}

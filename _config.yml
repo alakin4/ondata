@@ -67,7 +67,7 @@ author:
   bio              : "lerning all about data"
   location         : "Berlin"
   email            : "developer4223@gmail.com"
-  uri              :
+  uri              : "http://ondata.work/uber/"
   bitbucket        :
   codepen          :
   dribbble         :
@@ -133,7 +133,6 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Conversion
 theme: minimal-mistakes-jekyll
-markdown: kramdown
 highlighter: rouge
 lsi: false
 truncatewords: 80
@@ -143,6 +142,7 @@ incremental: false
 
 
 # Markdown Processing
+markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
@@ -163,7 +163,6 @@ sass:
 # Outputting
 #permalink: /:title/
 permalink: /:categories/:title/
-
 timezone: "Europe/Berlin" # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins
@@ -238,7 +237,7 @@ pagination:
   per_page     : 20
   collection   : 'posts'
   permalink    : "/:num/"
-  title        : '„:title“ <span class="archive__taxonomy_header_small">Seite :num von :max</span>'
+  title        : ':title <span class="archive__taxonomy_header_small">Seite :num von :max</span>'
   limit        : 0
   sort_field   : "last_modified_at"
   sort_reverse : true
@@ -254,8 +253,8 @@ autopages:
     enabled    : true
     layouts:
       - "autopage_categories.html"
-    title      : '„:category“' # :category is replaced by the category name
-    permalink  : "/category/:category"
+    title      : '„:cat“' # :category is replaced by the category name
+    permalink  : '/category/:cat'
   collections:
     enabled    : false
   tags:
@@ -263,7 +262,7 @@ autopages:
     layouts:
       - "autopage_tags.html"
     title      : '„:tag“' # :tag is replaced by the tag name
-    permalink  : "/tag/:tag"
+    permalink  : '/tag/:tag'
 
 # Archives: Tags, Categories
 #  Type
