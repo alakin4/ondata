@@ -54,6 +54,7 @@ $type-size-65               : 0.9em !default;   // ~12px
 $type-size-65emb            : 0.8em !default;   // ~12px
 $type-size-7                : 0.6875em !default; // ~11px
 $type-size-8                : 0.625em !default;  // ~10px
+$type-size-9                : 0.4em !default;  // ~8px
 
 
 /*
@@ -110,6 +111,8 @@ $link-color-visited         : mix(#fff, $link-color, 25%) !default;
 $masthead-link-color        : $primary-color !default;
 $masthead-link-color-hover  : mix(#000, $primary-color, 25%) !default;
 
+/* decoration */
+$decoration-color           : $link-color !default;
 
 /*
    Breakpoints

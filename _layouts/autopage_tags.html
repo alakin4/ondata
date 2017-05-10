@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{% assign taxonomy = page.autopages.display_name | downcase | slugify %}
+{% assign tag = site.data.taxonomy[taxonomy] %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <div class="archive">
+    <h1 class="page__title archive__taxonomy">Getagged mit {{ page.title }}</h1>
+    <div class="archive__taxonomy">
+    {% for post in paginator.posts %}
+      {% include archive-single.html %}
+    {% endfor %}
+    </div>
+    {% include paginator.html %}
+  </div>
+</div>
+
