@@ -1,8 +1,10 @@
 **CATS**
 news
 data
+tech
 language
 howto
+
 
 **TAGS**
 deployment
@@ -25,6 +27,7 @@ netlify
 world
 life
 nature
+future
 
 variable
 structure
