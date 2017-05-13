@@ -29,6 +29,8 @@
 
     i.fa {
       font-weight: 100;
+      background: none;
+      padding-bottom: 0;
 
       &:before, &:after {
         -webkit-transform-origin: 50% 50%;
