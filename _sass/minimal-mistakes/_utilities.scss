@@ -488,21 +488,27 @@ body:hover .visually-hidden button {
    Footnotes
    ========================================================================== */
 
-.footnote {
-  color: mix(#fff, $gray, 25%);
+.footnote,
+.footnotelist {
+  color: $info-color;
   text-decoration: none;
 }
 
-.footnotes {
-  color: mix(#fff, $gray, 25%);
+.footnotes,
+.footnotelist {
+  color: $middle-gray;
 
   ol, li, p {
     margin-bottom: 0;
-    font-size: $type-size-6;
+    font-size: $type-size-61;
+  }
+  p {
+    display: inline;
   }
 }
 
-a.reversefootnote {
+a.reversefootnote,
+.footnotelist a.backlink {
   color: $gray;
   text-decoration: none;
 
