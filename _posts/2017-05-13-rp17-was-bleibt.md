@@ -22,7 +22,7 @@ Nur kurz, damit man immer mal wieder nachlesen und vergangene Ereignisse einordn
 Als erstes ein Artikel in der Zeit über den [Bundestags-Hack 2015](http://www.zeit.de/2017/20/cyberangriff-bundestag-fancy-bear-angela-merkel-hacker-russland){:target="_blank"}. Allein schon wegen des Satzes ganz am Anfang: „... Die Techniker, erinnert sie sich, empfehlen ihr, sie solle ihren Rechner neu starten.“ Weil das _é_ nicht geht.
 Dann natürlich die Artikel über WannaCry. Einmal von Zammis Clark [„The worm that spreads WanaCrypt0r“](https://blog.malwarebytes.com/threat-analysis/2017/05/the-worm-that-spreads-wanacrypt0r/){:target="_blank"} und von Matt Suiche [„WannaCry — The largest ransom-ware infection in History“](https://blog.comae.io/wannacry-the-largest-ransom-ware-infection-in-history-f37da8e30a58){:target="_blank"} stellvertretend als Analyse der Ransomware und dann von [Marcus Hutchins aka MalwareTech](https://apnews.com/amp/dc60584d4b214f0fa6eb9ef88fdf46a7){:target="_blank"} [„How to Accidentally Stop a Global Cyber Attacks“](https://www.malwaretech.com/2017/05/how-to-accidentally-stop-a-global-cyber-attacks.html){:target="_blank"} über den kill switch des Ransomware-Programms in Form einer Domain, die einfach nur angemeldet werden mußte, um die weitere Ausbreitung wenigstens dieser Version zu verhindern. Und hier noch ein [Factsheet](https://gist.github.com/rain-1/989428fa5504f378b993ee6efbc0b168){:target="_blank"}.
 
-Ungefragt liefert mir die Realität damit einen guten Einstieg in meinen kurzen Rückblick auf die diesjährige re:publica.
+Ungefragt liefert mir die Realität damit einen guten Einstieg in meinen kurzen Rückblick auf die re:publica 2017.
 
 ## Von Algorithmen und Nebelwolken
 
@@ -30,20 +30,14 @@ Ungefragt liefert mir die Realität damit einen guten Einstieg in meinen kurzen 
 
 Die re:publica ist eindeutig zu groß. Oder zu interessant. Oder beides gleichzeitig, was es nicht besser macht. Wie also den Überblick bei über tausend Sessions nicht verlieren? Und nicht ständig entnervt sein, daß ich jetzt schon wieder zwei andere, wahrscheinlich noc spannendere Sessions verpasse? Natürlich habe ich mir vorher einen Plan gemacht. Alles zu Daten möchte ich hören, das sollte mein Leitfaden bei der Auswahl sein. Dann einmal durchs Programm und nach Überschrift ausgewählt. Am Schluß alles im Überblick angeschaut. Klar, das Ergebnis war, ich muß zwei bis drei Sessions gleichzeitig besuchen. Immer. Also nochmal durchs Programm und die, die von meiner Wichtung her nahe beieinander lagen, genauer anschauen, mit Teaser lesen und Autoren recherchieren. Gut, dadurch wird das ganz schon etwas eindeutiger. Bei einigen Sessions werde ich dann vor Ort entscheiden. Und woanders hingehen kann ich ja immernoch. Nächstes Jahr schreibe ich mir einen Algorithmus dafür. 
 
-Also dann, auf gehts, Montag morgen, Nieselregen, viele Menschen, für einen Tweet gibts den #arbeitenviernull-Bambus-Kaffeebecher samt Inhalt und auf in die erste Session. Es geht um eine Analyse des Facebook Algorithmen{% fn %} für den Newsfeed, die Auswertung eines zwei Jahre alten Datensatzes, weil das die einzigen Daten sind, an die man jetzt noch rankommt. Der Versuch, das Daten sammeln und auswerten nachzuvollziehen umd es beeinflussen zu können. Und gleich danach der Vortrag über die automatisierte Öffentlichkeit{% fn %}. Noch mehr über die Informationsflut, der wir uns ausetzen und der wir ausgesetzt sind. Und über das langsam keimende Bewußtsein, das es da etwas zu regulieren gibt. Weiter zum verläßlichen Journalismus u.a. mit Claus Kleber{% fn %}. Sozusagen die andere Seite der Daten, hier verantwortungsvoll und sehr rechercheaufwendig erstellt.
+Also dann, auf gehts, Montag morgen, Nieselregen, viele Menschen, für einen Tweet gibts den #arbeitenviernull-Bambus-Kaffeebecher samt Inhalt und auf in die erste Session. Es geht um eine Analyse des Facebook Algorithmen[^1] für den Newsfeed, die Auswertung eines zwei Jahre alten Datensatzes, weil das die einzigen Daten sind, an die man jetzt noch rankommt. Der Versuch, das Daten sammeln und auswerten nachzuvollziehen umd es beeinflussen zu können. Und gleich danach der Vortrag über die automatisierte Öffentlichkeit[^2]. Noch mehr über die Informationsflut, der wir uns ausetzen und der wir ausgesetzt sind. Und über das langsam keimende Bewußtsein, das es da etwas zu regulieren gibt. Weiter zum verläßlichen Journalismus u.a. mit Claus Kleber[^3]. Sozusagen die andere Seite der Daten, hier verantwortungsvoll und sehr rechercheaufwendig erstellt. 
 
 
-{% footnotes %}
-  {% fnbody %}
-    <p><a href="https://re-publica.com/17/session/mapping-facebooks-algorithmic-empire" target="_blank">Prof. Vladan Joler, Dr. Djordje Krivokapic, Dr. Ben Wagner, Dr. Julia Powles - Mapping Facebook's Algorithmic Empire</a></p>
-  {% endfnbody %}
-  {% fnbody %}
-    <p><a href="https://re-publica.com/17/session/automated-public-sphere" target="_blank">Prof. Dr. Frank Pasquale - The Automated Public Sphere</a></p>
-  {% endfnbody %}
-  {% fnbody %}
-    <p><a href="https://re-publica.com/17/session/fakes-leaks-und-desinformation-verlasslicher-journalismus-im-nachrichtensturm" target="_blank">Ralf Paniczek, Claus Kleber, Eva-Maria Lemke - Fakes, Leaks Und Desinformation - Verlässlicher Journalismus Im Nachrichtensturm</a></p>
-  {% endfnbody %}
-{% endfootnotes %}
+[^1]: <p><a href="https://re-publica.com/17/session/mapping-facebooks-algorithmic-empire" target="_blank">Prof. Vladan Joler, Dr. Djordje Krivokapic, Dr. Ben Wagner, Dr. Julia Powles - Mapping Facebook's Algorithmic Empire</a></p>
+[^2]: <p><a href="https://re-publica.com/17/session/automated-public-sphere" target="_blank">Prof. Dr. Frank Pasquale - The Automated Public Sphere</a></p>
+[^3]: <p><a href="https://re-publica.com/17/session/fakes-leaks-und-desinformation-verlasslicher-journalismus-im-nachrichtensturm" target="_blank">Ralf Paniczek, Claus Kleber, Eva-Maria Lemke - Fakes, Leaks Und Desinformation - Verlässlicher Journalismus Im Nachrichtensturm</a></p>
+
+
 
 
 Welche Vorträge habe ich besucht
@@ -58,6 +52,5 @@ Wir machen alle etwas darin, alle die auf der re:publica waren. Wir berechnen al
 Gut, auf der re:publica wird natürlich darüber gesprochen, über all das Neue, alle Gefahren und die jetzt schon spürbaren Auswirkungen.
 
 Naive Ahnungslosigkeit: Zumindest erscheint sie mir im Außenbild so. Und das Bild von verantwortlichen auf strukturell verantwortlichen Ebene erscheint immer so extrem naiv, bis zur schmerzhaften Dummheit, daß, nähme man dieses bildlich dargestellte Maß als Norm, diejenigen, die vor so etwas warnen, an dieser naiven Norm gemessen, wie völlig durchgeknallte Verschwörungstheoretiker wirken. Diese Attacke zu sehen, läßt einen fast schon aufatmen, weil damit endlich das Maß der Warnenden als Norm in der Realität von uns allen manifestiert wird. Dann vergleichen wir jetzt einfach mal die Norm der Naiven mit dieser neuen Norm.
-
 
 
