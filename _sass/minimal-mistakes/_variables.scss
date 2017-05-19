@@ -85,26 +85,27 @@ $danger-color               : #ee5f5b !default;
 $info-color                 : #52adc8 !default;
 
 /* brands */
-$behance-color              : #494e52 !default;
-$dribbble-color             : #494e52 !default;
-$facebook-color             : #494e52 !default;
-$flickr-color               : #494e52 !default;
-$foursquare-color           : #494e52 !default;
-$github-color               : #494e52 !default;
-$google-plus-color          : #494e52 !default;
-$instagram-color            : #494e52 !default;
-$lastfm-color               : #494e52 !default;
-$linkedin-color             : #494e52 !default;
-$pinterest-color            : #494e52 !default;
-$rss-color                  : #494e52 !default;
-$soundcloud-color           : #494e52 !default;
-$stackoverflow-color        : #494e52 !default;
-$tumblr-color               : #494e52 !default;
-$twitter-color              : #494e52 !default;
-$vimeo-color                : #494e52 !default;
-$vine-color                 : #494e52 !default;
-$youtube-color              : #494e52 !default;
-$xing-color                 : #494e52 !default;
+$social-color               : #494e52 !default;
+$behance-color              : $social-color;
+$dribbble-color             : $social-color;
+$facebook-color             : $social-color;
+$flickr-color               : $social-color;
+$foursquare-color           : $social-color;
+$github-color               : $social-color;
+$google-plus-color          : $social-color;
+$instagram-color            : $social-color;
+$lastfm-color               : $social-color;
+$linkedin-color             : $social-color;
+$pinterest-color            : $social-color;
+$rss-color                  : $social-color;
+$soundcloud-color           : $social-color;
+$stackoverflow-color        : $social-color;
+$tumblr-color               : $social-color;
+$twitter-color              : $social-color;
+$vimeo-color                : $social-color;
+$vine-color                 : $social-color;
+$youtube-color              : $social-color;
+$xing-color                 : $social-color;
 
 /* links */
 $link-color                 : $info-color !default;
