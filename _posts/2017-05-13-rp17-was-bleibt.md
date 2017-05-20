@@ -37,6 +37,37 @@ Also dann, auf gehts, Montag morgen, Nieselregen, viele Menschen, für einen Twe
 [^2]: <p><a href="https://re-publica.com/17/session/automated-public-sphere" target="_blank">Prof. Dr. Frank Pasquale - The Automated Public Sphere</a></p>
 [^3]: <p><a href="https://re-publica.com/17/session/fakes-leaks-und-desinformation-verlasslicher-journalismus-im-nachrichtensturm" target="_blank">Ralf Paniczek, Claus Kleber, Eva-Maria Lemke - Fakes, Leaks Und Desinformation - Verlässlicher Journalismus Im Nachrichtensturm</a></p>
 
+<p><a href="https://re-publica.com/17/session/macht-sprachbilder-politisches-framing-und-neurokognitive-kampagnenfuhrung" target="_blank">Elisabeth Wehling - Die Macht Der Sprachbilder – Politisches Framing Und Neurokognitive Kampagnenführung</a></p>
+
+<p><a href="https://re-publica.com/17/session/daten-fruher-und-heute-zukunft-nutzen" target="_blank">Ulrike Prange, Uwe Schindler - Daten Von Früher Und Heute Für Die Zukunft Nutzen: Das Informationssystem PANGAEA</a></p>
+
+<p><a href="https://re-publica.com/17/session/flachsinn-uber-gute-und-schlechte-aufmerksamkeit-man-sie-bekommt-wer-gewinnt-und-wohin" target="_blank">Guter Dueck - Flachsinn - Über Gute Und Schlechte Aufmerksamkeit, Wie Man Sie Bekommt, Wer Gewinnt Und Wohin Alles Führt</a></p>
+
+<p><a href="https://re-publica.com/en/17/session/data-vis-or-why-you-dont-believe-facts-and-how-fix-it" target="_blank">Lisa Charlotte Rost - Data Vis Or: Why You Don't Believe In Facts, And How To Fix It</a></p>
+
+<p><a href="https://re-publica.com/17/session/machine-learning-ai-and-ethics-meetup" target="_blank">Frederike Kaltheuner - Machine Learning, Ai And Ethics Meetup</a></p>
+
+<p><a href="https://re-publica.com/17/session/data-people" target="_blank">Andreas Weigend - Data for the People</a></p>
+
+<p><a href="https://re-publica.com/17/session/eratosthenes-21st-century-inventing-cyber-social-geography" target="_blank">John W. Kelly - Eratosthenes For The 21st Century: Inventing Cyber-Social Geography</a></p>
+
+<p><a href="https://re-publica.com/17/session/emotional-trauma-machine-learning-and-internet" target="_blank">Caroline Sinders - Emotional Trauma, Machine Learning And The Internet</a></p>
+
+<p><a href="https://re-publica.com/17/session/surveillance-black-bodies-united-states-bridging-digital-security-divide" target="_blank">Matt Mitchell - Surveillance &amp; Black Bodies In The United States: Bridging The Digital Security Divide</a></p>
+
+<p><a href="https://re-publica.com/17/session/turn-your-mind-relax-and-float-downstream-exploring-parallels-between-psychedelic-0" target="_blank">Bryan Duggan - Turn Off Your Mind, Relax And Float Downstream: Exploring Parallels Between Psychedelic Experiences And Virtual Reality</a></p>
+
+<p><a href="https://re-publica.com/17/session/pull-request-restructuring-global-power-paradigm-through-open-source" target="_blank">Carolyn Florey, Manuela Yamada, Nnenna Nwakanma - Pull Request: Restructuring The Global Power Paradigm Through Open Source</a></p>
+
+<p><a href="https://re-publica.com/17/session/teach-our-kids-code-no-teach-them-how-think" target="_blank">Karl Beecher - Teach Our Kids To Code? No, Teach Them How To Think</a></p>
+
+<p><a href="https://re-publica.com/17/session/why-democracies-need-transparency-and-accountability-global-consequences-obama" target="_blank">Kathleen McClellan, Norman Solomon, John Kiriakou - Why Democracies Need Transparency And Accountability: The Global Consequences Of The Obama Administration’s War On Whistleblowers In A Trump Administration.</a></p>
+
+<p><a href="https://re-publica.com/17/session/etwas-empirie-was-wir-wirklich-uber-filterblasen-fake-news-und-digitale-offentlichkeit" target="_blank">Konrad Lischka, Christian Stöcker - Etwas Empirie: Was Wir Wirklich Über Filterblasen, Fake-News Und Die Digitale Öffentlichkeit Wissen</a></p>
+
+<p><a href="https://re-publica.com/17/session/cypherpunks-kryptographische-technologien-politisches-projekt" target="_blank">Emanuel Löffler - Cypherpunks - Kryptographische Technologien Als Politisches Projekt</a></p>
+
+<p><a href="https://re-publica.com/17/session/deep-shit-paradigms-paranoia-and-politics-machine-intelligence" target="_blank">Paul Feigelfeld - Deep Shit: Paradigms, Paranoia and Politics of Machine Intelligence</a></p>
 
 
 
