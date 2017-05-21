@@ -32,18 +32,14 @@ Die re:publica ist eindeutig zu groß. Oder zu interessant. Oder beides gleichze
 
 Also dann, auf gehts, Montag morgen, Nieselregen, viele Menschen, für einen Tweet gibts den #arbeitenviernull-Bambus-Kaffeebecher samt Inhalt und auf in die erste Session. Es geht um eine Analyse des Facebook Algorithmen[^1] für den Newsfeed, die Auswertung eines zwei Jahre alten Datensatzes, weil das die einzigen Daten sind, an die man jetzt noch rankommt. Der Versuch, das Daten sammeln und auswerten nachzuvollziehen umd es beeinflussen zu können. Und gleich danach der Vortrag über die automatisierte Öffentlichkeit[^2]. Noch mehr über die Informationsflut, der wir uns ausetzen und der wir ausgesetzt sind. Und über das langsam keimende Bewußtsein, das es da etwas zu regulieren gibt. Weiter zum verläßlichen Journalismus u.a. mit Claus Kleber[^3]. Sozusagen die andere Seite der Daten, hier verantwortungsvoll und sehr rechercheaufwendig erstellt. 
 
+Wie wird Framing heutzutage in der Vermittlung von Informationen und so hauptsächlich zur Manipulation der Informationsaufnahme eingesetzt? Wie mächtig sind die primären Sprachmetaphern, indem sie die möglichen Perpektiven auf Ereignisse grundlegend einschränken bzw. das Ausbrechen aus diesen Mustern sehr erschweren?[^4] Scheint mir, als ob diese tiefen Sprachbilder die Wichtung in der Struktur des Denkens ausmachen.
 
-[^1]: <p><a href="https://re-publica.com/17/session/mapping-facebooks-algorithmic-empire" target="_blank">Prof. Vladan Joler, Dr. Djordje Krivokapic, Dr. Ben Wagner, Dr. Julia Powles - Mapping Facebook's Algorithmic Empire</a></p>
-[^2]: <p><a href="https://re-publica.com/17/session/automated-public-sphere" target="_blank">Prof. Dr. Frank Pasquale - The Automated Public Sphere</a></p>
-[^3]: <p><a href="https://re-publica.com/17/session/fakes-leaks-und-desinformation-verlasslicher-journalismus-im-nachrichtensturm" target="_blank">Ralf Paniczek, Claus Kleber, Eva-Maria Lemke - Fakes, Leaks Und Desinformation - Verlässlicher Journalismus Im Nachrichtensturm</a></p>
+Über den Zugriff auf eine Datenbank mit Meßdaten von Forschungsprojekten  weltweit.  Daten haltbar und verfügbar machen, interdisziplinäres Forschen ermöglichen. Ein Projekt mit großer Wirkung, weil so neue Erkenntnisse ermöglicht werden, indem Daten neu verbunden werden können.[^5] Erinnert mich an [Die Vermessung der Welt]({{ site.baseurl }}{% post_url 2017-04-13-die-vermessung-der-welt %}).  
 
-<p><a href="https://re-publica.com/17/session/macht-sprachbilder-politisches-framing-und-neurokognitive-kampagnenfuhrung" target="_blank">Elisabeth Wehling - Die Macht Der Sprachbilder – Politisches Framing Und Neurokognitive Kampagnenführung</a></p>
+Wir stehen heute ständig auf einer Bühne und es ist immer Publikum da. Selbst im Publikum sein heißt heute auf einer Bühne stehen. Beide Seiten bedingen sich und brauchen sich. Die Kommunikationskreise werden so sinnentleerter und manipulierbarer. Die Aufmerksamkeitsspanne reicht nicht mehr für inhaltliche Auseinandersetzungen. Nur kurze Hypes zählen noch und das sich Entziehen wird als Defizit gedeutet.[^6]
 
-<p><a href="https://re-publica.com/17/session/daten-fruher-und-heute-zukunft-nutzen" target="_blank">Ulrike Prange, Uwe Schindler - Daten Von Früher Und Heute Für Die Zukunft Nutzen: Das Informationssystem PANGAEA</a></p>
+Nicht nur dazu gehören ist wichtig, nicht nur an schnell gesehene, gelesene Fakten glauben und weiterzählen. Man muß heute die eignenen Gedanke darlegen, jemand versuchen zu überzeugen. So die eigenen Modelle testen, Unsicherheit zeigen, sich verletzbar machen, Infromationen aufnehmen, die neben dem eigenen Weltbild liegen, andere zu vertehen versuchen.[^7] 
 
-<p><a href="https://re-publica.com/17/session/flachsinn-uber-gute-und-schlechte-aufmerksamkeit-man-sie-bekommt-wer-gewinnt-und-wohin" target="_blank">Guter Dueck - Flachsinn - Über Gute Und Schlechte Aufmerksamkeit, Wie Man Sie Bekommt, Wer Gewinnt Und Wohin Alles Führt</a></p>
-
-<p><a href="https://re-publica.com/en/17/session/data-vis-or-why-you-dont-believe-facts-and-how-fix-it" target="_blank">Lisa Charlotte Rost - Data Vis Or: Why You Don't Believe In Facts, And How To Fix It</a></p>
 
 <p><a href="https://re-publica.com/17/session/machine-learning-ai-and-ethics-meetup" target="_blank">Frederike Kaltheuner - Machine Learning, Ai And Ethics Meetup</a></p>
 
@@ -57,6 +53,8 @@ Also dann, auf gehts, Montag morgen, Nieselregen, viele Menschen, für einen Twe
 
 <p><a href="https://re-publica.com/17/session/turn-your-mind-relax-and-float-downstream-exploring-parallels-between-psychedelic-0" target="_blank">Bryan Duggan - Turn Off Your Mind, Relax And Float Downstream: Exploring Parallels Between Psychedelic Experiences And Virtual Reality</a></p>
 
+3. Tag 
+
 <p><a href="https://re-publica.com/17/session/pull-request-restructuring-global-power-paradigm-through-open-source" target="_blank">Carolyn Florey, Manuela Yamada, Nnenna Nwakanma - Pull Request: Restructuring The Global Power Paradigm Through Open Source</a></p>
 
 <p><a href="https://re-publica.com/17/session/teach-our-kids-code-no-teach-them-how-think" target="_blank">Karl Beecher - Teach Our Kids To Code? No, Teach Them How To Think</a></p>
@@ -69,9 +67,13 @@ Also dann, auf gehts, Montag morgen, Nieselregen, viele Menschen, für einen Twe
 
 <p><a href="https://re-publica.com/17/session/deep-shit-paradigms-paranoia-and-politics-machine-intelligence" target="_blank">Paul Feigelfeld - Deep Shit: Paradigms, Paranoia and Politics of Machine Intelligence</a></p>
 
-
-
-Welche Vorträge habe ich besucht
+[^1]: <p><a href="https://re-publica.com/17/session/mapping-facebooks-algorithmic-empire" target="_blank">Prof. Vladan Joler, Dr. Djordje Krivokapic, Dr. Ben Wagner, Dr. Julia Powles - Mapping Facebook's Algorithmic Empire</a></p>
+[^2]: <p><a href="https://re-publica.com/17/session/automated-public-sphere" target="_blank">Prof. Dr. Frank Pasquale - The Automated Public Sphere</a></p>
+[^3]: <p><a href="https://re-publica.com/17/session/fakes-leaks-und-desinformation-verlasslicher-journalismus-im-nachrichtensturm" target="_blank">Ralf Paniczek, Claus Kleber, Eva-Maria Lemke - Fakes, Leaks Und Desinformation - Verlässlicher Journalismus Im Nachrichtensturm</a></p>
+[^4]: <p><a href="https://re-publica.com/17/session/macht-sprachbilder-politisches-framing-und-neurokognitive-kampagnenfuhrung" target="_blank">Elisabeth Wehling - Die Macht Der Sprachbilder – Politisches Framing Und Neurokognitive Kampagnenführung</a></p>
+[^5]: <p><a href="https://re-publica.com/17/session/daten-fruher-und-heute-zukunft-nutzen" target="_blank">Ulrike Prange, Uwe Schindler - Daten Von Früher Und Heute Für Die Zukunft Nutzen: Das Informationssystem PANGAEA</a></p>
+[^6]: <p><a href="https://re-publica.com/17/session/flachsinn-uber-gute-und-schlechte-aufmerksamkeit-man-sie-bekommt-wer-gewinnt-und-wohin" target="_blank">Guter Dueck - Flachsinn - Über Gute Und Schlechte Aufmerksamkeit, Wie Man Sie Bekommt, Wer Gewinnt Und Wohin Alles Führt</a></p>
+[^7]: <p><a href="https://re-publica.com/en/17/session/data-vis-or-why-you-dont-believe-facts-and-how-fix-it" target="_blank">Lisa Charlotte Rost - Data Vis Or: Why You Don't Believe In Facts, And How To Fix It</a></p>
 
 ## Nichts zu sagen?
 
