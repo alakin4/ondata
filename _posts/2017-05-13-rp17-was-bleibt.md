@@ -40,18 +40,17 @@ Wir stehen heute ständig auf einer Bühne und es ist immer Publikum da. Selbst 
 
 Nicht nur dazu gehören ist wichtig, nicht nur an schnell gesehene, gelesene Fakten glauben und weiterzählen. Man muß heute die eignenen Gedanke darlegen, jemand versuchen zu überzeugen. So die eigenen Modelle testen, Unsicherheit zeigen, sich verletzbar machen, Infromationen aufnehmen, die neben dem eigenen Weltbild liegen, andere zu vertehen versuchen.[^7] 
 
+Spannendes, kleines Meetup mit spannenden Menschen über Maschinenlernen, AI und Ethik. Algorithmen sind nur so gut, wie die Daten, mit denen sie zum Lernen gefüttert werden. Und alle Daten tendieren dazu, weil ein bestimmtes Modell gelernt werden soll, das durch sie im System ein Bias, eine Tendenz erzeugt wird. Der Bias ist ein Schwellenwert und wird so zu einem systematischen Effekt mit einer Grundtendenz. Wer und wie werden also die Daten ausgewählt?[^8]
 
-<p><a href="https://re-publica.com/17/session/machine-learning-ai-and-ethics-meetup" target="_blank">Frederike Kaltheuner - Machine Learning, Ai And Ethics Meetup</a></p>
+Der Wert der Daten sind die Entscheidungen die aufgrund der Daten getroffen werden. Damit wir unsere Entscheidungsfreiheit behalten, brauchen wir das Recht auf Transparenz der über uns gesammelten Daten und der Art und Weise der Verarbeitung unserer Daten. Welche Algorithmen verarbeiten wie unsere Daten?[^9]
 
-<p><a href="https://re-publica.com/17/session/data-people" target="_blank">Andreas Weigend - Data for the People</a></p>
+Die Transformation der Struktur des sozialen Zusammenlebens und wie man sie erkennen kann. Wie die Strukturen unsere Entscheidungen beeinflussen und Muster bilden, die uns erkennbar und dadurch manipulierbar machen.[^10] 
 
-<p><a href="https://re-publica.com/17/session/eratosthenes-21st-century-inventing-cyber-social-geography" target="_blank">John W. Kelly - Eratosthenes For The 21st Century: Inventing Cyber-Social Geography</a></p>
+Noch einmal Maschinenlernen und Bias und der sozialen Sphere als emotionale Sphere. Wenn die Muster durch Maschinenlernen erkannt werden können, können wir erkannt werden und der durch Algorithmen unser Angebot an Inhalten gesteuert werden. Wir müssen uns Räume mit einem benutzerdefinierten Level von Sicherheit schaffen können.[^11]
 
-<p><a href="https://re-publica.com/17/session/emotional-trauma-machine-learning-and-internet" target="_blank">Caroline Sinders - Emotional Trauma, Machine Learning And The Internet</a></p>
+Die Geschichte der Schwarzen in den USA als Geschichte der Überwachung. Die Überwachung liegt natürlich auch gewichtiger auf den Schwarzen als den Weißen.[^12]
 
-<p><a href="https://re-publica.com/17/session/surveillance-black-bodies-united-states-bridging-digital-security-divide" target="_blank">Matt Mitchell - Surveillance &amp; Black Bodies In The United States: Bridging The Digital Security Divide</a></p>
-
-<p><a href="https://re-publica.com/17/session/turn-your-mind-relax-and-float-downstream-exploring-parallels-between-psychedelic-0" target="_blank">Bryan Duggan - Turn Off Your Mind, Relax And Float Downstream: Exploring Parallels Between Psychedelic Experiences And Virtual Reality</a></p>
+Ach, auf der re:publica einen Vortrag zu hören über Timothy Leary, Terrance McKenna und Alan Watts geht mir schon runter wie Öl. Haben aber auch verdammt lange gebraucht, hier anzukommen. Dabei gehören sie ganz besonders hierher, weil sie eine Menge über uns in unserer Zukunft zu erzählen haben. Lesen! Hier geht es eigentlich um die Erlebnisse unter Drogen und wie vergleichbar sie sind mit den Bildern aus der VR. Turn on, Tune in, Drop Out![^13]
 
 3. Tag 
 
@@ -74,6 +73,15 @@ Nicht nur dazu gehören ist wichtig, nicht nur an schnell gesehene, gelesene Fak
 [^5]: <p><a href="https://re-publica.com/17/session/daten-fruher-und-heute-zukunft-nutzen" target="_blank">Ulrike Prange, Uwe Schindler - Daten Von Früher Und Heute Für Die Zukunft Nutzen: Das Informationssystem PANGAEA</a></p>
 [^6]: <p><a href="https://re-publica.com/17/session/flachsinn-uber-gute-und-schlechte-aufmerksamkeit-man-sie-bekommt-wer-gewinnt-und-wohin" target="_blank">Guter Dueck - Flachsinn - Über Gute Und Schlechte Aufmerksamkeit, Wie Man Sie Bekommt, Wer Gewinnt Und Wohin Alles Führt</a></p>
 [^7]: <p><a href="https://re-publica.com/en/17/session/data-vis-or-why-you-dont-believe-facts-and-how-fix-it" target="_blank">Lisa Charlotte Rost - Data Vis Or: Why You Don't Believe In Facts, And How To Fix It</a></p>
+[^8]: <p><a href="https://re-publica.com/17/session/machine-learning-ai-and-ethics-meetup" target="_blank">Frederike Kaltheuner - Machine Learning, Ai And Ethics Meetup</a></p>
+[^9]: <p><a href="https://re-publica.com/17/session/data-people" target="_blank">Andreas Weigend - Data for the People</a></p>
+[^10]: <p><a href="https://re-publica.com/17/session/eratosthenes-21st-century-inventing-cyber-social-geography" target="_blank">John W. Kelly - Eratosthenes For The 21st Century: Inventing Cyber-Social Geography</a></p>
+[^11]: <p><a href="https://re-publica.com/17/session/emotional-trauma-machine-learning-and-internet" target="_blank">Caroline Sinders - Emotional Trauma, Machine Learning And The Internet</a></p>
+[^12]: <p><a href="https://re-publica.com/17/session/surveillance-black-bodies-united-states-bridging-digital-security-divide" target="_blank">Matt Mitchell - Surveillance &amp; Black Bodies In The United States: Bridging The Digital Security Divide</a></p>
+[^13]: <p><a href="https://re-publica.com/17/session/turn-your-mind-relax-and-float-downstream-exploring-parallels-between-psychedelic-0" target="_blank">Bryan Duggan - Turn Off Your Mind, Relax And Float Downstream: Exploring Parallels Between Psychedelic Experiences And Virtual Reality</a></p>
+
+
+
 
 ## Nichts zu sagen?
 
