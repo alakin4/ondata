@@ -4,6 +4,8 @@ title: "re:publica 17: Was bleibt?"
 date: 2017-05-13 14:25:30 +02:00
 last_modified_at: 2017-05-13 14:27:30 +02:00 
 excerpt: "Die re:publica 17 ist vorbei. Und was habe ich mitgenommen?"
+comments: true
+comments_locked: false
 header:
         image: /assets/images/posts/170513-rp17-2017-05-08 04.04.58 1.jpg
         caption: "&copy; [Kral • Photography](https://kral-photography.com)"
@@ -50,15 +52,15 @@ Noch einmal Maschinenlernen und Bias und der sozialen Sphere als emotionale Sphe
 
 Die Geschichte der Schwarzen in den USA als Geschichte der Überwachung. Die Überwachung liegt natürlich auch gewichtiger auf den Schwarzen als den Weißen.[^12]
 
-Ach, auf der re:publica einen Vortrag zu hören über Timothy Leary, Terrance McKenna und Alan Watts geht mir schon runter wie Öl. Haben aber auch verdammt lange gebraucht, hier anzukommen. Dabei gehören sie ganz besonders hierher, weil sie eine Menge über uns in unserer Zukunft zu erzählen haben. Lesen! Hier geht es eigentlich um die Erlebnisse unter Drogen und wie vergleichbar sie sind mit den Bildern aus der VR. Turn on, Tune in, Drop Out![^13]
+Ach, auf der re:publica einen Vortrag zu hören, in dem Timothy Leary, Terrance McKenna und Alan Watts auf einmal vorkommen, geht schon runter wie Öl. Haben aber auch verdammt lange gebraucht, hier anzukommen. Dabei gehören sie ganz besonders hierher, weil sie eine Menge über uns in unserer Zukunft zu erzählen haben. Und dann noch im kuschligen Kühlhaus. Trotzdem es schon wieder mehr Stages geworden sind, ist das Kühlhaus schon ein cooler Ort. Tech meets Sofa.
+Jedenfalls: Lesen! Hier geht es eigentlich um die Erlebnisse unter Drogen und wie vergleichbar sie sind mit den Bildern aus der VR. Turn on, Tune in, Drop Out![^13]
 
-3. Tag 
+Von Nnenna Nwakanma von der Open Source Foundation of Africa vorgetragene globale Ziele für eine nachhaltige digitale Entwicklung. Open Data, Open Source, Information, Wissen, Innovation für jede/n. Niemanden zurücklassen. Kein Mauern sondern Brücken bauen. [Cedric Price](https://en.wikipedia.org/wiki/Cedric_Price){:target="_blank"} sagte: „Technology is the answer... but what was the question?“ Und was ist die Antwort? Openness![^14]
 
-<p><a href="https://re-publica.com/17/session/pull-request-restructuring-global-power-paradigm-through-open-source" target="_blank">Carolyn Florey, Manuela Yamada, Nnenna Nwakanma - Pull Request: Restructuring The Global Power Paradigm Through Open Source</a></p>
+Die vielleicht _wichtigste_ Session auf der re:publica. Wir bringen wir unseren Kindern das Coden bei? Coding bedeutet nicht nur Code schreiben, also Tools zu benutzen, sondern umfaßt alle Tätigkeiten eines Programmierers. Und hauptsächlich geht es dabei darum, Probleme zu verstehen und zu analysieren, in Strukturen zu bringen, Modelle zu entwickeln und dann erst darum, diese Ansätze in geschriebenen Code zu verwandeln. Zeitmäßig der kleinste Teil, wahrscheinlich. Um verantwortungsvoll aufzuwachsen, müssen die Kids verstehen, wie und warum das Digitale funktioniert, um die Vorgänge vor dem Screen zu  begreifen. Nachhaltiges Lernen.[^15]
 
-<p><a href="https://re-publica.com/17/session/teach-our-kids-code-no-teach-them-how-think" target="_blank">Karl Beecher - Teach Our Kids To Code? No, Teach Them How To Think</a></p>
+Transparenz ist unbedingt notwendig. John Kiriakou, der CIA Whistleblower, der die Folterpraktiken der USA nach 9/11 veröffentlichte, meinte das auch. Und hat dafür persönliche Opfer gebracht. Und das in unserer heutigen Welt, in der die Menschen maximal transparent sind und die Regierungen alles geheim halten. Das sollte andersrum sein. Ist es nicht. Deshalb muß gewispert werden.[^16]
 
-<p><a href="https://re-publica.com/17/session/why-democracies-need-transparency-and-accountability-global-consequences-obama" target="_blank">Kathleen McClellan, Norman Solomon, John Kiriakou - Why Democracies Need Transparency And Accountability: The Global Consequences Of The Obama Administration’s War On Whistleblowers In A Trump Administration.</a></p>
 
 <p><a href="https://re-publica.com/17/session/etwas-empirie-was-wir-wirklich-uber-filterblasen-fake-news-und-digitale-offentlichkeit" target="_blank">Konrad Lischka, Christian Stöcker - Etwas Empirie: Was Wir Wirklich Über Filterblasen, Fake-News Und Die Digitale Öffentlichkeit Wissen</a></p>
 
@@ -79,9 +81,9 @@ Ach, auf der re:publica einen Vortrag zu hören über Timothy Leary, Terrance Mc
 [^11]: <p><a href="https://re-publica.com/17/session/emotional-trauma-machine-learning-and-internet" target="_blank">Caroline Sinders - Emotional Trauma, Machine Learning And The Internet</a></p>
 [^12]: <p><a href="https://re-publica.com/17/session/surveillance-black-bodies-united-states-bridging-digital-security-divide" target="_blank">Matt Mitchell - Surveillance &amp; Black Bodies In The United States: Bridging The Digital Security Divide</a></p>
 [^13]: <p><a href="https://re-publica.com/17/session/turn-your-mind-relax-and-float-downstream-exploring-parallels-between-psychedelic-0" target="_blank">Bryan Duggan - Turn Off Your Mind, Relax And Float Downstream: Exploring Parallels Between Psychedelic Experiences And Virtual Reality</a></p>
-
-
-
+[^14]: <p><a href="https://re-publica.com/17/session/pull-request-restructuring-global-power-paradigm-through-open-source" target="_blank">Carolyn Florey, Manuela Yamada, Nnenna Nwakanma - Pull Request: Restructuring The Global Power Paradigm Through Open Source</a></p>
+[^15]: <p><a href="https://re-publica.com/17/session/teach-our-kids-code-no-teach-them-how-think" target="_blank">Karl Beecher - Teach Our Kids To Code? No, Teach Them How To Think</a></p>
+[^16]: <p><a href="https://re-publica.com/17/session/why-democracies-need-transparency-and-accountability-global-consequences-obama" target="_blank">Kathleen McClellan, Norman Solomon, John Kiriakou - Why Democracies Need Transparency And Accountability: The Global Consequences Of The Obama Administration’s War On Whistleblowers In A Trump Administration.</a></p>
 
 ## Nichts zu sagen?
 
