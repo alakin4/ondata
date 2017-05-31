@@ -190,6 +190,11 @@ body:hover .visually-hidden button {
     color: #494e52;
   }
 
+  .fa-bitbucket,
+  .fa-bitbucket-square {
+    color: $bitbucket-color;
+  }
+
   .fa-behance,
   .fa-behance-square {
     color: $behance-color;
