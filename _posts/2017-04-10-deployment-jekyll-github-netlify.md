@@ -14,7 +14,7 @@ categories: news howto
 tags: cms jekyll workflow deployment cdn github netlify
 ---
 
-{% include toc title="TOC" %}
+{% include toc_open title="TOC" %}
 
 ## Am Anfang
 
