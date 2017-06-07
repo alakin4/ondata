@@ -15,7 +15,7 @@ tags: writing learning blog life
 
 ## Daten
 
-Daten. Unser Leben wird durch Daten bestimmt. Das hören wir mittlerweile überall und von jedem, nicht mehr nur von ein paar Nerds, diue auch ansonsten niemand versteht. Mittlerweile und und spätestens seit den Enthüllungen von Edward Snowden sind Daten wirklich oder zumindest ein kleiner Blick dafür in unserem Leben angekommen. Es hat ein paar Jahre gedauert, bis wir alle gelernt haben, daß man uns nicht erst eine Nummer geben muß, damit wir zu einer Date werden, nein, unser Name, unser Geburtsdatum -- das ist leichter zu verstehen, weil Zahlen dürfen eher Daten heißen, als Buchstaben -- Noten in der Schule, unsere Adresse, das sind alles Daten. Das sind unsere Daten. Unsere Eckpunkte, die unser Leben in der digitalen Welt abbilden. 
+Daten. Unser Leben wird durch Daten bestimmt. Das hören wir mittlerweile überall und von jedem, nicht mehr nur von ein paar Nerds, diue auch ansonsten niemand versteht. Mittlerweile und und spätestens seit den Enthüllungen von Edward Snowden sind Daten wirklich oder zumindest ein kleiner Blick dafür in unserem Leben angekommen. Es hat ein paar Jahre gedauert, bis wir alle gelernt haben, daß man uns nicht erst eine Nummer geben muß, damit wir zu einer Date werden, nein, unser Name, unser Geburtsdatum -- das ist leichter zu verstehen, weil Zahlen dürfen eher Daten heißen, als Buchstaben -- Noten in der Schule, unsere Adresse, das sind alles Daten. Das sind unsere Daten. Unsere Eckpunkte, die unser Leben in der digitalen Welt abbilden.   
 Dazu kommt, das wir auch -- noch etwas langsamer -- lernen, daß aus allem, was wir tun, Daten gemacht werden können. So gibt es immer mehr Daten von uns. Das Abbild von uns, das erst ziemlich grob gerastert war, wird mit der Zeit und ohne das wir es merken, immer feinpixeliger, nuancierter.
 
 ## Leben
@@ -24,6 +24,6 @@ Und all diese Daten können dann noch miteinander verbunden werden. Das Abbild, 
 
 ## Lernen
 
-Es geht also darum, die Meßwerte zu bestimmen, Meßreihen aufzunehmen, Daten zu erhalten, das wie des Datensammelns zu erforschen, die Daten an sich zu erforschen und natürlich die Algorithmen zu erkunden. Die Algorithmen zu bestimmen, so, daß alle Aspekte ihren Weg in die digitale Welt finden, das Abbild alle Farben enthält und nicht schwarz-weiß bleibt.
-Wir können bestimmen, wie die Daten aussehen, die unser Abbild bestimmmen, wir können bestimmen, wie die Algorithmen aussehen, die das Abbild berechnen, wir können lernen, sie selbst zu erschaffen. Und solange wir vieles von dem noch nciht wissen, können wir bestimmen, welche Daten wir preisgeben und wie wir sie preisgeben. 
+Es geht also darum, die Meßwerte zu bestimmen, Meßreihen aufzunehmen, Daten zu erhalten, das wie des Datensammelns zu erforschen, die Daten an sich zu erforschen und natürlich die Algorithmen zu erkunden. Die Algorithmen zu bestimmen, so, daß alle Aspekte ihren Weg in die digitale Welt finden, das Abbild alle Farben enthält und nicht schwarz-weiß bleibt.   
+Wir können bestimmen, wie die Daten aussehen, die unser Abbild bestimmmen, wir können bestimmen, wie die Algorithmen aussehen, die das Abbild berechnen, wir können lernen, sie selbst zu erschaffen. Und solange wir vieles von dem noch nciht wissen, können wir bestimmen, welche Daten wir preisgeben und wie wir sie preisgeben.   
 Also das zum Lernen. Und hier darüber berichten.
