@@ -7,10 +7,10 @@ excerpt: "Die re:publica 17 ist vorbei. Und was habe ich mitgenommen?"
 comments: true
 comments_locked: false
 header:
-        image: /assets/images/posts/170513-rp17-2017-05-08 04.04.58 1.jpg
+        image: /assets/images/posts/170513-rp17-2017-05-08 04.04.58_1_header.jpg
         caption: "&copy; [Kral • Photography](https://kral-photography.com)"
 image:
-        twitter: /assets/images/posts/170513-rp17-2017-05-08 04.04.58 1_header.jpg
+        twitter: /assets/images/posts/170513-rp17-2017-05-08 04.04.58_1.jpg
 categories: tech 
 tags: blog life world rp17
 ---
