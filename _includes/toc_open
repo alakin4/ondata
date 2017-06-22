@@ -1,7 +1,10 @@
 <aside class="sidebar__right">
-<nav class="toc flyout-toc" markdown="1">
-<header><h4 class="nav__title"><i class="fa fa-{{ include.icon | default: 'file-text' }}"></i> {{ include.title | default: site.data.ui-text[site.locale].toc_label }}</h4></header>
+<nav class="toc accordion-toc">
+<input id="ac-toc" name="accordion-toc" type="checkbox" checked="checked" />
+<label for="ac-toc" class="collapsed" data-toggle="collapse"><h4 class="nav__title"><i class="fa fa-{{ include.icon | default: 'plus' }}"></i> {{ include.title | default: site.data.ui-text[site.locale].toc_label }}</h4></label>
+<div class="toc__menu" markdown="1">
 *  Auto generated table of contents
-{:toc .toc__menu.toc_flyout}
+{:toc}
+</div>
 </nav>
 </aside>

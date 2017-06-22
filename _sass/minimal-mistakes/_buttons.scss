@@ -23,7 +23,7 @@
   cursor: pointer;
 
   @include touch-hover() {
-    background-color: mix(white, #000, 20%);
+    background-color: $social-color;
   }
 
   .icon {
