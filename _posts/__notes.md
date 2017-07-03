@@ -54,5 +54,3 @@ http://www.catalog.update.microsoft.com/search.aspx?q=3212646
 https://github.com/mmistakes/minimal-mistakes/issues/588
 
 **Everything**
-https://markmanson.net/everything-is-fucked
-https://markmanson.net/outrage
