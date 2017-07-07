@@ -124,6 +124,7 @@ exclude:
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
   - _posts/__notes.md
+  - _posts/2017-05-13-rp17-was-wird-meinungen-sind-wie-daten.md
 keep_files:
   - .git
   - .svn
