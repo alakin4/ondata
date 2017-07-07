@@ -1,6 +1,6 @@
 ---
 permalink: /re-publica17-was-wird-meinungen-sind-wie-daten/
-title: "re:publica 17: Was wird: Meinungen sind wie Daten!"
+title: "re:publica 17: Was wird? Meinungen sind wie Daten."
 date: 2017-05-14 08:45:30 +02:00
 last_modified_at: 2017-05-14 08:45:30 +02:00
 excerpt: "Die re:publica 17 ist vorbei. Was kommt jetzt? Immer noch viel Aufregung über das Datensammeln. Und zu wenig Aufmerksamkeit für das Daten manipulieren. Und Meinungen sind wie Daten!"
