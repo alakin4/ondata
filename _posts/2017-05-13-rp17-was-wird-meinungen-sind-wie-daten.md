@@ -37,4 +37,19 @@ https://markmanson.net/everything-is-fucked
 https://markmanson.net/outrage
 
 
-Die Ausstellung _Hufelandstraße_: Was für eine graue, gleichgeschaltete Realität da zu sehen ist. Selbst die Kinder sehen für mich heute gleichgeschaltet aus. Meine Feststellung: Wenn man sich eine lange Zeit (meine lange Zeit: 18 Jahre) in einem Kontinuum bewegt, in ihm aufwächst, nimmt man jede Realität als gegeben hin. Als Beispiel nur: Wie sahen damals 1989 die Waggons der Deutschen Reichsbahn (ja, die hieß damals nich so in der DDR) aus? Das war vergleichbar mit der Innenausstattung der Waggons 2. Klasse der Srilankan Railway 2006. Und das haben wir als Relaität akzeptiert. Auf den Bildern sehen die Häuser aus, als wären gerade erst die Panzer der Sowietarmee abgezogen, nachdem sie Berlin '45 eingenommen hatten.    
+Die Ausstellung _Hufelandstraße_: Was für eine graue, gleichgeschaltete Realität da zu sehen ist. Selbst die Kinder sehen für mich heute gleichgeschaltet aus. Meine Feststellung: Wenn man sich eine lange Zeit (meine lange Zeit: 18 Jahre) in einem Kontinuum bewegt, in ihm aufwächst, nimmt man jede Realität als gegeben hin. Als Beispiel nur: Wie sahen damals 1989 die Waggons der Deutschen Reichsbahn (ja, die hieß damals nich so in der DDR) aus? Das war vergleichbar mit der Innenausstattung der Waggons 2. Klasse der Srilankan Railway 2006. Und das haben wir als Relaität akzeptiert. Auf den Bildern sehen die Häuser aus, als wären gerade erst die Panzer der Sowietarmee abgezogen, nachdem sie Berlin '45 eingenommen hatten.
+
+Vor 50 Jahren wurde das hier gesagt:
+
+> Ours is a brand-new world of allatonceness. "Time" has ceased, "space" has vanished. We now live in a global village... _a simultaneous happening_. We are back in acoustic space. We have begun again to structure the primordial feeling, the tribal emo- tions from which a few centuries of literacy divorced us.
+>
+> We have had to shift our stress of attention from action to reaction. We must now _know in advance the consequences_ of any policy or action, since the results are _experienced without delay_. Because of electric speed, we can no longer wait and see. George Washington once remarked, "We haven't heard from Benjamin Franklin in Paris this year. We should write him a letter."
+>
+> At the high speeds of electric communication, purely visual means of apprehending the world are no longer possible; they are just _too slow to be relevant or effective_.
+>
+> Unhappily, we confront this new situation with an enormous _backlog of outdated_ mental and psychological _responses_. We have been left d-a-n-g-l-i-n-g. Our most impressive words and thoughts betray us — they refer us only to the past, not to the present.
+>
+> Electric circuitry profoundly involves men with one another. Information pours upon us, instantaneously and continuously. As soon as information is acquired, it is very _rapidly replaced_ by still newer information. Our electrically-configured world has forced us to move from the habit of data classification _to the mode of pattern recognition_. We can no longer build serially, block-by-block, step-by-step, because instant communication insures that all factors of the environment and of experience co-exist in a state of active interplay.
+
+--- <cite>Marshall McLuhan (The medium is the message, 1967)</cite>
+{: .text-right}
