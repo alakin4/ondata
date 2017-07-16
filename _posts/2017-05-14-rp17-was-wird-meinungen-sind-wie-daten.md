@@ -38,17 +38,8 @@ Hier das ganze Zitat, das Marshall McLuhan vor 50 Jahren gesagt hat:
 {: .text-right}
 
 Was ich mich dabei Frage: Hat eigentlich in der Zeit vor 50 Jahren jemand verstanden, worum es McLuhan ging? Damals ging es um die Kommunikation in Form von Radio und Fernsehen im Zusammenspiel mit Telefon und Telefax, das zu der Zeit seit dem 2. Weltkrieg Einzug in die Lebenswelten der Familien der industriealiserten Welt, größtenteils auf der Nordhalbkugel, gehalten hatte. Nur auf die Verbreitung von Nachrichten bezogen, war hier die Stufe von der Nachrichtenverbreitung über Zeitungen - Reporter, die lange und aufwendig an die Orte der Nachrichten reisen und dann die Geschichten erst wieder zurück bringen mußten - hin zur Verbreitung über Radio und Fernsehen zu gehen, bei denen die Berichterstattung teilweise Live vor Ort stattfand und in Echtzeit in die Wohnzimmer übertragen wurde. Da waren keine Filter und kein langes Geschichtenschreiben mehr, bevor Texte in den Zeitungen veröffentlicht wurden. Die ganze Welt war in Echtzeit visuell und akkustisch erfahrbar. Die magischen Kanäle konnte jede/r anzapfen. Einzig  zu wählen war das Label, das auf dem Kanal stand. Die Zeitpunkte der Interaktion mit den Kanälen war stark begrenzt und jedesmal ging dem eine bewußte Entscheidung voran: schalte ich jetzt den Fernseher oder das Radio ein, rufe ich jemanden per Telefon an, benutze ich meine Kreditkarte. Nur dann konnten Daten gesammelt werden. Überwachung und Beschattung lasse ich hierbei außer Acht.   
-Und die Stufe, die wir heute gehen? Ich bin mir nicht sicher, ob es eine qualitative oder nur quantitative Veränderung ist. Alles ist mehr geworden, was auf uns einwirkt. Das wäre nur quantitativ. Ja, wir sind ständig online (Wer schaltet schon nachts sein Mobiltelefon aus?) und produzieren die ganze Zeit Daten, die dann über uns gesammelt werden. Das fühlt sich anders an, als den Fernseher einschalten und einen von fünf Sendern auswählen, aber es ist trotzdem nur mengenmäßig mehr.   
+Und die Stufe, die wir heute gehen? Ich bin mir nicht sicher, ob es eine qualitative oder nur quantitative Veränderung ist. Alles ist mehr geworden, was auf uns einwirkt. Das wäre nur quantitativ. Ja, wir sind ständig online (Wer schaltet schon nachts sein Mobiltelefon aus?) und produzieren die ganze Zeit Daten, die dann eingesammelt werden und ihre Geschichten über uns erzählen. Das fühlt sich zwar anders an, als den Fernseher einschalten und einen von fünf Sendern auswählen, aber es ist trotzdem nur mengenmäßig mehr.   
 Was einer neuen Qualität am nächsten kommt, ist, daß wir bis hierher nur Empfänger waren. Wir haben über die Jahre immer mehr empfangen, aber eben nur empfangen. Heute sind wir alle oder können zumindest auch Sender sein, jeder einzelne von uns.   
-
-
-
-
-
-
-aller hielt
-
-Muster-Erkennung wird zur Analyse unserer Daten verwendet. Warum verwenden wir es nicht zur Erkennung von Datenmanipulation?
 
 ## Datensammeln war gestern
 
@@ -72,3 +63,5 @@ Die Ausstellung _Hufelandstraße_: Was für eine graue, gleichgeschaltete Realit
 
 
 Mensch hat Meinung -> Meinung beruht auf Erfahrungen -> Ehrfahrungen werden als Muster im Gehirn gespeichert -> diese Muster sind der Bias, durch den wir nachfolgende Ergfahrungen filtern und formen und als neues Muster abspeichern -> wir arbeiten längst im Modus der Mustererkennung -> Vielleicht müssem wir nur begreifen lernen, das unsere Meinungen einfach Daten sind, die unser brain learning system befüttern und so wieder als daten aus diesem System ausgegeben werden  
+
+Muster-Erkennung wird zur Analyse unserer Daten verwendet. Warum verwenden wir es nicht zur Erkennung von Datenmanipulation?
