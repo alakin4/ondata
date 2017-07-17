@@ -75,6 +75,7 @@ author:
   facebook         :
   foursquare       :
   github           : dev4223
+  gitlab           :
   google_plus      :
   keybase          :
   instagram        :
@@ -166,8 +167,8 @@ sass:
 permalink: /:categories/:title/
 timezone: "Europe/Berlin" # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-# Plugins
-gems:
+# Plugins (previously gems:)
+plugins:
   - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-archives
