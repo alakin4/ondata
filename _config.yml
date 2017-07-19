@@ -168,7 +168,7 @@ permalink: /:categories/:title/
 timezone: "Europe/Berlin" # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins (previously gems:)
-plugins:
+plugins_dir:
   - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-archives
