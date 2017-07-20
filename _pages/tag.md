@@ -1,7 +1,6 @@
 ---
 permalink: /tags/
 title: "Tag Index"
-last_modified_at: 2017-05-04 19:39:46 +02:00 
 excerpt: "Post-Tags alphabetisch sortiert."
 ads: false
 share: false
@@ -16,8 +15,10 @@ image:
 ---
 
 <ul class="tag__list">
-  {% assign sorted_tags = site.tags | sort_tags_by_name %}
-  {% for tag in sorted_tags %}
-    <li><a href="{{ site.url }}/tag/{{ tag[0] | replace:' ','-' | downcase }}/" class="tag__item"><span class="tag__name">{{ tag[0] }}</span></a> <span class="tag__count">({{ tag[1] }})</span></li>
+  {% for tag in site.tags %}
+  {% assign t = tag | first %}
+  {% assign posts = tag | last %}
+    <li><a href="{{ site.url }}/tag/{{t | downcase | replace:" ","-" }}/" class="tag__item"><span class="tag__name">{{t | replace:" ","-" }}</span></a> <span class="tag__count">({{ posts | size }})</span></li>
   {% endfor %}
 </ul>
+
