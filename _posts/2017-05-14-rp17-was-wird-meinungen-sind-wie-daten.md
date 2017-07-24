@@ -65,3 +65,16 @@ Die Ausstellung _Hufelandstraße_: Was für eine graue, gleichgeschaltete Realit
 Mensch hat Meinung -> Meinung beruht auf Erfahrungen -> Ehrfahrungen werden als Muster im Gehirn gespeichert -> diese Muster sind der Bias, durch den wir nachfolgende Ergfahrungen filtern und formen und als neues Muster abspeichern -> wir arbeiten längst im Modus der Mustererkennung -> Vielleicht müssem wir nur begreifen lernen, das unsere Meinungen einfach Daten sind, die unser brain learning system befüttern und so wieder als daten aus diesem System ausgegeben werden  
 
 Muster-Erkennung wird zur Analyse unserer Daten verwendet. Warum verwenden wir es nicht zur Erkennung von Datenmanipulation?
+
+
+wir werden nicht nur manipuliert
+wir manipulieren genauso mit
+stehen auf der Bühne und sind Zuschauer
+totale vereinzelung
+jeder versucht seine Geschichte zu erzählen
+wir lassen uns manipulieren
+zum Informationsaustausch gehören Sender und Empfänger
+wenn Informationen in diesem Sinne nur zwischen einzelnen ausgetauscht werden, gibt es auch nur eine Geschichte zwischen Sender und Empfänger
+Die so ausgetauschten Informationen sind manupulierbar
+Shannon: Informationsgehalt einer Nachricht ist umgedreht proprtional zu ihrer Wahrscheinlichkeit -> Unwahrscheinliche Informationen = hoher Informationsgehalt, spezifischere Informationen -> leicht manipulierbar
+Wir müssen uns wieder eine gemeinsame Geschichte finden und uns erzählen, damit die Informationen darin nicht manipulierbar sind
