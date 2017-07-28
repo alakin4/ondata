@@ -121,4 +121,4 @@ Heute wird die Theorie einfach dadurch abgelöst, daß es _eine neue Theorie gib
 Zum Anfang: Gut, bei all der Schwarzmalerei, auf der re:publica wird natürlich darüber gesprochen, über all das Neue, das Unsichtbare, die Gefahren und die jetzt schon spürbaren Auswirkungen. Doch die alte Vision vom Inter-Net ist zu einer Realität geworden, die so viele nicht wollten, scheint mir. Und unsere jetzige Realität hat großen Einfluß darauf, in welche Richtung wir die Vektoren unsere Modells in Zukunft _entwickeln können_. Und mit dieser Perspektive ist es nicht so leicht, einfach so weiterzurennen.   
 Die neuen Visionen sind schon berechnet.
 
-Weiter bald im zweiten Teil: [Was wird? Meinungen sind wie Daten.](#)
+Weiter bald im zweiten Teil: [Was wird? Meinungen sind wie Daten.]({{ site.baseurl }}{% post_url 2017-05-14-rp17-was-wird-meinungen-sind-wie-daten %})
