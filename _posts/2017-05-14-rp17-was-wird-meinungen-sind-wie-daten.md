@@ -17,6 +17,8 @@ tags: blog life world  rp17 future
 
 {% include toc_open title="TOC" %}
 
+Eigentlich sind das nur Gedanken, die mir nach der re:publica einfielen. Lose zusammengeschrieben, damit sie wo stehen. Vielleicht geht dann bei Aufschreiben manchmal die Stringenz verloren. 
+
 ## Daten erkennen
 
 Die re:publica 17 ist nun schon gute 2 Monate vorbei. Und mir will einfach nicht der Anfang für diesen Artikel einfallen. Dabei ist alles klar, liegt alles ausgebreitet vor mir. Es geht darum, daß das Daten sammeln zum Status Quo geworden ist. Daten werden gesammelt, sobald wir das Internet betreten. Jeder muß Daten sammeln, jedes Unternehmen, daß gerade anfängt, etwas im und mit dem Internet aufzubauen, muß heute als integralen Bestandteil unsere Daten sammeln, sobald wir sein virtuelles Produkt nutzen. Um sein Business auszuwerten oder unsere Daten für sein Business auszuwerten. Und alle die, die schon länger dabei sind, tun gut daran, so schnell wie möglich mitzumachen. _Sideshow:_ Während Du dies hier liest, wirst Du übrigens von [Piwik](https://piwik.org/){:target="_blank"} getrackt. Welchen Browser Du verwendest, von wo Du gekommen bist. Wie lange Du auf dieser Seite bist. Wie groß ein Bildschirm ist. Wahrscheinlich kann ich anhand der IP Adresse herausfinden, in welcher Stadt Du wohnst. Eine ganze Menge. Und mich interessiert eigentlich nur, wenn dann mal mehr als 2 Leute pro Monat vorbeikommen, woher sie kamen und was sie sich so nacheinander auf der Seite angeschaut haben.   
