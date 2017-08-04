@@ -9,7 +9,6 @@ comments_locked: false
 header:
         image: /assets/images/header/head_city3.jpg
         caption: "&copy; [Kral • Photography](https://kral-photography.com)"
-image:
         twitter: /assets/images/header/head_city3_b.jpg
 categories: tech 
 tags: blog life world  rp17 future
