@@ -63,6 +63,9 @@
   @include clearfix();
   margin-top: 1em;
   width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
   padding-top: 2em;
 
   ul {
