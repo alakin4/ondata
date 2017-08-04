@@ -9,7 +9,6 @@ comments_locked: false
 header:
         image: /assets/images/posts/170513-rp17-2017-05-08 04.04.58_1_header.jpg
         caption: "&copy; [Kral • Photography](https://kral-photography.com)"
-image:
         twitter: /assets/images/posts/170513-rp17-2017-05-08 04.04.58_1.jpg
 categories: tech 
 tags: blog life world rp17

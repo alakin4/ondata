@@ -105,8 +105,8 @@ see https://github.com/jekyll/jekyll-seo-tag/ for usage instructions
   {% assign seo_site_logo = seo_site_logo | escape %}
 {% endif %}
 
-{% if page.image or page.header.image or site.header.image %}
-  {% assign seo_page_image = page.image.path | default: page.image.facebook | default: page.image.twitter | default: page.image | default: page.header.image | default: site.header.image %}
+{% if page.image or page.header.twitter or page.header.image or site.header.image %}
+  {% assign seo_page_image = page.image.path | default: page.image.facebook | default: page.image.twitter | default: page.header.twitter | default: page.image | default: page.header.image | default: site.header.image %}
   {% unless seo_page_image contains "://" %}
     {% assign seo_page_image = seo_page_image | absolute_url %}
   {% endunless %}

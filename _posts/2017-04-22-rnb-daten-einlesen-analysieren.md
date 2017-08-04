@@ -8,7 +8,6 @@ excerpt: "Über das Einlesen von Daten aus einer Datei und das Analysieren der D
 header:
         image: /assets/images/header/head_spree2.jpg
         caption: "&copy; [Kral • Photography](https://kral-photography.com)"
-image:
         twitter: /assets/images/header/head_spree2_b.jpg
 date: 2017-04-22 16:15:35 +02:00 
 last_modified_at: 2017-04-22 20:56:26 +02:00 

@@ -168,13 +168,14 @@ permalink: /:categories/:title/
 timezone: "Europe/Berlin" # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins (previously gems:)
-plugins:
+plugins_dir:
   - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-archives
   - jekyll-auto-image
   - jekyll-gist
   - jekyll-feed
+  - jekyll-data
   - jemoji
 
 # mimic GitHub Pages with --safe
@@ -183,6 +184,7 @@ whitelist:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-data
   - jemoji
 
 # HTML Compression
