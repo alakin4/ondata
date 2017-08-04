@@ -96,3 +96,13 @@ wenn Informationen in diesem Sinne nur zwischen einzelnen ausgetauscht werden, g
 Die so ausgetauschten Informationen sind manipulierbar
 Shannon: Informationsgehalt einer Nachricht ist umgedreht proportional zu ihrer Wahrscheinlichkeit -> Unwahrscheinliche Informationen = hoher Informationsgehalt, spezifischere Informationen -> leicht manipulierbar
 Wir müssen uns wieder eine gemeinsame Geschichte finden und uns erzählen, damit die Informationen darin nicht manipulierbar sind
+
+In der Vereinzelung der Nachrichten werden sie manipulierbar. Auch ganz viele Gedanken zusammen, die scheinbar dieselbe Meinung äußern, bedeuten nicht eine Gemeinschaft. 
+Eine Cloud von scheinbar gleichen Gedanken ist nur eine größere Anzahl des Gedankens und stellen nicht einen neuen Gedanken dar und können keine neue Idee hervorbringen in ihrer bestätigenden Selbstreferenz. Die CLoud bedeutet noch nicht mal, daß da viele Menschen das gleiche Denken, sichtbar sind nur ähnliche Meinungen zu einem Sachverhalt. Da es in einer Cloud passiert, deuten wir es als Zustimmung zueinander. Vielleicht beudeutet es noch, daß die Menschen einen Sachverhalt auf sehr ähnliche Weise dekodieren. Aber wir wissen nichts darüber und es wird nicht durch die Cloud oder die Nachrichten vermittelt, ob die Menschen den Sachverhalt auch auf dieselbe Weise verstanden haben. Es ist also nur ein scheinbarer Zusammenhalt in der Cloud, ein angenommener, nie bestätigter. Und das macht jeden einzelnen angreifbar und manipulierbar.
+
+
+
+Noch nicht einmal bedeutet es das die Menschen den Sachverhalt auf die 
+
+
+es stehen erstmal nur ähnliche Worte in den Posts. Also sagen die Menschen ähnliche Meinungen
