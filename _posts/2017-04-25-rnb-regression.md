@@ -8,7 +8,6 @@ excerpt: "Regression am Beispiel des Capital Asset Pricing Models."
 header:
         image: /assets/images/header/head_natur2.jpg
         caption: "&copy; [Kral • Photography](https://kral-photography.com)"
-image:
         twitter: /assets/images/header/head_natur2_b.jpg
 date: 2017-04-25 18:41:22 +02:00
 last_modified_at: 2017-05-03 00:35:37 +02:00 

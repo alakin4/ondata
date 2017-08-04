@@ -9,7 +9,6 @@ author: true
 header:
     image: /assets/images/header/head_natur1.jpg
     caption: "&copy; [Kral • Photography](https://kral-photography.com)"
-image:
     twitter: /assets/images/header/head_natur1_b.jpg
 ---
 

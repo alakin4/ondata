@@ -7,15 +7,14 @@
    ========================================================================== */
 
 .breadcrumbs {
-  @include container;
   @include clearfix;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0 auto;
+  max-width: 100%;
   padding-left: 2em;
   padding-right: 2em;
   font-family: $sans-serif;
-  -webkit-animation: intro 0.3s both;
-          animation: intro 0.3s both;
+  -webkit-animation: $intro-transition;
+          animation: $intro-transition;
   -webkit-animation-delay: 0.30s;
           animation-delay: 0.30s;
 
@@ -37,11 +36,12 @@
     margin-bottom: 0;
 
     @include breakpoint($large) {
-      @include span(10 of 12 last);
+      float: right;
+      width: span(10 of 12);
     }
 
     @include breakpoint($x-large) {
-      @include prefix(0.5 of 12);
+      padding-left: gutter(0.5 of 12);
     }
   }
 
@@ -60,9 +60,9 @@
    ========================================================================== */
 
 .pagination {
-  @include full();
   @include clearfix();
   margin-top: 1em;
+  width: 100%;
   padding-top: 2em;
 
   ul {

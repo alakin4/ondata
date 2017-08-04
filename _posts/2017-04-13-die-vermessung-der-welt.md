@@ -10,7 +10,6 @@ header:
     image: /assets/images/posts/170413-fokus-erde-09_von_drygalski_antarktis_1902_pr_header.jpg
     title: "Erich von Drygalski mit Kleintheodolit die Mittagshöhe nehmend, Antarktis 17.09.1902 (&copy; Leibniz-Institut für Länderkunde, Leipzig)"
     caption: "&copy; Leibniz-Institut für Länderkunde, Leipzig"
-image:
     twitter: /assets/images/posts/170413-fokus-erde-09_von_drygalski_antarktis_1902_pr.jpg
 gallery:
   - url: /assets/images/posts/170413-fokus-erde-09_von_drygalski_antarktis_1902_pr.jpg
