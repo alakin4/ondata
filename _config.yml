@@ -255,7 +255,7 @@ autopages:
     enabled    : true
     layouts:
       - "autopage_categories.html"
-    title      : '„:cat“' # :category is replaced by the category name
+    title      : Posts kategorisiert in „:cat“ # :category is replaced by the category name
     permalink  : '/category/:cat'
   collections:
     enabled    : false
@@ -263,7 +263,7 @@ autopages:
     enabled    : true
     layouts:
       - "autopage_tags.html"
-    title      : '„:tag“' # :tag is replaced by the tag name
+    title      : Posts getagged mit „:tag“ # :tag is replaced by the tag name
     permalink  : '/tag/:tag'
 
 # Archives: Tags, Categories
