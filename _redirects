@@ -1,3 +1,2 @@
 /* https://ondata.work/:splat  301!
-
-/tags/*  /tag/:splat  301!
+/tags/*  https://ondata.work/tag/:splat  301!
