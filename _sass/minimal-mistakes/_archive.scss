@@ -21,6 +21,17 @@
   }
 }
 
+.page__content,
+.archive {
+  .tag__list a {
+    color: $info-color;
+  }
+
+  ul.tag__list li:hover {
+    list-style-type: circle;
+  }
+}
+
 .archive__subtitle {
   margin: 1.414em 0 0;
   padding-bottom: 0.5em;
@@ -58,14 +69,6 @@
   .archive__item-title {
     margin-top: 1em;
     border-bottom: none;
-  }
-
-  .tag__list a {
-    color: $info-color;
-  }
-
-  ul.tag__list li:hover {
-    list-style-type: circle;
   }
 }
 
