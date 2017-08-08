@@ -61,6 +61,7 @@
 
 .pagination {
   @include clearfix();
+  float: left;
   margin-top: 1em;
   width: 100%;
   float: left;
@@ -558,7 +559,7 @@
   }
 
   li ul > li a {
-    padding-left: 2rem;
+    padding-left: 1.75rem;
     font-weight: normal;
     font-size: $type-size-8;
   }

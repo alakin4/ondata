@@ -4,6 +4,14 @@
 
 - Add Greek localized UI text strings. [#1159](https://github.com/mmistakes/minimal-mistakes/pull/1159)
 - Remove blank YAML Front Matter from JavaScript banner. [#1158](https://github.com/mmistakes/minimal-mistakes/issues/1158)
+- Improve `page` and `archive` layouts to visually center main content and harmonize sidebar widths and placement. [#1166](https://github.com/mmistakes/minimal-mistakes/pull/1166)
+- Increase font-size of code blocks.
+- Reduce indent of nested "table of contents" links.
+
+### Maintenance
+
+- Fix typo `words_per_minute` typo in documentation. [#1164](https://github.com/mmistakes/minimal-mistakes/pull/1164)
+- Remove outside and right borders in `table`s.
 
 ## [4.5.0](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.5.0)
 
