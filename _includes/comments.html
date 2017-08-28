@@ -44,7 +44,7 @@
 
         <!-- Start new comment form -->
         {% unless page.comments_locked == true %}
-        <div id="respond" class="no-print page__comments-form">
+        <div id="respond" class="no-print">
         <h2 id="respond-head" class="page__comments-title">{{ site.data.ui-text[site.locale].comments_label | default: "Leave a Comment" }} <small class="comment-form-cancel-comment"><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | absolute_url }}#respond" style="display:none;">{{ site.data.ui-text[site.locale].comment_cancel_reply | default: "Cancel reply" }}</a></small></h2>
         <form id="comment-form" class="page__comments-form js-form form" method="post" action="https://api.staticman.net/v2/entry/{{ site.repository }}/{{ site.staticman.branch }}/comments">
           <div class="form__spinner">
