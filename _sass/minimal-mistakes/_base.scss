@@ -145,6 +145,10 @@ a {
   &:active {
     outline: 0;
   }
+
+  &:visited {
+    color: $link-color-visited;
+  }
 }
 
 /* code */
@@ -167,7 +171,7 @@ td > code {
   padding-bottom: 0.1rem;
   font-size: $type-size-65emb;
   background: $code-background-color;
-  border: 1px solid $lighter-gray;
+  border: 1px solid $border-color;
   border-radius: $border-radius;
   box-shadow: $box-shadow;
 
@@ -262,20 +266,16 @@ figure {
 
 figcaption {
   margin-bottom: 0.5em;
-  color: mix(#fff, $text-color, 25%);
+  color: $muted-text-color;
   font-family: $caption-font-family;
   font-size: $type-size-65emb;
 
   a {
-    color: inherit;
-    text-decoration: none;
-    border-bottom: 1px solid $light-gray;
     -webkit-transition: $global-transition;
     transition: $global-transition;
 
     &:hover {
-      color: #000;
-      border-bottom-color: #000;
+      color: $link-color-hover;
     }
   }
 }
