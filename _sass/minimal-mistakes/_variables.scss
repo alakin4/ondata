@@ -78,7 +78,7 @@ $code-background-color-dark : $light-gray !default;
 $code-comment               : #5f9cac !default;
 $text-color                 : $dark-gray !default;
 $border-color               : $lighter-gray !default;
-$muted-text-color           : mix(#fff, $text-color, 35%) !default;
+$muted-text-color           : mix(#fff, gray, 25%) !default;
 $form-background-color      : $lighter-gray !default;
 $footer-background-color    : $lighter-gray !default;
 
