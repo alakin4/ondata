@@ -61,3 +61,10 @@ http://www.catalog.update.microsoft.com/search.aspx?q=3212646
 https://github.com/mmistakes/minimal-mistakes/issues/588
 
 **Everything**
+
+### Notizen 2
+
+Da kommt ich ja mit dem Meinung haben gar nicht mehr hinterher: http://www.zeit.de/politik/ausland/2017-06/katar-russland-hacker-saudi-arabien-iran-trump-israel-fbi-cnn 
+
+https://markmanson.net/everything-is-fucked
+https://markmanson.net/outrage

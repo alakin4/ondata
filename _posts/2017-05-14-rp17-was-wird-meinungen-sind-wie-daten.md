@@ -66,42 +66,28 @@ Was einer neuen Qualität am nächsten kommt, ist, daß wir bis hierher nur Empf
 ## Manipuliere, wer kann!
 
 Die Daten werden gesammelt, um etwas in ihnen zu Suchen. Die Daten werden analysiert, durch selbstlernende Algorithmen geleitet. Sie werden verarbeitet, es wird nach Mustern gesucht. Mir den Ergebnissen werden in einer Art Feedback die Parameter der Algorithmen so verändert, daß sie die Muster, denen wir Bedeutung beimessen, in Zukunft leichter erkennen.    
-Und hier stehen wir vor einem Dilemma. Entweder wir haben die Algorithmen mit den Daten, die wir zum Lernen benutzt haben, so stark in eine unserem Verständnis entsprechende Richtung entwickelt, was bedeutet, daß der Bias sehr stark ist, daß das System zwar für uns gut interpretierbare Ergebnisse liefert, es jedoch darüber hinaus ziemlich unfrei ist. Oder wir lassen den Algorithmen mehr Freiheiten, erzeugen mit unseren Lerndaten einen weniger starken Bias, verstehen jedoch die Ergebnisse in dem Maße schlechter. Können Sie nicht so einfach interpretieren, da uns die Erfahrungen fehlen, die uns zu ähnlichen Ergebnissen führen könnten. Welchen der beiden Wege gehen wir? 
+Und hier stehen wir vor einem Dilemma. Entweder wir haben die Algorithmen mit den Daten, die wir zum Lernen benutzt haben, so stark in eine unserem Verständnis entsprechende Richtung entwickelt, was bedeutet, daß der Bias sehr stark ist, daß das System zwar für uns gut interpretierbare, d.h. verstehbare Ergebnisse liefert, er jedoch darüber hinaus ziemlich unfrei ist. Oder wir lassen den Algorithmen mehr Freiheiten, erzeugen mit unseren Lerndaten einen weniger starken Bias, verstehen jedoch die Ergebnisse in dem Maße schlechter, können sie nicht so einfach interpretieren, da uns die Erfahrungen fehlen, die uns zu ähnlichen Ergebnissen führen könnten. Welchen der beiden Wege gehen wir? 
 
-### Notizen 1
+## Und wir?
 
-Nämlich wie wir am leichtesten zu manipulieren sind. Datenmanipulation ist die Phase, in die wir bereits eingetreten sind. Aber es werden nicht unsere gesammelten Daten manipuliert. Es werden Daten, die aussehen wie echte Daten, in die soziale Sphäre eingespeist, um uns zu manipulieren. Oder, und das hat weniger etwas mit dem Daten sammeln zu tun, es werden gleich ganze Systeme manipuliert, so daß sie anders oder gar nicht mehr funktionieren.
+Unser System von Erfahrung und Bewertung unserer Realität funktioniert ja nicht anders. Unsere Meinungen beruhen auf unseren Erfahrungen. Die Erfahrungen sind in den Verknüpfungen der Nervenzellen unseres Gehirns als eine Art Muster von verstärkenden und dämpfenden Verbindungen abgespeichert. Diese Muster sind der Bias, durch den wir nachfolgende Erfahrungen filtern und formen und als neue Muster abspeichern. So könnten wir unsere Meinungen als Daten sehen, die unser Lernsystem im Gehirn befüttern und wieder als Daten aus diesem System ausgegeben. Neue Meinungen, die wir dann wiedergeben, die wir als Posts und Kommentare in die soziale Sphäre einspeisen. Und die wir von anderen lesen. Denn: zum Informationsaustausch gehören Sender und Empfänger. Doch wenn Informationen in diesem Sinne nur zwischen Einzelnen ausgetauscht werden, gibt es eigentlich auch nur eine Geschichte zwischen Sender und Empfänger. Eigentlich ist das natürlich hier nicht anwendbar, aber die philosophische Spielerei bietet sich an: Nach Claude Shannon ist der Informationsgehalt einer Nachricht umgedreht proportional zu ihrer Wahrscheinlichkeit. Eine unwahrscheinlich Information hat einen hohen Informationsgehalt. Da durch die hohe Unwahrscheinlichkeit die enthaltene Information auch in dem Maß weniger wahrscheinlich vorhergesagt werden kann, kann der Inhalt weniger leicht manipuliert werden. Spezifische Information hingegen sind wahrscheinlicher und damit leichter vorhersehbar und können somit leichter manupuliert werden.   
 
-### Notizen 2
+Wenn wir uns in unserer gewohnten, bequemen sozialen Sphäre bewegen, schwimmen wir durch Wölkchen gleicher oder zumindest ähnlicher Meinungen. Vorhersagbare Meinungen, wenig Informationsgehalt. Es ist unwichtig, aus welcher Quelle die Meinungs-Daten kommen, Hauptsache sie stimmen mit unserer Meinung überein.
+Werden jetzt Daten, die aussehen wie echte Daten, in die uns umgebende soziale Sphäre eingespeist, um uns zu manipulieren, können wir dies nicht mehr feststellen, da die Daten-Meinungen zu unspezifisch sind, keinen Informationsgehalt mehr besitzen.   
 
-Da kommt ich ja mit dem Meinung haben gar nicht mehr hinterher: http://www.zeit.de/politik/ausland/2017-06/katar-russland-hacker-saudi-arabien-iran-trump-israel-fbi-cnn 
+In der Vereinzelung der Nachrichten wird jede einzelne manipulierbar. Und die Vereinzelung der Nachrichten beruht natürlich auf der Vereinzelung von uns Menschen. Auch ganz viele Gedanken zusammen, die scheinbar dieselbe Meinung äußern, bedeuten dann nicht eine Gemeinschaft. 
+Eine Sphäre von scheinbar gleichen Gedanken ist nur eine größere Anzahl des Gedankens und stellen nicht einen neuen Gedanken dar und können keine neue Idee hervorbringen in ihrer bestätigenden Selbstreferenz. Die soziale Sphäre bedeutet noch nicht mal, daß da viele Menschen das gleiche Denken, sichtbar sind nur ähnliche Meinungen zu einem Sachverhalt. Da es in einer Sphäre passiert, deuten wir es als Zustimmung zueinander. Vielleicht beudeutet es noch, daß die Menschen einen Sachverhalt auf sehr ähnliche Weise dekodieren. Aber wir wissen nichts darüber und es wird nicht durch die soziale Sphäre oder die Nachrichten vermittelt, ob die Menschen den Sachverhalt auch auf dieselbe Weise verstanden haben. Es ist also nur ein scheinbarer Zusammenhalt in der Sphäre, ein angenommener, nie bestätigter. Und das macht jeden einzelnen angreifbar und manipulierbar.   
 
-https://markmanson.net/everything-is-fucked
-https://markmanson.net/outrage
+Wir erzählen uns keine Geschichten mehr, sondern erzeugen nur ein beständiges wohliges weißes Rauschen gleichförmiger Signale. Wir müssen uns wieder eine gemeinsame Geschichte finden und uns erzählen, damit die Informationen darin nicht manipulierbar sind.   
+Muster-Erkennung wird zur Analyse unserer Daten verwendet. Warum verwenden wir es nicht zur Erkennung von Datenmanipulation?   
 
-### Notizen 3
-
-Mensch hat Meinung -> Meinung beruht auf Erfahrungen -> Erfahrungen werden als Muster im Gehirn gespeichert -> diese Muster sind der Bias, durch den wir nachfolgende Erfahrungen filtern und formen und als neues Muster abspeichern -> wir arbeiten längst im Modus der Mustererkennung -> Vielleicht müssen wir nur begreifen lernen, das unsere Meinungen einfach Daten sind, die unser brain learning system befüttern und so wieder als Daten aus diesem System ausgegeben werden  
-
-### Notizen 4
-
-Muster-Erkennung wird zur Analyse unserer Daten verwendet. Warum verwenden wir es nicht zur Erkennung von Datenmanipulation?
 
 ### Notizen 5
 
-wir werden nicht nur manipuliert
-wir manipulieren genauso mit
 stehen auf der Bühne und sind Zuschauer
 totale Vereinzelung
 jeder versucht seine Geschichte zu erzählen
 wir lassen uns manipulieren
-zum Informationsaustausch gehören Sender und Empfänger
-wenn Informationen in diesem Sinne nur zwischen einzelnen ausgetauscht werden, gibt es auch nur eine Geschichte zwischen Sender und Empfänger
-Die so ausgetauschten Informationen sind manipulierbar
-Shannon: Informationsgehalt einer Nachricht ist umgedreht proportional zu ihrer Wahrscheinlichkeit -> Unwahrscheinliche Informationen = hoher Informationsgehalt, spezifischere Informationen -> leicht manipulierbar
-Wir müssen uns wieder eine gemeinsame Geschichte finden und uns erzählen, damit die Informationen darin nicht manipulierbar sind
 
-### Notizen 6
 
-In der Vereinzelung der Nachrichten wird jede einzelne manipulierbar. Und die Vereinzelung der Nachrichten beruht natürlich auf der Vereinzelung von uns Menschen. Auch ganz viele Gedanken zusammen, die scheinbar dieselbe Meinung äußern, bedeuten dann nicht eine Gemeinschaft. 
-Eine Cloud von scheinbar gleichen Gedanken ist nur eine größere Anzahl des Gedankens und stellen nicht einen neuen Gedanken dar und können keine neue Idee hervorbringen in ihrer bestätigenden Selbstreferenz. Die CLoud bedeutet noch nicht mal, daß da viele Menschen das gleiche Denken, sichtbar sind nur ähnliche Meinungen zu einem Sachverhalt. Da es in einer Cloud passiert, deuten wir es als Zustimmung zueinander. Vielleicht beudeutet es noch, daß die Menschen einen Sachverhalt auf sehr ähnliche Weise dekodieren. Aber wir wissen nichts darüber und es wird nicht durch die Cloud oder die Nachrichten vermittelt, ob die Menschen den Sachverhalt auch auf dieselbe Weise verstanden haben. Es ist also nur ein scheinbarer Zusammenhalt in der Cloud, ein angenommener, nie bestätigter. Und das macht jeden einzelnen angreifbar und manipulierbar.
+
