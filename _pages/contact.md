@@ -14,8 +14,9 @@ Ich fotografiere und die Bilder gibt es dann meist kurze Zeit später [hier](htt
 
 Damit ich hier auch `=` etwas lerne, habe ich `ONDATA` mit [Jekyll](https://jekyllrb.com/docs/home){:target="_blank"} um- und dabei das Theme [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/){:target="_blank"} von [Michael Rose](https://mademistakes.com/){:target="_blank"} eingesetzt.
 
+<h2>Nachricht senden</h2>
 
-<form name="contact" netlify-honeypot="bot-field" action="/pages/thankyou.html" netlify>
+<form name="contact" netlify-honeypot="bot-field" action="/_pages/thankyou.html" netlify>
   <p class="hidden">
     <label>Don’t fill this out: <input name="bot-field"></label>
   </p>
@@ -32,8 +33,8 @@ Damit ich hier auch `=` etwas lerne, habe ich `ONDATA` mit [Jekyll](https://jeky
     <input type="text" name="subject" tabindex="3"/>
   </fieldset>
   <fieldset>
-    <label for="message">Nachricht</label>
-    <textarea name="message" rows="3" tabindex="4" class="label-required"></textarea>
+    <label for="message"><span class="label-required">Nachricht</span></label>
+    <textarea name="message" rows="3" tabindex="4"></textarea>
   </fieldset>
   <fieldset>
     <button type="submit" tabindex="5" class="btn">Senden</button>
