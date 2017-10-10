@@ -1,7 +1,7 @@
 ---
 permalink: /kontakt/
 title: "Kontakt"
-last_modified_at: 2017-05-06 00:47:00 +02:00 
+last_modified_at: 2017-10-10 23:09:08 +02:00 
 excerpt: "Hier gibt es die Kontaktierungsmöglichkeiten und andere Verbindungen."
 ads: false
 share: false
@@ -16,7 +16,7 @@ Damit ich hier auch `=` etwas lerne, habe ich `ONDATA` mit [Jekyll](https://jeky
 
 <h2>Nachricht senden</h2>
 
-<form name="contact" netlify-honeypot="bot-field" action="/_pages/thankyou.html" netlify>
+<form name="contact" netlify-honeypot="bot-field" action="/_pages/thankyou" netlify>
   <p class="hidden">
     <label>Don’t fill this out: <input name="bot-field"></label>
   </p>
