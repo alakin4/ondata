@@ -16,7 +16,7 @@ Damit ich hier auch `=` etwas lerne, habe ich `ONDATA` mit [Jekyll](https://jeky
 
 <h2>Nachricht senden</h2>
 
-<form name="contact" netlify-honeypot="bot-field" action="/danke" netlify>
+<form name="contact" class="page__comments-form" netlify-honeypot="bot-field" action="/danke" netlify>
   <p class="hidden">
     <label>Don’t fill this out: <input name="bot-field"></label>
   </p>
