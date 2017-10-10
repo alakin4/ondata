@@ -21,11 +21,11 @@ Damit ich hier auch `=` etwas lerne, habe ich `ONDATA` mit [Jekyll](https://jeky
     <label>Don’t fill this out: <input name="bot-field"></label>
   </p>
   <fieldset>
-    <label for="name"><span class="label-required">{{ site.data.ui-text[site.locale].comment_form_name_label | default: "Name" }}</span></label>
+    <label for="name"><span>{{ site.data.ui-text[site.locale].comment_form_name_label | default: "Name" }}</span></label>
     <input type="text" name="name" tabindex="1" />
   </fieldset>
   <fieldset>
-    <label for="email"><span class="label-required">{{ site.data.ui-text[site.locale].comment_form_email_label | default: "Email" }}</span></label>
+    <label for="email"><span>{{ site.data.ui-text[site.locale].comment_form_email_label | default: "Email" }}</span></label>
     <input type="email" name="email" tabindex="3" />
   </fieldset>
   <fieldset>
@@ -33,7 +33,7 @@ Damit ich hier auch `=` etwas lerne, habe ich `ONDATA` mit [Jekyll](https://jeky
     <input type="text" name="subject" tabindex="3"/>
   </fieldset>
   <fieldset>
-    <label for="message"><span class="label-required">Nachricht</span></label>
+    <label for="message"><span>Nachricht</span></label>
     <textarea name="message" rows="3" tabindex="4"></textarea>
   </fieldset>
   <fieldset>
