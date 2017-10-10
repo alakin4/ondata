@@ -2,7 +2,7 @@
 permalink: /re-publica17-was-wird-meinungen-sind-wie-daten/
 title: "re:publica 17: Was wird? Meinungen sind wie Daten."
 date: 2017-05-14 08:45:30 +02:00
-last_modified_at: 2017-09-18 20:54:31 +02:00  
+last_modified_at: 2017-10-10 20:52:11 +02:00 
 excerpt: "Die re:publica 17 ist vorbei. Was kommt jetzt? Auf jeden Fall viel Aufregung über das Datensammeln. Die Versuche, die Freiheit zu erhalten. Das Überwachen oder das Überwachtwerden einzuschränken. Zu wenig Aufmerksamkeit für das Daten manipulieren. Und Meinungen sind Daten!"
 comments: true
 comments_locked: false
@@ -77,24 +77,18 @@ Und hier stehen wir vor einem Dilemma. Entweder wir haben die Algorithmen mit de
 
 Unser System von Erfahrung und Bewertung unserer Realität funktioniert ja nicht anders. Unsere Meinungen beruhen auf unseren Erfahrungen. Die Erfahrungen sind in den Verknüpfungen der Nervenzellen unseres Gehirns als eine Art Muster von verstärkenden und dämpfenden Verbindungen abgespeichert. Diese Muster sind der Bias, durch den wir nachfolgende Erfahrungen filtern und formen und die dann wieder als neue Muster abgespeichert werden, indem die Verbindungen und ihre Wichtungen neu bewertet und angepaßt werden. In unseren Köpfen eine Art kleine, persönliche soziale Sphäre, wo sich gleichartige Eindrücke, Muster positiv verstärken. So könnten wir unsere Meinungen als Daten sehen, die unser Späre im Gehirn befüttern und wieder als Daten aus diesem System ausgegeben werden. Neue Meinungen, die wir dann wiedergeben, die wir als Posts und Kommentare in die soziale Sphäre einspeisen. Und die wir von anderen lesen.   
 
-Denn: zum Informationsaustausch gehören Sender und Empfänger. Doch wenn Informationen in diesem Sinne nur zwischen Einzelnen ausgetauscht werden, gibt es auch nur eine Geschichte zwischen Sender und Empfänger. Eigentlich ist das natürlich hier nicht anwendbar, aber die philosophische Spielerei bietet sich an: Nach Claude Shannon ist der Informationsgehalt einer Nachricht umgedreht proportional zu ihrer Wahrscheinlichkeit. Eine unwahrscheinlich Information hat einen hohen Informationsgehalt. Da durch die hohe Unwahrscheinlichkeit die enthaltene Information auch in dem Maß weniger wahrscheinlich vorhergesagt werden kann, kann der Inhalt weniger leicht manipuliert werden. Spezifische Information hingegen sind wahrscheinlicher und damit leichter vorhersehbar und können somit leichter manupuliert werden.   
+Zum Informationsaustausch gehören Sender und Empfänger. Eigentlich ist das natürlich hier nicht anwendbar, aber die philosophische Spielerei bietet sich an: Nach Claude Shannon ist der Informationsgehalt einer Nachricht umgedreht proportional zu ihrer Wahrscheinlichkeit. Eine unwahrscheinlich Information hat einen hohen Informationsgehalt. Da durch die hohe Unwahrscheinlichkeit die enthaltene Information auch in dem Maß weniger wahrscheinlich vorhergesagt werden kann, kann der Inhalt weniger leicht manipuliert werden. Spezifische Information hingegen sind wahrscheinlicher und damit leichter vorhersehbar und können somit leichter manupuliert werden. Vielleicht ein Quergedanke, der weiterhilft.   
 
 Wenn wir uns in unserer gewohnten, bequemen sozialen Sphäre bewegen, schwimmen wir durch Wölkchen gleicher oder zumindest ähnlicher Meinungen. Vorhersagbare Meinungen, wenig Informationsgehalt. Es ist unwichtig, aus welcher Quelle die Meinungs-Daten kommen, Hauptsache sie stimmen mit unserer Meinung überein.
 Werden jetzt Daten, die aussehen wie echte Daten, in die uns umgebende soziale Sphäre eingespeist, um uns zu manipulieren, können wir ihre Echtheit nicht mehr feststellen, da die Daten-Meinungen zu unspezifisch sind, keinen Informationsgehalt mehr besitzen. Außer wir führen mit jeder Meinung einen Quellencheck durch und versuchen den Gehalt an Echtheit zu überprüfen.   
 
-In der Vereinzelung der Nachrichten wird jede einzelne manipulierbar. Und die Vereinzelung der Nachrichten beruht natürlich auf der Vereinzelung von uns Menschen. Auch ganz viele Gedanken zusammen, die scheinbar dieselbe Meinung äußern, bedeuten dann nicht eine Gemeinschaft. 
-Eine Sphäre von scheinbar gleichen Gedanken ist nur eine größere Anzahl des Gedankens und stellen nicht einen neuen Gedanken dar und können keine neue Idee hervorbringen in ihrer bestätigenden Selbstreferenz. Die soziale Sphäre bedeutet noch nicht mal, daß da viele Menschen das gleiche Denken, sichtbar sind nur ähnliche Meinungen zu einem Sachverhalt. Da es in einer Sphäre passiert, deuten wir es als Zustimmung zueinander. Vielleicht beudeutet es noch, daß die Menschen einen Sachverhalt auf sehr ähnliche Weise dekodieren. Aber wir wissen nichts darüber und es wird nicht durch die soziale Sphäre oder die Nachrichten vermittelt, ob die Menschen den Sachverhalt auch auf dieselbe Weise verstanden haben. Es ist also nur ein scheinbarer Zusammenhalt in der Sphäre, ein angenommener, nie bestätigter. Und das macht jeden einzelnen angreifbar und manipulierbar.   
+In unserer Sphäre fühlen wir uns aufgehoben, sozial verbunden mit den vielen anderen und sicher in diesem wohligen Meinungstrom, der sanft plätschernd dahin fließt. Wie beschrieben, sind nicht wir, sondern nur unsere Meinungen dort aufgehoben. Wir als Sender oder Empfänger sind allein. Jede/r sendet und empfängt für sich allein. Filtert für sich allein. Interpretiert für sich allein. Und in der Vereinzelung der Nachrichten, die auf unserer eigenen Vereinzelung beruht, wird jede/r einzelne manipulierbar. In den sicheren Meinungsstrom können leicht neue Meinungs-Daten geschüttet werden, denen wir dieselben Attribute zuschreiben, die wir für genauso sicher und glaubwürdig halten, wie die schon vorhandenen Meinungen.    
 
-Wir erzählen uns keine Geschichten mehr, sondern erzeugen nur ein beständiges wohliges weißes Rauschen gleichförmiger Signale. Wir müssen uns wieder eine gemeinsame Geschichte finden und uns erzählen, damit die Informationen darin nicht manipulierbar sind.   
-Muster-Erkennung wird zur Analyse unserer Daten verwendet. Warum verwenden wir es nicht zur Erkennung von Datenmanipulation?   
+Auch ganz viele Gedanken zusammen, die scheinbar dieselbe Meinung äußern, bedeuten gerade nicht nicht eine Gemeinschaft. Eine Sphäre von scheinbar gleichen Gedanken ist nur eine größere Anzahl des Gedankens, vielleicht ein Gedanke mit größerer Amplitude. Dies stellt nicht einen neuen Gedanken dar und die Gedanken können keine neue Idee hervorbringen in ihrer bestätigenden Selbstreferenz. Die soziale Sphäre bedeutet noch nicht mal, daß da viele Menschen das gleiche Denken, sichtbar sind nur ähnliche Meinungen zu einem Sachverhalt. Da es in einer Sphäre passiert, deuten wir es als Zustimmung zueinander. Vielleicht beudeutet es noch, daß die Menschen einen Sachverhalt auf sehr ähnliche Weise dekodieren. Aber wir wissen nichts darüber und es wird nicht durch die soziale Sphäre oder die Nachrichten vermittelt, ob die Menschen den Sachverhalt auch auf dieselbe Weise verstanden haben. Es ist also nur ein scheinbarer Zusammenhalt in der Sphäre, ein angenommener, nie bestätigter. Und das macht jede/n einzelne/n angreifbar und manipulierbar.   
 
+## Geschichten erzählen
 
-### Notizen 5
+Doch wenn Informationen so nur zwischen Einzelnen ausgetauscht werden, gibt es auch nur eine Geschichte zwischen Sender und Empfänger und nicht zwischen den vielen in der sozialen Sphäre, die nur scheinbar dieselbe Geschichte hören.   
+Wir erzählen uns keine Geschichten mehr, sondern erzeugen nur ein beständiges wohliges weißes Rauschen gleichförmiger Signale. Wir sollten wieder eine gemeinsame Geschichte finden und sie uns erzählen, damit die Informationen darin und wir weniger manipulierbar sind.   
 
-stehen auf der Bühne und sind Zuschauer
-totale Vereinzelung
-jeder versucht seine Geschichte zu erzählen
-wir lassen uns manipulieren
-
-
-
+Das war die Fortsetzung von [re:publica 17: Was bleibt?]({{ site.baseurl }}{% post_url 2017-05-13-rp17-was-bleibt %})

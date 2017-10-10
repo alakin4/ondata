@@ -68,3 +68,6 @@ Da kommt ich ja mit dem Meinung haben gar nicht mehr hinterher: http://www.zeit.
 
 https://markmanson.net/everything-is-fucked
 https://markmanson.net/outrage
+
+
+Muster-Erkennung wird zur Analyse unserer Daten verwendet. Warum verwenden wir es nicht zur Erkennung von Datenmanipulation?   
