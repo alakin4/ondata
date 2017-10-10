@@ -244,6 +244,7 @@ pagination:
   limit        : 0
   sort_field   : "last_modified_at"
   sort_reverse : true
+  indexpage    : 'index'
   category     : 'posts'
   trail: 
     before: 1000 # The number of links before the current page
