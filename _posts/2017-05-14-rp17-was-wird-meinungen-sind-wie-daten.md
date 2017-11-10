@@ -2,7 +2,7 @@
 permalink: /re-publica17-was-wird-meinungen-sind-wie-daten/
 title: "re:publica 17: Was wird? Meinungen sind wie Daten."
 date: 2017-05-14 08:45:30 +02:00
-last_modified_at: 2017-10-10 20:52:11 +02:00 
+last_modified_at: 2017-10-23 01:29:14 +02:00 
 excerpt: "Die re:publica 17 ist vorbei. Was kommt jetzt? Auf jeden Fall viel Aufregung über das Datensammeln. Die Versuche, die Freiheit zu erhalten. Das Überwachen oder das Überwachtwerden einzuschränken. Zu wenig Aufmerksamkeit für das Daten manipulieren. Und Meinungen sind Daten!"
 comments: true
 comments_locked: false
@@ -31,7 +31,7 @@ Genau, das war das Einstiegsthema. Ein alter Hut. Daten überall. Und Sammler. D
 
 ## Daten erkennen
 
-Die Phase des Sammelns von Daten war gestern. Gerstern war das neu, fing das an. Aufpassen, was jede/r in Formulare eingibt. Facebook - ja oder nein? Google - sind die böse oder die Guten? Was machen die eigentlich? Meine Daten sind doch nicht wichtig. Der schönste Satz: Ich hab doch nichts zu verbergen.    
+Die Phase des Sammelns von Daten war gestern. Gestern war das neu, fing das an. Aufpassen, was jede/r in Formulare eingibt. Facebook - ja oder nein? Google - sind die böse oder die Guten? Was machen die eigentlich? Meine Daten sind doch nicht wichtig. Der schönste Satz: Ich hab doch nichts zu verbergen.    
 Viel und oft gesagt wurde das. Interessiert, was dahinter, hinter dem ganzen Datensammeln steckt, hat es niemanden so richtig und es betraf ja auch größtenteils immer nur die Anderen. Ideen und Potentiale, gedachte, realistische Zukünfte waren gefühlt in der Diskussion sehr wenig zu erkennen.    Entweder die Version _1984_ und wir werden bis in jede kleinste, dunkelste Ecke überwacht oder _sie_ sammeln doch einfach nur meine unwichtigen Daten. Letzteres stellte sich psychisch als bequemer und erfolgreicher heraus, weshalb wir dabei blieben.   
 
 Bis heute. Wir alle machen mit. Wird schon nicht so schlimm sein und die Apps sind auch wirklich toll. Ja, tolle Apps, ok, aber können wir sagen ob und wie schlimm das alles ist mit diesen Daten? Können wir das? Schwierige Frage gefunden, denke ich. Wir haben keinen Vergleich, keine Erfahrungswerte. Wir hatten jedoch ein bißchen Zeit, uns damit zu beschäftigen. Nur hat uns die Beschäftigung mit der Frage, wer warum unsere Daten sammelt, wo sie doch für sich genommen so unwichtig sind, die ganze Zeit gekostet. Selbst als dann Themen wie Big Data aufkamen, wurde es noch nicht klarer. Zumindest waren wir jetzt beruhigt: Aha, dazu brauchen _sie_ unsere Daten. Gewürzt mit ganz viel: siehst Du, kommt ja was Gutes für uns alle bei raus. Meine App weiß durch uns alle, wo der nächste Stau ist. 
