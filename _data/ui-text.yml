@@ -59,6 +59,8 @@ en: &DEFAULT_EN
   october                    : October
   november                   : November
   december                   : December
+  search_placeholder_text    : "Enter your search term..."
+  results_found              : "Result(s) found"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
