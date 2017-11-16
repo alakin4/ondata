@@ -531,6 +531,8 @@ de: &DEFAULT_DE
   october                    : Oktober
   november                   : November
   december                   : Dezember
+  search_placeholder_text    : "Gesuchtes eingeben..."
+  results_found              : "Ergebnis(se) gefunden"
 de-DE:
   <<: *DEFAULT_DE
 de-AT:

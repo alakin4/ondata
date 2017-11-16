@@ -1,6 +1,6 @@
 ---
+layout: null
 ---
-
 var idx = lunr(function () {
   this.field('title', {boost: 10})
   this.field('excerpt')
@@ -41,7 +41,7 @@ var store = [
       {
         "title": {{ doc.title | jsonify }},
         "url": {{ doc.url | absolute_url | jsonify }},
-        "excerpt": {{ doc.content | strip_html | truncatewords: 20 | jsonify }},
+        "excerpt": {{ doc.excerpt | strip_html | jsonify }},
         "teaser":
           {% if teaser contains "://" %}
             {{ teaser | jsonify }}
