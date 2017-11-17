@@ -1,0 +1,24 @@
+/* ==========================================================================
+   SEARCH
+   ========================================================================== */
+
+.layout--search {
+  .archive__item-teaser {
+    margin-bottom: 0.25em;
+  }
+}
+
+.page__search-form {
+  padding: 1em;
+  margin-bottom: 1em;
+  background: $lighter-gray;
+  -webkit-transition: $global-transition;
+  transition: $global-transition;
+  border: 1px solid #bdc1c4;
+  border-radius: 4px;
+}
+
+.page__search-form input {
+	margin-bottom: 0;
+}
+
