@@ -15,7 +15,7 @@ var idx = lunr(function () {
   {% for doc in docs %}
     idx.add({
       title: {{ doc.title | jsonify }},
-      excerpt: {{ doc.excerpt | strip_html | truncatewords: 20 | jsonify }},
+      excerpt: {{ doc.excerpt | markdownify | jsonify }},
       categories: {{ doc.categories | jsonify }},
       tags: {{ doc.tags | jsonify }},
       id: {{ count }}
@@ -41,7 +41,7 @@ var store = [
       {
         "title": {{ doc.title | jsonify }},
         "url": {{ doc.url | absolute_url | jsonify }},
-        "excerpt": {{ doc.excerpt | strip_html | jsonify }},
+        "excerpt": {{ doc.excerpt | markdownify | jsonify }},
         "teaser":
           {% if teaser contains "://" %}
             {{ teaser | jsonify }}
