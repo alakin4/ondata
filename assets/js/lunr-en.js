@@ -15,7 +15,7 @@ var idx = lunr(function () {
   {% for doc in docs %}
     idx.add({
       title: {{ doc.title | jsonify }},
-      excerpt: {{ doc.content | strip_html | truncatewords: 20 | jsonify }},
+      excerpt: {{ doc.excerpt | markdownify | remove: '<p>' | remove: '</p>' | jsonify }},
       categories: {{ doc.categories | jsonify }},
       tags: {{ doc.tags | jsonify }},
       id: {{ count }}
@@ -41,7 +41,7 @@ var store = [
       {
         "title": {{ doc.title | jsonify }},
         "url": {{ doc.url | absolute_url | jsonify }},
-        "excerpt": {{ doc.excerpt | strip_html | jsonify }},
+        "excerpt": {{ doc.excerpt | markdownify | remove: '<p>' | remove: '</p>' | jsonify }},
         "teaser":
           {% if teaser contains "://" %}
             {{ teaser | jsonify }}
@@ -63,7 +63,7 @@ $(document).ready(function() {
       var ref = result[item].ref;
       if(store[ref].teaser){
         var searchitem =
-          '<div class="list__item">'+
+          '<div class="list__item archive">'+
             '<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">'+
               '<h2 class="archive__item-title" itemprop="headline">'+
                 '<a href="'+store[ref].url+'" rel="permalink">'+store[ref].title+'</a>'+
@@ -77,7 +77,7 @@ $(document).ready(function() {
       }
       else{
     	  var searchitem =
-          '<div class="list__item">'+
+          '<div class="list__item archive">'+
             '<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">'+
               '<h2 class="archive__item-title" itemprop="headline">'+
                 '<a href="'+store[ref].url+'" rel="permalink">'+store[ref].title+'</a>'+
