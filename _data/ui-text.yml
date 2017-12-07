@@ -374,7 +374,7 @@ it-IT:
 
 # Chinese  (zh-CN Chinese - China)
 # -----------------
-zh: &DEFAULT_ZH
+zh: &DEFAULT_ZH_HANS
   page                       : "页面"
   pagination_previous        : "向前"
   pagination_next            : "向后"
@@ -420,13 +420,11 @@ zh: &DEFAULT_ZH
   loading_label              : "正在加载..."
   permalink_label            : 
 zh-CN:
-  <<: *DEFAULT_ZH
-zh-HK:
-  <<: *DEFAULT_ZH
+  <<: *DEFAULT_ZH_HANS
 zh-SG:
-  <<: *DEFAULT_ZH
+  <<: *DEFAULT_ZH_HANS
 # Taiwan (Traditional Chinese)
-zh-TW:
+zh-TW: &DEFAULT_ZH_HANT
   page                       : "頁面"
   pagination_previous        : "較舊"
   pagination_next            : "較新"
@@ -471,7 +469,8 @@ zh-TW:
   comment_cancel_reply       :
   loading_label              : "載入中..."
   permalink_label            : 
-
+zh-HK:
+  <<: *DEFAULT_ZH_HANT
 # German / Deutsch
 # -----------------
 de: &DEFAULT_DE

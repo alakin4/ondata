@@ -11,11 +11,11 @@ var idx = lunr(function () {
 
 {% assign count = 0 %}
 {% for c in site.collections %}
-  {% assign docs = c.docs %}
+  {% assign docs = c.docs | where_exp:'doc','doc.search != false' %}
   {% for doc in docs %}
     idx.add({
       title: {{ doc.title | jsonify }},
-      excerpt: {{ doc.excerpt | markdownify | jsonify }},
+      excerpt: {{ doc.excerpt | markdownify | remove: '<p>' | remove: '</p>' | jsonify }},
       categories: {{ doc.categories | jsonify }},
       tags: {{ doc.tags | jsonify }},
       id: {{ count }}
@@ -31,7 +31,7 @@ var store = [
     {% if forloop.last %}
       {% assign l = true %}
     {% endif %}
-    {% assign docs = c.docs %}
+    {% assign docs = c.docs | where_exp:'doc','doc.search != false' %}
     {% for doc in docs %}
       {% if doc.header.teaser %}
         {% capture teaser %}{{ doc.header.teaser }}{% endcapture %}
@@ -41,7 +41,7 @@ var store = [
       {
         "title": {{ doc.title | jsonify }},
         "url": {{ doc.url | absolute_url | jsonify }},
-        "excerpt": {{ doc.excerpt | markdownify | jsonify }},
+        "excerpt": {{ doc.excerpt | markdownify | remove: '<p>' | remove: '</p>' | jsonify }},
         "teaser":
           {% if teaser contains "://" %}
             {{ teaser | jsonify }}
@@ -58,12 +58,12 @@ $(document).ready(function() {
     var query = $(this).val();
     var result = idx.search(query);
     resultdiv.empty();
-    resultdiv.prepend('<p>'+result.length+' {{ site.data.ui-text[site.locale].results_found | default: "Result(s) found" }}</p>');
+    resultdiv.prepend('<p class="results__found">'+result.length+' {{ site.data.ui-text[site.locale].results_found | default: "Result(s) found" }}</p>');
     for (var item in result) {
       var ref = result[item].ref;
       if(store[ref].teaser){
         var searchitem =
-          '<div class="list__item">'+
+          '<div class="list__item archive">'+
             '<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">'+
               '<h2 class="archive__item-title" itemprop="headline">'+
                 '<a href="'+store[ref].url+'" rel="permalink">'+store[ref].title+'</a>'+
@@ -77,7 +77,7 @@ $(document).ready(function() {
       }
       else{
     	  var searchitem =
-          '<div class="list__item">'+
+          '<div class="list__item archive">'+
             '<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">'+
               '<h2 class="archive__item-title" itemprop="headline">'+
                 '<a href="'+store[ref].url+'" rel="permalink">'+store[ref].title+'</a>'+
