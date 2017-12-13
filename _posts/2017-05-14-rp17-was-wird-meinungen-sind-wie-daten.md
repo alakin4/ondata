@@ -2,8 +2,8 @@
 permalink: /re-publica17-was-wird-meinungen-sind-wie-daten/
 title: "re:publica 17: Was wird? Meinungen sind wie Daten."
 date: 2017-05-14 08:45:30 +02:00
-last_modified_at: 2017-10-23 01:29:14 +02:00 
-excerpt: "Die re:publica 17 ist vorbei. Was kommt jetzt? Auf jeden Fall viel Aufregung über das Datensammeln. Die Versuche, die Freiheit zu erhalten. Das Überwachen oder das Überwachtwerden einzuschränken. Zu wenig Aufmerksamkeit für das Daten manipulieren. Und Meinungen sind Daten!"
+last_modified_at: 2017-12-13 01:15:53 +01:00 
+excerpt: "Die re:publica 17 ist lange vorbei. Was kommt jetzt? Auf jeden Fall viel Aufregung über das Datensammeln. Die Versuche, die Freiheit zu erhalten. Das Überwachen oder das Überwachtwerden einzuschränken. Zu wenig Aufmerksamkeit für das Daten manipulieren. Und Meinungen sind Daten!"
 comments: true
 comments_locked: false
 header:
@@ -95,4 +95,4 @@ Auch ganz viele Gedanken zusammen, die scheinbar dieselbe Meinung äußern, bede
 Doch wenn Informationen so nur zwischen Einzelnen ausgetauscht werden, gibt es auch nur eine Geschichte zwischen Sender und Empfänger und nicht zwischen den vielen in der sozialen Sphäre, die nur scheinbar dieselbe Geschichte hören.   
 Wir erzählen uns keine Geschichten mehr, sondern erzeugen nur ein beständiges wohliges weißes Rauschen gleichförmiger Signale. Wir sollten wieder eine gemeinsame Geschichte finden und sie uns erzählen, damit die Informationen darin und wir weniger manipulierbar sind.   
 
-Das war die Fortsetzung von [re:publica 17: Was bleibt?]({{ site.baseurl }}{% post_url 2017-05-13-rp17-was-bleibt %}). Die Karten für [re:publica 18](https://re-publica.com/de){:target="_blank"} liegen bereit. So wie die Frage: Was kommt?. 
+Das war die Fortsetzung von [re:publica 17: Was bleibt?]({{ site.baseurl }}{% post_url 2017-05-13-rp17-was-bleibt %}). Die Karten für [re:publica 18](https://re-publica.com/de){:target="_blank"} liegen bereit. So wie die Frage: Was kommt?
