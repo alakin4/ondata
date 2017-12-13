@@ -1,14 +1,14 @@
 # Production context: All deploys to the main
 # repository branch will inherit these settings.
 [context.production]
-  command = "jekyll build --config _config.yml,_config_prod.yml"
+  command = "JEKYLL_ENV=production jekyll build --config _config.yml,_config_prod.yml"
 
 # Deploy Preview context: All Deploy Previews
 # will inherit these settings.
 [context.deploy-preview]
-  command = "jekyll build --config _config.yml,_config_prev.yml"
+  command = "JEKYLL_ENV=development jekyll build --config _config.yml,_config_prev.yml"
 
 # Branch Deploy context: All deploys that are not in
 # an active Deploy Preview will inherit these settings.
 [context.branch-deploy]
-  command = "jekyll build --config _config.yml,_config_prev.yml"
+  command = "JEKYLL_ENV=development jekyll build --config _config.yml,_config_prev.yml"
