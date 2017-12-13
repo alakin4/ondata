@@ -4,6 +4,9 @@
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
+# 
+
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "de-DE"
@@ -19,24 +22,49 @@ enforce_ssl              : "ondata.work"
 repository               : "dev4223/ondata" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : false # true, false (default)
+minimal_mistakes_skin    : "default" # "air", "contrast", "dark", "dirt", "mint", "sunrise"
 words_per_minute         : 200
 comments:
-  provider               : "staticman" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  disqus:
+    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
 staticman:
-  branch                 : "master"
-atom_feed:
-  path                   : # blank (default) uses feed.xml
-
+  allowedFields          : # ['name', 'email', 'url', 'message']
+  branch                 : "post-preview"
+  commitMessage          : # "New comment."
+  filename               : # comment-{@timestamp}
+  format                 : # "yml"
+  moderation             : # true
+  path                   : # "/_data/comments/{options.slug}" (default)
+  requiredFields         : # ['name', 'email', 'message']
+  transforms:
+    email                : # "md5"
+  generatedFields:
+    date:
+      type               : # "date"
+      options:
+        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 # reCAPTCHA keys
 reCaptcha:
   siteKey: "6LcbQRsUAAAAAN3HgvbZPJY92mwOB1Y1SBoNcV-g"
   secret: "HSPkIkXTX1Pw6eToklIx70LCZ0SHGR562r8+TG6X9chdflm0QqH/cFwyisyHcJzVbWebcSUY17xWA6wke+dbRFvwrPNTb83jGI/ePk2NONfV7bbCreRvbLdVmOL42n6PppqurNC9SapPezUtPtt7hJc2Z4FZESHz9pB4mUv6pAA="
+atom_feed:
+  path                   : # blank (default) uses feed.xml
+search                   : true # true, false (default)
+
 
 # SEO Related
 google_site_verification :
 bing_site_verification   :
-alexa_site_verification  :
 yandex_site_verification :
+naver_site_verification  :
 
 # Social Sharing
 twitter:
@@ -65,9 +93,9 @@ author:
   name             : "dev4223"
   avatar           : "/assets/images/avatar_s.jpg"
   bio              : "lerning all about data"
-  location         : "Berlin"
+  location         : 
   email            : "developer4223@gmail.com"
-  uri              : "http://ondata.work/uber/"
+  uri              : 
   bitbucket        :
   codepen          :
   dribbble         :
@@ -75,15 +103,16 @@ author:
   facebook         :
   foursquare       :
   github           : dev4223
+  gitlab           :
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
-  steam            :
+  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
+  steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
   twitter          : HolgerKral
   vine             :
@@ -121,8 +150,8 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
+  - docs # ignore Minimal Mistakes /docs
+  - test # ignore Minimal Mistakes /test
   - _posts/__notes.md
 keep_files:
   - .git
@@ -166,8 +195,8 @@ sass:
 permalink: /:categories/:title/
 timezone: "Europe/Berlin" # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-# Plugins
-gems:
+# Plugins (previously gems:)
+plugins_dir:
   - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-archives
@@ -242,6 +271,7 @@ pagination:
   limit        : 0
   sort_field   : "last_modified_at"
   sort_reverse : true
+  indexpage    : 'index'
   category     : 'posts'
   trail: 
     before: 1000 # The number of links before the current page
@@ -254,7 +284,7 @@ autopages:
     enabled    : true
     layouts:
       - "autopage_categories.html"
-    title      : '„:cat“' # :category is replaced by the category name
+    title      : Posts kategorisiert in „:cat“ # :category is replaced by the category name
     permalink  : '/category/:cat'
   collections:
     enabled    : false
@@ -262,7 +292,7 @@ autopages:
     enabled    : true
     layouts:
       - "autopage_tags.html"
-    title      : '„:tag“' # :tag is replaced by the tag name
+    title      : Posts getagged mit „:tag“ # :tag is replaced by the tag name
     permalink  : '/tag/:tag'
 
 # Archives: Tags, Categories

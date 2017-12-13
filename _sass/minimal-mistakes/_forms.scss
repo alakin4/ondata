@@ -4,6 +4,8 @@
 
 form {
   margin: 0 0 5px 0;
+  padding: 1em;
+  background-color: $form-background-color;
 
   fieldset {
     margin-bottom: 5px;
@@ -19,7 +21,6 @@ form {
     padding: 0;
     color: $text-color;
     border: 0;
-    border-bottom: 1px solid mix(#fff, #000, 80%);
     white-space: normal;
   }
 
@@ -37,9 +38,9 @@ form {
     display: none;
   }
 
-  .btn {
-    line-height: 1.7;
-  }
+    .btn {
+      line-height: 1.7;
+    }
 }
 
 label,
@@ -64,7 +65,7 @@ label {
   margin-bottom: 0.25em;
   color: $text-color;
   cursor: pointer;
-  font-size: $type-size-65;
+    font-size: $type-size-65;
     font-family: $monospace;
 
   small {
@@ -91,14 +92,14 @@ select {
   padding: 0.25em;
   margin-bottom: 0.5em;
   color: $text-color;
-  background-color: #fff;
-  border: 1px solid #fff;
+    background-color: #fff;
+    border: 1px solid #fff;
   border-radius: $border-radius;
-  box-shadow: none;
+    box-shadow: none;
 
-  &:hover {
-    border-color: mix(#fff, $primary-color, 50%);
-  }
+    &:hover {
+      border-color: mix(#fff, $primary-color, 50%);
+    }
 }
 
 .input-mini {
@@ -218,9 +219,9 @@ input[type="hidden"] {
   color: $warning-color;
 }
 
-/*
-   Disabled state
-   ========================================================================== */
+  /*
+     Disabled state
+     ========================================================================== */
 
 input[disabled],
 select[disabled],
@@ -232,16 +233,17 @@ textarea[readonly] {
   cursor: not-allowed;
 }
 
-
 /*
-   Focus & active state
-   ========================================================================== */
+     Focus & active state
+     ========================================================================== */
 
 input:focus,
 textarea:focus {
   border-color: $primary-color;
   outline: 0;
   outline: thin dotted \9;
+  box-shadow: inset 0 1px 3px rgba($text-color, 0.06),
+    0 0 5px rgba($primary-color, 0.7);
 }
 
 input[type="file"]:focus,
@@ -251,14 +253,13 @@ select:focus {
   box-shadow: none;
 }
 
-
 /*
-   Help text
-   ========================================================================== */
+     Help text
+     ========================================================================== */
 
 .help-block,
 .help-inline {
-  color: $info-color;
+  color: $muted-text-color;
 }
 
 .help-block {
@@ -273,10 +274,19 @@ select:focus {
   padding-left: 5px;
 }
 
+/*
+     .form-group
+     ========================================================================== */
+
+.form-group {
+  margin-bottom: 5px;
+  padding: 0;
+  border-width: 0;
+}
 
 /*
-   .form-inline
-   ========================================================================== */
+     .form-inline
+     ========================================================================== */
 
 .form-inline input,
 .form-inline textarea,
@@ -301,12 +311,12 @@ select:focus {
 .form-inline .checkbox input[type="checkbox"] {
   float: left;
   margin-left: 0;
-  margin-right: 3px; }
-
+  margin-right: 3px;
+}
 
 /*
-   .form-search
-   ========================================================================== */
+     .form-search
+     ========================================================================== */
 
 .form-search input,
 .form-search textarea,
@@ -341,13 +351,12 @@ select:focus {
   margin-right: 3px;
 }
 
-
 /*
-   .form--loading
-   ========================================================================== */
+     .form--loading
+     ========================================================================== */
 
 .form--loading:before {
-  content: '';
+  content: "";
 }
 
 .form--loading .form__spinner {
@@ -372,11 +381,9 @@ select:focus {
   z-index: 11;
 }
 
-
-
 /*
-   Google search form
-   ========================================================================== */
+     Google search form
+     ========================================================================== */
 
 #goog-fixurl {
   ul {
@@ -400,7 +407,7 @@ select:focus {
   color: #000;
   border-width: 2px !important;
   border-style: solid !important;
-  border-color: lighten(#000,50);
+  border-color: $border-color;
   border-radius: $border-radius;
 }
 

@@ -1,10 +1,9 @@
-
 <!--
 Begin Jekyll SEO tag v2.2.0
 see https://github.com/jekyll/jekyll-seo-tag/ for usage instructions
 -->
 
-{% if page.url == "/" or page.url == "/about/" %}
+{% if page.url == "/index.html" or page.url == "/uber/" %}
   {% assign seo_homepage_or_about = true %}
 {% endif %}
 
@@ -18,7 +17,9 @@ see https://github.com/jekyll/jekyll-seo-tag/ for usage instructions
   {% assign seo_separator = " | " %}
 {% endif %}
 
-{% if page.title and seo_site_title %}
+{% if seo_homepage_or_about %}
+  {% assign seo_title = seo_site_title | append: seo_separator | append: site.description %}
+{% elsif page.title and seo_site_title %}
   {% assign seo_title = page.title | append: seo_separator | append: seo_site_title %}
 {% elsif site.description and seo_site_title %}
   {% assign seo_title = seo_site_title | append: seo_separator | append: site.description %}
@@ -103,8 +104,8 @@ see https://github.com/jekyll/jekyll-seo-tag/ for usage instructions
   {% assign seo_site_logo = seo_site_logo | escape %}
 {% endif %}
 
-{% if page.image or page.header.image or site.header.image %}
-  {% assign seo_page_image = page.image.path | default: page.image.facebook | default: page.image.twitter | default: page.image | default: page.header.image | default: site.header.image %}
+{% if page.image or page.header.twitter or page.header.image or site.header.image %}
+  {% assign seo_page_image = page.image.path | default: page.image.facebook | default: page.image.twitter | default: page.header.twitter | default: page.image | default: page.header.image | default: site.header.image %}
   {% unless seo_page_image contains "://" %}
     {% assign seo_page_image = seo_page_image | absolute_url %}
   {% endunless %}

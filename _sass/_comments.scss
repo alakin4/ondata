@@ -3,7 +3,11 @@
    ========================================================================== */
 
 .page__comments {
-  @include full();
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  clear: both;
 
   .small {
     font-size: $type-size-65;

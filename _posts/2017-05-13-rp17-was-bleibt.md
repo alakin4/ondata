@@ -9,7 +9,6 @@ comments_locked: false
 header:
         image: /assets/images/posts/170513-rp17-2017-05-08 04.04.58_1_header.jpg
         caption: "&copy; [Kral • Photography](https://kral-photography.com)"
-image:
         twitter: /assets/images/posts/170513-rp17-2017-05-08 04.04.58_1.jpg
 categories: tech 
 tags: blog life world rp17
@@ -30,7 +29,7 @@ Und diese Worte, über allem schwebend, sind verbunden mit dem Bild von Entschei
 ## Hintergründiges Wissen
 
 Nur kurz, damit man immer mal wieder nachlesen und vergangene Ereignisse einordnen kann, hier ein bißchen Material.
-Als erstes ein Artikel in der Zeit über den [Bundestags-Hack 2015](http://www.zeit.de/2017/20/cyberangriff-bundestag-fancy-bear-angela-merkel-hacker-russland){:target="_blank"}. Allein schon wegen des Satzes ganz am Anfang: „... Die Techniker, erinnert sie sich, empfehlen ihr, sie solle ihren Rechner neu starten.“ Weil das _é_ nicht geht.
+Als erstes ein Artikel in der Zeit über den [Bundestags-Hack 2015](http://www.zeit.de/2017/20/cyberangriff-bundestag-fancy-bear-angela-merkel-hacker-russland){:target="_blank"}. Allein schon wegen des Satzes ganz am Anfang: „... Die Techniker, erinnert sie sich, empfehlen ihr, sie solle ihren Rechner neu starten.“ Weil das _é_ auf ihrer Tastatur nicht mehr geht.
 Dann natürlich die Artikel über WannaCry. Einmal von Zammis Clark [„The worm that spreads WanaCrypt0r“](https://blog.malwarebytes.com/threat-analysis/2017/05/the-worm-that-spreads-wanacrypt0r/){:target="_blank"} und von Matt Suiche [„WannaCry — The largest ransom-ware infection in History“](https://blog.comae.io/wannacry-the-largest-ransom-ware-infection-in-history-f37da8e30a58){:target="_blank"} stellvertretend als Analyse der Ransomware und dann von [Marcus Hutchins aka MalwareTech](https://apnews.com/amp/dc60584d4b214f0fa6eb9ef88fdf46a7){:target="_blank"} [„How to Accidentally Stop a Global Cyber Attacks“](https://www.malwaretech.com/2017/05/how-to-accidentally-stop-a-global-cyber-attacks.html){:target="_blank"} über den kill switch des Ransomware-Programms in Form einer Domain, die einfach nur angemeldet werden mußte, um die weitere Ausbreitung wenigstens dieser Version zu verhindern. Und hier noch ein [Factsheet zur WannaCry-Attacke](https://gist.github.com/rain-1/989428fa5504f378b993ee6efbc0b168){:target="_blank"}.
 
 Und ungefragt liefert mir die Realität damit einen guten Einstieg in meinen kurzen Rückblick auf die re:publica 2017.
@@ -121,4 +120,4 @@ Heute wird die Theorie einfach dadurch abgelöst, daß es _eine neue Theorie gib
 Zum Anfang: Gut, bei all der Schwarzmalerei, auf der re:publica wird natürlich darüber gesprochen, über all das Neue, das Unsichtbare, die Gefahren und die jetzt schon spürbaren Auswirkungen. Doch die alte Vision vom Inter-Net ist zu einer Realität geworden, die so viele nicht wollten, scheint mir. Und unsere jetzige Realität hat großen Einfluß darauf, in welche Richtung wir die Vektoren unsere Modells in Zukunft _entwickeln können_. Und mit dieser Perspektive ist es nicht so leicht, einfach so weiterzurennen.   
 Die neuen Visionen sind schon berechnet.
 
-Weiter bald im zweiten Teil: [Was wird?](#)
+Weiter bald im zweiten Teil: [Was wird? Meinungen sind wie Daten.]({{ site.baseurl }}{% post_url 2017-05-14-rp17-was-wird-meinungen-sind-wie-daten %})

@@ -3,16 +3,11 @@
 ---
 
 @charset "utf-8";
-@import "minimal-mistakes";
+@import "minimal-mistakes/skins/default"; // skin
+@import "minimal-mistakes"; // main partials
 
 /* Fonts */
 @import "onfont";
-
-/*
-   Base
-   ========================================================================== */
-
-@import "minimal-mistakes/utilities";
 
 /*
    Layout specific
@@ -27,4 +22,3 @@
    ========================================================================== */
 
 @import "zenburnc";
-

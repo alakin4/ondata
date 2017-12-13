@@ -1,5 +1,5 @@
 /*!
- * Minimal Mistakes Jekyll Theme 4.4.1 by Michael Rose
+ * Minimal Mistakes Jekyll Theme 4.8.0 by Michael Rose
  * Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
  * Licensed under MIT (https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt)
 */
@@ -12,21 +12,6 @@
 @include breakpoint-set("to ems", true);
 @import "minimal-mistakes/vendor/font-awesome/font-awesome";
 @import "minimal-mistakes/vendor/magnific-popup/magnific-popup"; // Magnific Popup
-$susy: (
-  columns: 12,
-  gutters: 1/4,
-  math: fluid,
-  output: float,
-  gutter-position: after,
-  container: $large,
-  global-box-sizing: border-box,
-  // debug: (
-  //   image: show,
-  //   color: blue,
-  //   output: overlay,
-  //   toggle: top right,
-  // ),
-);
 @import "minimal-mistakes/vendor/susy/susy";
 @import "minimal-mistakes/mixins";
 
@@ -43,6 +28,7 @@ $susy: (
 @import "minimal-mistakes/masthead";
 @import "minimal-mistakes/navigation";
 @import "minimal-mistakes/footer";
+@import "minimal-mistakes/search";
 @import "minimal-mistakes/syntax";
 
 /* Utility classes */

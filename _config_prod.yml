@@ -34,9 +34,10 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
+  - docs # ignore Minimal Mistakes /docs
+  - test # ignore Minimal Mistakes /test
   - _posts/__notes.md
   - robots.txt
+  - _posts/2017-05-13-rp17-was-wird-meinungen-sind-wie-daten.md
 
 google_site_verification : 1TwKH7c-QhYqXsr6rCuld0ck3tE6BQvFVn-SCaBzNzY

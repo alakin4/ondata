@@ -7,7 +7,6 @@ excerpt: "Eine kurze Überlegung. Unsere Daten, digitale Abbilder und viel zu le
 header:
         image: /assets/images/header/head_gruen2.jpg
         caption: "&copy; [Kral • Photography](https://kral-photography.com)"
-image:
         twitter: /assets/images/header/head_gruen2_b.jpg
 categories: news data
 tags: writing learning blog life

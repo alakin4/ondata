@@ -13,7 +13,7 @@ Nothing clever here :wink:. Layouts, data files, and includes are all placed in 
 ```bash
 minimal-mistakes
 ├── _data                      # data files for customizing the theme
-|  ├── navigations.yml         # main navigation links
+|  ├── navigation.yml          # main navigation links
 |  └── ui-text.yml             # text used throughout the theme's UI
 ├── _includes
 |  ├── analytics-providers     # snippets for analytics (Google and custom)
@@ -33,6 +33,7 @@ minimal-mistakes
 |  ├── compress.html           # compresses HTML in pure Liquid
 |  ├── default.html            # base for all other layouts
 |  ├── home.html               # home page
+|  ├── search.html             # search page
 |  ├── single.html             # single document (post/page/etc)
 |  └── splash.html             # splash page
 ├── _sass                      # SCSS partials

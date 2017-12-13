@@ -8,7 +8,6 @@ excerpt: "Es waren einmal Zahlen und die lebten in R. Ein kleiner Überblick üb
 header:
         image: /assets/images/header/head_spree2.jpg
         caption: "&copy; [Kral • Photography](https://kral-photography.com)"
-image:
         twitter: /assets/images/header/head_spree2_b.jpg
 date: 2017-04-08 01:12:46 +02:00
 last_modified_at: 2017-04-14 13:30:39 +02:00
