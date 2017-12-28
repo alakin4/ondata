@@ -492,7 +492,7 @@ de: &DEFAULT_DE
   comments_label             : "Einen Kommentar hinterlassen"
   comments_title             : "Kommentare"
   more_label                 : "Mehr anzeigen"
-  related_label              : "Ihnen gefällt vielleicht auch"
+  related_label              : "In Zusammenhang damit"
   related_posts              : "Verwandte Artikel"
   follow_label               : "Folgen:"
   feed_label                 : "Feed"
