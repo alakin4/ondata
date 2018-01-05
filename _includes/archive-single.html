@@ -39,10 +39,10 @@
     {% if post.read_time or site.data.comments[page.slug].size > 0 %}
       <p class="page__meta">
       {% if post.read_time %}
-        <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}
+        <i class="far fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}
       {% endif %}
       {% if site.data.comments[post.slug].size > 0 %}
-        <i class="fa fa-commenting-o"></i> <a href="#comments" class="page__meta-comments">{{ site.data.comments[post.slug] | size }} Kommentar{% if site.data.comments[post.slug].size > 1 %}e{% endif %}</a>
+        <i class="far fa-commenting-o"></i> <a href="#comments" class="page__meta-comments">{{ site.data.comments[post.slug] | size }} Kommentar{% if site.data.comments[post.slug].size > 1 %}e{% endif %}</a>
       {% endif %}
       </p>
     {% endif %}
@@ -50,9 +50,9 @@
   </article>
   <footer class="page__meta">
   {% if post.last_modified_at %}
-    <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ post.last_modified_at | date_to_xmlschema }}">{{ post.last_modified_at | localize: "%d. %B %Y" }}</time></p>
+    <p class="page__date"><strong><i class="far fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ post.last_modified_at | date_to_xmlschema }}">{{ post.last_modified_at | localize: "%d. %B %Y" }}</time></p>
   {% elsif post.date %}
-    <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | localize: "%d. %B %Y" }}</time></p>
+    <p class="page__date"><strong><i class="far fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | localize: "%d. %B %Y" }}</time></p>
   {% endif %}
   </footer>
 </div>

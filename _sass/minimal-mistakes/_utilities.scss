@@ -192,7 +192,7 @@ body:hover .visually-hidden button {
   .far,
   .fal {
     color: $text-color;
-    color: #494e52;
+    /*color: #494e52;*/
   }
 
   .fa-bitbucket,
@@ -205,16 +205,8 @@ body:hover .visually-hidden button {
     color: $behance-color;
   }
 
-<<<<<<<
-  .fa-dribbble {
-=======
-  .fa-bitbucket {
-    color: $bitbucket-color;
-  }
-
   .fa-dribbble,
   .fa-dribble-square {
->>>>>>>
     color: $dribbble-color;
   }
 
