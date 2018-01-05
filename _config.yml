@@ -57,7 +57,8 @@ reCaptcha:
   secret: "HSPkIkXTX1Pw6eToklIx70LCZ0SHGR562r8+TG6X9chdflm0QqH/cFwyisyHcJzVbWebcSUY17xWA6wke+dbRFvwrPNTb83jGI/ePk2NONfV7bbCreRvbLdVmOL42n6PppqurNC9SapPezUtPtt7hJc2Z4FZESHz9pB4mUv6pAA="
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : true # true, false (default)
+search                   : # true, false (default)
+search_full_content      : # true, false (default)
 
 
 # SEO Related
