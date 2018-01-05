@@ -35,10 +35,10 @@ layout: default-rnb
               <strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | localize: "%d. %B %Y" }}</time>
             {% endif %}
             {% if page.read_time %}
-              <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}
+              <i class="fas fa-clock" aria-hidden="true"></i> {% include read-time.html %}
             {% endif %}
             {% if site.data.comments[page.slug].size > 0 %}
-              <i class="fa fa-commenting-o"></i> <a href="#comments" class="page__meta-comments">{{ site.data.comments[page.slug] | size }} Kommentar{% if site.data.comments[page.slug].size > 1 %}e{% endif %}</a>
+              <i class="fas fa-commenting"></i> <a href="#comments" class="page__meta-comments">{{ site.data.comments[page.slug] | size }} Kommentar{% if site.data.comments[page.slug].size > 1 %}e{% endif %}</a>
             {% endif %}
             </p>
           {% endif %}
