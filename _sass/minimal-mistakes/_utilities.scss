@@ -388,6 +388,7 @@ body:hover .visually-hidden button {
     bottom: 1rem;
     height: 2.5rem;
     opacity: 0;
+    text-decoration: none;
     z-index: 999;
     -webkit-transition: background-color .3s, opacity .5s, visibility .5s;
     -moz-transition: background-color .3s, opacity .5s, visibility .5s;
@@ -396,19 +397,19 @@ body:hover .visually-hidden button {
     transition: background-color .3s, opacity .5s, visibility .5s;
 }
 
-#scroll-top-button .fa {
+#scroll-top-button .icomoon {
   font-weight: normal;
   font-style: normal;
   font-size: 2em;
   line-height: 2.1rem;
   transform: rotate(-45deg);
   color: inherit !important;
+  position: relative;
   -webkit-transition: transform ease-in .4s;
   -moz-transition: transform ease-in .4s;
   -ms-transition: transform ease-in .4s;
   -o-transition: transform ease-in .4s;
   transition: transform ease-in .4s;
-  position: relative;
 }
 
 #scroll-top-button.show {
@@ -420,7 +421,7 @@ body:hover .visually-hidden button {
   border: none !important;
 }
 
-#scroll-top-button.take-off .fa-rocket {
+#scroll-top-button.take-off .icon-rocket {
   color: $gray !important;
   transform: translateY(-1000px) rotate(-45deg);
 }
