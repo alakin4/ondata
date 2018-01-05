@@ -22,6 +22,7 @@ var store = [
           {% else %}
             {{ doc.content | strip_html | strip_newlines | truncatewords: 50 | jsonify }},
           {% endif %}
+        "excerpt_full": {{ doc.excerpt | markdownify | remove: '<p>' | remove: '</p>' | jsonify }},
         "categories": {{ doc.categories | jsonify }},
         "tags": {{ doc.tags | jsonify }},
         "url": {{ doc.url | absolute_url | jsonify }},
