@@ -21,6 +21,7 @@ var idx = lunr(function () {
     });
     {% assign count = count | plus: 1 %}
   {% endfor %}
+{% endfor %}
 });
 
 console.log( jQuery.type(idx) );

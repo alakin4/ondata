@@ -39,10 +39,10 @@
     {% if post.read_time or site.data.comments[page.slug].size > 0 %}
       <p class="page__meta">
       {% if post.read_time %}
-        <i class="far fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}
+        <i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}
       {% endif %}
       {% if site.data.comments[post.slug].size > 0 %}
-        <i class="far fa-commenting-o"></i> <a href="#comments" class="page__meta-comments">{{ site.data.comments[post.slug] | size }} Kommentar{% if site.data.comments[post.slug].size > 1 %}e{% endif %}</a>
+        <i class="far fa-commenting"></i> <a href="#comments" class="page__meta-comments">{{ site.data.comments[post.slug] | size }} Kommentar{% if site.data.comments[post.slug].size > 1 %}e{% endif %}</a>
       {% endif %}
       </p>
     {% endif %}
