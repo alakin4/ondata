@@ -197,6 +197,7 @@ timezone: "Europe/Berlin" # http://en.wikipedia.org/wiki/List_of_tz_database_tim
 
 # Plugins (previously gems:)
 plugins_dir:
+  - ./_plugins
   - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-archives
