@@ -300,7 +300,8 @@
     text-decoration: none;
   }
 
-  i:nth-child(n + 2) {
+  i:nth-child(n + 2),
+  svg:nth-child(n + 2) {
     margin-left: 1em;
   }
 
@@ -345,6 +346,13 @@
 
   strong {
     margin-right: 10px;
+
+    &:hover {
+      svg,
+      a {
+        color: $gray;
+      }
+    }
   }
 }
 
@@ -360,6 +368,7 @@
   &:hover {
     text-decoration: none;
     color: $link-color-hover;
+    border-color: $gray;
   }
 }
 

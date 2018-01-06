@@ -149,6 +149,7 @@ cite {
 a {
   &:focus {
     @extend %tab-focus;
+    outline: none;
   }
 
   &.image-popup:focus {
