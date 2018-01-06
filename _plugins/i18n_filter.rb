@@ -10,7 +10,7 @@ module Jekyll
     # Example:
     #   {{ post.date | localize: "%d.%m.%Y" }}
     #   {{ post.date | localize: ":short" }}
-    def localizeit(input, format=nil)
+    def localize(input, format=nil)
       load_translations
       format = (format =~ /^:(\w+)/) ? $1.to_sym : format
       if input.instance_of?(String)

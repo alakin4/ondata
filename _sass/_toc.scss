@@ -2,6 +2,11 @@
    TABLE OF CONTENTS
    ========================================================================== */
 
+.toc .nav__title svg {
+  display: inline-block;
+  transition: 0.2s ease-out;
+}
+
 .toc.accordion-toc {
   box-shadow: none;
   margin-top: 1.3em;
@@ -27,6 +32,7 @@
   .nav__title {
     border-radius: $border-radius;
 
+    svg.svg-inline--fa,
     i.fa {
       font-weight: 100;
 
@@ -42,7 +48,8 @@
     }
   }
 
-  input:checked + label i.fa {
+  input:checked + label i.fa,
+  input:checked + label svg.svg-inline--fa {
     transform: rotate(45deg);
   }
 }

@@ -20,7 +20,7 @@ related: true
 
 <aside class="sidebar__right">
 <nav class="toc flyout-toc">
-<header><h4 class="nav__title"><i class="fa fa-file-text"></i> TOC</h4></header>
+<header><h4 class="nav__title"><i class="fa fa-file-alt"></i> TOC</h4></header>
 <ul class="toc__menu toc_flyout" id="markdown-toc">
 <li><a href="#daten-einlesen">Daten einlesen</a></li>
 <li><a href="#gruppierungen-und-ranges">Gruppierungen und Ranges</a></li>
