@@ -6,11 +6,11 @@
    Typography
    ========================================================================== */
 
-$doc-font-size                : 16 !default;
+$doc-font-size: 16 !default;
 
 /* paragraph indention */
-$paragraph-indent             : false !default; // true, false (default)
-$indent-var                   : 1.3em !default;
+$paragraph-indent: false !default; // true, false (default)
+$indent-var: 1.3em !default;
 
 /* system typefaces */
 $serif                      : "GoudyBookletter1911Regular", Georgia, Times, serif !default;
@@ -56,7 +56,6 @@ $type-size-7                : 0.6875em !default; // ~11px
 $type-size-8                : 0.625em !default;  // ~10px
 $type-size-9                : 0.4em !default;  // ~8px
 
-
 /*
    Colors
    ========================================================================== */
@@ -88,10 +87,10 @@ $danger-color               : #ee5f5b !default;
 $info-color                 : #52adc8 !default;
 
 /* YIQ color contrast */
-$yiq-contrasted-dark-default  : $dark-gray !default;
-$yiq-contrasted-light-default : #fff !default;
-$yiq-contrasted-threshold     : 175 !default;
-$yiq-debug                    : false !default;
+$yiq-contrasted-dark-default: $dark-gray !default;
+$yiq-contrasted-light-default: #fff !default;
+$yiq-contrasted-threshold: 175 !default;
+$yiq-debug: false !default;
 
 /* brands */
 $social-color               : #494e52 !default;
@@ -118,12 +117,30 @@ $youtube-color              : $social-color;
 $xing-color                 : $social-color;
 
 /* links */
-$link-color                   : $info-color !default;
-$link-color-hover             : mix(#000, $link-color, 25%) !default;
-$link-color-visited           : mix(#fff, $link-color, 25%) !default;
-$masthead-link-color          : $primary-color !default;
-$masthead-link-color-hover    : mix(#000, $primary-color, 25%) !default;
-$navicon-link-color-hover     : mix(#fff, $primary-color, 75%) !default;
+$link-color: $info-color !default;
+$link-color-hover: mix(#000, $link-color, 25%) !default;
+$link-color-visited: mix(#fff, $link-color, 25%) !default;
+$masthead-link-color: $primary-color !default;
+$masthead-link-color-hover: mix(#000, $primary-color, 25%) !default;
+$navicon-link-color-hover: mix(#fff, $primary-color, 75%) !default;
+
+/* syntax highlighting (base16) */
+$base00: #263238 !default;
+$base01: #2e3c43 !default;
+$base02: #314549 !default;
+$base03: #546e7a !default;
+$base04: #b2ccd6 !default;
+$base05: #eeffff !default;
+$base06: #eeffff !default;
+$base07: #ffffff !default;
+$base08: #f07178 !default;
+$base09: #f78c6c !default;
+$base0a: #ffcb6b !default;
+$base0b: #c3e88d !default;
+$base0c: #89ddff !default;
+$base0d: #82aaff !default;
+$base0e: #c792ea !default;
+$base0f: #ff5370 !default;
 
 /* decoration */
 $decoration-color           : $link-color !default;
@@ -139,15 +156,13 @@ $medium-wide                : 900px !default;
 $large                      : 1024px !default;
 $x-large                    : 1280px !default;
 
-
 /*
    Grid
    ========================================================================== */
 
-$right-sidebar-width-narrow   : 200px !default;
-$right-sidebar-width          : 300px !default;
-$right-sidebar-width-wide     : 400px !default;
-
+$right-sidebar-width-narrow: 200px !default;
+$right-sidebar-width: 300px !default;
+$right-sidebar-width-wide: 400px !default;
 
 /*
    Other
