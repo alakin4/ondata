@@ -578,6 +578,11 @@ a.reversefootnote,
   }
 }
 
+// remove margin when embedded inside of a <figure> element
+figure .responsive-video-container {
+  margin-bottom: 0;
+}
+
 // full screen video fixes
 :-webkit-full-screen-ancestor {
   .masthead,
