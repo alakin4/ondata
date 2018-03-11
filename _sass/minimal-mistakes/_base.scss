@@ -147,6 +147,12 @@ cite {
 /* links */
 
 a {
+  text-decoration: none;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+ 
   &:focus {
     @extend %tab-focus;
     outline: none;
