@@ -1,8 +1,8 @@
 ---
 permalink: /deployment-jekyll-with-github-and-netlify/
 title:  "Auf der Suche nach einem guten Deployment Workflow"
-date: 2017-04-10 09:34:35 +02:00
-last_modified_at: 2017-04-16 16:12:57 +02:00
+date: 2017-04-10 09:34:35 +0200
+last_modified_at: 2017-04-16 16:12:57 +0200
 comments: true
 comments_locked: false
 header:

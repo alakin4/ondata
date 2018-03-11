@@ -9,8 +9,8 @@ header:
         image: /assets/images/header/head_spree2.jpg
         caption: "&copy; [Kral • Photography](https://kral-photography.com)"
         twitter: /assets/images/header/head_spree2_b.jpg
-date: 2017-04-20 22:44:31 +02:00 
-last_modified_at: 2017-04-21 00:05:15 +02:00
+date: 2017-04-20 22:44:31 +0200 
+last_modified_at: 2017-04-21 00:05:15 +0200
 tags: learning r variable structure
 categories: language data
 related: true
