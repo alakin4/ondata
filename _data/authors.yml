@@ -1,7 +1,10 @@
 # /_data/authors.yml
 
-Holger Kral:
+holger_kral:
   name: "Holger Kral"
+  address1: "Ansbacher Str. 67"
+  address2: "10777 Berlin"
+  tel: +49 179 53 47 135
   email: "developer4223@gmail.com"
   bio: "lerning all about data"
   avatar: "/assets/images/avatar_s.jpg"

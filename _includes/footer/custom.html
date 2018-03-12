@@ -1,3 +1,27 @@
 <!-- start custom footer snippets -->
-
+<!-- cookie notice https://cookieconsent.insites.com/ -->
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+console.log(window.cookieconsent)
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#3a3e42"
+    },
+    "button": {
+      "background": "#3e8296"
+    }
+  },
+  "theme": "classic",
+  "content": {
+    "message": "Webseite verwendet Cookies. Unerwünscht? Dann dem Link folgen und Lernen, das Tracking zu deaktivieren!.",
+    "dismiss": "OK",
+    "deny": "Cookies ablehnen!",
+    "link": "Mehr erfahren...",
+    "href": "https://ondata.work/impressum-datenschutz/"
+  }
+})});
+</script>
 <!-- end custom footer snippets -->
