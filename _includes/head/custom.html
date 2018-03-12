@@ -30,5 +30,31 @@
 <!-- cookie notice https://cookieconsent.insites.com/ -->
 <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
 <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<!-- cookie notice https://cookieconsent.insites.com/ -->
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  palette: {
+    popup: {
+      background: "#3a3e42"
+    },
+    button: {
+      background: "transparent",
+      text: "#3e8296",
+      border: "#3e8296"
+    }
+  },
+  content: {
+    message: "Webseite verwendet Cookies. Unerwünscht? Dann dem Link folgen und Lernen, das Tracking zu deaktivieren!",
+    dismiss: "OK",
+    deny: "Cookies ablehnen!",
+    link: "Mehr erfahren...",
+    href: "/impressum-datenschutz/"
+  },
+  elements: {
+    messagelink: '<span id="cookieconsent:desc" class="cc-message">Webseite verwendet Cookies. Unerwünscht? Dann dem Link folgen und Lernen, das Tracking zu deaktivieren! <a aria-label="learn more about cookies" tabindex="0" class="cc-link" href="/impressum-datenschutz/" target="_self">Mehr erfahren...</a></span>'
+  }
+})});
+</script>
 
 <!-- end custom head snippets -->
