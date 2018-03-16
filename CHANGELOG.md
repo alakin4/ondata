@@ -1,3 +1,28 @@
+## Unreleased
+
+* Add default `theme` and `remote_theme` values to `_config.yml`.
+
+## [4.10.1](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.10.1)
+
+### Enhancements
+
+* Update jQuery to version `3.3.1`. [#1491](https://github.com/mmistakes/minimal-mistakes/issues/1491)
+* Add link to jekyll-algolia's `files_to_exclude` documentation.
+* Update Font Awesome to version [`5.0.8`](https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md). [#1561](https://github.com/mmistakes/minimal-mistakes/pull/1561)
+* Activate Algolia search for documentation site. [#1570](https://github.com/mmistakes/minimal-mistakes/issues/1570)
+* Add missing German translations. [#1577](https://github.com/mmistakes/minimal-mistakes/pull/1577)
+* Add support for Google Analytics with global site tag (gtag.js) [#1563](https://github.com/mmistakes/minimal-mistakes/pull/1563)
+
+### Bug Fixes
+
+* Focus Algolia search input after clicking on search toggle.
+
+## [4.10.0](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.10.0)
+
+### Enhancements
+
+* Add support for [Algolia](https://www.algolia.com/) search provider ([see demo](https://mmistakes.github.io/minimal-mistakes-algolia-search/)). [#1416](https://github.com/mmistakes/minimal-mistakes/issues/1416)
+
 ## [4.9.1](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.9.1)
 
 ### Enhancements
