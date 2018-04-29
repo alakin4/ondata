@@ -4,13 +4,32 @@ permalink: /docs/history/
 excerpt: "Change log of enhancements and bug fixes made to the theme."
 sidebar:
   nav: docs
-last_modified_at: 2018-03-14T12:54:07-04:00
+last_modified_at: 2018-03-30T18:39:37-04:00
 toc: true
 ---
 
 ## Unreleased
 
+### Enhancements
+
+* Update Font Awesome to version `5.0.9`. [#1605](https://github.com/mmistakes/minimal-mistakes/pull/1605)
+
+### Bug Fixes
+
+* Use correct text string for "Back to Top" link. [#1595](https://github.com/mmistakes/minimal-mistakes/issues/1595)
+* Add conditionals for showing `reCaptcha.siteKey` and `reCaptcha.secret` in Staticman comments form.
+
+## [4.11.1](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.11.1)
+
+### Enhancements
+
 * Add default `theme` and `remote_theme` values to `_config.yml`.
+* Add new layouts (`posts`, `categories`, `tags`, `collection`, `category`, and `tag`) for easier archive page creation.
+
+### Bug Fixes
+
+* Replace `relative_url` filter with `relative_url` where it makes sense (asset/navigation related paths). [#1588](https://github.com/mmistakes/minimal-mistakes/issues/1588)
+* Fix search excerpts that run together because of implied spaces.
 
 ## [4.10.1](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.10.1)
 
@@ -462,7 +481,7 @@ toc: true
 ### Enhancements
 
 * "Gemify" theme ~> `gem "minimal-mistakes-jekyll"`
-* Replace `base_path` include with `absolute_url` filter where possible.
+* Replace `base_path` include with `relative_url` filter where possible.
 * Allow images to be placed in other folders. Remove `/images/` only restriction and encourage placement in `/assets/images/` instead. **Full paths are now required. If upgrading from MM 3.4 add `/images/` before filenames in Front Matter and `_config.yml` variables.**
 * Add [home `layout`](https://github.com/mmistakes/minimal-mistakes/blob/master/_layouts/home.html)
 * Added missing Turkish translations for UI text. [#621](https://github.com/mmistakes/minimal-mistakes/pull/621)

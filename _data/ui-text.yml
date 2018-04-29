@@ -61,6 +61,7 @@ en: &DEFAULT_EN
   december                   : December
   search_placeholder_text    : "Enter your search term..."
   results_found              : "Result(s) found"
+  back_to_top                : "Back to top"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -1007,6 +1008,7 @@ da: &DEFAULT_DA
   loading_label              : "Indlæser..."
   search_placeholder_text    : "Hvad leder du efter..."
   results_found              : "Resultat(er) fundet"
+  back_to_top                : "Tilbage til toppen"
 da-DK:
   <<: *DEFAULT_DA
 
