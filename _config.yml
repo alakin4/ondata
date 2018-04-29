@@ -282,7 +282,7 @@ pagination:
   debug        : false
   per_page     : 20
   collection   : 'posts'
-  permalink    : "/:num/"
+  permalink    : '/:num/'
   title        : ':title <span class="archive__taxonomy_header_small">Seite :num von :max</span>'
   limit        : 0
   sort_field   : "last_modified_at"
