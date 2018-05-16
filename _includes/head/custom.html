@@ -23,7 +23,7 @@
 {% endif %}
 
 <!-- insert google recaptcha. -->
-{% if site.reCaptcha.siteKey %}
+{% if site.reCaptcha.siteKey and page.comments %}
 	<script src='https://www.google.com/recaptcha/api.js'></script>
 {% endif %}
 

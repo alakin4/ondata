@@ -240,24 +240,37 @@ Sie können die uns erteilte Einwilligung zur Verarbeitung Ihrer personenbezogen
 
 <p>Weitere Informationen und die geltenden Datenschutzbestimmungen von Matomo können unter https://matomo.org/privacy/ abgerufen werden.</p>
 
-<h3>9. Rechtsgrundlage der Verarbeitung</h3>
+
+<h3>9. Einsatz von reCAPTCHA</h3>
+
+<p>Um Eingabeformulare für Kommentare auf dieser Seite zu schützen, setzen wir den Dienst „reCAPTCHA“ der Firma Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043 USA, nachfolgend „Google“, ein. Durch den Einsatz dieses Dienstes kann unterschieden werden, ob die entsprechende Eingabe menschlicher Herkunft ist oder durch automatisierte maschinelle Verarbeitung missbräuchlich erfolgt.</p>
+
+<p>Nach unserer Kenntnis werden die Referrer-URL, die IP-Adresse, das Verhalten der Webseitenbesucher, Informationen über Betriebssystem, Browser und Verweildauer, Cookies, Darstellungsanweisungen und Skripte, das Eingabeverhalten des Nutzers sowie Mausbewegungen im Bereich der „reCAPTCHA“-Checkbox an „Google“ übertragen.</p>
+
+<p>Google verwendet die so erlangten Infor-mationen unter anderem dazu, Bücher und andere Druckerzeugnisse zu digitalisieren sowie Dienste wie Google Street View und Google Maps zu optimieren (z. B. Hausnummern- und Straßennamenerkennung).</p>
+
+<p>Die im Rahmen von „reCAPTCHA“ über-mittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt, außer Sie sind zum Zeitpunkt der Nutzung des „reCAPTCHA“-Plug-ins bei Ihrem Google-Account angemeldet. Wenn Sie diese Übermittlung und Speicherung von Daten über Sie und Ihr Verhalten auf unserer Webseite durch „Google“ unterbinden wollen, müssen Sie sich bei „Google“ ausloggen und zwar bevor Sie unsere Seite besuchen bzw. das reCAPTCHA Plug-in benutzen.</p>
+
+<p>Die Nutzung des Dienstes „reCAPTCHA“ erlangten Informationen erfolgt gemäß den Google-Nutzungsbedingungen: https://www.google.com/intl/de/policies/privacy/.</p>
+
+<h3>10. Rechtsgrundlage der Verarbeitung</h3>
 <p>Art. 6 I lit. a DS-GVO dient unserem Unternehmen als Rechtsgrundlage für Verarbeitungsvorgänge, bei denen wir eine Einwilligung für einen bestimmten Verarbeitungszweck einholen. Ist die Verarbeitung personenbezogener Daten zur Erfüllung eines Vertrags, dessen Vertragspartei die betroffene Person ist, erforderlich, wie dies beispielsweise bei Verarbeitungsvorgängen der Fall ist, die für eine Lieferung von Waren oder die Erbringung einer sonstigen Leistung oder Gegenleistung notwendig sind, so beruht die Verarbeitung auf Art. 6 I lit. b DS-GVO. Gleiches gilt für solche Verarbeitungsvorgänge die zur Durchführung vorvertraglicher Maßnahmen erforderlich sind, etwa in Fällen von Anfragen zur unseren Produkten oder Leistungen. Unterliegt unser Unternehmen einer rechtlichen Verpflichtung durch welche eine Verarbeitung von personenbezogenen Daten erforderlich wird, wie beispielsweise zur Erfüllung steuerlicher Pflichten, so basiert die Verarbeitung auf Art. 6 I lit. c DS-GVO. In seltenen Fällen könnte die Verarbeitung von personenbezogenen Daten erforderlich werden, um lebenswichtige Interessen der betroffenen Person oder einer anderen natürlichen Person zu schützen. Dies wäre beispielsweise der Fall, wenn ein Besucher in unserem Betrieb verletzt werden würde und daraufhin sein Name, sein Alter, seine Krankenkassendaten oder sonstige lebenswichtige Informationen an einen Arzt, ein Krankenhaus oder sonstige Dritte weitergegeben werden müssten. Dann würde die Verarbeitung auf Art. 6 I lit. d DS-GVO beruhen.
 Letztlich könnten Verarbeitungsvorgänge auf Art. 6 I lit. f DS-GVO beruhen. Auf dieser Rechtsgrundlage basieren Verarbeitungsvorgänge, die von keiner der vorgenannten Rechtsgrundlagen erfasst werden, wenn die Verarbeitung zur Wahrung eines berechtigten Interesses unseres Unternehmens oder eines Dritten erforderlich ist, sofern die Interessen, Grundrechte und Grundfreiheiten des Betroffenen nicht überwiegen. Solche Verarbeitungsvorgänge sind uns insbesondere deshalb gestattet, weil sie durch den Europäischen Gesetzgeber besonders erwähnt wurden. Er vertrat insoweit die Auffassung, dass ein berechtigtes Interesse anzunehmen sein könnte, wenn die betroffene Person ein Kunde des Verantwortlichen ist (Erwägungsgrund 47 Satz 2 DS-GVO).
 </p>
 
-<h3>10. Berechtigte Interessen an der Verarbeitung, die von dem Verantwortlichen oder einem Dritten verfolgt werden</h3>
+<h3>11. Berechtigte Interessen an der Verarbeitung, die von dem Verantwortlichen oder einem Dritten verfolgt werden</h3>
 <p>Basiert die Verarbeitung personenbezogener Daten auf Artikel 6 I lit. f DS-GVO ist unser berechtigtes Interesse die Durchführung unserer Geschäftstätigkeit zugunsten des Wohlergehens all unserer Mitarbeiter und unserer Anteilseigner.</p>
 
-<h3>11. Dauer, für die die personenbezogenen Daten gespeichert werden</h3>
+<h3>12. Dauer, für die die personenbezogenen Daten gespeichert werden</h3>
 <p>Das Kriterium für die Dauer der Speicherung von personenbezogenen Daten ist die jeweilige gesetzliche Aufbewahrungsfrist. Nach Ablauf der Frist werden die entsprechenden Daten routinemäßig gelöscht, sofern sie nicht mehr zur Vertragserfüllung oder Vertragsanbahnung erforderlich sind.</p>
 
-<h4>12. Gesetzliche oder vertragliche Vorschriften zur Bereitstellung der personenbezogenen Daten; Erforderlichkeit für den Vertragsabschluss; Verpflichtung der betroffenen Person, die personenbezogenen Daten bereitzustellen; mögliche Folgen der Nichtbereitstellung</h4>
+<h4>13. Gesetzliche oder vertragliche Vorschriften zur Bereitstellung der personenbezogenen Daten; Erforderlichkeit für den Vertragsabschluss; Verpflichtung der betroffenen Person, die personenbezogenen Daten bereitzustellen; mögliche Folgen der Nichtbereitstellung</h4>
 <p>Wir klären Sie darüber auf, dass die Bereitstellung personenbezogener Daten zum Teil gesetzlich vorgeschrieben ist (z.B. Steuervorschriften) oder sich auch aus vertraglichen Regelungen (z.B. Angaben zum Vertragspartner) ergeben kann.
 Mitunter kann es zu einem Vertragsschluss erforderlich sein, dass eine betroffene Person uns personenbezogene Daten zur Verfügung stellt, die in der Folge durch uns verarbeitet werden müssen. Die betroffene Person ist beispielsweise verpflichtet uns personenbezogene Daten bereitzustellen, wenn unser Unternehmen mit ihr einen Vertrag abschließt. Eine Nichtbereitstellung der personenbezogenen Daten hätte zur Folge, dass der Vertrag mit dem Betroffenen nicht geschlossen werden könnte.
 Vor einer Bereitstellung personenbezogener Daten durch den Betroffenen muss sich der Betroffene an einen unserer Mitarbeiter wenden. Unser Mitarbeiter klärt den Betroffenen einzelfallbezogen darüber auf, ob die Bereitstellung der personenbezogenen Daten gesetzlich oder vertraglich vorgeschrieben oder für den Vertragsabschluss erforderlich ist, ob eine Verpflichtung besteht, die personenbezogenen Daten bereitzustellen, und welche Folgen die Nichtbereitstellung der personenbezogenen Daten hätte.
 </p>
 
-<h3>13. Bestehen einer automatisierten Entscheidungsfindung</h3>
+<h3>14. Bestehen einer automatisierten Entscheidungsfindung</h3>
 <p>Als verantwortungsbewusstes Unternehmen verzichten wir auf eine automatische Entscheidungsfindung oder ein Profiling.</p>
 
 <p>Diese Datenschutzerklärung wurde durch den Datenschutzerklärungs-Generator der DGD Deutsche Gesellschaft für Datenschutz GmbH, die als <a href="https://dg-datenschutz.de/datenschutz-dienstleistungen/externer-datenschutzbeauftragter/" rel="nofollow">Externer Datenschutzbeauftragter Schweinfurt</a> tätig ist, in Kooperation mit dem <a href="https://www.wbs-law.de/it-recht/datenschutzrecht" rel="nofollow">Anwalt für Datenschutzrecht</a> Christian Solmecke erstellt.
