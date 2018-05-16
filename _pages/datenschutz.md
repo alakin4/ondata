@@ -73,7 +73,7 @@ Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten d
 {{ site.data.authors.holger_kral.address2 }}<br /><br />
 tel: {{ site.data.authors.holger_kral.tel }}<br />
 email: {{ site.data.authors.holger_kral.email }}<br />
-web: {{ site.data.url }}</p>
+web: {{ site.url }}</p>
 
 <h3>3. Cookies</h3>
 <p>Die Internetseiten der Webseite verwenden Cookies. Cookies sind Textdateien, welche über einen Internetbrowser auf einem Computersystem abgelegt und gespeichert werden.</p>
