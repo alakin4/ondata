@@ -23,7 +23,7 @@ header:
 
 tel: {{ site.data.authors.holger_kral.tel }}   
 email: [{{ site.data.authors.holger_kral.email }}](mailto:{{ site.data.authors.holger_kral.email }})   
-web: [{{ site.url }}]({{ site.url }})   
+web: [{{ site.data.url }}]({{ site.data.url }})   
 
 ## Inhalte
 
