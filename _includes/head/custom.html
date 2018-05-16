@@ -53,6 +53,38 @@ window.cookieconsent.initialise({
   },
   elements: {
     messagelink: '<span id="cookieconsent:desc" class="cc-message">Webseite verwendet Cookies. Unerwünscht? Dann dem Link folgen und lernen, das Tracking zu deaktivieren! <a aria-label="learn more about cookies" tabindex="0" class="cc-link" href="/datenschutz/" target="_self">Mehr erfahren...</a></span>'
+  },
+  onInitialise: function (status) {
+    var type = this.options.type;
+    var didConsent = this.hasConsented();
+    if (type == 'opt-in' && didConsent) {
+      _paq.push(['trackPageView']);
+    }
+    if (type == 'opt-out' && !didConsent) {
+      _paq.push(['disableCookies']);
+      _paq.push(['trackPageView']);
+    }
+  },
+  onStatusChange: function(status, chosenBefore) {
+    var type = this.options.type;
+    var didConsent = this.hasConsented();
+    if (type == 'opt-in' && didConsent) {
+      _paq.push(['trackPageView']);
+    }
+    if (type == 'opt-out' && !didConsent) {
+      _paq.push(['disableCookies']);
+      _paq.push(['trackPageView']);
+    }
+  },
+  onRevokeChoice: function() {
+    var type = this.options.type;
+    if (type == 'opt-in') {
+      _paq.push(['disableCookies']);
+      _paq.push(['trackPageView']);
+    }
+    if (type == 'opt-out') {
+      _paq.push(['trackPageView']);
+    }
   }
 })});
 </script>
