@@ -31,8 +31,11 @@ breadcrumbs              : false # true, false (default)
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 words_per_minute         : 220
 masthead:
-  name                   : "Impressum & Datenschutz"
-  url                    : "/impressum-datenschutz/"
+  name                   : "Impressum"
+  url                    : "/impressum/"
+dataprotect:
+  name                   : "Datenschutz"
+  url                    : "/datenschutz/"
 comments:
   provider               : "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
