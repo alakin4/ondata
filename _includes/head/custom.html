@@ -14,6 +14,11 @@
 <meta name="msapplication-config" content="/assets/images/favicon/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
 
+<!-- insert google recaptcha. -->
+{% if site.reCaptcha.siteKey and page.comments %}
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+{% endif %}
+
 <!-- insert piwik. -->
 {% if site.analytics.provider and page.analytics != false %}
 {% case site.analytics.provider %}
@@ -22,71 +27,73 @@
 {% endcase %}
 {% endif %}
 
-<!-- insert google recaptcha. -->
-{% if site.reCaptcha.siteKey and page.comments %}
-	<script src='https://www.google.com/recaptcha/api.js'></script>
-{% endif %}
-
 <!-- cookie notice https://cookieconsent.insites.com/ -->
 <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
 <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
 <script>
 window.addEventListener("load", function(){
-window.cookieconsent.initialise({
-  palette: {
-    popup: {
-      background: "#3a3e42"
+  window.cookieconsent.initialise({
+    container: "body",
+    palette: {
+      popup: {
+        background: "#3a3e42"
+      },
+      button: {
+        background: "transparent",
+        text: "#52adc8",
+        border: "#52adc8"
+      }
     },
-    button: {
-      background: "transparent",
-      text: "#52adc8",
-      border: "#52adc8"
+    type: "opt-out",
+    revokable:true,
+    content: {
+      message: "Webseite verwendet Cookies. Unerwünscht? Dann dem Link folgen und lernen, das Tracking zu deaktivieren!",
+      dismiss: "OK",
+      deny: "Nein zu Cookies!",
+      link: "Mehr erfahren...",
+      href: "/datenschutz/"
+    },
+    elements: {
+      messagelink: '<span id="cookieconsent:desc" class="cc-message">Webseite verwendet Cookies. Unerwünscht? Dann dem Link folgen und lernen, das Tracking zu deaktivieren! <a aria-label="learn more about cookies" tabindex="0" class="cc-link" href="/datenschutz/" target="_self">Mehr erfahren...</a></span>'
+    },
+    onInitialise: function (status) {
+      var type = this.options.type;
+      var didConsent = this.hasConsented();
+      if (type == 'opt-in' && didConsent) {
+        _paq.push(['trackPageView']);
+      }
+      if (type == 'opt-out' && !didConsent) {
+        _paq.push(['disableCookies']);
+        _paq.push(['trackPageView']);
+      }
+    },
+    onStatusChange: function(status, chosenBefore) {
+      var type = this.options.type;
+      var didConsent = this.hasConsented();
+      if (type == 'opt-in' && didConsent) {
+        _paq.push(['trackPageView']);
+      }
+      if (type == 'opt-out' && !didConsent) {
+        _paq.push(['disableCookies']);
+        _paq.push(['trackPageView']);
+      } else {
+        if(window[disableStr]) {
+          location.reload(); 
+        }
+      }
+    },
+    onRevokeChoice: function() {
+      var type = this.options.type;
+      if (type == 'opt-in') {
+        _paq.push(['disableCookies']);
+        _paq.push(['trackPageView']);
+      }
+      if (type == 'opt-out') {
+        _paq.push(['trackPageView']);
+      }
     }
-  },
-  type: "opt-out",
-  content: {
-    message: "Webseite verwendet Cookies. Unerwünscht? Dann dem Link folgen und lernen, das Tracking zu deaktivieren!",
-    dismiss: "OK",
-    deny: "Nein zu Cookies!",
-    link: "Mehr erfahren...",
-    href: "/datenschutz/"
-  },
-  elements: {
-    messagelink: '<span id="cookieconsent:desc" class="cc-message">Webseite verwendet Cookies. Unerwünscht? Dann dem Link folgen und lernen, das Tracking zu deaktivieren! <a aria-label="learn more about cookies" tabindex="0" class="cc-link" href="/datenschutz/" target="_self">Mehr erfahren...</a></span>'
-  },
-  onInitialise: function (status) {
-    var type = this.options.type;
-    var didConsent = this.hasConsented();
-    if (type == 'opt-in' && didConsent) {
-      _paq.push(['trackPageView']);
-    }
-    if (type == 'opt-out' && !didConsent) {
-      _paq.push(['disableCookies']);
-      _paq.push(['trackPageView']);
-    }
-  },
-  onStatusChange: function(status, chosenBefore) {
-    var type = this.options.type;
-    var didConsent = this.hasConsented();
-    if (type == 'opt-in' && didConsent) {
-      _paq.push(['trackPageView']);
-    }
-    if (type == 'opt-out' && !didConsent) {
-      _paq.push(['disableCookies']);
-      _paq.push(['trackPageView']);
-    }
-  },
-  onRevokeChoice: function() {
-    var type = this.options.type;
-    if (type == 'opt-in') {
-      _paq.push(['disableCookies']);
-      _paq.push(['trackPageView']);
-    }
-    if (type == 'opt-out') {
-      _paq.push(['trackPageView']);
-    }
-  }
-})});
+  })
+});
 </script>
 
 <!-- end custom head snippets -->
