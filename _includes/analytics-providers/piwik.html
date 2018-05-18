@@ -1,8 +1,24 @@
 <!-- start custom analytics snippet -->
+<!-- cookie notice in head/custom.html https://cookieconsent.insites.com/ -->
+<!-- https://developer.matomo.org/guides/tracking-javascript-guide#asking-for-consent -->
+<!-- https://piwik.holgerkral.de/index.php?module=PrivacyManager&action=consent&idSite=2&period=day&date=yesterday&showtitle=1&random=7452 -->
 <!-- Piwik -->
 <script type="text/javascript">
   var _paq = _paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  var cookieStr = 'cookieconsent_status'; 
+  var disableStr = cookieStr + '=deny'; 
+  if (document.cookie.indexOf(cookieStr) > -1) {
+    if(document.cookie.indexOf(disableStr) > -1) { 
+      window[disableStr] = true;
+      _paq.push(['disableCookies']);
+    } else {
+      window[disableStr] = false;
+    }
+  } else {
+    _paq.push(['disableCookies']);
+    window[disableStr] = true;
+  }
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
   (function() {
@@ -14,4 +30,4 @@
   })();
 </script>
 <!-- End Piwik Code -->
-<!-- end custom analytics snippet -->
+<!-- end custom analytics snippet
