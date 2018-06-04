@@ -68,9 +68,7 @@ Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten d
 <h3>2. Name und Anschrift des für die Verarbeitung Verantwortlichen</h3>
 <p>Verantwortlicher im Sinne der Datenschutz-Grundverordnung, sonstiger in den Mitgliedstaaten der Europäischen Union geltenden Datenschutzgesetze und anderer Bestimmungen mit datenschutzrechtlichem Charakter ist die:</p>
 
-<p>{{ site.data.authors.holger_kral.name }}<br /> 
-{{ site.data.authors.holger_kral.address1 }}<br />
-{{ site.data.authors.holger_kral.address2 }}<br /><br />
+<p>{{ site.data.authors.holger_kral.name }}, {{ site.data.authors.holger_kral.address3 }}<br /><br />
 tel: {{ site.data.authors.holger_kral.tel }}<br />
 email: {{ site.data.authors.holger_kral.email }}<br />
 web: {{ site.url }}</p>

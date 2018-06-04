@@ -17,9 +17,7 @@ header:
 
 ## Verantwortlich für diese Website
 
-{{ site.data.authors.holger_kral.name }}   
-{{ site.data.authors.holger_kral.address1 }}   
-{{ site.data.authors.holger_kral.address2 }}   
+{{ site.data.authors.holger_kral.name }}, {{ site.data.authors.holger_kral.address3 }}   
 
 tel: {{ site.data.authors.holger_kral.tel }}   
 email: [{{ site.data.authors.holger_kral.email }}](mailto:{{ site.data.authors.holger_kral.email }})   
