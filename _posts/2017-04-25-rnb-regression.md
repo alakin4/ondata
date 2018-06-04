@@ -9,8 +9,8 @@ header:
         image: /assets/images/header/head_natur2.jpg
         caption: "&copy; [Kral • Photography](https://kral-photography.com)"
         twitter: /assets/images/header/head_natur2_b.jpg
-date: 2017-04-25 18:41:22 +02:00
-last_modified_at: 2017-05-03 00:35:37 +02:00 
+date: 2017-04-25 18:41:22 +0200
+last_modified_at: 2017-05-03 00:35:37 +0200 
 tags: learning r variable structure
 categories: language data
 related: true
@@ -20,7 +20,7 @@ related: true
 
 <aside class="sidebar__right">
 <nav class="toc flyout-toc">
-<header><h4 class="nav__title"><i class="fa fa-file-text"></i> TOC</h4></header>
+<header><h4 class="nav__title"><i class="fa fa-file-alt"></i> TOC</h4></header>
 <ul class="toc__menu toc_flyout" id="markdown-toc">
 <li><a href="#regression">Regression</a></li>
 <li><a href="#das-capital-asset-pricing-model">Das Capital Asset Pricing Model</a></li>

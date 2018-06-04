@@ -187,8 +187,12 @@ body:hover .visually-hidden button {
 /* social icons*/
 
 .social-icons {
-  .fa {
-    color: #494e52;
+  .fas,
+  .fab,
+  .far,
+  .fal {
+    color: $text-color;
+    /*color: #494e52;*/
   }
 
   .fa-bitbucket,
@@ -201,12 +205,14 @@ body:hover .visually-hidden button {
     color: $behance-color;
   }
 
-  .fa-dribbble {
+  .fa-dribbble,
+  .fa-dribble-square {
     color: $dribbble-color;
   }
 
   .fa-facebook,
-  .fa-facebook-square {
+  .fa-facebook-square,
+  .fa-facebook-f {
     color: $facebook-color;
   }
 
@@ -225,7 +231,8 @@ body:hover .visually-hidden button {
   }
 
   .fa-google-plus,
-  .fa-google-plus-square {
+  .fa-google-plus-square,
+  .fa-google-plus-g {
     color: $google-plus-color;
   }
 
@@ -239,7 +246,7 @@ body:hover .visually-hidden button {
   }
 
   .fa-linkedin,
-  .fa-linkedin-square {
+  .fa-linkedin-in {
     color: $linkedin-color;
   }
 
@@ -274,7 +281,8 @@ body:hover .visually-hidden button {
   }
 
   .fa-vimeo,
-  .fa-vimeo-square {
+  .fa-vimeo-square,
+  .fa-vimeo-v {
     color: $vimeo-color;
   }
 
@@ -282,9 +290,7 @@ body:hover .visually-hidden button {
     color: $vine-color;
   }
 
-  .fa-youtube,
-  .fa-youtube-square,
-  .fa-youtube-play {
+  .fa-youtube {
     color: $youtube-color;
   }
 
@@ -382,6 +388,7 @@ body:hover .visually-hidden button {
     bottom: 1rem;
     height: 2.5rem;
     opacity: 0;
+    text-decoration: none;
     z-index: 999;
     -webkit-transition: background-color .3s, opacity .5s, visibility .5s;
     -moz-transition: background-color .3s, opacity .5s, visibility .5s;
@@ -390,19 +397,23 @@ body:hover .visually-hidden button {
     transition: background-color .3s, opacity .5s, visibility .5s;
 }
 
-#scroll-top-button .fa {
+#scroll-top-button:focus {
+    outline: none;
+}
+
+#scroll-top-button .icomoon {
   font-weight: normal;
   font-style: normal;
   font-size: 2em;
   line-height: 2.1rem;
   transform: rotate(-45deg);
   color: inherit !important;
+  position: relative;
   -webkit-transition: transform ease-in .4s;
   -moz-transition: transform ease-in .4s;
   -ms-transition: transform ease-in .4s;
   -o-transition: transform ease-in .4s;
   transition: transform ease-in .4s;
-  position: relative;
 }
 
 #scroll-top-button.show {
@@ -411,10 +422,10 @@ body:hover .visually-hidden button {
 }
 
 #scroll-top-button.btn.take-off {
-  border: none !important;
+  border-color: white !important;
 }
 
-#scroll-top-button.take-off .fa-rocket {
+#scroll-top-button.take-off .icon-rocket {
   color: $gray !important;
   transform: translateY(-1000px) rotate(-45deg);
 }
@@ -565,6 +576,11 @@ a.reversefootnote,
     width: 100%;
     height: 100%;
   }
+}
+
+// remove margin when embedded inside of a <figure> element
+figure .responsive-video-container {
+  margin-bottom: 0;
 }
 
 // full screen video fixes

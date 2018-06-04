@@ -208,3 +208,14 @@
     font-style: normal;
 
 }
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('#{$on-font-path}/icomoon.eot?5x7efz');
+  src:  url('#{$on-font-path}/icomoon.eot?5x7efz#iefix') format('embedded-opentype'),
+    url('#{$on-font-path}/icomoon.ttf?5x7efz') format('truetype'),
+    url('#{$on-font-path}/icomoon.woff?5x7efz') format('woff'),
+    url('#{$on-font-path}/icomoon.svg?5x7efz#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

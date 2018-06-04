@@ -1,8 +1,8 @@
 ---
 permalink: /die-vermessung-der-welt-in-potsdam/
 title:  "Die Daten von Früher: Die Vermessung der Welt"
-date: 2017-04-13 18:17:32 +02:00
-last_modified_at: 2017-04-18 13:01:14 +02:00 
+date: 2017-04-13 18:17:32 +0200
+last_modified_at: 2017-04-18 13:01:14 +0200 
 excerpt: "Die Ausstellung **[FOKUS: ERDE - Von der Vermessung unserer Welt](http://www.hbpg.de/Ausstellung_Fokus-Erde.html)** in Potsdam. Mindestens seit den astronomischen Berechnungen der Maya wird die Welt vermessen und Daten aufgezeichnet und analysiert. Und nicht erst Computer machen aufwendige und genaue Berechnungen möglich. Daten gibt es also schon sehr lange."
 categories: news data
 tags: blog writing measurement nature world 

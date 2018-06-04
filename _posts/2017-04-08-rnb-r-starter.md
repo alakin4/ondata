@@ -9,8 +9,8 @@ header:
         image: /assets/images/header/head_spree2.jpg
         caption: "&copy; [Kral • Photography](https://kral-photography.com)"
         twitter: /assets/images/header/head_spree2_b.jpg
-date: 2017-04-08 01:12:46 +02:00
-last_modified_at: 2017-04-14 13:30:39 +02:00
+date: 2017-04-08 01:12:46 +0200
+last_modified_at: 2017-04-14 13:30:39 +0200
 tags: learning r variable structure
 categories: language data
 related: true
@@ -20,7 +20,7 @@ related: true
 
 <aside class="sidebar__right">
 <nav class="toc flyout-toc">
-<header><h4 class="nav__title"><i class="fa fa-file-text"></i> TOC</h4></header>
+<header><h4 class="nav__title"><i class="fa fa-file-alt"></i> TOC</h4></header>
 <ul class="toc__menu toc_flyout" id="markdown-toc">
 <li><a href="#r-lernen">R lernen</a></li>
 <li><a href="#variablen-zuweisung-und-ausgabe">Variablen: Zuweisung und Ausgabe</a></li>

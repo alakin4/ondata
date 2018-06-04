@@ -3,6 +3,10 @@ title                    : "ONDATA"
 url                      : "https://ondata.work" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 enforce_ssl              : "ondata.work"
+comments:
+  provider               : "staticman_v2"
+staticman:
+  branch                 : "master"
 
 # exclude robots.txt for production
 include:

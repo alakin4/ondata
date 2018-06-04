@@ -1,8 +1,8 @@
 ---
 permalink: /re-publica17-was-bleibt/
 title: "re:publica 17: Was bleibt?"
-date: 2017-05-13 14:25:30 +02:00
-last_modified_at: 2017-05-13 14:27:30 +02:00 
+date: 2017-05-13 14:25:30 +0200
+last_modified_at: 2017-05-13 14:27:30 +0200 
 excerpt: "Die re:publica 17 ist vorbei. Und was habe ich mitgenommen?"
 comments: true
 comments_locked: false
