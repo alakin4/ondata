@@ -11,7 +11,9 @@ header:
         caption: "&copy; [Kral • Photography](https://kral-photography.com)"
         twitter: /assets/images/posts/170513-rp17-2017-05-08 04.04.58_1.jpg
 categories: tech 
-tags: blog life world rp17
+tags: blog life world re-publica
+related: true
+related_count: 2
 ---
 
 {% include toc_open title="TOC" %}

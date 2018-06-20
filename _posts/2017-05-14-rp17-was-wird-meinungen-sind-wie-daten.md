@@ -11,8 +11,9 @@ header:
         caption: "&copy; [Kral • Photography](https://kral-photography.com)"
         twitter: /assets/images/header/head_city3_b.jpg
 categories: tech 
-tags: blog life world rp17 future
-related: false
+tags: blog life world re-publica future
+related: true
+related_count: 2
 ---
 
 {% include toc_open title="TOC" %}
