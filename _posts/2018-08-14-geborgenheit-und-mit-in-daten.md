@@ -1,6 +1,6 @@
 ---
-permalink: /re-publica18-zukunfte-bauen/
-title: "re:publica 18: Zukünfte bauen"
+permalink: /Geborgenheit-und-mit-in-daten/
+title: "Geborgenheit. Und/mit/in Daten."
 date: 2018-06-20 22:51:54 +0200 
 last_modified_at: 2018-06-20 22:52:00 +0200  
 excerpt: "Die re:publica 18 war. Und eine Track war einen Schritt weiter als die anderen: Cancel the Apocalypse! They say the future is not what it used to be. Das hoffe ich auf jeden Fall. Also mitmachen, weil die Zukünfte davon abhängen."
