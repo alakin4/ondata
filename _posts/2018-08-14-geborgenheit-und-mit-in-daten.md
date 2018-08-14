@@ -1,17 +1,17 @@
 ---
-permalink: /Geborgenheit-und-mit-in-daten/
+permalink: /geborgenheit-und-mit-in-daten/
 title: "Geborgenheit. Und/mit/in Daten."
-date: 2018-06-20 22:51:54 +0200 
-last_modified_at: 2018-06-20 22:52:00 +0200  
-excerpt: "Die re:publica 18 war. Und eine Track war einen Schritt weiter als die anderen: Cancel the Apocalypse! They say the future is not what it used to be. Das hoffe ich auf jeden Fall. Also mitmachen, weil die Zukünfte davon abhängen."
+date: 2018-08-14 02:08:32 +02:00
+last_modified_at: 2018-08-14 02:10:03 +02:00
+excerpt: "Erst re:publica 18. Ein Track war einen Schritt weiter: Cancel the Apocalypse! They say the future is not what it used to be. Die Zukünfte denken. Dann Walkway gelesen. Und jetzt mittendrin in der Suche nach Geborgenheit."
 comments: true
 comments_locked: false
 header:
         image: /assets/images/header/head_city4.jpg
         caption: "&copy; [Kral • Photography](https://kral-photography.com)"
         twitter: /assets/images/header/head_city4_b.jpg
-categories: tech 
-tags: life world re-publica future
+categories: tech life
+tags: life world re-publica future walkaway
 related: true
 related_count: 2
 ---
