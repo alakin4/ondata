@@ -19,5 +19,33 @@ related_count: 2
 {% include toc_open title="TOC" %}
 
 <br />
-Erstaunlicherweise denken wir ziemlich negativ.
+Erstaunlicherweise denken wir ziemlich negativ.   
 
+AI ist das neue Big Data: Manipulation <-> Verläßlichkeit   
+Es geht nicht nur um die Algorithmen, sondern um Prozesse. Algorithmen müssen von sozialen Normen definiert werden.   
+
+Wir sind verantwortlich für die Software, die wir kreieren, wie sie benutzt und auch wie sie mißbraucht wird.   
+
+J.M. Keynes: 3 Stunden Arbeit pro Tag / 15 Stunden pro Woche sollten unseren Arbeitswillen befriedigen.   
+
+Angst vor Automatisierung: Erfordert nur anderes Verhältnis von uns zur Arbeit.   
+
+Resilience: Fähigkeit eines Systems, Störungen zu absorbieren   
+
+Das Internet ist eine Reflektion darüber, wer wir sind. Wir sind alle allein hier, obwohl wir alle "drin" sind. Fake real world is more real than the real world. Auf meine Passion fokusieren, nicht ständig philisophisch fragen, was sein wird und wie diese große AI sein wird.   
+
+Wir folgen der Platform-Logik und sehen so selbst wie Bots aus.   
+
+Most indicative cruel and routine lie we tell children is: Don't tell us about your wish, because else it won't come true. But we need to know what we all wish!    
+
+Neural Netze - vom Lernen des Netzes lernen.   
+
+Cancel the Apocalypse - #solarpunk - Building fearless futures!   
+
+- wir brauchen eine Debatte
+- brauchen Syteme, die Fehler erlauben - resilience systems - coops
+- Wir müssen kolaborieren
+
+https://en.m.wikipedia.org/wiki/Edupunk - next generation digital learning environment - open technologies: RSS for data and API for access   
+
+Exit. No exit. -> Stay. Face the horror. Do!   
