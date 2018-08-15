@@ -270,16 +270,17 @@
         transform: scaleX(1); // reveal
       }
     }
+  }
 
-    button {
-      padding: 0 0.5rem;
-      align-self: stretch;
-      border: 0;
-      outline: none;
-      color: #fff;
-      background-color: $primary-color;
-      cursor: pointer;
-    }
+  button {
+    padding: 0 0.5rem;
+    align-self: stretch;
+    border: 0;
+    outline: none;
+    color: #fff;
+    background-color: $primary-color;
+    cursor: pointer;
+  }
 
   .hidden-links {
     position: absolute;
@@ -290,122 +291,60 @@
     border: 1px solid $border-color;
     border-radius: $border-radius;
     background: $background-color;
-    -webkit-box-shadow: 0 2px 4px 0 rgba(#000, 0.16),
-      0 2px 10px 0 rgba(#000, 0.12);
+    -webkit-box-shadow: 0 2px 4px 0 rgba(#000, 0.16), 0 2px 10px 0 rgba(#000, 0.12);
     box-shadow: 0 2px 4px 0 rgba(#000, 0.16), 0 2px 10px 0 rgba(#000, 0.12);
 
     &.hidden {
       display: none;
     }
 
-    .visible-links {
-      display: -webkit-box;
-      display: flex;
-      -webkit-box-pack: end;
-       justify-content: flex-end;
-      -webkit-box-flex: 1;
-                  flex: 1;
-      padding-right: 2rem;
-      overflow: hidden;
+    a {
+      margin: 0;
+      padding: 10px 20px;
+      font-size: $type-size-5;
 
-      li {
-        -webkit-box-flex: 0;
-                    flex: none;
-
-        &:last-child {
-          a {
-            margin-right: 0;
-          }
-        }
-      }
-
-      a {
-        position: relative;
-
-        &:before {
-          content: "";
-          position: absolute;
-          left: 0;
-          bottom: 0;
-          height: 4px;
-          background: $primary-color;
-          width: 100%;
-          -webkit-transition: $global-transition;
-          transition: $global-transition;
-          -webkit-transform: scaleX(0) translate3d(0, 0 , 0);
-                  transform: scaleX(0) translate3d(0, 0 , 0); /* hide*/
-        }
-
-        &:hover:before {
-          -webkit-transform: scaleX(1);
-                  -ms-transform: scaleX(1);
-              transform: scaleX(1); /* reveal*/
-        }
+      &:hover {
+        color: $masthead-link-color-hover;
+        background: $navicon-link-color-hover;
       }
     }
 
-    .hidden-links {
+    &:before {
+      content: "";
       position: absolute;
-      top: 100%;
-      right: 0;
-      margin-top: 15px;
-      padding: 5px;
-      border: 1px solid $border-color;
-      border-radius: $border-radius;
-      background: $background-color;
-      box-shadow: 0 2px 4px 0 rgba(#000, 0.16), 0 2px 10px 0 rgba(#000, 0.12);
+      top: -11px;
+      right: 10px;
+      width: 0;
+      border-style: solid;
+      border-width: 0 10px 10px;
+      border-color: $border-color transparent;
+      display: block;
+      z-index: 0;
+    }
 
-      &.hidden {
-        display: none;
-      }
+    &:after {
+      content: "";
+      position: absolute;
+      top: -10px;
+      right: 10px;
+      width: 0;
+      border-style: solid;
+      border-width: 0 10px 10px;
+      border-color: $background-color transparent;
+      display: block;
+      z-index: 1;
+    }
 
-      a {
-        margin: 0;
-        padding: 10px 20px;
-        font-size: $type-size-5;
+    li {
+      display: block;
+      border-bottom: 1px solid $border-color;
 
-        &:hover {
-          color: $masthead-link-color-hover;
-          background: $navicon-link-color-hover;
-        }
-      }
-
-      &:before {
-        content: "";
-        position: absolute;
-        top: -11px;
-        right: 10px;
-        width: 0;
-        border-style: solid;
-        border-width: 0 10px 10px;
-        border-color: $border-color transparent;
-        display: block;
-        z-index: 0;
-      }
-
-      &:after {
-        content: "";
-        position: absolute;
-        top: -10px;
-        right: 10px;
-        width: 0;
-        border-style: solid;
-        border-width: 0 10px 10px;
-        border-color: $background-color transparent;
-        display: block;
-        z-index: 1;
-      }
-
-      li {
-        display: block;
-        border-bottom: 1px solid $border-color;
-
-        &:last-child {
-          border-bottom: none;
-        }
+      &:last-child {
+        border-bottom: none;
       }
     }
   }
+}
 
 .no-js {
   .greedy-nav {
@@ -424,12 +363,7 @@
   .nav__list {
     margin-bottom: 1.5em;
 
-  input[type="checkbox"],
-  label {
-    display: none;
-  }
-
-  @include breakpoint(max-width($large - 1px)) {
+    input[type="checkbox"],
     label {
       display: none;
     }
