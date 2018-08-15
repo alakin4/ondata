@@ -178,13 +178,61 @@
      Priority plus navigation
      ========================================================================== */
 
-  .greedy-nav {
-    position: relative;
+.greedy-nav {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: $nav-height;
+  background: $background-color;
+
+  a {
+    display: block;
+    margin: 0 1rem;
+    color: $masthead-link-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $masthead-link-color-hover;
+    }
+
+    &.site-title {
+      margin-left: 0;
+    }
+  }
+
+  &__toggle {
+    -ms-flex-item-align: center;
+    align-self: center;
+    height: $nav-toggle-height;
+    border: 0;
+    outline: none;
+    color: #fff;
+    background-color: $primary-color;
+    cursor: pointer;
+  }
+
+  .visible-links {
     display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-          align-items: center;
     background: $background-color;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    overflow: hidden;
+
+    li {
+      -webkit-box-flex: 0;
+      -ms-flex: none;
+      flex: none;
+    }
 
     a {
       display: block;
@@ -201,6 +249,26 @@
         margin-left: 0;
         padding: 0;
       }
+
+      &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 4px;
+        background: $primary-color;
+        width: 100%;
+        -webkit-transition: $global-transition;
+        transition: $global-transition;
+        -webkit-transform: scaleX(0) translate3d(0, 0, 0);
+        transform: scaleX(0) translate3d(0, 0, 0); // hide
+      }
+
+      &:hover:before {
+        -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+        transform: scaleX(1); // reveal
+      }
     }
 
     button {
@@ -211,6 +279,23 @@
       color: #fff;
       background-color: $primary-color;
       cursor: pointer;
+    }
+
+  .hidden-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 15px;
+    padding: 5px;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    background: $background-color;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(#000, 0.16),
+      0 2px 10px 0 rgba(#000, 0.12);
+    box-shadow: 0 2px 4px 0 rgba(#000, 0.16), 0 2px 10px 0 rgba(#000, 0.12);
+
+    &.hidden {
+      display: none;
     }
 
     .visible-links {
@@ -339,7 +424,12 @@
   .nav__list {
     margin-bottom: 1.5em;
 
-    input[type="checkbox"],
+  input[type="checkbox"],
+  label {
+    display: none;
+  }
+
+  @include breakpoint(max-width($large - 1px)) {
     label {
       display: none;
     }
@@ -465,18 +555,17 @@
     }
   }
 
-  @include breakpoint(max-width ($large - 1px)) {
-    .nav__list input:checked ~ .nav__items {
-      -webkit-transition: 0.5s ease-in-out;
-      transition: 0.5s ease-in-out;
-      max-height: 9999px; /* exaggerate max-height to accommodate tall lists*/
-      overflow: visible;
-      opacity: 1;
-      margin-top: 1em;
-      -webkit-transform: translate(0, 0);
-              -ms-transform: translate(0, 0);
-          transform: translate(0, 0);
-    }
+  @include breakpoint(max-width($large - 1px)) {
+    position: relative;
+    max-height: 0;
+    opacity: 0%;
+    overflow: hidden;
+    z-index: 10;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    -webkit-transform: translate(0, 10%);
+    -ms-transform: translate(0, 10%);
+    transform: translate(0, 10%);
   }
 
   .nav__title {
@@ -485,6 +574,20 @@
     font-family: $sans-serif-narrow;
     font-size: $type-size-5;
     font-weight: bold;
+  }
+
+  @include breakpoint(max-width($large - 1px)) {
+    .nav__list input:checked ~ .nav__items {
+      -webkit-transition: 0.5s ease-in-out;
+      transition: 0.5s ease-in-out;
+      max-height: 9999px; /* exaggerate max-height to accommodate tall lists*/
+      overflow: visible;
+      opacity: 1;
+      margin-top: 1em;
+      -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+      transform: translate(0, 0);
+    }  
   }
 
   .nav__sub-title {
