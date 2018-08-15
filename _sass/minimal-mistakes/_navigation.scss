@@ -204,6 +204,16 @@
     }
   }
 
+  button {
+    padding: 0 0.5rem;
+    align-self: stretch;
+    border: 0;
+    outline: none;
+    color: #fff;
+    background-color: $primary-color;
+    cursor: pointer;
+  }
+
   &__toggle {
     -ms-flex-item-align: center;
     align-self: center;
@@ -226,20 +236,28 @@
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
+    padding-right: 2rem;
     overflow: hidden;
 
     li {
       -webkit-box-flex: 0;
       -ms-flex: none;
       flex: none;
+
+      &:last-child {
+        a {
+          margin-right: 0;
+        }
+      }
     }
 
     a {
-      display: block;
+      /*display: block;*/
       margin: 0 1rem;
       padding: 0.5rem 0;
       color: $masthead-link-color;
       text-decoration: none;
+      position: relative;
 
       &:hover {
         color: $masthead-link-color-hover;
@@ -270,16 +288,6 @@
         transform: scaleX(1); // reveal
       }
     }
-  }
-
-  button {
-    padding: 0 0.5rem;
-    align-self: stretch;
-    border: 0;
-    outline: none;
-    color: #fff;
-    background-color: $primary-color;
-    cursor: pointer;
   }
 
   .hidden-links {

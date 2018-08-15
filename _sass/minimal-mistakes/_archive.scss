@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .archive {
-  margin-top: 1em;
+  margin-top: 0;
   margin-bottom: 2em;
 
   @include breakpoint($large) {
@@ -57,6 +57,10 @@
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
+
+  a {
+    color: $text-color;
+  }
 
   a + a {
     opacity: 0.5;
