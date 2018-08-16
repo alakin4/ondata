@@ -7,9 +7,9 @@ excerpt: "Erst re:publica 18. Ein Track war einen Schritt weiter: Cancel the Apo
 comments: true
 comments_locked: false
 header:
-        image: /assets/images/header/head_city4.jpg
+        image: /assets/images/header/head_italy_18_01.jpg
         caption: "&copy; [Kral • Photography](https://kral-photography.com)"
-        twitter: /assets/images/header/head_city4_b.jpg
+        twitter: /assets/images/header/head_italy_18_01_b.jpg
 categories: tech life
 tags: life world re-publica future walkaway
 related: true
@@ -48,8 +48,8 @@ Cancel the Apocalypse - #solarpunk - Building fearless futures!
 
 https://en.m.wikipedia.org/wiki/Edupunk - next generation digital learning environment - open technologies: RSS for data and API for access   
 
-Exit. No exit. -> Stay. Face the horror. Do!   
+Exit. No exit. → Stay. Face the horror. Do!   
 
-**This changes everything**
+## This changes everything
 
 Wir sind die Nachfahren der Ängstlichen und Paranoiden. Alle haen nur dystopische Ideen von der Zukunft basierend auf Visionen aus den 80ern. Und es geht immer nur um Macht. Wir reden über die Zukunft und fragen uns: Wissen wir wirklich, wie schlecht es aussieht? Komm, lesen wir die Daten! Aber: Die Daten haben wir. Die Einsicht, etwas tun zu müssen, haben wir auch. Warum handeln wir dann nicht? Was fehlt? Probleme werden im Moment als Probleme gesehen, die technisch lösbar sind. Warten wir also, bis es die richtige Technologie gibt? Das schöne an Technologie: Es ist scheinbar nur ein Weg möglich mit Technologie. Wir kommen aber aus unterschiedlichen Vergangenheiten. Und können in verschiedene Zukünfte gehen. Das Problem ist ein Problem des Kapitalismus.
