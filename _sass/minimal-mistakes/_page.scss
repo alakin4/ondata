@@ -348,9 +348,9 @@
   background-image:      -o-linear-gradient($gradient);
   background-image:         linear-gradient($gradient);
 
-  background-size: 200% 400%;
+  background-size: 200% 800%;
 
-  $animation: coloranimation 30s forwards linear infinite;
+  $animation: coloranimation 100s forwards linear infinite;
   -moz-animation:    $animation;
   -webkit-animation: $animation;
   -o-animation:      $animation;
