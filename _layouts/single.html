@@ -43,7 +43,7 @@ layout: default
             </p>
           {% endif %}
           {% if page.excerpt %}
-            <p class="page__excerpt">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+            <p class="page__excerpt"><span class="colorback">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</span></p>
           {% endif %}
         </header>
       {% endunless %}

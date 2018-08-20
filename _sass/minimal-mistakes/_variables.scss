@@ -86,6 +86,9 @@ $warning-color              : #c3284d !default;
 $danger-color               : #ee5f5b !default;
 $info-color                 : #52adc8 !default;
 
+$gradient                   : top, #b827fc 0%, #2c90fc 13%, #b8fd33 25%, #fec837 36%, #fd1892 50%, #fec837 63%, #b8fd33 75%, #2c90fc 88%, #b827fc 100%;
+$rainbow                    : #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%;
+
 /* YIQ color contrast */
 $yiq-contrasted-dark-default: $dark-gray !default;
 $yiq-contrasted-light-default: #fff !default;
