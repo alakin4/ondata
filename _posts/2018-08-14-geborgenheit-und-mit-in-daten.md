@@ -62,3 +62,7 @@ Insofern denke ich, daß das Maß an Unverständnis den scheinbar von uns nicht 
 
 Dann stellt sich auch nicht die Frage, wie wir mit diesem Mehr klarkommen. Wir haben all das Wissen, das wir brauchen, um damit klarzukommen, nur wir haben Angst vor den Veränderungen, die die neuen  Informationen bedeuten. Vor den neuen Zukünften, die wir auf Basis unserer heutigen Informationen interpolieren, weil wir unseren heutigen Ausgangspunkt dieser Sichtweise und unsere Sichtweise, die die Parameter der Interpolation bestimmt, überheblicherweise als richtig betrachten und Angst davor haben, eine Realität mit andere Parametern als Ausgangspunkt zu sehen. Wir wollen unsere Komfortzone nicht aufgeben und unsere Angst wächst an, wir könnten unsere Geborgenheit verlieren.   
 
+### Von Neu zu Maintenance
+
+Alles ist auf Fortschritt und nach vorn Denken im Sinne von neu machen und Altes über Bord werfen ausgerichtet. Für ein neues Gerät kann man einfach mehr Geld verlangen als für ein Upgrade. Auch im Sinne vom Erhalt einer Struktur -- technisch wie sozial -- sollten wir mehr auf die Maintenance unseres bestehenden Systems schauen. Sprechen, lernen und dann ein Update oder Upgrade.
+
