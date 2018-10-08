@@ -1,9 +1,12 @@
+→→→→→→→→→
+
 **CATS**
 news
 data
 tech
 language
 howto
+life
 
 
 **TAGS**
@@ -28,6 +31,7 @@ world
 life
 nature
 future
+walkaway
 
 variable
 structure
