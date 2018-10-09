@@ -1,7 +1,7 @@
 ---
 title: Impressum
 permalink: /impressum/
-excerpt: "Kurze Antworten auf die Frage, warum und was wird hier getrackt."
+excerpt: "Erklärung der Verantwortlichkeit. Siehe auch _[Datenschutz](/datenschutz/)_."
 last_modified_at: 2018-03-12 00:35:18 +0100
 robots: noindex, nofollow
 ads: false
