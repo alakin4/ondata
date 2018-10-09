@@ -67,12 +67,12 @@
         border: 1px solid #fff;
       }
 
-      @include touch-hover() {
-        @include yiq-contrasted(mix(#000, $color, 20%));
-      }
-
       &:visited {
         @include yiq-contrasted($color);
+      }
+
+      &:hover {
+        @include yiq-contrasted(mix(#000, $color, 20%));
       }
     }
   }
