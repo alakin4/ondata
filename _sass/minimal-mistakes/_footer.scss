@@ -51,25 +51,57 @@
     color: $muted-text-color;
   }
 
-  .logo-netlify {
-    padding-left: 0;
-    width: 9%;
-    height: 9%;
+  
+  .logo-flex {
+    display: flex;
+    float: right;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding-top: 2em;
+    margin-right: 6em;
+
+    .logo-netlify {
+      padding-left: 5px;
+      padding-right: 5px;
+
+      @include breakpoint($x-small) {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+
+      & img {
+        border: 1px solid #bdc1c4;
+        border-radius: 4px;
+        opacity: 0.9;
+        height: 50px;
+      }
+    }
+
+    .logo-rebellion {
+      padding-left: 0;
+      padding-right: 0;
+      opacity: 0.9;
+
+      & img {
+        border: 1px solid #bdc1c4;
+        border-radius: 4px;
+        opacity: 0.9;
+        width: 50px;
+        height: 50px;
+        padding: 0.3em;
+        background-color: #fff;
+      }
+    }
 
     @include breakpoint($x-small) {
-      padding-left: 30px;
+      padding-top: 2em;
     }
-  }
 
-  .logo-netlify img {
-    margin-top: 18px;
-    border: 1px solid #bdc1c4;
-    border-radius: 4px;
-    opacity: 0.9;
-
-    @include breakpoint($x-small) {
-      margin-top: 0;
+    @include breakpoint($xx-large) {
+      padding-top: 0;
+      margin-right: 0;
     }
+     
   }
 }
 
