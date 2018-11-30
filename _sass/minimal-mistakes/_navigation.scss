@@ -32,18 +32,13 @@
       list-style: none;
       font-size: $type-size-6;
 
-      @include breakpoint($large) {
-        float: right;
-        width: span(10 of 12);
-      }
-
-      @include breakpoint($x-large) {
-        padding-left: gutter(0.5 of 12);
-      }
+    @include breakpoint($large) {
+      float: right;
+      width: calc(100% - #{$right-sidebar-width-narrow});
     }
 
-    li {
-      display: inline;
+    @include breakpoint($x-large) {
+      width: calc(100% - #{$right-sidebar-width});
     }
 
     .current {
@@ -220,8 +215,7 @@
     height: $nav-toggle-height;
     border: 0;
     outline: none;
-    color: #fff;
-    background-color: $primary-color;
+    background-color: transparent;
     cursor: pointer;
   }
 
@@ -531,6 +525,13 @@
       transform: translate(0, 0);
     }  
   }
+.nav__title {
+  margin: 0;
+  padding: 0.5rem 0.75rem;
+  font-family: $sans-serif-narrow;
+  font-size: $type-size-5;
+  font-weight: bold;
+}
 
   .nav__sub-title {
     display: block;

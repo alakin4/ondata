@@ -31,15 +31,6 @@
 
 .archive__item {
   position: relative;
-
-  a::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-  }
 }
 
 .archive__subtitle {
@@ -75,6 +66,15 @@
     color: $text-color;
   }
 
+  a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+
   a + a {
     opacity: 0.5;
   }
@@ -94,6 +94,10 @@
 
   & + p {
     text-indent: 0;
+  }
+
+  a {
+    position: relative;
   }
 }
 
@@ -306,6 +310,10 @@
     clear: both;
     font-size: 1.125em;
 
+    .archive__item {
+      float: left;
+    }
+
     .archive__item-teaser {
       margin-bottom: 2em;
     }
@@ -342,6 +350,10 @@
     width: 100%;
     clear: both;
     font-size: 1.125em;
+
+    .archive__item {
+      float: left;
+    }
 
     .archive__item-teaser {
       margin-bottom: 2em;
@@ -381,6 +393,11 @@
     width: 100%;
     clear: both;
     font-size: 1.125em;
+
+    .archive__item {
+      float: left;
+      width: 100%;
+    }
 
     .archive__item-teaser {
       margin-bottom: 2em;
