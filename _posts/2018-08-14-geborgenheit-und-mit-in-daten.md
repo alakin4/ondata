@@ -66,6 +66,10 @@ Dann stellt sich auch nicht die Frage, wie wir mit diesem Mehr klarkommen. Wir h
 
 Alles ist auf Fortschritt und nach vorn Denken im Sinne von neu machen und Altes über Bord werfen ausgerichtet. Für ein neues Gerät kann man einfach mehr Geld verlangen als für ein Upgrade. Auch im Sinne vom Erhalt einer Struktur -- technisch wie sozial -- sollten wir mehr auf die Maintenance unseres bestehenden Systems schauen. Sprechen, lernen und dann ein Update oder Upgrade.
 
+## Von Geld zu geldfrei
+
+Die Zukunft wird geldfrei sein. Während wir heute die Monetarisierung jeder noch so kleinen sozialen Nische des Zusammenseins erleben und dadurch eine Verkleisterung dieser Nischen zu einem freundlich lächelnden, hippen Jeder-kann-Geld-verdienen-Brei, der dann diese Nischen und damit das Zusammenleben nachhaltig stört bis zerstört, wird die Zukunft keine Lizenzen kennen, keine Gebühren für die Bereitstellung von Information oder die Erstellung von Wissen. Vielleicht haben dann die Menschenstaatenkooperation begriffen, daß, solange diese Bereich dem Geldwerwerb dienen, fast kein Fortschritt möglich ist. 
+
 ## Um uns herum
 
 Wir können, wenn wir in einer Gesellschaft, die wir heute als _modern_ bezeichnen, leben, ziemlich viele Orientierungen einnehmen, ohne an die Grenzen des Gesellschaftlichen zu stoßen. Wir können unseren Kindern soviele Vornamen geben, wie wir möchten und dabei versuchen, jeden gendermäßigen Aspekt seines/ihres zukünftigen Lebens zu beachten - für jeden Weg einen Namen sozusagen.    
