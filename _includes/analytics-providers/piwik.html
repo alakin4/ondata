@@ -2,7 +2,7 @@
 <!-- cookie notice in head/custom.html https://cookieconsent.insites.com/ -->
 <!-- https://developer.matomo.org/guides/tracking-javascript-guide#asking-for-consent -->
 <!-- https://piwik.holgerkral.de/index.php?module=PrivacyManager&action=consent&idSite=2&period=day&date=yesterday&showtitle=1&random=7452 -->
-<!-- Piwik -->
+<!-- Matomo -->
 <script type="text/javascript">
   var _paq = _paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
@@ -23,11 +23,11 @@
   _paq.push(['enableLinkTracking']);
   (function() {
     var u="//piwik.holgerkral.de/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
     _paq.push(['setSiteId', '4']);
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
-<!-- End Piwik Code -->
+<!-- End Matomo Code -->
 <!-- end custom analytics snippet
