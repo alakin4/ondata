@@ -25,6 +25,7 @@
 .greedy-nav .search__toggle {
   margin-left: 1rem;
   margin-right: 1rem;
+  height: $nav-toggle-height;
   border: 0;
   outline: none;
   color: $middle-gray;
@@ -34,7 +35,7 @@
   transition: 0.2s;
 
   &:hover {
-    color: $text-color;
+    color: mix(#000, $primary-color, 25%);
   }
 }
 
@@ -134,12 +135,12 @@
 }
 
 .archive__item-title .ais-Highlight {
-  color: $link-color;
+  color: $primary-color;
   font-style: normal;
   text-decoration: underline;
 }
 .archive__item-excerpt .ais-Highlight {
-  color: $link-color;
+  color: $primary-color;
   font-style: normal;
   font-weight: bold;
 }
