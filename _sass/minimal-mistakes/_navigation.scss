@@ -31,15 +31,19 @@
       padding: 0;
       list-style: none;
       font-size: $type-size-6;
-    }
-    
-    @include breakpoint($large) {
-      float: right;
-      width: calc(100% - #{$right-sidebar-width-narrow});
+
+      @include breakpoint($large) {
+        float: right;
+        width: calc(100% - #{$right-sidebar-width-narrow});
+      }
+
+      @include breakpoint($x-large) {
+        width: calc(100% - #{$right-sidebar-width});
+      }
     }
 
-    @include breakpoint($x-large) {
-      width: calc(100% - #{$right-sidebar-width});
+    li {
+      display: inline;
     }
 
     .current {
@@ -193,6 +197,11 @@
 
     &:hover {
       color: $masthead-link-color-hover;
+    }
+
+    &.site-logo {
+      margin-left: 0;
+      margin-right: 0.5rem;
     }
 
     &.site-title {
@@ -478,39 +487,18 @@
       font-weight: bold;
     }
 
-    @include breakpoint(max-width ($large - 1px)) {
+    @include breakpoint(max-width $large - 1px) {
       position: relative;
       max-height: 0;
       opacity: 0%;
       overflow: hidden;
       z-index: 10;
       -webkit-transition: 0.3s ease-in-out;
-      transition: 0.3s ease-in-out;
+              transition: 0.3s ease-in-out;
       -webkit-transform: translate(0, 10%);
-              -ms-transform: translate(0, 10%);
-          transform: translate(0, 10%);
+          -ms-transform: translate(0, 10%);
+              transform: translate(0, 10%);
     }
-  }
-
-  @include breakpoint(max-width $large - 1px) {
-    position: relative;
-    max-height: 0;
-    opacity: 0%;
-    overflow: hidden;
-    z-index: 10;
-    -webkit-transition: 0.3s ease-in-out;
-    transition: 0.3s ease-in-out;
-    -webkit-transform: translate(0, 10%);
-    -ms-transform: translate(0, 10%);
-    transform: translate(0, 10%);
-  }
-
-  .nav__title {
-    margin: 0;
-    padding: 0.5rem 1rem;
-    font-family: $sans-serif-narrow;
-    font-size: $type-size-5;
-    font-weight: bold;
   }
 
   @include breakpoint(max-width($large - 1px)) {
@@ -526,13 +514,14 @@
       transform: translate(0, 0);
     }  
   }
-.nav__title {
-  margin: 0;
-  padding: 0.5rem 0.75rem;
-  font-family: $sans-serif-narrow;
-  font-size: $type-size-5;
-  font-weight: bold;
-}
+
+  .nav__title {
+    margin: 0;
+    padding: 0.5rem 1rem;
+    font-family: $sans-serif-narrow;
+    font-size: $type-size-5;
+    font-weight: bold;
+  }
 
   .nav__sub-title {
     display: block;
@@ -566,6 +555,11 @@
       background: $primary-color;
       border-top-left-radius: $border-radius;
       border-top-right-radius: $border-radius;
+    }
+
+    // Scrollspy marks toc items as .active when they are in focus
+    .active {
+      @include yiq-contrasted($active-color);
     }
   }
 

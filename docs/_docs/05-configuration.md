@@ -2,7 +2,7 @@
 title: "Configuration"
 permalink: /docs/configuration/
 excerpt: "Settings for configuring and customizing the theme."
-last_modified_at: 2018-11-25T19:42:42-05:00
+last_modified_at: 2019-01-15T08:31:44-05:00
 toc: true
 ---
 
@@ -223,6 +223,27 @@ header:
   <figcaption>Example of teaser images found in the related posts module.</figcaption>
 </figure>
 
+### Site masthead logo
+
+To insert a logo before the site title, place a graphic in the `/assets/images/` directory and add the filename to `_config.yml`:
+
+```yaml
+logo: "/assets/images/88x88.png"
+```
+
+<figure>
+  <img src="{{ '/assets/images/mm-masthead-logo.png' | relative_url }}" alt="masthead with logo and custom title">
+  <figcaption>Example of masthead with logo and custom title.</figcaption>
+</figure>
+
+### Site masthead title
+
+By default your site title is used in the masthead. You can override this text by adding the following to your `_config.yml`:
+
+```yaml
+masthead_title: "My Custom Title"
+```
+
 ### Breadcrumb navigation (beta)
 
 Enable breadcrumb links to help visitors better navigate deep sites. Because of the fragile method of implementing them they don't always produce accurate links reliably. For best results:
@@ -349,6 +370,7 @@ comments:
   provider: "utterances"
   utterances:
     theme: "github-light" # "github-dark"
+    issue_term: "pathname"
 ```
 
 #### Static-based comments via Staticman
