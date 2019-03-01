@@ -42,6 +42,8 @@ Das geht über den automatischen Upload, den man z.B. in Google Photos einstelle
 - DroidDAV + iCalDav
 - acal+
 - Nextcloud + Foldersync
+- Joplin
+- QOwnNotes
 - F-Droid
 - Maildroid -> FairEmail
 
