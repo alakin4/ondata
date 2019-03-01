@@ -85,6 +85,11 @@ $success-color              : #62c462 !default;
 $warning-color              : #c3284d !default;
 $danger-color               : #ee5f5b !default;
 $info-color                 : #52adc8 !default;
+$focus-color                : $primary-color !default;
+$active-color               : mix(#fff, $primary-color, 80%) !default;
+
+$gradient                   : top, #fd1892 0%, #fec837 13%, #b8fd33 25%, #2c90fc 36%, #b827fc 50%, #2c90fc 63%, #b8fd33 75%, #fec837 88%, #fd1892 100%;
+$rainbow                    : #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%;
 
 /* YIQ color contrast */
 $yiq-contrasted-dark-default: $dark-gray !default;
@@ -101,11 +106,14 @@ $facebook-color             : $social-color;
 $flickr-color               : $social-color;
 $foursquare-color           : $social-color;
 $github-color               : $social-color;
+$gitlab-color               : $social-color;
 $google-plus-color          : $social-color;
 $instagram-color            : $social-color;
 $lastfm-color               : $social-color;
 $linkedin-color             : $social-color;
+$mastodon-color             : $social-color;
 $pinterest-color            : $social-color;
+$reddit-color               : $social-color;
 $rss-color                  : $social-color;
 $soundcloud-color           : $social-color;
 $stackoverflow-color        : $social-color;
@@ -117,9 +125,9 @@ $youtube-color              : $social-color;
 $xing-color                 : $social-color;
 
 /* links */
-$link-color: $info-color !default;
+$link-color: mix(#000, $info-color, 15%) !default;
 $link-color-hover: mix(#000, $link-color, 25%) !default;
-$link-color-visited: mix(#fff, $link-color, 25%) !default;
+$link-color-visited: mix(#fff, $link-color, 15%) !default;
 $masthead-link-color: $primary-color !default;
 $masthead-link-color-hover: mix(#000, $primary-color, 25%) !default;
 $navicon-link-color-hover: mix(#fff, $primary-color, 75%) !default;
@@ -172,6 +180,8 @@ $border-radius                : 4px !default;
 $box-shadow                   : 0 1px 1px rgba(0, 0, 0, 0.125) !default;
 $navicon-width                : 1.5rem !default;
 $navicon-height               : 0.25rem !default;
+$nav-height                   : 2em !default;
+$nav-toggle-height            : 2rem !default;
 $global-transition            : all 0.2s ease-in-out !default;
 $intro-transition             : intro 0.3s both !default;
 

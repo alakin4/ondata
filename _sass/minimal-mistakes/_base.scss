@@ -171,20 +171,23 @@ a {
   &:visited {
     color: $link-color-visited;
   }
+
+  &:hover {
+    color: $link-color-hover;
+    outline: 0;
+  }
 }
 
 p > a {
   &:not(.btn):not(#goog-wm-sb):hover {
     text-decoration: none;
-    background-image: linear-gradient(rgba(82,173,200,0.5), rgba(82,173,200,0.5));
-    background-size: 1em 0.1em;
-    background-position: 0em 0.95em;
+    background: linear-gradient(rgba(82, 173, 200, 0.3), rgba(82,173,200,0.2));
+    -webkit-transition: background .15s cubic-bezier(0.33, 0.66, 0.66, 1);
+         -o-transition: background .15s cubic-bezier(0.33, 0.66, 0.66, 1);
+            transition: background .15s cubic-bezier(0.33, 0.66, 0.66, 1);
     padding-bottom: 0em;
-    background-repeat: repeat-x;
-    text-decoration: none;
     font-style: normal;
-    -webkit-transition: none;
-    transition: none;
+    color: darken($info-color, 80%);
   }
 }
 

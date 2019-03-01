@@ -1,8 +1,8 @@
 # PREVIEW config
 title                    : "ONDATA LOCAL"
-url                      : "http://ondata.local" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://ondata.local" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-enforce_ssl              : ""
+enforce_ssl              : "ondata.local"
 
 # same excludes like in _config.yml
 include:

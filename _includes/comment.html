@@ -1,4 +1,4 @@
-<article id="comment{% unless include.r %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endunless %}" class="js-comment comment {% if include.name == site.author.name %}admin{% endif %} {% unless include.replying_to == 0 %}child{% endunless %}">
+<article id="comment{{ include.index }}" class="js-comment comment" itemprop="comment" itemscope itemtype="https://schema.org/Comment">
   <div class="comment__avatar-wrapper">
     {% if include.avatar %}
       <img class="comment__avatar" src="{{ include.avatar }}" alt="{{ include.name | escape }}">
@@ -8,21 +8,22 @@
       <img class="comment__avatar" src="{{ site.url }}/assets/images/avatar-60.png" srcset="{{ site.url }}/assets/images/avatar-120.png 2x" alt="{{ include.name | escape }}">
     {% endif %}
   </div>
-  <h3 class="comment__author-name">
-    {% unless include.url == blank %}
-      <a rel="external nofollow" href="{{ include.url }}">
-        {% if include.name == site.author.name %}<svg class="icon" width="20px" height="20px"><use xlink:href="#icon-mistake"></use></svg> {% endif %}{{ include.name }}
-      </a>
-    {% else %}
-      {% if include.name == site.author.name %}<svg class="icon" width="20px" height="20px"><use xlink:href="#icon-mistake"></use></svg> {% endif %}{{ include.name }}
-    {% endunless %}
-  </h3>
-  <div class="comment__timestamp">
-    {% if include.date %}
-      {% if include.index %}<a href="#comment{% if r %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endif %}" title="{{ site.data.ui-text[site.locale].comment_form_comment_label | default: "Comment" }} {{ site.data.ui-text[site.locale].permalink_label | default: "Permalink" }}">{% endif %}
-      <time datetime="{{ include.date | date_to_xmlschema }}">{{ include.date | localize: '%d. %B %Y' }}</time>
-      {% if include.index %}</a>{% endif %}
-    {% endif %}
+  <div class="comment__content-wrapper">
+    <h3 class="comment__author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+      {% unless include.url == blank %}
+        <span itemprop="name"><a rel="external nofollow" itemprop="url" href="{{ include.url }}">{{ include.name }}</a></span>
+      {% else %}
+        <span itemprop="name">{{ include.name }}</span>
+      {% endunless %}
+    </h3>
+    <p class="comment__date">
+      {% if include.date %}
+        {% if include.index %}<a href="#comment{{ include.index }}" itemprop="url">{% endif %}
+        <time datetime="{{ include.date | date_to_xmlschema }}" itemprop="datePublished">{{ include.date | date: "%B %d, %Y at %I:%M %p" }}</time>
+        {% if include.index %}</a>{% endif %}
+      {% endif %}
+    </p>
+    <div itemprop="text">{{ include.message | markdownify }}</div>
   </div>
   <div class="comment__content">
     {{ include.message | markdownify }}
@@ -32,20 +33,5 @@
       <a rel="nofollow" class="btn btn--inverse" href="#comment-{{ include.index }}" onclick="return addComment.moveForm('comment-{{ include.index }}', '{{ include.index }}', 'respond', '{{ page.slug }}')">Antwort an {{ include.name }}</a>
     </div>
   {% endunless %}
+  </div>
 </article>
-
-{% capture i %}{{ include.index }}{% endcapture %}
-{% assign replies = site.data.comments[page.slug] | where_exp: 'item', 'item.replying_to == i' %}
-{% for reply in replies %}
-  {% assign index       = forloop.index | prepend: '-' | prepend: include.index %}
-  {% assign r           = reply.replying_to %}
-  {% assign replying_to = r | to_integer %}
-  {% assign avatar      = reply.avatar %}
-  {% assign email       = reply.email %}
-  {% assign name        = reply.name %}
-  {% assign url         = reply.url %}
-  {% assign date        = reply.date %}
-  {% assign message     = reply.message %}
-  {% include comment.html index=index replying_to=replying_to avatar=avatar email=email name=name url=url date=date message=message %}
-{% endfor %}
-
