@@ -19,7 +19,7 @@ locale                   : "de-DE"
 title                    : "ONDATA"
 title_separator          : "×"
 name                     : "dev4223"
-email                    : "developer4223@gmail.com"
+email                    : "developer4223@ondata.work"
 description              : > # this means to ignore newlines until "url:"
   Daten. Überall sind Daten. Lernen, wo und wie sie leben. Und hier darüber schreiben.
 url                      : "https://ondata.work" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -117,7 +117,7 @@ author:
   avatar           : "/assets/images/avatar_s.jpg"
   bio              : "lerning all about data"
   location         : 
-  email            : "developer4223@gmail.com"
+  email            : "developer4223@ondata.work"
   uri              : 
   bitbucket        :
   codepen          :
@@ -145,7 +145,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:developer4223@gmail.com
+      url: mailto:developer4223@ondata.work
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"

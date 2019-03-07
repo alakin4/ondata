@@ -8,7 +8,7 @@ share: false
 author: true
 ---
 <br />
-Kurze Nachrichten gern [via Twitter](https://twitter.com/HolgerKral){:target="_blank"} senden. Oder auch [per Email](mailto:developer4223@gmail.com){:target="_blank"}. Manchmal bin ich auch auf anderen Kanälen zu erreichen. Oder über das Formular unten.
+Kurze Nachrichten gern [via Twitter](https://twitter.com/HolgerKral){:target="_blank"} senden. Oder auch [per Email](mailto:developer4223@ondata.work){:target="_blank"}. Manchmal bin ich auch auf anderen Kanälen zu erreichen. Oder über das Formular unten.
 
 Ich fotografiere und die Bilder gibt es dann meist kurze Zeit später [hier](https://kral-photography.com){:target="_blank"} und die mobilen Bilder machmal [hier](https://hym-on-tour.holgerkral.de){:target="_blank"} zu sehen.
 
