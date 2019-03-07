@@ -6,7 +6,7 @@ holger_kral:
   address2: "10777 Berlin"
   address3: "Berlin"
   tel: +49 179 53 47 135
-  email: "developer4223@gmail.com"
+  email: "developer4223@ondata.work"
   bio: "lerning all about data"
   avatar: "/assets/images/avatar_s.jpg"
   twitter: HolgerKral
@@ -14,7 +14,7 @@ holger_kral:
 
 developer4223:
   name: "dev4223"
-  email: "developer4223@gmail.com"
+  email: "developer4223@ondata.work"
   bio: "lerning all about data"
   avatar: "/assets/images/avatar_s.jpg"
   twitter: HolgerKral
