@@ -62,7 +62,7 @@ button.search__toggle {
     animation-delay: 0.15s;
 
     @include breakpoint($x-large) {
-      max-width: $x-large;
+      max-width: $max-width;
     }
 
     .archive {
