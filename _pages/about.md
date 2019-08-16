@@ -31,7 +31,7 @@ Die Idee für das Avatar-Bild:
 
 ## GPG-Key [developer4223@ondata.work](developer4223@ondata.work)
 
-Download: [developer4223ondata-work-asc.zip (4kB)]({{site.baseurl}}/assets/developer4223ondata-work-asc.zip)
+Download: [developer4223-ondata-work-asc.zip (4kB)]({{site.baseurl}}/assets/developer4223-ondata-work-asc.zip)
 
 {% highlight md %}
 -----BEGIN PGP PUBLIC KEY BLOCK-----
