@@ -79,6 +79,10 @@ button.search__toggle {
     }
   }
 
+  &__form {
+    background-color: transparent;
+  }
+
   .search-input {
     display: block;
     margin-bottom: 0;
@@ -139,6 +143,7 @@ button.search__toggle {
   font-style: normal;
   text-decoration: underline;
 }
+
 .archive__item-excerpt .ais-Highlight {
   color: $primary-color;
   font-style: normal;
