@@ -3,6 +3,7 @@
 *.sublime-workspace
 .bundle
 .DS_Store
+.jekyll-cache
 .jekyll-metadata
 .sass-cache
 _asset_bundler_cache
@@ -15,3 +16,4 @@ _site
 _comments_MM.scss
 test
 .nomedia
+vendor/bundle
