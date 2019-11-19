@@ -185,6 +185,7 @@ var addComment = {
       commentForm = respond.getElementsByTagName("form")[0];
 
     if (!comm || !respond || !cancel || !parent || !commentForm) {
+      alert("Error!!!");
       return;
     }
 
