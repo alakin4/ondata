@@ -75,7 +75,7 @@ comments:
   # with Mailgun, which you can get for free at http://mailgun.com.
   notifications:
     # Enable notifications
-    enabled: true
+    enabled: false
 
     # FROM email address
     fromAddress: "Thank you <no-reply@ondata.work>"
