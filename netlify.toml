@@ -17,6 +17,6 @@
 [build]
   command = "yarn build"
   functions = "functions"
-  NODE_VERSION = "12"
+  NODE_VERSION = "11.15.0"
   RUBY_VERSION = "2.6.2"
   YARN_VERSION = "1.19.1"
