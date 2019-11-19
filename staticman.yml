@@ -4,6 +4,12 @@
 # another one to handle posts.
 # To encrypt strings use the following endpoint:
 # https://api.staticman.net/v2/encrypt/{TEXT TO BE ENCRYPTED}
+# New v3 Staticman:
+# https://github.com/eduardoboucas/staticman/issues/243#issuecomment-453754860
+# 1. Remove staticmanapp as a collaborator
+# 2. Go to https://github.com/apps/staticman-net and install the application on your repository
+# 3. Submit a comment to the new v3 endpoint, using dev.staticman.net as the base URL – i.e. https://dev.staticman.net/v3/entry/github/[USERNAME]/[REPOSITORY]/[BRANCH]
+
 
 comments:
   # (*) REQUIRED

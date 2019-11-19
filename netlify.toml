@@ -12,11 +12,3 @@
 # an active Deploy Preview will inherit these settings.
 [context.branch-deploy]
   command = "JEKYLL_ENV=development jekyll build --config _config.yml,_config_prev.yml"
-
-# building staticman as a netlify service
-[build]
-  command = "yarn build"
-  functions = "functions"
-  NODE_VERSION = "11.15.0"
-  RUBY_VERSION = "2.6.2"
-  YARN_VERSION = "1.19.1"
