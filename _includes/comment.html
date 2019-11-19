@@ -23,10 +23,7 @@
         {% if include.index %}</a>{% endif %}
       {% endif %}
     </p>
-    <div itemprop="text">{{ include.message | markdownify }}</div>
-  </div>
-  <div class="comment__content">
-    {{ include.message | markdownify }}
+    <div class="comment__content" itemprop="text">{{ include.message | markdownify }}</div>
   </div>
   {% unless include.replying_to != 0 or page.comments_locked == true %}
     <div class="comment__reply">
