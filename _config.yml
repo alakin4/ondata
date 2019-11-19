@@ -68,7 +68,7 @@ staticman:
 # reCAPTCHA keys
 reCaptcha:
   siteKey: "6LcbQRsUAAAAAN3HgvbZPJY92mwOB1Y1SBoNcV-g"
-  secret: "HSPkIkXTX1Pw6eToklIx70LCZ0SHGR562r8+TG6X9chdflm0QqH/cFwyisyHcJzVbWebcSUY17xWA6wke+dbRFvwrPNTb83jGI/ePk2NONfV7bbCreRvbLdVmOL42n6PppqurNC9SapPezUtPtt7hJc2Z4FZESHz9pB4mUv6pAA="
+  secret: "HoI7DZViwIDcOVUEVUAy8TujfKiz3v8GFl2LhrobK/RP+kpUcdNsjsx5sq7xwDBSuaf+vA42yjJYy4tnmQ41R+TObZsaY2ZeplcvXM3tv/D5UHs8Ee1fsZqsd7ELO+HcD0SycC05zZSAEPCWKFxudOktHTwlEJuHn632hir5Vx5ef/UlyAenXNycIVrA28ZsOBX2B5iG4rYgoKCtEMHniG95sKgQG6L0FthWLBslTaEhI0S0tQDR9mUxDoS1v03mjc7VRb+Ha4uFN7hMseM/MGiSCQrk6IzqdgYGKSaNcbUvZ8UUWsO6dRDz9ywf9PfVfIqElei/ZQe3ggSAOzA5Ag=="
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true # true, false (default)
