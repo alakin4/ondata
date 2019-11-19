@@ -83,12 +83,12 @@ comments:
     # (!) ENCRYPTED
     #
     # Mailgun API key
-    apiKey: "hTn8cBdVmnOubiVkjzSwO8YJt49U0miECSt7UoClBucoatDAc+PW70ThdFbuMPPpjNJX+r6vTAhEI/BWeI1rug7KYKah1Gtduy50AloaDgsBqvhP104oRCiRye/bN8SHWkqZIK0s4r58bSQN/VPKvPsRsK1JRm1OZ2WdPy78H1Lbtx0VVUznL/qLYgGkxtOHZms6mJ4UVxsATVsN+Kmi8ErHMEIdoFQEhisqkK+/2SmSGSzETBYLtym0sHXNh2WJ4HuVecx1a7RHKuOkiH1bKBBMq9759MKG7Rdnjyvp+0JSIRtwcxtFA1KvCfApKuxxmG/EjG3M3gkWRESU3q4IBQ=="
+    apiKey: "e3eGhNysAUv/toQ9/K0In9G1X6yhdYvaavv/V9nCpiRce+VZwf1hUegbAFZ3blHPCu6VrdpBj9fE1V9tp5bbRnYBD00bgPpZNjo/F1G8U2hMjIKdXHPPaHYPCTO6XzLJ10mMNdm2b8YG9YZfwH7/pPJ8u5/0W80W0rkWZri2prEB/WuPTQOd4vyJhRttrn3LdmBWUUPnVcR2yoTpGSLf6Af4dFmhQYQDIWqBYmjUlK7JGj2OJD52/3/8aHX+N/93hDZLAw1Y7iP8JwNWnPJ9Xufic7nVTWqQ6LtBu0llkV7oeT1gaioW82wk2gngBKqRVOqx47JIP/2J/ywAewlgTw=="
 
     # (!) ENCRYPTED
     #
     # Mailgun domain (encrypted)
-    domain: "ICjWC/eOBmgJiViXqaJrigCWRe07iWpjHPNkZGv/XEptAWKXFvw3/yr4Y/0rZ9mtf8zof9pSkZKQzrGRd8IFpOyp3ckuvILysiyO3Eh6B6wzJ+yYXofZdtvo2uWEXRUBjz00pxBtyLL54LozUp+tj++DYjD4EX6oyKRD+GTYAHK8cCmHnk0N6Vijf2rWXNCn9PacjHp/WmpbttQblZPjnCqmFOaC+jYrEK6fodmUAXhuu66FSVszZFN86MDXqEORwVsQzKD7aGe2GDJ68BXi69KYobF6WaAa6c2s+YNWfMd/xspZ9HNvdSTo88Vjq89nat8U7WLvKZXzpwjvCQUpuA=="
+    domain: "NTIeNp3MNEY4hKXw5xvro9vmaYL3Pm2FmAkE8kB83DTQx1L9DcCWVv0nw2qZ6upNJBQ7sUEREiLlgTN6F2M66VBZaNbNE+/JxQHCybsrpuOPRovjV6DG8bxL5hLZBMrhUG4fluZHrHWNI7NHvPWzSBSqyW3HYnPPFH72M6Jpv4/GklGvJfOO6a2BqKfyYbKRQcKVbdBMf70pZ8RBV1xysh1tcAZBR6/ZFVgUodnDW8hkHxlpzxzjN+BdTt5XHquphcxgdoQW8V84EZsDd088NUQXkwa1zCea6t2jvNLsMadXk7EKvWTjMc0JfN+8QAqbKDLDVZelrIx/9gpT3TpK7A=="
 
   # (*) REQUIRED
   #
@@ -111,4 +111,4 @@ comments:
     siteKey: "6LcbQRsUAAAAAN3HgvbZPJY92mwOB1Y1SBoNcV-g"
     # Encrypt reCaptcha secret key using Staticman /encrypt endpoint
     # For more information, https://staticman.net/docs/encryption
-    secret: "HSPkIkXTX1Pw6eToklIx70LCZ0SHGR562r8+TG6X9chdflm0QqH/cFwyisyHcJzVbWebcSUY17xWA6wke+dbRFvwrPNTb83jGI/ePk2NONfV7bbCreRvbLdVmOL42n6PppqurNC9SapPezUtPtt7hJc2Z4FZESHz9pB4mUv6pAA="
+    secret: "vyM2+BJb4ZDmaq0GAmxIfjN2awM9bQXSr8ruzjjCEMfyQskf6If6ht90sV0BeNwmP8I19L/d7pQhFVaQ5fy8Qx2oe7x0rFEP56is8bDK6eERNjpHysrIN2DIfzHjQ7SF5QCLiVsG+M4WNM13NOcPb5sqZ7ExuXdNSxrKsMrC4Ppeu3qITzWEODd+EQDoGfuQ7CWNOnmbywG4GTNZTQp1GsoWjwtboTRIJbSeLFi2jNXk26L8nVx+Z5PWMjZdokoHKKNGJMCX0aD5SxUslL7jgIoDQYFU56IQjTK6PbQeJDAZvSX/ywDSH1VANnVjPScQZBwI5D/PyaEBlbLZ2tnOGw=="
