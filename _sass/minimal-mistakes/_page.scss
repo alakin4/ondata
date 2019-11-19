@@ -577,7 +577,6 @@
 }
 
 .comment__content-wrapper {
-  float: right;
   width: calc(100% - 60px);
 
   @include breakpoint($large) {
