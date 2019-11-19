@@ -64,7 +64,7 @@ staticman:
       type               : # "date"
       options:
         format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
+  endpoint               : "https://api.staticman.net/v3/entry/github/" # URL of your own deployment with trailing slash, will fallback to the public instance
 # reCAPTCHA keys
 reCaptcha:
   siteKey: "6LcbQRsUAAAAAN3HgvbZPJY92mwOB1Y1SBoNcV-g"
