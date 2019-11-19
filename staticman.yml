@@ -30,7 +30,7 @@ comments:
   # Name of the branch being used. Must match the one sent in the URL of the
   # request.
   branch: "master"
-  endpoint: "https://api.staticman.net/v3/entry/github/"
+  endpoint: "https://static-hokrus.herokuapp.com/v3/entry/github/"
 
   commitMessage: "New comment by {fields.name}"
 
@@ -83,12 +83,12 @@ comments:
     # (!) ENCRYPTED
     #
     # Mailgun API key
-    apiKey: "DnpXyoKtPwAV3Nw9SHfSnMZC2/C/TjsfMCFhPuxtVZ8U2Zmr3hg3y7bcSDFebCQe34VCROmyGEoBHN6Wxe0OcVBRBroOHPAdnjZeEfWzWheNMwU8Mh1Vv6VXC6LMIbGmJWZCMmtqTp+HzIvNPgRmAwkczhHji6FXRmU8h11kaqY="
+    apiKey: "hTn8cBdVmnOubiVkjzSwO8YJt49U0miECSt7UoClBucoatDAc+PW70ThdFbuMPPpjNJX+r6vTAhEI/BWeI1rug7KYKah1Gtduy50AloaDgsBqvhP104oRCiRye/bN8SHWkqZIK0s4r58bSQN/VPKvPsRsK1JRm1OZ2WdPy78H1Lbtx0VVUznL/qLYgGkxtOHZms6mJ4UVxsATVsN+Kmi8ErHMEIdoFQEhisqkK+/2SmSGSzETBYLtym0sHXNh2WJ4HuVecx1a7RHKuOkiH1bKBBMq9759MKG7Rdnjyvp+0JSIRtwcxtFA1KvCfApKuxxmG/EjG3M3gkWRESU3q4IBQ=="
 
     # (!) ENCRYPTED
     #
     # Mailgun domain (encrypted)
-    domain: "m5YFgo53LNny4kThT9bCmn6QyeFeFXrVJn8/Xyn1peXXqaMa0f4zNRcW/7WxpFo0jfYgJFTZElzY45SaYKsyXn9f3gS14Po11louqtkROEsYv2zezlEebv6adoqMic8JSNCAvYkBrysrePzf1+uS5Yvl2YnGz1y370SVV07bG0o="
+    domain: "ICjWC/eOBmgJiViXqaJrigCWRe07iWpjHPNkZGv/XEptAWKXFvw3/yr4Y/0rZ9mtf8zof9pSkZKQzrGRd8IFpOyp3ckuvILysiyO3Eh6B6wzJ+yYXofZdtvo2uWEXRUBjz00pxBtyLL54LozUp+tj++DYjD4EX6oyKRD+GTYAHK8cCmHnk0N6Vijf2rWXNCn9PacjHp/WmpbttQblZPjnCqmFOaC+jYrEK6fodmUAXhuu66FSVszZFN86MDXqEORwVsQzKD7aGe2GDJ68BXi69KYobF6WaAa6c2s+YNWfMd/xspZ9HNvdSTo88Vjq89nat8U7WLvKZXzpwjvCQUpuA=="
 
   # (*) REQUIRED
   #
