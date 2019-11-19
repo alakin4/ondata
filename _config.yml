@@ -48,23 +48,26 @@ comments:
   utterances:
     theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
-staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : "master"
-  commitMessage          : # "New comment by {fields.name}"
-  filename               : # comment-{@timestamp}
-  format                 : # "yml"
-  moderation             : # true
-  path                   : # "/_data/comments/{options.slug}" (default)
-  requiredFields         : # ['name', 'email', 'message']
-  transforms:
-    email                : # "md5"
-  generatedFields:
-    date:
-      type               : # "date"
-      options:
-        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint               : "https://static-hokrus.herokuapp.com/v3/entry/github/" # URL of your own deployment with trailing slash, will fallback to the public instance
+  staticman:
+    allowedFields        : # ['name', 'email', 'url', 'message']
+    allowedOrigins       : ["localhost","ondata.local","ondata.work","0ndata.de","develop.ondata.work","post-preview.ondata.work","ondata.hokr.us"]
+    branch               : "master"
+    commitMessage        : # "New comment by {fields.name}"
+    filename             : # comment-{@timestamp}
+    format               : # "yml"
+    moderation           : # true
+    path                 : # "/_data/comments/{options.slug}" (default)
+    requiredFields       : # ['name', 'email', 'message']
+    notifications:
+      fromAddress        : "Thank you <no-reply@ondata.work>"
+    transforms:
+      email              : # "md5"
+    generatedFields:
+      date:
+        type             : # "date"
+        options:
+          format         : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+    endpoint             : "https://static-hokrus.herokuapp.com/v3/entry/github/" # URL of your own deployment with trailing slash, will fallback to the public instance
 # reCAPTCHA keys
 reCaptcha:
   siteKey: "6LcbQRsUAAAAAN3HgvbZPJY92mwOB1Y1SBoNcV-g"
