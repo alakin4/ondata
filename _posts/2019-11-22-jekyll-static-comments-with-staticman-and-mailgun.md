@@ -43,7 +43,7 @@ $ git checkout -b production 55d1430
 ```
 
 Zur Konfiguration der App müssen wir der App einige Daten mitgeben, wie z.B. das Personal Access Token unseres Bot-Accounts. Damit dieser aber nicht im Klartext in unserem Repos liegt, erstellen wir die Konfigurationsdatei mit Platzhaltern. Die echten Werte kann man dann per `heroku cli` übertragen oder im Admin von Heroku in den Einstellungen der App hinterlegen.
-Als erstes als die Datei `config.production.json` als Kopie der `config.sample.json` erstellen
+Als erstes die Datei `config.production.json` als Kopie der Datei `config.sample.json` erstellen.
 
 ```bash
 $ cp config.sample.json config.production.json
