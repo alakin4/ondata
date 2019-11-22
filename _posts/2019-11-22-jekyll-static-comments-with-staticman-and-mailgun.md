@@ -21,20 +21,20 @@ related_count: 2
 
 <br />
 
-# Einführung
+## Einführung
 
 Mit [Staticman](https://github.com/eduardoboucas/staticman) lassen sich in Webseiten, die von statischen Generatoren wie [Jekyll](https://jekyllrb.com/) gebaut werden, eine Kommentarfunktion umsetzen umsetzen. Staticman ist eine NodeJS Applikation, die benutzergenerierten Inhalt von der Webseite durch z.B. ein Formular erhält und sie als Datendateien zu Github (oder Gitlab) hochlädt.    
 Eduardo Bouças, der Entwickler von Staticman, stellte dazu sein App öffentlich zur Verfügung. Wegen der zunehmenden Beliebtheit von statischen Webseiten-Generatoren und weil man nicht auf Kommentare verzichten wollte, stößt die App jetzt leider regelmäßig an ihre Quota-Grenzen und ist nicht mehr gut nutzbar.    
 Da die App Open Source ist, ist der einfachste Weg, die App selbst zu hosten. Zum Hosten besorgt man sich einen kostenlosen Account auf [Heroku](https://www.heroku.com/), erstellt sich einen Fork von Staticman und veröffentlicht diesen auf Heroku. Doch dazu jetzt im einzelnen.
 
-# Staticman Fork auf Github
+## Staticman Fork auf Github
 
 Als erstes erstelle ich mir einen neuen Github-Account, sozusagen einen Bot-Account, der die Daten in meinen Webseiten-Repos pusht. Außerdem habe ich einen Fork des Staticman-Repos hier abgelegt. Das beides hängt sonst nicht zusammen. Man kann auch das Staticman-Repos nach local klonen und von dort dann zum App-Hoster pushen. Wenn man jedoch den Heroku-Account mit dem Bot-Account verbindet, kann man auch automatisch bei Push nach Heroku deployen.    
 Warum der Bot-Account? Damit die vom Kommentarformular geposteten Daten und von der Staticman-App daraus gebauten Datendateien in unserer Webseiten-Repository gepusht werden können, muß das neue Bot-Github-Repos Schreibrechte auf das Webseiten-Repos erhalten. Sollte der neue Bot-Account einmal kompromitiert werden, ist nur der Bot-Account verloren und nicht der Account, in dem all meine Repositories wohnen.    
 In den Account-Settings des Bot-Accounts in die Developer Settings gehen und einen **Personal Access Token** erstellen. Ich habe diesen mit allen Rechten bei **repo** und bei **admin:repo_hook** erstellt. Zweiteres ist für das automatische Deployment zu Heroku. Den Key sofort kopieren und sicher wegspeichern, da er nur dieses eine mal angezeigt wird.    
 Dann einen Fork des Staticman-Repos in diesen Bot-Account erstellen und zum Bearbeiten das Repos lokal klonen.
 
-# Konfiguration der Staticman-App
+## Konfiguration der Staticman-App
 
 Wie man den Artikeln [hier](https://muffinman.io/running-staticman-on-heroku/) und [hier](https://networkhobo.com/staticman-the-journey-continues) entnehmen kann, funktioniert der aktulle Master-Branch von Staticman nicht wie erwartet. Der in diesen Artikeln erwähnte [Commit 55d1430](https://github.com/eduardoboucas/staticman/commit/55d14306d851059a2a27d24b5eb4cb17c5009477) funktioniert jedoch. Daher erstellen wir daraus einen Branch und arbeiten damit:
 
@@ -77,3 +77,6 @@ Alle Änderungen werden dann dem Repos hinzuzufügt.
 $ git add config.production.json Procfile .gitignore
 $ git commit -m "Set up Staticman v3 for deployment to Heroku"
 ```
+
+## Heroku
+
