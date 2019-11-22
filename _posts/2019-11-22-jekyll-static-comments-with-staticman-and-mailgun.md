@@ -38,14 +38,14 @@ Dann einen Fork des Staticman-Repos in diesen Bot-Account erstellen und zum Bear
 
 Wie man den Artikeln [hier](https://muffinman.io/running-staticman-on-heroku/) und [hier](https://networkhobo.com/staticman-the-journey-continues) entnehmen kann, funktioniert der aktulle Master-Branch von Staticman nicht wie erwartet. Der in diesen Artikeln erwähnte [Commit 55d1430](https://github.com/eduardoboucas/staticman/commit/55d14306d851059a2a27d24b5eb4cb17c5009477) funktioniert jedoch. Daher erstellen wir daraus einen Branch und arbeiten damit:
 
-```
-git checkout -b production 55d1430
+```bash
+$ git checkout -b production 55d1430
 ```
 
 Zur Konfiguration der App müssen wir der App einige Daten mitgeben, wie z.B. das Personal Access Token unseres Bot-Accounts. Damit dieser aber nicht im Klartext in unserem Repos liegt, erstellen wir die Konfigurationsdatei mit Platzhaltern. Die echten Werte kann man dann per `heroku cli` übertragen oder im Admin von Heroku in den Einstellungen der App hinterlegen.
 Als erstes als die Datei `config.production.json` als Kopie der `config.sample.json` erstellen
 
-```
+```bash
 $ cp config.sample.json config.production.json
 ```
 
@@ -60,10 +60,20 @@ Dann den Inhalt der `config.production.json` so abändern
 
 Diese Konfigurationsdatei dann zur gitignore so hinzufügen, das sie auf jeden Fall von Git beachtet wird. Konfigurationsdateien werden von der gitignore eigentlich nicht beachtet. Dazu
 
-```
+```bash
 $ echo "!config.production.json" >> .gitignore
 ```
 
 ausführen.    
 Zum Schluß wir noch eine Datei namens `Procfile` erstellt, die dazu dient, daß die App nach einem Deploy automatisch gestart.    
+
+```
+web: npm start
+```
+
 Alle Änderungen werden dann dem Repos hinzuzufügt.
+
+```bash
+$ git add config.production.json Procfile .gitignore
+$ git commit -m "Set up Staticman v3 for deployment to Heroku"
+```
