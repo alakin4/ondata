@@ -31,7 +31,7 @@ Da die App Open Source ist, ist der einfachste Weg, die App selbst zu hosten. Zu
 
 Als erstes erstelle ich mir einen neuen Github-Account, sozusagen einen Bot-Account, der die Daten in meinen Webseiten-Repos pusht. Außerdem habe ich einen Fork des Staticman-Repos hier abgelegt. Das beides hängt sonst nicht zusammen. Man kann auch das Staticman-Repos nach local klonen und von dort dann zum App-Hoster pushen. Wenn man jedoch den Heroku-Account mit dem Bot-Account verbindet, kann man auch automatisch bei Push nach Heroku deployen.    
 Warum der Bot-Account? Damit die vom Kommentarformular geposteten Daten und von der Staticman-App daraus gebauten Datendateien in unserer Webseiten-Repository gepusht werden können, muß das neue Bot-Github-Repos Schreibrechte auf das Webseiten-Repos erhalten. Sollte der neue Bot-Account einmal kompromitiert werden, ist nur der Bot-Account verloren und nicht der Account, in dem all meine Repositories wohnen.    
-In den Account-Settings des Bot-Accounts in die Developer Settings gehen und einen **Personal Access Token** erstellen. Ich habe diesen mit allen Rechten bei **repo** und bei **admin:repo_hook** erstellt. Zweiteres ist für das automatische Deployment zu Heroku. Den Key sofort kopieren und sicher wegspeichern, da er nur dieses eine mal angezeigt wird.    
+In den Account-Settings des Bot-Accounts in die Developer Settings gehen und einen *Personal Access Token* erstellen. Ich habe diesen mit allen Rechten bei *repo* und bei *admin:repo_hook* erstellt. Zweiteres ist für das automatische Deployment zu Heroku. Den Key sofort kopieren und sicher wegspeichern, da er nur dieses eine mal angezeigt wird.    
 Dann einen Fork des Staticman-Repos in diesen Bot-Account erstellen und zum Bearbeiten das Repos lokal klonen.
 
 ## Konfiguration der Staticman-App
@@ -83,7 +83,7 @@ In den Settings des Webseiten-Repos bei Github dann noch den Bot-Account als Col
 ## Heroku
 
 In Heroku erstellt man sich einen kostenlosen Account und legt eine App an. In der App kann man unter dem Menlüpunkt *Deploy* als Deploymethode *Github* auswählen. Ist man in Github in seinem Bot-Account eingeloggt, wählt man das Repos mit dem Staticman-Fork aus und als Branch den vorher angelegten *production*-Branch. Aktiviert man dann noch die automatischen Deploys wird bei jedem Push in das Staticman-Repos ein Deployment nach Heroku durchgeführt, die App neu gebaut und gestartet.
-Unter https://<HerokuAppName>.herokuapp.com sollte dann ein **Hello from Staticman version 3.0.0!** erscheinen, womit man weiß, daß die App läuft.   
+Unter [https://HEROKU_APP_NAME.herokuapp.com]() sollte dann ein *Hello from Staticman version 3.0.0!* erscheinen, womit man weiß, daß die App läuft.   
 
 ### Heroku App Settings
 
@@ -101,7 +101,18 @@ openssl genrsa -out staticman-key.pem
 
 Diesen Key mit einem Text-Editor öffnen und alle Zeilenümbrüche entfernen, so daß der gesamte Inhalt in einer Zeile steht. Diesen String dann als Wert eintragen.
 
+### Heroku Endpoints
 
+Zur Arbeit mit der App benötigen wir zwei Endpoints, also URLs, unter der wir Funktionen der App aufrufen können.    
+Das ist einmal die Verschlüsselungsfunktion unter [https://HEROKU_APP_NAME.herokuapp.com/v3/encrypt/STRING_TO_ENCRYPT](). Damit werden folgende Werte in der _staticman.yml_ verschlüsselt:
+
+- notifications.apiKey und notifications.domain
+- reCaptcha.secret
+
+Nicht vergessen, den Wert für reCaptcha.secret auch in der _config.yml_ zu hinterlegen.    
+Der zweite Endpoint ist der eigentliche Endpoint, den wir im Formular als Action hinterlegen. Er lautet
+
+[https://HEROKU_APP_NAME.herokuapp.com/v3/entry/github/GITHUB_USERNAME/GITHUB_REPOS/GITHUB_BRANCH/comments]()
 
 
 
