@@ -78,7 +78,7 @@ $ git add config.production.json Procfile .gitignore
 $ git commit -m "Set up Staticman v3 for deployment to Heroku"
 ```
 
-In den Settings des Webseiten-Repos bei Github dann noch den Bot-Account als Collaborator eintragen und den Einladungslink kopieren. Dann aus diesem Account ausloggen und in den Bot-Account einloggen und den Einladungslink im Browser aurufen. NAch der Bestätigung kann der Bot-Account bei Github auch in das Webseiten-Repos schreiben. Und pushen, was dafür nötig ist, daß die Posts in der Webseite erscheinen.
+In den Settings des Webseiten-Repos bei Github dann noch den Bot-Account als Collaborator eintragen und den Einladungslink kopieren. Dann aus diesem Account ausloggen und in den Bot-Account einloggen und den Einladungslink im Browser aurufen. Nach der Bestätigung kann der Bot-Account bei Github auch in das Webseiten-Repos schreiben. Und pushen, was dafür nötig ist, daß die Posts in der Webseite erscheinen.
 
 ## Heroku
 
@@ -114,6 +114,12 @@ Der zweite Endpoint ist der eigentliche Endpoint, den wir im Formular als Action
 
 [https://HEROKU_APP_NAME.herokuapp.com/v3/entry/github/GITHUB_USERNAME/GITHUB_REPOS/GITHUB_BRANCH/comments]()
 
+## Mailgun
 
+Damit man über die Kommentare und Antworten auf Kommentare benachrichtigt wird, kann man sich einen freien Mailgun-Account besorgen. Der Api-Key und die Mail-Domain wird dann verschlüsselt wie oben beschrieben in die _staticman.yml_ eingetragen. 
+
+## Schlußbemerkung
+
+Mit Hilfe dieser Servieces hat man eine Kommentarfunktion mit Email-Benachrichtigung in die statischen Webseite eingebaut. 
 
 
