@@ -42,6 +42,9 @@ exclude:
   - test # ignore Minimal Mistakes /test
   - _posts/__notes.md
   - robots.txt
-  - _posts/2017-05-13-rp17-was-wird-meinungen-sind-wie-daten.md
+  - _posts/2018-08-14-geborgenheit-und-mit-in-daten.md
+  - _posts/2018-11-25-mit-weniger-daten-kochen.md
+  - _posts/2019-08-19-was-verbindet-uns.md
+  - _posts/2019-11-22-jekyll-static-comments-with-staticman-and-heroku.md
 
 google_site_verification : 1TwKH7c-QhYqXsr6rCuld0ck3tE6BQvFVn-SCaBzNzY
