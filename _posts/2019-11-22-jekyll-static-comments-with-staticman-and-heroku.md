@@ -78,5 +78,31 @@ $ git add config.production.json Procfile .gitignore
 $ git commit -m "Set up Staticman v3 for deployment to Heroku"
 ```
 
+In den Settings des Webseiten-Repos bei Github dann noch den Bot-Account als Collaborator eintragen und den Einladungslink kopieren. Dann aus diesem Account ausloggen und in den Bot-Account einloggen und den Einladungslink im Browser aurufen. NAch der Bestätigung kann der Bot-Account bei Github auch in das Webseiten-Repos schreiben. Und pushen, was dafür nötig ist, daß die Posts in der Webseite erscheinen.
+
 ## Heroku
+
+In Heroku erstellt man sich einen kostenlosen Account und legt eine App an. In der App kann man unter dem Menlüpunkt *Deploy* als Deploymethode *Github* auswählen. Ist man in Github in seinem Bot-Account eingeloggt, wählt man das Repos mit dem Staticman-Fork aus und als Branch den vorher angelegten *production*-Branch. Aktiviert man dann noch die automatischen Deploys wird bei jedem Push in das Staticman-Repos ein Deployment nach Heroku durchgeführt, die App neu gebaut und gestartet.
+Unter https://<HerokuAppName>.herokuapp.com sollte dann ein **Hello from Staticman version 3.0.0!** erscheinen, womit man weiß, daß die App läuft.   
+
+### Heroku App Settings
+
+In der App unter Settings den Button `Reveal Config Vars` klicken. Hier müssen 3 Parameter gesetzt werden.
+
+1. `GITHUB_TOKEN`: Als Wert den oben im Github-Bot-Account angelegten (und hoffentlich abgespeicherten) Personal Access Token eingeben.
+2. `NODE_ENV`: Hier `production` als Wert eintragen.
+3. `RSA_PRIVATE_KEY`: Hier müssen wir einen Verschlüsselungsschlüssel erstellen, mit dessen Hilfe die App bestimmte sensible Daten ver- und entschlüsselt.
+
+Diesen Key erstellt man einfach an der lokalen Konsole mit dem Befehl
+
+```
+openssl genrsa -out staticman-key.pem
+```
+
+Diesen Key mit einem Text-Editor öffnen und alle Zeilenümbrüche entfernen, so daß der gesamte Inhalt in einer Zeile steht. Diesen String dann als Wert eintragen.
+
+
+
+
+
 
