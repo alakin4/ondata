@@ -12,7 +12,7 @@ header:
         title: "DEEP WEB, kinetic audiovisual installation and performance by Christopher Bauder (Lichtgrenze/SKALAR) &amp; Robert Henke (Monolake) in cooperation with Kraftwerk Berlin, Berlin, 2019"
         twitter: /assets/images/header/head_deepweb_03_b.jpg
 categories: news howto
-tags: cms jekyll workflow deployment cdn github netlify
+tags: cms jekyll workflow github staticman
 related: true
 related_count: 2
 ---
@@ -120,6 +120,18 @@ Damit man über die Kommentare und Antworten auf Kommentare benachrichtigt wird,
 
 ## Schlußbemerkung
 
-Mit Hilfe dieser Servieces hat man eine Kommentarfunktion mit Email-Benachrichtigung in die statischen Webseite eingebaut. 
+Mit Hilfe dieser Services hat man eine Kommentarfunktion mit Email-Benachrichtigung in die statischen Webseite eingebaut. Viel Spaß beim Kommentieren!
+
+## Quellen
+
+Diese Artikel haben mir bei der Umsetzung sehr geholfen. Danke!
+
+[^1]: <p><a href="https://vincenttam.gitlab.io/post/2018-09-16-staticman-powered-gitlab-pages/2/" target="_blank">Staticman API Hosting 2018 _by_ Vincent Tam</a></p>
+[^2]: <p><a href="https://networkhobo.com/staticman-the-journey-continues" target="_blank">Staticman Staticman...The Journey Continues _by_ Dan C Williams</a></p>
+[^3]: <p><a href="https://www.datascienceblog.net/post/other/staticman_comments/" target="_blank">Staticman: An Alternative to Disqus for Comments on Static Sites _by_ Matthias Döring</a></p>
+[^4]: <p><a href="https://yasoob.me/posts/running_staticman_on_static_hugo_blog_with_nested_comments/" target="_blank">Running Staticman on Hugo Blog With Nested Comments _by_ Yasoob Khalid</a></p>
+
+
+
 
 
