@@ -23,9 +23,9 @@ related_count: 2
 
 ## Einführung
 
-Mit [Staticman](https://github.com/eduardoboucas/staticman) lassen sich in Webseiten, die von statischen Generatoren wie [Jekyll](https://jekyllrb.com/) gebaut werden, eine Kommentarfunktion umsetzen umsetzen. Staticman ist eine NodeJS Applikation, die benutzergenerierten Inhalt von der Webseite durch z.B. ein Formular erhält und sie als Datendateien zu Github (oder Gitlab) hochlädt.    
+Mit [Staticman](https://github.com/eduardoboucas/staticman){:target="_blank"} lassen sich in Webseiten, die von statischen Generatoren wie [Jekyll](https://jekyllrb.com/){:target="_blank"} gebaut werden, eine Kommentarfunktion umsetzen umsetzen. Staticman ist eine NodeJS Applikation, die benutzergenerierten Inhalt von der Webseite durch z.B. ein Formular erhält und sie als Datendateien zu Github (oder Gitlab) hochlädt.    
 Eduardo Bouças, der Entwickler von Staticman, stellte dazu sein App öffentlich zur Verfügung. Wegen der zunehmenden Beliebtheit von statischen Webseiten-Generatoren und weil man nicht auf Kommentare verzichten wollte, stößt die App jetzt leider regelmäßig an ihre Quota-Grenzen und ist nicht mehr gut nutzbar.    
-Da die App Open Source ist, ist der einfachste Weg, die App selbst zu hosten. Zum Hosten besorgt man sich einen kostenlosen Account auf [Heroku](https://www.heroku.com/), erstellt sich einen Fork von Staticman und veröffentlicht diesen auf Heroku. Doch dazu jetzt im einzelnen.
+Da die App Open Source ist, ist der einfachste Weg, die App selbst zu hosten. Zum Hosten besorgt man sich einen kostenlosen Account auf [Heroku](https://www.heroku.com/){:target="_blank"}, erstellt sich einen Fork von Staticman und veröffentlicht diesen auf Heroku. Doch dazu jetzt im einzelnen.
 
 ## Staticman Fork auf Github
 
@@ -36,7 +36,7 @@ Dann einen Fork des Staticman-Repos in diesen Bot-Account erstellen und zum Bear
 
 ## Konfiguration der Staticman-App
 
-Wie man den Artikeln hier[^1] und hier[^3] entnehmen kann (die restlichen Quellen[^2],[^4],[^5]), funktioniert der aktulle Master-Branch von Staticman nicht wie erwartet. Der in diesen Artikeln erwähnte [Commit 55d1430](https://github.com/eduardoboucas/staticman/commit/55d14306d851059a2a27d24b5eb4cb17c5009477) funktioniert jedoch. Daher erstellen wir daraus einen Branch und arbeiten damit:
+Wie man den Artikeln hier[^1] und hier[^3] entnehmen kann (die restlichen Quellen[^2],[^4],[^5]), funktioniert der aktulle Master-Branch von Staticman nicht wie erwartet. Der in diesen Artikeln erwähnte [Commit 55d1430](https://github.com/eduardoboucas/staticman/commit/55d14306d851059a2a27d24b5eb4cb17c5009477){:target="_blank"} funktioniert jedoch. Daher erstellen wir daraus einen Branch und arbeiten damit:
 
 ```bash
 $ git checkout -b production 55d1430
@@ -116,7 +116,7 @@ Der zweite Endpoint ist der eigentliche Endpoint, den wir im Formular als Action
 
 ## Mailgun
 
-Damit man über die Kommentare und Antworten auf Kommentare benachrichtigt wird, kann man sich einen freien Mailgun-Account besorgen. Der Api-Key und die Mail-Domain wird dann verschlüsselt wie oben beschrieben in die _staticman.yml_ eingetragen. 
+Damit man über die Kommentare und Antworten auf Kommentare benachrichtigt wird, kann man sich einen freien [Mailgun-Account](https://www.mailgun.com/){:target="_blank"} besorgen. Der Api-Key und die Mail-Domain wird dann verschlüsselt wie oben beschrieben in die _staticman.yml_ eingetragen. 
 
 ## Schlußbemerkung
 
@@ -126,14 +126,11 @@ Mit Hilfe dieser Services hat man eine Kommentarfunktion mit Email-Benachrichtig
 
 Diese Artikel haben mir bei der Umsetzung sehr geholfen. Danke!
 
-
-
-
 [^1]: <p><a href="https://muffinman.io/running-staticman-on-heroku/" target="_blank">Running Staticman on Heroku - Stanko Tadić</a></p>
 [^2]: <p><a href="https://vincenttam.gitlab.io/post/2018-09-16-staticman-powered-gitlab-pages/2/" target="_blank">Staticman API Hosting 2018 - Vincent Tam</a></p>
-[^3]: <p><a href="https://networkhobo.com/staticman-the-journey-continues" target="_blank">Staticman Staticman...The Journey Continues *by* Dan C Williams</a></p>
-[^4]: <p><a href="https://www.datascienceblog.net/post/other/staticman_comments/" target="_blank">Staticman: An Alternative to Disqus for Comments on Static Sites *by* Matthias Döring</a></p>
-[^5]: <p><a href="https://yasoob.me/posts/running_staticman_on_static_hugo_blog_with_nested_comments/" target="_blank">Running Staticman on Hugo Blog With Nested Comments _by_ Yasoob Khalid</a></p>
+[^3]: <p><a href="https://networkhobo.com/staticman-the-journey-continues" target="_blank">Staticman Staticman...The Journey Continues - Dan C Williams</a></p>
+[^4]: <p><a href="https://www.datascienceblog.net/post/other/staticman_comments/" target="_blank">Staticman: An Alternative to Disqus for Comments on Static Sites - Matthias Döring</a></p>
+[^5]: <p><a href="https://yasoob.me/posts/running_staticman_on_static_hugo_blog_with_nested_comments/" target="_blank">Running Staticman on Hugo Blog With Nested Comments - Yasoob Khalid</a></p>
 
 
 
