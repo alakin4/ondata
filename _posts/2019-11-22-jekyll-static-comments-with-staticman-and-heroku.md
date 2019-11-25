@@ -3,7 +3,7 @@ permalink: /jekyll-static-comments-with-staticman-and-mailgun/
 title: "Statische Kommentare in Jekyll mit eigener Instanz von Staticman"
 date: 2019-11-22 01:03:38 +0100 
 last_modified_at: 2019-11-22 01:10:45 +0100  
-excerpt: "Was verbindet uns mit anderen, mit der Welt? Welches Medium liegt zwischen uns? Oder ist es eine Struktur? Müssen wir sie er-lernen oder gar selbst errichten?"
+excerpt: "Eine Kommentar-Funktion mit Hilfe einer eigenen Instanz der Staticman-App auf Heroku gehostet in einer Webseite realisieren, die mit einem statischen Webseiten-Generator wie Jekyll gebaut ist."
 comments: true
 comments_locked: false
 header:
@@ -117,7 +117,7 @@ Der zweite Endpoint ist der eigentliche Endpoint, den wir im Formular als Action
 ### Anpassung der Staticman-App
 
 Bei der Verwendung der App fielen mir zwei Dinge auf. Einmal gibt es beim Bauen der App Warnings in den Heroku-Logs, das bestimmte Informationen nicht im Schema der App enthalten sind. Es fehlen: _allowedOrigins_, _endpoint_ und die _notifications.fromAddress_.
-Im Webseiten-Repos in der _staticman.yml_ steht, das die hier angegeben _notifications.fromAddress_ die in der App angegebene fromAddress überschreibt. Meine Tests haben ergeben, daß sie nicht überschrieben wird. Im Code der App -- auch nicht im aktuellen master-Branch -- habe ich das jedoch nicht gefunden. Daher habe ich das in meinem Fork implementiert.
+Im Webseiten-Repos in der _staticman.yml_ steht, das die hier angegebe _notifications.fromAddress_ die in der App hinterlegte fromAddress überschreibt. Meine Tests haben ergeben, daß sie nicht überschrieben wird. Im Code der App -- auch nicht im aktuellen master-Branch -- habe ich das jedoch nicht gefunden. Daher habe ich das in meinem Fork implementiert.
 Beide Änderungen sind [hier](https://github.com/dev4223-bot/staticman/compare/b8d07dafad582af48eb0cf69fd296819358733db...dev4223-bot:e6be62b29f223e2138f57c81a5603d279131cf22) zu finden.
 
 ## Mailgun
