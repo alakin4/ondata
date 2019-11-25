@@ -36,7 +36,7 @@ Dann einen Fork des Staticman-Repos in diesen Bot-Account erstellen und zum Bear
 
 ## Konfiguration der Staticman-App
 
-Wie man den Artikeln [hier](https://muffinman.io/running-staticman-on-heroku/) und [hier](https://networkhobo.com/staticman-the-journey-continues) entnehmen kann, funktioniert der aktulle Master-Branch von Staticman nicht wie erwartet. Der in diesen Artikeln erwähnte [Commit 55d1430](https://github.com/eduardoboucas/staticman/commit/55d14306d851059a2a27d24b5eb4cb17c5009477) funktioniert jedoch. Daher erstellen wir daraus einen Branch und arbeiten damit:
+Wie man den Artikeln hier[^1] und hier[^3] entnehmen kann (die restlichen Quellen[^2][^4][^5]), funktioniert der aktulle Master-Branch von Staticman nicht wie erwartet. Der in diesen Artikeln erwähnte [Commit 55d1430](https://github.com/eduardoboucas/staticman/commit/55d14306d851059a2a27d24b5eb4cb17c5009477) funktioniert jedoch. Daher erstellen wir daraus einen Branch und arbeiten damit:
 
 ```bash
 $ git checkout -b production 55d1430
@@ -126,10 +126,14 @@ Mit Hilfe dieser Services hat man eine Kommentarfunktion mit Email-Benachrichtig
 
 Diese Artikel haben mir bei der Umsetzung sehr geholfen. Danke!
 
-[^1]: <p><a href="https://vincenttam.gitlab.io/post/2018-09-16-staticman-powered-gitlab-pages/2/" target="_blank">Staticman API Hosting 2018 _by_ Vincent Tam</a></p>
-[^2]: <p><a href="https://networkhobo.com/staticman-the-journey-continues" target="_blank">Staticman Staticman...The Journey Continues _by_ Dan C Williams</a></p>
-[^3]: <p><a href="https://www.datascienceblog.net/post/other/staticman_comments/" target="_blank">Staticman: An Alternative to Disqus for Comments on Static Sites _by_ Matthias Döring</a></p>
-[^4]: <p><a href="https://yasoob.me/posts/running_staticman_on_static_hugo_blog_with_nested_comments/" target="_blank">Running Staticman on Hugo Blog With Nested Comments _by_ Yasoob Khalid</a></p>
+
+
+
+[^1]: <p><a href="https://muffinman.io/running-staticman-on-heroku/" target="_blank">Running Staticman on Heroku _by_ Stanko Tadić</a></p>
+[^2]: <p><a href="https://vincenttam.gitlab.io/post/2018-09-16-staticman-powered-gitlab-pages/2/" target="_blank">Staticman API Hosting 2018 _by_ Vincent Tam</a></p>
+[^3]: <p><a href="https://networkhobo.com/staticman-the-journey-continues" target="_blank">Staticman Staticman...The Journey Continues _by_ Dan C Williams</a></p>
+[^4]: <p><a href="https://www.datascienceblog.net/post/other/staticman_comments/" target="_blank">Staticman: An Alternative to Disqus for Comments on Static Sites _by_ Matthias Döring</a></p>
+[^5]: <p><a href="https://yasoob.me/posts/running_staticman_on_static_hugo_blog_with_nested_comments/" target="_blank">Running Staticman on Hugo Blog With Nested Comments _by_ Yasoob Khalid</a></p>
 
 
 
