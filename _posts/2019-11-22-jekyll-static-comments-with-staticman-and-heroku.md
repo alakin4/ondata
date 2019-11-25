@@ -114,6 +114,12 @@ Der zweite Endpoint ist der eigentliche Endpoint, den wir im Formular als Action
 
 [https://HEROKU_APP_NAME.herokuapp.com/v3/entry/github/GITHUB_USERNAME/GITHUB_REPOS/GITHUB_BRANCH/comments]()
 
+### Anpassung der Staticman-App
+
+Bei der Verwendung der App fielen mir zwei Dinge auf. Einmal gibt es beim Bauen der App Warnings in den Heroku-Logs, das bestimmte Informationen nicht im Schema der App enthalten sind. Es fehlen: _allowedOrigins_, _endpoint_ und die _notifications.fromAddress_.
+Im Webseiten-Repos in der _staticman.yml_ steht, das die hier angegeben _notifications.fromAddress_ die in der App angegebene fromAddress überschreibt. Meine Tests haben ergeben, daß sie nicht überschrieben wird. Im Code der App -- auch nicht im aktuellen master-Branch -- habe ich das jedoch nicht gefunden. Daher habe ich das in meinem Fork implementiert.
+Beide Änderungen sind [hier](https://github.com/dev4223-bot/staticman/compare/b8d07dafad582af48eb0cf69fd296819358733db...dev4223-bot:e6be62b29f223e2138f57c81a5603d279131cf22) zu finden.
+
 ## Mailgun
 
 Damit man über die Kommentare und Antworten auf Kommentare benachrichtigt wird, kann man sich einen freien [Mailgun-Account](https://www.mailgun.com/){:target="_blank"} besorgen. Der Api-Key und die Mail-Domain wird dann verschlüsselt wie oben beschrieben in die _staticman.yml_ eingetragen. 
