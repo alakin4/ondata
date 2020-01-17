@@ -2,21 +2,20 @@
 
 holger_kral:
   name: "Holger Kral"
-  address1: "Ansbacher Str. 67"
-  address2: "10777 Berlin"
-  address3: "Berlin"
-  tel: +49 179 53 47 135
+  address1: "Berlin"
   email: "developer4223@ondata.work"
-  bio: "lerning all about data"
+  bio: "learning all about data"
   avatar: "/assets/images/avatar_s.jpg"
   twitter: HolgerKral
   github: dev4223
+  mastodon: https://chaos.social/@dev4223
 
 developer4223:
   name: "dev4223"
   email: "developer4223@ondata.work"
-  bio: "lerning all about data"
+  bio: "learning all about data"
   avatar: "/assets/images/avatar_s.jpg"
   twitter: HolgerKral
   github: dev4223
+  mastodon: https://chaos.social/@dev4223
 

@@ -9,7 +9,7 @@
     {% if site.footer.links %}
       {% for link in site.footer.links %}
         {% if link.label and link.url %}
-          <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fab fa-fw fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+          <li><a href="{{ link.url }}" rel="me nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fab fa-fw fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
         {% endif %}
       {% endfor %}
     {% endif %}
@@ -19,5 +19,5 @@
 </div>
 
 <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. <a href="{{ site.masthead.url }}">{{ site.masthead.name }}</a>. <a href="{{ site.dataprotect.url }}">{{ site.dataprotect.name }}</a>. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
-  <span class="logo-flex"><a class="logo-netlify" href="https://www.netlify.com" target="_blank"><img src="/assets/images/netlify-light.svg"/></a> <a class="logo-rebellion" href="https://rebellion.earth/" target="_blank"><img src="/assets/images/extinction-symbol.svg"/></a></span>
+  <span class="logo-flex"><a class="logo-netlify" href="https://www.netlify.com" target="_blank"><img src="/assets/images/netlify-light.svg"/></a></span>
 </div>

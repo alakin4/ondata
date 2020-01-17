@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "dev4223"
   avatar           : "/assets/images/avatar_s.jpg"
-  bio              : "lerning all about data"
+  bio              : "learning all about data"
   location         : 
   email            : "developer4223@ondata.work"
   uri              : 
@@ -152,6 +152,9 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/HolgerKral"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://mamot.fr/@dev4223"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -165,6 +168,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://chaos.social/@dev4223"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/HolgerKral"
